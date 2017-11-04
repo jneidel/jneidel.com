@@ -15,9 +15,26 @@ const canvas = document.getElementsByTagName( "canvas" )[0],
 canvas.width = width * pixelRatio;
 canvas.height = height * pixelRatio;
 context.scale( pixelRatio, pixelRatio );
-context.globalAlpha = 0.65;
 
-function drawCanvas() {
+let dark = false;
+
+document.getElementsByTagName( "p" )[0].addEventListener( "click", () => {
+    dark = !dark;
+} );
+
+function drawCanvas( ...rest ) {
+    if ( dark ) {
+        document.getElementsByTagName( "body" )[0].style.color = "#fff";
+        canvas.style.background = "#000";
+        document.getElementsByTagName( "img" )[0].style.filter = "invert(100%)";
+        context.globalAlpha = 0.5;
+    } else {
+        document.getElementsByTagName( "body" )[0].style.color = "#333";
+        canvas.style.background = "#fff";
+        document.getElementsByTagName( "img" )[0].style.filter = "invert(0%)";
+        context.globalAlpha = 0.65;
+    }
+
     let pi = Math.PI * 2,
         r = 0;
 
@@ -34,14 +51,14 @@ function drawCanvas() {
         const next = {
             x: b.x + ( ran() * 1.9 - 0.5 ) * 90,
             y: y( b.y ),
-        }
+        };
         context.lineTo( next.x, next.y );
         context.closePath();
         r -= pi / -50;
         context.fillStyle = `#${(
             cos( r ) * 127 + 128 << 16 |
             cos( r + pi / 3 ) * 127 + 128 << 8 |
-            cos( r + pi / 3 * 2 ) * 127 + 128 
+            cos( r + pi / 3 * 2 ) * 127 + 128
         ).toString( 16 )}`;
         context.fill();
         points[0] = points[1];
@@ -57,12 +74,6 @@ function drawCanvas() {
         draw( points[0], points[1] );
     }
 }
-
-/* Dark mode
-document.getElementsByTagName( "body" )[0].style.color = "#fff";
-canvas.style.background = "#000"
-context.globalAlpha = 0.5;
-*/
 
 document.onclick = drawCanvas;
 document.ontouchstart = drawCanvas;
