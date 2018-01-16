@@ -1,48 +1,50 @@
 body {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-family: "Raleway";
-    color: #333;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Raleway";
+  color: #333;
 }
 
 main {
-    z-index: 1;
-    -webkit-user-select: none;        
-       -moz-user-select: none;
-        -ms-user-select: none;
-            user-select: none;
-    cursor: default;
-    text-align: center;
+  z-index: 1;
+  -webkit-user-select: none;        
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  cursor: default;
+  text-align: center;
 }
 main h1 {
-    font-size: 6vh;
+  font-family: "Paradise", "Raleway";
+  font-size: 18vh;
+  margin: 0;
 }
 main img {
-    border-radius: 50%;
-    width: 8vh;
-    height: 8vh;
+  border-radius: 50%;
+  width: 8vh;
+  height: 8vh;
 }
 main img:hover {
-    box-shadow: 0px 0px 10px #333;
+  box-shadow: 0px 0px 10px #333;
 }
 main p {
-    position: absolute;
-    bottom: 0;
-    right: 15;
-    font-size: 2vh;
+  position: absolute;
+  bottom: 0;
+  right: 15;
+  font-size: 2vh;
 }
 main p:hover {
-    cursor: hand;
+  cursor: hand;
 }
 
 canvas {
-    width: 100vw;
-    height: 100vh;
-    background: #fff;
-    position: absolute;
-    top: 0;
-    left: 0;
-    z-index: 0;
-    transition: background ease-in-out 0.5s;
+  width: 100vw;
+  height: 100vh;
+  background: #fff;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 0;
+  transition: background ease-in-out 0.5s;
 }
