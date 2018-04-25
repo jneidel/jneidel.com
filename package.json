@@ -1,6 +1,6 @@
 {
   "name": "jneidel.com",
-  "version": "1.0.0",
+  "version": "0.0.0",
   "description": "Page for jneidel.com",
   "repository": {
     "type": "git",
@@ -11,7 +11,7 @@
   "homepage": "https://jneidel.com",
   "main": "index.js",
   "scripts": {
-    "build": "node-sass src/ -o .",
+    "build": "node-sass -w src/ -o .",
     "prod": "node-sass src/ -o . --output-style compressed"
   },
   "devDependencies": {
