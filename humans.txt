@@ -6,10 +6,10 @@
 
 
   Owner & Developer: Jonathan Neidel
-  Contact: jneidel@outlook.com
+  Contact: human@jneidel.com
   Github:  @jneidel
-  Twitter: @jneidel_
 
   Server hosted at uberspace.de
+  Mail   hosted at in-berlin.de
   Domain hosted at namecheap.com
 
