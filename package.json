@@ -1,20 +1,20 @@
 {
   "name": "jneidel.com",
-  "version": "1.0.0",
-  "description": "Page for jneidel.com",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/jneidel/jneidel.com.git"
-  },
+  "version": "0.0.0",
+  "description": "Source for jneidel.com",
   "author": "Jonathan Neidel",
-  "license": "ISC",
   "homepage": "https://jneidel.com",
+  "repository": "jneidel/jneidel.com",
+  "license": "MIT",
   "main": "index.js",
-  "scripts": {
-    "build": "node-sass src/ -o .",
-    "prod": "node-sass src/ -o . --output-style compressed"
+  "engines": {
+    "node": "8"
   },
+  "scripts": {
+    "build": "webpack -w"
+  },
+  "dependencies": {},
   "devDependencies": {
-    "node-sass": "^4.7.2"
+    "setup-webpack": "^2.0.0"
   }
 }
