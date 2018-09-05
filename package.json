@@ -15,6 +15,6 @@
   },
   "dependencies": {},
   "devDependencies": {
-    "setup-webpack": "^2.2.2"
+    "setup-webpack": "^2.3.0"
   }
 }

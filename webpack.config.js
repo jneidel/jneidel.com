@@ -1,5 +1,5 @@
 const path = require( "path" );
-const { genScss, pug } = require( "setup-webpack" );
+const { genScss, pug, md } = require( "setup-webpack" );
 
 const prod = false;
 
@@ -9,8 +9,6 @@ const config = [];
   const scss = genScss( `../css/${name}.css` );
   const entryPath = `./src/bundles/${name}.bundle.js`;
 
-  const htmlOut = `../../${name}.html`;
-
   config.push( {
     mode  : prod ? "production" : "development",
     entry : entryPath,
@@ -19,15 +17,7 @@ const config = [];
       filename: `${name}.js`,
     },
     module: {
-      rules: [ scss.rule, scss.font, {
-          test: /\.pug$/,
-          use : [
-            `file-loader?name=${htmlOut}`,
-            "extract-loader",
-            "html-loader?attrs=false",
-            "pug-html-loader",
-          ],
-      } ],
+      rules: [ scss.rule, scss.font, md( `../../${name}.html`, "dist/css/github-markdown.min.css", "dist/css/index.css", true ) ],
     },
     plugins     : [ scss.plugin ],
     optimization: {
@@ -38,3 +28,4 @@ const config = [];
 } );
 
 module.exports = config;
+
