@@ -9,6 +9,8 @@ const config = [];
   const scss = genScss( `../css/${name}.css` );
   const entryPath = `./src/bundles/${name}.bundle.js`;
 
+  const htmlOut = `../../${name}.html`;
+
   config.push( {
     mode  : prod ? "production" : "development",
     entry : entryPath,
@@ -17,7 +19,11 @@ const config = [];
       filename: `${name}.js`,
     },
     module: {
-      rules: [ scss.rule, scss.font, md( `../../${name}.html`, "dist/css/github-markdown.min.css", "dist/css/index.css", true ) ],
+      rules: [
+        scss.rule,
+        scss.font,
+        pug( htmlOut ),
+      ],
     },
     plugins     : [ scss.plugin ],
     optimization: {

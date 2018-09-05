@@ -1,0 +1,7 @@
+mixin badge( href, left, right, color = "brightgreen", alt = "" )
+  - left = encodeURIComponent( left )
+  - right = encodeURIComponent( right )
+  - src = `https://img.shields.io/badge/${left}-${right}-${color}.svg?style=flat-square`
+  a( href=href )
+    img( src=src alt=alt style="padding-right: 5px;" )
+
