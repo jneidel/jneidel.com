@@ -12,15 +12,19 @@
 
 # rewriterules: https://serverfault.com/questions/214512/redirect-change-urls-or-redirect-http-to-https-in-apache-everything-you-ever
 # testing rewriterules: https://htaccess.madewithlove.be/
+# rewriterules explaination: https://www.digitalocean.com/community/tutorials/how-to-set-up-mod_rewrite
 
   Redirect temp /github https://github.com/jneidel
   Redirect temp /git https://github.com/jneidel/git-intro/blob/master/slideshow.md
   Redirect temp /po https://po.jneidel.com
   Redirect temp /api https://api.jneidel.com
+  Redirect temp /india https://india.jneidel.com
+  Redirect temp /indien https://india.jneidel.com
 
   Redirect temp /keepass https://drive.google.com/open?id=1zdghN_BF9mgzrbs7lYn4_NQLjcecnYtS
 
 # re-route to node process
   RewriteRule ^po/(.*) http://localhost61621:/$1 [P]
   RewriteRule ^api/(.*) http://localhost:62220/$1 [P]
+  RewriteRule ^india/(.*) http://localhost:63839/$1 [P]
 
