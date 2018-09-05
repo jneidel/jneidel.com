@@ -1,5 +1,5 @@
 const path = require( "path" );
-const { genScss, pug, babel, polyfill, md } = require( "setup-webpack" );
+const { genScss, pug, img } = require( "setup-webpack" );
 
 const prod = false;
 
@@ -9,19 +9,17 @@ const config = [];
   const scss = genScss( `../css/${name}.css` );
   const entryPath = `./src/bundles/${name}.bundle.js`;
 
-  const htmlOut = `../../${name}.html`;
+  const htmlOut = `../html/${name}.html`;
 
   config.push( {
     mode  : prod ? "production" : "development",
-    entry : prod ? polyfill( entryPath ) : entryPath,
+    entry : entryPath,
     output: {
       path    : path.resolve( __dirname, "dist/js" ),
       filename: `${name}.js`,
     },
     module: {
-      rules: prod ?
-        [ babel, scss.rule, scss.font, pug( htmlOut ), md( htmlOut ) ] :
-        [ scss.rule, scss.font, pug( htmlOut ), md( htmlOut ) ],
+      rules: [ scss.rule, scss.font, pug( htmlOut ), img( "../img" ) ],
     },
     plugins     : [ scss.plugin ],
     optimization: {
