@@ -1,13 +1,12 @@
-####################################
-# Owner: Jonathan Neidel
-# Keyid: B29E6A7A7DFD16FA
-# Link:  https://jneidel.com/gpg
-# Import:
-# $ curl https://jneidel.com/gpg | gpg --import
-####################################
+################################################################
+# Owner: Jonathan Neidel                                       #
+# Keyid: B29E6A7A7DFD16FA                                      #
+# Link:  https://jneidel.com/gpg                               #
+# Import:                                                      #
+# $ curl https://jneidel.com/gpg | gpg --import                #
+################################################################
 
 -----BEGIN PGP PUBLIC KEY BLOCK-----
-Version: GnuPG v1
 
 mQINBFsZOJgBEAC1vk2VvjgJNuf9S6r23JHjf08zp0lJgWp1eQBVoUs8/NLJjiZ2
 8V9XB6A0rKMIzkzIaHmV7EQ4mJGgBJHAlzp7jgGl9AfsB9WhACla/haK2mEnbEyS
@@ -58,3 +57,4 @@ pr2bNhlvmqsZwmpHKA8sqWNL5+WRXg6ziGLcmtct2zWsEMwP7/71b+wJRaTwSbab
 MmWNJo5pUuKVJBRjgFLk1IU=
 =PmFK
 -----END PGP PUBLIC KEY BLOCK-----
+
