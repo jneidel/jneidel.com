@@ -11,7 +11,8 @@
     "node": "8"
   },
   "scripts": {
-    "build": "webpack -w"
+    "build": "webpack -w",
+    "install": "npm install; webpack"
   },
   "dependencies": {},
   "devDependencies": {
