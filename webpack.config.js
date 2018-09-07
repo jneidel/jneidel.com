@@ -22,7 +22,15 @@ const config = [];
       rules: [
         scss.rule,
         scss.font,
-        pug( htmlOut ),
+        {
+          test: /\.pug$/,
+          use : [
+            `file-loader?name=${htmlOut}`,
+            "extract-loader",
+            "html-loader?attrs=false",
+            "pug-html-loader",
+          ],
+        }
       ],
     },
     plugins     : [ scss.plugin ],
