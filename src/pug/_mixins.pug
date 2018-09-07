@@ -5,3 +5,23 @@ mixin badge( href, left, right, color = "brightgreen", alt = "" )
   a( href=href )
     img( src=src alt=alt style="padding-right: 5px;" )
 
+mixin project( repo, img, npm, site )
+  - const name = repo;
+  - repo = `https://github.com/jneidel/${repo}`;
+  - npm = npm === true ? `https://registery.npm/${name}` : null;
+  - site = site !== undefined && site !== "" ? site : null;
+
+  .project
+    h3=name
+    img( src=img )
+    desc
+    .links
+      a( href=repo )
+        img( src="dist/img/github-logo.png" alt="Github Repository" )
+      if site
+        a( href=site )
+          img( src="dist/img/internet.png" alt="Live Website" )
+      if npm
+        a( href=npm )
+          img( src="dist/img/npm-logo.png" alt="NPM Website" )
+

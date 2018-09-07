@@ -3,6 +3,7 @@ extends base
 block head
   title jneidel.com
   link( rel="stylesheet" type="text/css" href="dist/css/index.css" )
+  script( async src="dist/js/index.js" )
 
 block body
   h1 Hi, I'm Jonathan!
@@ -13,4 +14,20 @@ block body
     +badge( "gpg.txt", "GPG", "7DFD16FA", "brightgreen", "GPG Key" )
     +badge( "https://github.com/jneidel", "github", "jneidel", "orange" )
     +badge( "https://github.com/jneidel?utf8=%E2%9C%93&tab=repositories&q=&type=&language=javascript", "main lang", "node/JS", "orange", "Main Programming Language" )
+  h2 Projects
+  .projects
+    .-m
+      +project( "mangareader-dl", "https://raw.githubusercontent.com/jneidel/mangareader-dl/master/img/logo.png", true )
+      +project( "projects-overview", "https://camo.githubusercontent.com/ce3995821ae28b4b8237828efca6f1f8dfbfbb1e/68747470733a2f2f692e696d6775722e636f6d2f577a6a70386e702e706e67", false, "https://po.jneidel.com" )
+    .-s
+      +project( "setup-webpack", null, true )
+      +project( "api.jneidel.com", null, false, "https://api.jneidel.com" )
+      +project( "dotfiles" )
+    //.-m
+      +project( "mangareader-dl", "dist/img/logo.png", true )
+      +project( "mangareader-dl", "dist/img/logo.png", true )
+    //.-s
+      +project( "mangareader-dl", "dist/img/logo.png", true )
+      +project( "mangareader-dl", "dist/img/logo.png", true )
+      +project( "mangareader-dl", "dist/img/logo.png", true )
 
