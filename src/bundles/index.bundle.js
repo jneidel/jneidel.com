@@ -1,6 +1,7 @@
-require( "../scss/index.scss" );
+require( "../scss/base.scss" );
+require( "../scss/projects.scss" );
 
 require( "../pug/index.pug" );
 
-require( "../js/" );
+require( "../js/projects.js" );
 
