@@ -12,10 +12,10 @@
   },
   "scripts": {
     "build": "webpack -w",
-    "install": "npm install; webpack"
+    "setup": "npm install; webpack"
   },
-  "dependencies": {},
-  "devDependencies": {
+  "dependencies": {
     "setup-webpack": "^2.3.0"
-  }
+  },
+  "devDependencies": {}
 }
