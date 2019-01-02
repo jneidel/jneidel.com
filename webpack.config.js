@@ -5,11 +5,15 @@ const prod = false;
 
 const config = [];
 
-[ "index" ].forEach( ( name ) => {
+[ "index", "resume" ].forEach( ( name ) => {
   const scss = genScss( `../css/${name}.css` );
   const entryPath = `./src/bundles/${name}.bundle.js`;
 
-  const htmlOut = `../../${name}.html`;
+  if ( name === "index" )
+    var htmlOut = `../../${name}.html`;
+  else
+    var htmlOut = `../../${name}/index.html`;
+
 
   config.push( {
     mode  : prod ? "production" : "development",
