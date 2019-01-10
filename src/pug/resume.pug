@@ -2,9 +2,97 @@
 extends base
 
 block head
-  title Resume Jonathan Neidel
+  title Jonathan Neidel Resume
   +links( "resume" )
+  style.
+    .education p, .contact p {
+      margin-bottom: 0;
+    }
 
 block body
-  h1 Resume
+  h1( style="display: flex; justify-content: space-between;" )
+    span Jonathan Neidel
+    span Node.js Developer
+  .shields
+    - const birthday = new Date( "1997-07-08" );
+    - const now = new Date();
+    - const age = Math.floor( ( now - birthday ) / ( 1000*60*60*24*365 ) )
+    +badge( "", "Standort", "Berlin" )
+    +badge( "", "Alter", age )
+    +badge( "mailto:contact@jneidel.com", "Email", "contact@jneidel.com", "orange" )
+    +badge( "https://jneidel.com", "Homepage", "jneidel.com", "orange" )
+    +badge( "https://github.com/jneidel", "Github", "jneidel", "orange" )
+    +badge( "https://www.linkedin.com/in/jneidel", "LinkedIn", "jneidel", "orange" )
+
+  h2 Profil
+  p Ein autodidaktischer Junior Backend Developer. Spezialisiert auf Node.js und Linux-basierte Umgebungen.
+
+  h2 Skills
+  .skills( style="display: flex; justify-content: space-around;" )
+    span
+      h3 Technologien
+      ul
+        li Node.js
+        li Express.js
+        li MongoDB
+        li Git
+        li Webpack (Build Tool)
+        li Pug (Template Sprache)
+    span
+      h3 Generell
+      ul
+        li GNU/Linux (Betriebssystem und Tools)
+        li Documentation (Readme, API Beschreibung)
+        li Vim (Texteditor)
+        li Unit Testing
+        li Front-End (JS, HTML, CSS, SASS)
+
+  h2 Open Source Projekte
+  .projects
+    p Alle Projekte finden sich auf <a href="https://github.com/jneidel">GitHub</a>.
+    a( href="https://github.com/jneidel/projects-overview" )
+      h3 projects-overview
+    p Eine Node/Express/Mongo Webapp, zum verwalten von aktuellen und zukünftigen Projekten (alle Projekte im Überblick, nicht die Projekte selbst).
+    h4 Technische Umsetztung:
+    ul
+      li REST API, zum anlegen/bearbeiten/löschen von Karten/Projekten in der Datenbank
+      li Nutzerverwaltung, zum ändern des Names/Passworts und löschen des Accounts/Daten
+      li Public API, um programmatisch auf die eigenen Daten zuzugreifen
+      li Lokal Aufgesetzt, Datenbank und App laufen auf meinem eigenen Server
+    hr
+    a( href="https://github.com/jneidel/mangareader-dl" )
+      h3 mangareader-dl
+    p Ein Node Kommandozeilen Interface um das Herunterladen von Manga zu vereinfachen.
+    h4 Technische Umsetztung:
+    ul
+      li Scraper, zum downloaden der Bilder von allen unterstützten Seiten
+      li Interface, zur Eingabe und Visualisierung des Downloadprozesses
+      li Test Driven Development, um Unit Tests und Code gleichzeitig zu schreiben
+
+  h2 Bildung
+  .education
+    span( style="display: flex; justify-content: space-between;" )
+      p <b>Emil Molt Akademie</b>
+      p <b>Berlin</b>
+    span( style="display: flex; justify-content: space-between;" )
+      p <i>Fachabitur: Wirtschaft</i> 
+      p <i>2016 - 2018</i> 
+    p Einschl. 6 Monate Praktikum. NC: <code>1,2</code>
+    span( style="display: flex; justify-content: space-between; margin-top: 15px;" )
+      p <b>Freie Waldorfschulen</b>
+      p <b>Berlin und Dresden</b>
+    p Bis auf die Grundschule besuchte ich Waldorfschulen.
+    p( style="margin-top: 15px;" ) <b>Sprachen:</b>
+    p <i>Deutsch:</i> Muttersprache
+    p <i>Englisch:</i> Professionele Kompetent (Schrift und Sprache)
+
+  h2 Interessen
+  p Normalerweise bastle ich an meinen Open Source Projekten oder meinem Linux herum. Zum Abschalten spiele ich gern Karten/Brettspiele, lese Comics oder gehe Spazieren.
+
+  h2 Kontakt 
+  .contact
+    p Email: <a href="mailto:contact@jneidel.com">contact@jneidel.com</a>
+    p Homepage: <a href="https://jneidel.com">https://jneidel.com</a>
+    p GitHub: <a href="https://github.com/jneidel">https://github.com/jneidel</a>
+    p LinkedIn: <a href="https://www.linkedin.com/in/jneidel">https://www.linkedin.com/in/jneidel</a>
 

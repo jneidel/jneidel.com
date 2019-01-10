@@ -12,7 +12,8 @@
   },
   "scripts": {
     "build": "webpack -w",
-    "setup": "npm install; webpack"
+    "setup": "npm install; webpack",
+    "sync": "browser-sync start --server --files *"
   },
   "dependencies": {
     "setup-webpack": "^2.3.0"
