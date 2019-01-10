@@ -10,6 +10,6 @@ Array.from( document.getElementsByClassName("project") )
     fetch( `https://api.github.com/repos/jneidel/${name}` )
       .then( res => res.json() )
       .then( data => data.description )
-      .then( description => desc.innerText = description )
+      .then( description => desc.innerText = description === undefined ? "" : description )
   } )
 
