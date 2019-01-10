@@ -3,16 +3,23 @@ extends base
 block head
   title jneidel.com
   +links( "index" )
+  style.
+    .intro p {
+      margin-bottom: 0px;
+    }
 
 block body
   h1 Hi, I'm Jonathan!
+  .intro
+    p I'm currently looking for a job as a junior Node.js developer in Berlin.
+  p You can find my resume <a href="resume">here</a>.
   //p Want to learn more <a href="about/index.html">about me</a>?
   //p Interested in what I'm doing right <a href="now/index.html">now</a>?
   p Get in touch with me: <a href="mailto:home@jneidel.com">home@jneidel.com</a>
   .badges
     +badge( "gpg.txt", "GPG", "7DFD16FA", "brightgreen", "GPG Key" )
     +badge( "https://github.com/jneidel", "github", "jneidel", "orange" )
-    +badge( "https://github.com/jneidel?utf8=%E2%9C%93&tab=repositories&q=&type=&language=javascript", "main lang", "node/JS", "orange", "Main Programming Language" )
+    +badge( "https://github.com/jneidel?utf8=%E2%9C%93&tab=repositories&q=&type=&language=javascript", "main lang", "Node.js", "orange", "Main Programming Language" )
   h2 Projects
   .projects
     .-m
