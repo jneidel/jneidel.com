@@ -4,3 +4,4 @@ dist/html
 dist/css
 dist/js
 *.html
+*.pdf
