@@ -1,0 +1,10 @@
+/* Source: https://www.dafont.com/de/quantify.font */
+/*
+ For an explaination as to why I host this font here see:
+ https://github.com/jneidel/lock-me-out/commit/8a7f0922c08ab446f6efd9db99554a4799c6ec1d
+*/
+@font-face {
+  font-family: Quantify;
+  font-weight: bold;
+  src: url( Quantify.ttf );
+}
