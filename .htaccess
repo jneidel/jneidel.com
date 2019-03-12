@@ -27,6 +27,9 @@
 
   Redirect temp /ff https://github.com/jneidel/dotfiles/blob/master/firefox.md
 
+# enable cors for fonts
+  Header set Access-Control-Allow-Origin "fonts"
+
 # re-route to node process
   # this does do anything, change the .htaccess in /var/www/virtual/jneidel/subdomain.jneidel.com and include this rewriterule
   RewriteRule ^po/(.*) http://localhost61621:/$1 [P]
