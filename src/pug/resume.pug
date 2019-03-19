@@ -43,7 +43,10 @@ block body
 
   h2= projects.h
   .projects
-    p= projects.intro
+    span( style="display: flex;" )
+      p( style="padding-right: 5px" )= projects.intro
+      a( href="https://github.com/jneidel" ) GitHub
+      p .
     a( href="https://github.com/jneidel/lock-me-out" )
       h3 lock-me-out
     p= projects.lmo.p
@@ -71,19 +74,30 @@ block body
   h2= education.h
   .education
     span( style="display: flex; justify-content: space-between;" )
-      p <b>Emil Molt Akademie</b>
-      p <b>Berlin</b>
+      p
+        b Emil Molt Akademie
+      p
+        b Berlin
     span( style="display: flex; justify-content: space-between;" )
-      p= education.molt-course
-      p <i>2016 - 2018</i>
+      p
+        i= education.moltCourse
+      p
+        i 2016 - 2018
     p= education.result
     span( style="display: flex; justify-content: space-between; margin-top: 15px;" )
-      p= education.schools
-      p= education.schools-location
-    p= education.schools-desc
-    p( style="margin-top: 15px;" )= education.lang
-    p= education.de
-    p= education.en
+      p
+        b= education.schools
+      p
+        b= education.schoolsLocation
+    p= education.schoolsDesc
+    p( style="margin-top: 15px;" )
+      b education.lang
+    span( style="display: flex;" )
+      i( style="padding-right: 5px" )= education.de
+      p= education.deVal
+    span( style="display: flex;" )
+      i( style="padding-right: 5px" )= education.en
+      p= education.enVal
 
   h2= interests.h
   p= interests.p

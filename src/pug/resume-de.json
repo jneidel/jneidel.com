@@ -36,7 +36,7 @@
   },
   "projects": {
     "h": "Open Source Projekte",
-    "intro": "Alle Projekte finden sich auf <a href=\"https://github.com/jneidel\">GitHub</a>.",
+    "intro": "Alle Projekte finden sich auf",
     "implementation": "Technische Umsetztung:",
     "lmo": {
       "p": "lmo intro",
@@ -64,14 +64,16 @@
   },
   "education": {
     "h": "Bildung",
-    "molt-course": "<i>Fachabitur: Wirtschaft</i>",
-    "result": "Einschl. 6 Monate Praktikum in einem Startup. NC: <code>1,2</code>",
-    "schools": "<b>Freie Waldorfschulen</b>",
-    "schools-location": "<b>Berlin und Dresden</b>",
-    "schools-desc": "Bis auf die Grundschule besuchte ich Waldorfschulen.",
-    "lang": "<b>Sprachen:</b>",
-    "de": "<i>Deutsch:</i> Muttersprache",
-    "en": "<i>Englisch:</i> Professionele Kompetenz (Schrift und Sprache)"
+    "moltCourse": "Fachabitur: Wirtschaft",
+    "result": "Einschl. 6 Monate Praktikum in einem Startup. NC: 1,2",
+    "schools": "Freie Waldorfschulen",
+    "schoolsLocation": "Berlin und Dresden",
+    "schoolsDesc": "Bis auf die Grundschule besuchte ich Waldorfschulen.",
+    "lang": "Sprachen:",
+    "de": "Deutsch:",
+    "deVal": "Muttersprache",
+    "en": "Englisch:",
+    "enVal": "Professionele Kompetenz (Schrift und Sprache)"
   },
   "interests": {
     "h": "Interessen",
