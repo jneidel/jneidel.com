@@ -1,0 +1,83 @@
+{
+  "langLink": {
+    "a": "../resume-de",
+    "p": "In Deutsch anzeigen"
+  },
+  "shields": {
+    "location": "Location",
+    "age": "Age"
+  },
+  "profile": {
+    "h": "Profile",
+    "p": "A self-taught Junior Backend Developer. Proficient in Node.js and Linux-based environments."
+  },
+  "skills": {
+    "tech": {
+      "h": "Technologies",
+      "li": [
+        "Node.js (ES6, Typescript)",
+        "Express.js",
+        "MongoDB (NoSQL)",
+        "Git",
+        "Webpack (Build Tool)"
+      ]
+    },
+    "general": {
+      "h": "General",
+      "li": [
+        "GNU/Linux (Environment and Tools)",
+        "Documentation (Readme, API Descriptions)",
+        "Vim (Editor)",
+        "Unit Testing",
+        "Front-End (JS, HTML, CSS, SASS)"
+      ]
+
+    }
+  },
+  "projects": {
+    "h": "Open Source Projects",
+    "intro": "All projects can be found on <a href=\"https://github.com/jneidel\">GitHub</a>.",
+    "implementation": "Technical Implementation:",
+    "lmo": {
+      "p": "lmo intro",
+      "li": [
+        "1"
+      ]
+    },
+    "po": {
+      "p": "A Node/Express/Mongo webapp, for managing current and future projects (all projects in an overview, not individual projects themselves).",
+      "li": [
+        "REST API, to insert/edit/remove cards/projects from the database",
+        "Account management, to change username/password and the deletion of account/account data",
+        "Public API, to programmatically access your own data",
+        "Local setup, database and app run on my own server"
+      ]
+    },
+    "mr": {
+      "p": "A node command-line interface to simplify the download of manga.",
+      "li": [
+        "Scraper, to download the images from all the supported providers",
+        "Interface, for user input and the visualization the download process",
+        "Test Driven Development, to create unit tests and code at the same time"
+      ]
+    }
+  },
+  "education": {
+    "h": "Education",
+    "molt-course": "<i>Fachabitur (DE): Business</i>",
+    "result": "Includes 6 months of intership at a startup. NC: <code>1,2</code>",
+    "schools": "<b>Waldorf schools</b>",
+    "schools-location": "<b>Berlin and Dresden</b>",
+    "schools-desc": "Except for elementary schools, I've attended waldof schools.",
+    "lang": "<b>Languages:</b>",
+    "de": "<i>German:</i> Native",
+    "en": "<i>English:</i> Professional competence (written and spoken)"
+  },
+  "interests": {
+    "h": "Interests",
+    "p": "Usually I'm tinkering with my open source projects or my linux machine. For relaxtion I enjoy card/boardgames, reading comics or going for a walk."
+  },
+  "contact": {
+    "h": "Contact"
+  }
+}

@@ -5,7 +5,7 @@ const prod = false;
 
 const config = [];
 
-[ "index", "resume" ].forEach( ( name ) => {
+[ "index", "resume-de", "resume-en" ].forEach( ( name ) => {
   const scss = genScss( `../css/${name}.css` );
   const entryPath = `./src/bundles/${name}.bundle.js`;
 
@@ -14,6 +14,17 @@ const config = [];
   else
     var htmlOut = `../../${name}/index.html`;
 
+  if ( name === "resume-de" || name === "resume-en" ) {
+    var pugData;
+    switch( name ) {
+      case "resume-de":
+        pugData = require( "./src/pug/resume-de.json" );
+        break;
+      case "resume-en":
+        pugData = require( "./src/pug/resume-en.json" );
+        break;
+    }
+  }
 
   config.push( {
     mode  : prod ? "production" : "development",
@@ -32,7 +43,12 @@ const config = [];
             `file-loader?name=${htmlOut}`,
             "extract-loader",
             "html-loader?attrs=false",
-            "pug-html-loader",
+            {
+              loader: "pug-html-loader",
+              options: {
+                data: pugData ? pugData : {},
+              }
+            }
           ],
         }
       ],
