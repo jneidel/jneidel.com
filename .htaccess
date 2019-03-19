@@ -28,8 +28,9 @@
 
   Redirect temp /ff https://github.com/jneidel/dotfiles/blob/master/firefox.md
 
-# enable cors for fonts
-  Header set Access-Control-Allow-Origin "fonts"
+# enable cors for fonts directory
+# passing "fonts" works for chrome but not ff
+  Header set Access-Control-Allow-Origin "*"
 
 # re-route to node process
   # this does do anything, change the .htaccess in /var/www/virtual/jneidel/subdomain.jneidel.com and include this rewriterule
