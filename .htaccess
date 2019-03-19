@@ -14,6 +14,7 @@
 # testing rewriterules: https://htaccess.madewithlove.be/
 # rewriterules explaination: https://www.digitalocean.com/community/tutorials/how-to-set-up-mod_rewrite
 
+  Redirect temp /resume /resume-de
   Redirect temp /github https://github.com/jneidel
   Redirect temp /pad https://etherpad.net/p/jneidel
 
