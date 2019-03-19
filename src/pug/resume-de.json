@@ -1,0 +1,83 @@
+{
+  "langLink": {
+    "a": "../resume-en",
+    "p": "View in English"
+  },
+  "shields": {
+    "location": "Standort",
+    "age": "Alter"
+  },
+  "profile": {
+    "h": "Profil",
+    "p": "Ein autodidaktischer Junior Backend Developer. Spezialisiert auf Node.js und Linux-basierte Umgebungen."
+  },
+  "skills": {
+    "tech": {
+      "h": "Technologien",
+      "li": [
+        "Node.js (ES6, Typescript)",
+        "Express.js",
+        "MongoDB (NoSQL)",
+        "Git",
+        "Webpack (Build Tool)"
+      ]
+    },
+    "general": {
+      "h": "Generell",
+      "li": [
+        "GNU/Linux (Umgebung und Tools)",
+        "Documentation (Readme, API Beschreibung)",
+        "Vim (Texteditor)",
+        "Unit Testing",
+        "Front-End (JS, HTML, CSS, SASS)"
+      ]
+
+    }
+  },
+  "projects": {
+    "h": "Open Source Projekte",
+    "intro": "Alle Projekte finden sich auf <a href=\"https://github.com/jneidel\">GitHub</a>.",
+    "implementation": "Technische Umsetztung:",
+    "lmo": {
+      "p": "lmo intro",
+      "li": [
+        "1"
+      ]
+    },
+    "po": {
+      "p": "Eine Node/Express/Mongo Webapp, zum verwalten von aktuellen und zukünftigen Projekten (alle Projekte im Überblick, nicht die Projekte selbst).",
+      "li": [
+        "REST API, zum anlegen/bearbeiten/löschen von Karten/Projekten in der Datenbank",
+        "Nutzerverwaltung, zum ändern des Names/Passworts und löschen des Accounts/Daten",
+        "Public API, um programmatisch auf die eigenen Daten zuzugreifen",
+        "Lokal Aufgesetzt, Datenbank und App laufen auf meinem eigenen Server"
+      ]
+    },
+    "mr": {
+      "p": "Ein Node Kommandozeilen Interface um das Herunterladen von Manga zu vereinfachen.",
+      "li": [
+        "Scraper, zum downloaden der Bilder von allen unterstützten Seiten",
+        "Interface, zur Eingabe und Visualisierung des Downloadprozesses",
+        "Test Driven Development, um Unit Tests und Code gleichzeitig zu schreiben"
+      ]
+    }
+  },
+  "education": {
+    "h": "Bildung",
+    "molt-course": "<i>Fachabitur: Wirtschaft</i>",
+    "result": "Einschl. 6 Monate Praktikum in einem Startup. NC: <code>1,2</code>",
+    "schools": "<b>Freie Waldorfschulen</b>",
+    "schools-location": "<b>Berlin und Dresden</b>",
+    "schools-desc": "Bis auf die Grundschule besuchte ich Waldorfschulen.",
+    "lang": "<b>Sprachen:</b>",
+    "de": "<i>Deutsch:</i> Muttersprache",
+    "en": "<i>Englisch:</i> Professionele Kompetenz (Schrift und Sprache)"
+  },
+  "interests": {
+    "h": "Interessen",
+    "p": "Normalerweise bastle ich an meinen Open Source Projekten oder meinem Linux herum. Zum Abschalten spiele ich gern Karten/Brettspiele, lese Comics oder gehe Spazieren."
+  },
+  "contact": {
+    "h": "Kontakt"
+  }
+}

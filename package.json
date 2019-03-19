@@ -11,12 +11,12 @@
     "node": "8"
   },
   "scripts": {
-    "build": "webpack -w",
-    "setup": "npm install; webpack",
+    "build": "webpack",
+    "watch": "webpack -w",
     "sync": "browser-sync start --server --files *"
   },
   "dependencies": {
-    "setup-webpack": "^2.3.0"
+    "setup-webpack": "^2.4.0"
   },
   "devDependencies": {}
 }

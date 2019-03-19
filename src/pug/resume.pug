@@ -1,4 +1,3 @@
-
 extends base
 
 block head
@@ -13,82 +12,83 @@ block body
   h1( style="display: flex; justify-content: space-between;" )
     span Jonathan Neidel
     span Node.js Developer
-  .shields
-    - const birthday = new Date( "1997-07-08" );
-    - const now = new Date();
-    - const age = Math.floor( ( now - birthday ) / ( 1000*60*60*24*365 ) )
-    +badge( "", "Standort", "Berlin" )
-    +badge( "", "Alter", age )
-    +badge( "mailto:contact@jneidel.com", "Email", "contact@jneidel.com", "orange" )
-    +badge( "https://jneidel.com", "Homepage", "jneidel.com", "orange" )
-    +badge( "https://github.com/jneidel", "Github", "jneidel", "orange" )
-    +badge( "https://www.linkedin.com/in/jneidel", "LinkedIn", "jneidel", "orange" )
+  .space-between( style="display: flex; justify-content: space-between;" )
+    .shields
+      - const birthday = new Date( "1997-07-08" );
+      - const now = new Date();
+      - const age = Math.floor( ( now - birthday ) / ( 1000*60*60*24*365 ) )
+      +badge( "", shields.location, "Berlin" )
+      +badge( "", shields.age, age )
+      +badge( "mailto:contact@jneidel.com", "Email", "contact@jneidel.com", "orange" )
+      +badge( "https://jneidel.com", "Homepage", "jneidel.com", "orange" )
+      +badge( "https://github.com/jneidel", "Github", "jneidel", "orange" )
+      +badge( "https://www.linkedin.com/in/jneidel", "LinkedIn", "jneidel", "orange" )
+    a( href=langLink.a )= langLink.p
 
-  h2 Profil
-  p Ein autodidaktischer Junior Backend Developer. Spezialisiert auf Node.js und Linux-basierte Umgebungen.
+  h2= profile.h
+  p= profile.p
 
   h2 Skills
   .skills( style="display: flex; justify-content: space-around;" )
     span
-      h3 Technologien
+      h3= skills.tech.h
       ul
-        li Node.js (ES6, Typescript)
-        li Express.js
-        li MongoDB (NoSQL)
-        li Git
-        li Webpack (Build Tool)
+        for c in skills.tech.li
+          li= c
     span
-      h3 Generell
+      h3= skills.general.h
       ul
-        li GNU/Linux (Betriebssystem und Tools)
-        li Documentation (Readme, API Beschreibung)
-        li Vim (Texteditor)
-        li Unit Testing
-        li Front-End (JS, HTML, CSS, SASS)
+        for i in skills.general.li
+          li= i
 
-  h2 Open Source Projekte
+  h2= projects.h
   .projects
-    p Alle Projekte finden sich auf <a href="https://github.com/jneidel">GitHub</a>.
-    a( href="https://github.com/jneidel/projects-overview" )
-      h3 projects-overview
-    p Eine Node/Express/Mongo Webapp, zum verwalten von aktuellen und zukünftigen Projekten (alle Projekte im Überblick, nicht die Projekte selbst).
-    h4 Technische Umsetztung:
+    p= projects.intro
+    a( href="https://github.com/jneidel/lock-me-out" )
+      h3 lock-me-out
+    p= projects.lmo.p
+    h4= projects.implementation
     ul
-      li REST API, zum anlegen/bearbeiten/löschen von Karten/Projekten in der Datenbank
-      li Nutzerverwaltung, zum ändern des Names/Passworts und löschen des Accounts/Daten
-      li Public API, um programmatisch auf die eigenen Daten zuzugreifen
-      li Lokal Aufgesetzt, Datenbank und App laufen auf meinem eigenen Server
+      for i in projects.lmo.li
+        li= i
     hr
     a( href="https://github.com/jneidel/mangareader-dl" )
       h3 mangareader-dl
-    p Ein Node Kommandozeilen Interface um das Herunterladen von Manga zu vereinfachen.
-    h4 Technische Umsetztung:
+    p= projects.mr.p
+    h4= projects.implementation
     ul
-      li Scraper, zum downloaden der Bilder von allen unterstützten Seiten
-      li Interface, zur Eingabe und Visualisierung des Downloadprozesses
-      li Test Driven Development, um Unit Tests und Code gleichzeitig zu schreiben
+      for i in projects.mr.li
+        li= i
+    hr
+    a( href="https://github.com/jneidel/projects-overview" )
+      h3 projects-overview
+    p= projects.po.p
+    h4= projects.implementation
+    ul
+      for i in projects.po.li
+        li= i
 
-  h2 Bildung
+  h2= education.h
   .education
     span( style="display: flex; justify-content: space-between;" )
       p <b>Emil Molt Akademie</b>
       p <b>Berlin</b>
     span( style="display: flex; justify-content: space-between;" )
-      p <i>Fachabitur: Wirtschaft</i>
+      p= education.molt-course
       p <i>2016 - 2018</i>
-    p Einschl. 6 Monate Praktikum. NC: <code>1,2</code>
+    p= education.result
     span( style="display: flex; justify-content: space-between; margin-top: 15px;" )
-      p <b>Freie Waldorfschulen</b>
-      p <b>Berlin und Dresden</b>
-    p Bis auf die Grundschule besuchte ich Waldorfschulen.
-    p( style="margin-top: 15px;" ) <b>Sprachen:</b>
-    p <i>Deutsch:</i> Muttersprache
-    p <i>Englisch:</i> Professionele Kompetenz (Schrift und Sprache)
+      p= education.schools
+      p= education.schools-location
+    p= education.schools-desc
+    p( style="margin-top: 15px;" )= education.lang
+    p= education.de
+    p= education.en
 
-  h2 Interessen
-  p Normalerweise bastle ich an meinen Open Source Projekten oder meinem Linux herum. Zum Abschalten spiele ich gern Karten/Brettspiele, lese Comics oder gehe Spazieren.
+  h2= interests.h
+  p= interests.p
 
-  h2 Kontakt
+  h2= contact.h
   .contact
     p Email: <a href="mailto:contact@jneidel.com">contact@jneidel.com</a>
     p Homepage: <a href="https://jneidel.com">https://jneidel.com</a>
