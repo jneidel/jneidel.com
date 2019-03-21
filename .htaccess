@@ -14,19 +14,18 @@
 # testing rewriterules: https://htaccess.madewithlove.be/
 # rewriterules explaination: https://www.digitalocean.com/community/tutorials/how-to-set-up-mod_rewrite
 
-  Redirect temp /resume /resume-de
-  Redirect temp /github https://github.com/jneidel
-  Redirect temp /pad https://etherpad.net/p/jneidel
+  Redirect permanent /resume /resume-de
+  Redirect permanent /github https://github.com/jneidel
+  Redirect permanent /pad https://etherpad.net/p/jneidel
+  Redirect permanent /keepass https://drive.google.com/open?id=1zdghN_BF9mgzrbs7lYn4_NQLjcecnYtS
 
-  Redirect temp /git https://github.com/jneidel/git-intro/blob/master/slideshow.md
-  Redirect temp /keepass https://drive.google.com/open?id=1zdghN_BF9mgzrbs7lYn4_NQLjcecnYtS
+  Redirect permanent /po https://po.jneidel.com
+  Redirect permanent /api https://api.jneidel.com
+  Redirect permanent /india https://india.jneidel.com
+  Redirect permanent /indien https://india.jneidel.com
 
-  Redirect temp /po https://po.jneidel.com
-  Redirect temp /api https://api.jneidel.com
-  Redirect temp /india https://india.jneidel.com
-  Redirect temp /indien https://india.jneidel.com
-
-  Redirect temp /ff https://github.com/jneidel/dotfiles/blob/master/firefox.md
+  Redirect /git https://github.com/jneidel/git-intro/blob/master/slideshow.md
+  Redirect /ff https://github.com/jneidel/dotfiles/blob/master/firefox.md
 
 # enable cors for fonts directory
 # passing "fonts" works for chrome but not ff
