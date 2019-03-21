@@ -1,7 +1,12 @@
 node_modules
 
-dist/html
 dist/css
 dist/js
 *.html
+
 *.pdf
+git-starter.zip
+n/
+library/
+profile-picture.jpg
+vierfeldertafel/
