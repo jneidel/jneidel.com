@@ -1,12 +1,9 @@
 {
   "name": "jneidel.com",
-  "version": "0.0.0",
   "description": "Source for jneidel.com",
   "author": "Jonathan Neidel",
   "homepage": "https://jneidel.com",
-  "repository": "jneidel/jneidel.com",
-  "license": "MIT",
-  "main": "index.js",
+  "repository": "github/jneidel.com",
   "engines": {
     "node": "8"
   },
