@@ -1,3 +1,7 @@
+# wordlist.txt
+## How to use: https://www.eff.org/dice
+## Source: https://www.eff.org/deeplinks/2016/07/new-wordlists-random-passphrases
+
 11111	abacus
 11112	abdomen
 11113	abdominal
