@@ -5,7 +5,7 @@ const prod = false;
 
 const config = [];
 
-[ "index", "resume-de", "resume-en" ].forEach( ( name ) => {
+[ "index", "resume-de", "resume-en", "now" ].forEach( ( name ) => {
   const scss = genScss( `../css/${name}.css` );
   const entryPath = `./src/bundles/${name}.bundle.js`;
 
@@ -18,10 +18,10 @@ const config = [];
     var pugData;
     switch( name ) {
       case "resume-de":
-        pugData = require( "./src/pug/resume-de.json" );
+        pugData = require( "./src/data/resume-de.json" );
         break;
       case "resume-en":
-        pugData = require( "./src/pug/resume-en.json" );
+        pugData = require( "./src/data/resume-en.json" );
         break;
     }
   }
