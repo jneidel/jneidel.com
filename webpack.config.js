@@ -25,6 +25,15 @@ const config = [];
         break;
     }
   }
+  if ( name === "now" ) {
+    var pugData;
+    try {
+      const comics = require( "./src/data/now-comics.json" );
+      const manga = require( "./src/data/now-manga.json" );
+
+      pugData = { manga, comics, lastEdit: new Date() };
+    } catch(err) {}
+  }
 
   config.push( {
     mode  : prod ? "production" : "development",

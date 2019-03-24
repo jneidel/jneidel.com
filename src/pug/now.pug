@@ -1,0 +1,77 @@
+extends base
+
+block head
+  title jneidel.com
+  +links( "now" )
+  style.
+    .flex {
+      display: flex;
+    }
+    .flex a {
+      margin: 0 5px;
+    }
+
+block body
+  h1 What I’m doing now
+  i.flex
+    p( style="margin: 0;" ) (This is a
+    a( href="https://nownownow.com/about" ) now
+    p( style="margin: 0;" ) page.)
+
+  h2 Work
+  p After returning from India at the end of 2018, I'm now looking for a job as a junior backend developer in Berlin.
+  .flex
+    p In my spare time I'm working on a
+    a( href="https://github.com/jneidel/mangareader-dl" ) few
+    a( href="https://github.com/jneidel/lock-me-out" ) projects
+    p on my
+    a( href="https://github.com/jneidel" ) github,
+    p  and tinkering with my
+    a( href="https://github.com/jneidel/dotfiles/tree/master/manjaro" ) linux setup.
+
+  h2 Living Situation
+  p After settling into my new job, I'll go looking for a permanent flat.
+
+  h2 Media
+  p Here a list of running manga and comics that I'm currently following (updated weekly).
+  p These are not recommendations per se, it's simply a listing of what I'm reading.
+
+  h3 Manga
+  .flex
+    p To download use:
+    a( href="https://github.com/jneidel/mangareader-dl" ) mangareader-dl
+  table
+    tr
+      td name
+      td latest chapter
+      td download command
+    for i in manga
+      tr
+        td
+          a( href=i.info )= i.readableName
+        td= i.chapter
+        td
+          code= i.get
+  h3 Comics
+  .flex
+    p To check for updates use:
+    a( href="https://github.com/jneidel/getcomics-update" ) getcomics-update
+  table
+    tr
+      td name
+      td latest issue
+      td getcomics link
+    for i in comics
+      tr
+        td
+          a( href=i.info )= i.name
+        td= i.issue
+        td.flex
+          a( href=i.get ) Download here
+
+  hr
+  .last-edit
+    b( style="margin-bottom: 0;" ) Last Edit:
+    - lastEdit = String( lastEdit ).split( "GMT" )[0]
+    p= lastEdit
+

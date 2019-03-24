@@ -4,6 +4,8 @@ dist/css
 dist/js
 *.html
 
+src/data/now-*.json
+
 *.pdf
 git-starter.zip
 n/
