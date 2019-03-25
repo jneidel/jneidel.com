@@ -39,9 +39,10 @@
     "intro": "Alle Projekte finden sich auf",
     "implementation": "Technische Umsetztung:",
     "lmo": {
-      "p": "lmo intro",
+      "p": "Eine Typescript webapp um Strings, z.b. ein Passwort, für einen gegebenen Zeitraum weg zu sperren.",
       "li": [
-        "1"
+        "GPG wrapper, zum verschlüsseln und kurz Schlüssel Generierung",
+        "Lokal Aufgesetzt, Datenbank und App laufen auf meinem eigenen Server"
       ]
     },
     "po": {
@@ -49,8 +50,7 @@
       "li": [
         "REST API, zum anlegen/bearbeiten/löschen von Karten/Projekten in der Datenbank",
         "Nutzerverwaltung, zum ändern des Names/Passworts und löschen des Accounts/Daten",
-        "Public API, um programmatisch auf die eigenen Daten zuzugreifen",
-        "Lokal Aufgesetzt, Datenbank und App laufen auf meinem eigenen Server"
+        "Public API, um programmatisch auf die eigenen Daten zuzugreifen"
       ]
     },
     "mr": {

@@ -26,10 +26,10 @@
       "h": "General",
       "li": [
         "GNU/Linux (Environment and Tools)",
-        "Documentation (Readme, API Descriptions)",
+        "Front-End (JS, HTML, CSS, SASS)",
         "Vim (Editor)",
         "Unit Testing",
-        "Front-End (JS, HTML, CSS, SASS)"
+        "Documentation (Readme, API Descriptions)"
       ]
 
     }
@@ -39,9 +39,10 @@
     "intro": "All projects can be found on",
     "implementation": "Technical Implementation:",
     "lmo": {
-      "p": "lmo intro",
+      "p": "A Typescript webapp for locking away a string, e.g. a password, for a specifed amount of time.",
       "li": [
-        "1"
+        "GPG wrapper, to handle encryption and key generation",
+        "Local setup, database and app run on my own server"
       ]
     },
     "po": {
@@ -49,8 +50,7 @@
       "li": [
         "REST API, to insert/edit/remove cards/projects from the database",
         "Account management, to change username/password and the deletion of account/account data",
-        "Public API, to programmatically access your own data",
-        "Local setup, database and app run on my own server"
+        "Public API, to programmatically access your own data"
       ]
     },
     "mr": {
