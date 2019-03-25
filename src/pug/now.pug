@@ -35,6 +35,7 @@ block body
   h2#media Media
   p Here a list of running manga and comics that I'm currently following (updated weekly).
   p These are not recommendations per se, it's simply a listing of what I'm reading.
+  p P stands for paused, a series that is currently on a break.
 
   h3#manga Manga
   .flex
@@ -49,7 +50,8 @@ block body
       tr
         td
           a( href=i.info )= i.readableName
-        td= i.chapter
+        - const chapter = `${i.chapter}${i.paused ? " P" : ""}`
+        td= chapter
         td
           code= i.get
   h3#comics Comics
@@ -65,7 +67,8 @@ block body
       tr
         td
           a( href=i.info )= i.name
-        td= i.issue
+        - const issue = `${i.issue}${i.paused ? " P" : ""}`
+        td= issue
         td.flex
           a( href=i.get ) Download here
 
