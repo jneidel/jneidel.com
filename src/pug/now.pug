@@ -31,7 +31,8 @@ block body
   p These are not recommendations per se, it's simply a listing of what I'm reading.
   i P stands for paused, a series that is currently on a break.
 
-  h3#manga Manga
+  - const mangaTotal = manga.filter( x => !x.paused ).length
+  h3#manga Manga (total: #{mangaTotal})
   .flex
     p To download use:
     a( href="https://github.com/jneidel/mangareader-dl" ) mangareader-dl
@@ -48,7 +49,9 @@ block body
         td= chapter
         td
           code= i.get
-  h3#comics Comics
+
+  - const comicsTotal = comics.filter( x => !x.paused ).length
+  h3#comics Comics (total #{comicsTotal})
   .flex
     p To check for updates use:
     a( href="https://github.com/jneidel/getcomics-update" ) getcomics-update
