@@ -19,17 +19,17 @@ block body
     p( style="margin: 0;" ) page.)
 
   h2 Work
-  p After returning from India at the end of 2018, I've decided go to university, starting in fall.
-  p For the meantime, I'm currently looking for a trainee/internship as a backend developer.
+  p After returning from India at the end of 2018, I've decided to study computer science at HTW, starting in the winter semester.
+  p In the meantime, I'm looking for a flat in Treptow/Köpenick and a trainee-/internship as a backend developer.
 
   h2
     a( href="https://github.com/jneidel" ) Personal Projects
   p I'm currently refactoring <a href="https://github.com/jneidel/mangareader-dl">mangareader-dl</a>. This means migrating the project to TypeScript, rewriting the download loop and restructuring the providers, to make adding new providers (and new download methods) easier in the future.
 
   h2#media Media
-  p This is a list of running manga and comics that I'm currently following (weekly updates).
-  p These are not recommendations per se, it's simply a listing of what I'm reading.
-  i P stands for paused, a series that is currently on a break.
+  p This is a list of running manga and comics that I'm currently following (updated weekly).
+  p These are not recommendations per se, it's simply a list of what I'm reading.
+  i P stands for paused; a series that is currently on a break.
 
   - const mangaTotal = manga.filter( x => !x.paused ).length
   h3#manga Manga (total: #{mangaTotal})
@@ -72,6 +72,5 @@ block body
   hr
   .last-edit
     b( style="margin-bottom: 0;" ) Last Edit:
-    - lastEdit = String( lastEdit ).split( "GMT" )[0]
-    p= lastEdit
-
+    // will be replaced with something readable in js
+    p#lastEdit= lastEdit
