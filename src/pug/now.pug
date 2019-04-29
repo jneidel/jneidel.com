@@ -72,6 +72,5 @@ block body
   hr
   .last-edit
     b( style="margin-bottom: 0;" ) Last Edit:
-    - lastEdit = String( lastEdit ).split( "GMT" )[0]
-    p= lastEdit
-
+    // will be replaced with something readable in js
+    p#lastEdit= lastEdit
