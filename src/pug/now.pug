@@ -31,6 +31,7 @@ block body
   p These are not recommendations per se, it's simply a list of what I'm reading.
   i P stands for paused; a series that is currently on a break.
 
+  // Comic and manga data is passed in by webpack
   - const mangaTotal = manga.filter( x => !x.paused ).length
   h3#manga Manga (total: #{mangaTotal})
   .flex
@@ -72,5 +73,4 @@ block body
   hr
   .last-edit
     b( style="margin-bottom: 0;" ) Last Edit:
-    // will be replaced with something readable in js
-    p#lastEdit= lastEdit
+    p#lastEdit=lastEdit // Replaced with 'new Date()' on each webpack run
