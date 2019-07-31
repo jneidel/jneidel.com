@@ -10,6 +10,9 @@
   RewriteCond %{HTTPS} !^on$
   RewriteRule ^/?(.*) https://%{HTTP_HOST}/$1 [R,L]
 
+# /dot/manjaro/.i3 > github.com/jneidel/dotfiles/tree/master/manjaro/.i3
+  RewriteRule ^dot/(.*)$ https://github.com/jneidel/dotfiles/tree/master/$1 [L]
+
 # rewriterules: https://serverfault.com/questions/214512/redirect-change-urls-or-redirect-http-to-https-in-apache-everything-you-ever
 # testing rewriterules: https://htaccess.madewithlove.be/
 # rewriterules explaination: https://www.digitalocean.com/community/tutorials/how-to-set-up-mod_rewrite
