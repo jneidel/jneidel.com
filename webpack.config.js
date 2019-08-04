@@ -32,7 +32,9 @@ const config = [];
       const manga = require( "./src/data/now-manga.json" );
 
       pugData = { manga, comics, lastEdit: new Date() };
-    } catch(err) {}
+    } catch(err) {
+      pugData = { manga: [], comics: [], lastEdit: new Date() }; // files don't exist fallback
+    }
   }
 
   config.push( {
