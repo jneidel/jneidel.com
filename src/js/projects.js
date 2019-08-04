@@ -1,15 +1,17 @@
-Array.from( document.getElementsByClassName("project") )
-  .forEach( project => {
-    const children = Array.from( project.children )
-    const filterType = name => children.filter( child => child.localName === name );
+[ ...document.querySelectorAll( ".project" ) ].forEach( project => {
+  const children = [ ...project.children ];
+  const filterByElement = element =>
+    children.filter( child => child.localName === element );
 
-    const name = filterType( "h3" )[0].outerText;
+  const projectName = filterByElement( "h3" )[0].textContent;
+  const projectDescription = filterByElement( "desc" )[0];
 
-    const desc = filterType("desc")[0];
-
-    fetch( `https://api.github.com/repos/jneidel/${name}` )
-      .then( res => res.json() )
-      .then( data => data.description )
-      .then( description => desc.innerText = description === undefined ? "" : description )
-  } )
-
+  fetch( `https://api.github.com/repos/jneidel/${projectName}` )
+    .then( res => res.json() )
+    .then( data => data.description )
+    .then(
+      description =>
+        projectDescription.textContent =
+          description === undefined ? "" : description
+    );
+} );
