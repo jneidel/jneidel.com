@@ -47,20 +47,20 @@ block body
       p( style="padding-right: 5px" )= projects.intro
       a( href="https://github.com/jneidel" ) GitHub
       p .
-    a( href="https://github.com/jneidel/mangareader-dl" )
-      h3 mangareader-dl
-    p= projects.mr.p
-    h4= projects.implementation
-    ul
-      for i in projects.mr.li
-        li= i
-    hr
     a( href="https://github.com/jneidel/lock-me-out" )
       h3 lock-me-out
     p= projects.lmo.p
     h4= projects.implementation
     ul
       for i in projects.lmo.li
+        li= i
+    hr
+    a( href="https://github.com/jneidel/mangareader-dl" )
+      h3 mangareader-dl
+    p= projects.mr.p
+    h4= projects.implementation
+    ul
+      for i in projects.mr.li
         li= i
     hr
     a( href="https://github.com/jneidel/projects-overview" )
