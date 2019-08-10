@@ -19,17 +19,17 @@
         "Express.js",
         "MongoDB (NoSQL)",
         "Git",
-        "Webpack (Build Tool)"
+        "Webpack"
       ]
     },
     "general": {
       "h": "Generell",
       "li": [
-        "GNU/Linux (Umgebung und Tools)",
-        "Documentation (Readme, API Beschreibung)",
+        "GNU/Linux (Tooling)",
         "Vim (Texteditor)",
         "Unit Testing",
-        "Front-End (JS, HTML, CSS, SASS)"
+        "Front-End (JS, HTML, CSS, SASS)",
+        "Documentation"
       ]
 
     }
@@ -39,9 +39,9 @@
     "intro": "Alle Projekte finden sich auf",
     "implementation": "Technische Umsetztung:",
     "lmo": {
-      "p": "Eine Typescript webapp um Strings, z.b. ein Passwort, für einen gegebenen Zeitraum weg zu sperren.",
+      "p": "Eine Typescript Webapp um Strings, z.b. ein Passwort, für einen gegebenen Zeitraum weg zu sperren.",
       "li": [
-        "GPG wrapper, zum verschlüsseln und kurz Schlüssel Generierung",
+        "GPG wrapper, zum verschlüsseln und Schlüssel Generierung",
         "Lokal Aufgesetzt, Datenbank und App laufen auf meinem eigenen Server"
       ]
     },

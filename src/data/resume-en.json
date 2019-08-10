@@ -19,17 +19,17 @@
         "Express.js",
         "MongoDB (NoSQL)",
         "Git",
-        "Webpack (Build Tool)"
+        "Webpack"
       ]
     },
     "general": {
       "h": "General",
       "li": [
-        "GNU/Linux (Environment and Tools)",
-        "Front-End (JS, HTML, CSS, SASS)",
+        "GNU/Linux (Tooling)",
         "Vim (Editor)",
         "Unit Testing",
-        "Documentation (Readme, API Descriptions)"
+        "Front-End (JS, HTML, CSS, SASS)",
+        "Documentation"
       ]
 
     }
