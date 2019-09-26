@@ -3,15 +3,14 @@ const date = new Date(Date.parse(lastEditObj.innerHTML));
 
 function prettyDate(time) {
   // source: https://stackoverflow.com/a/7641822
-  var date = new Date(
+  let date = new Date(
       String(time || "")
         .replace(/-/g, "/")
-        .replace(/[TZ]/g, " "),
     ),
     diff = (new Date().getTime() - date.getTime()) / 1000,
     day_diff = Math.floor(diff / 86400);
 
-  if (isNaN(day_diff) || day_diff < 0 || day_diff >= 31) return;
+  if (isNaN(day_diff) || day_diff < 0 || day_diff >= 31) return "Invalid date";
 
   return (
     (day_diff == 0 &&
