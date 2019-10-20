@@ -19,12 +19,7 @@ block body
     p( style="margin: 0;" ) page.)
 
   h2 Work
-  p After returning from India at the end of 2018, I've decided to study computer science at HTW, starting in the winter semester.
-  p In the meantime, I'm looking for a flat in Treptow/Köpenick and a trainee-/internship as a backend developer.
-
-  h2
-    a( href="https://github.com/jneidel" ) Personal Projects
-  p I'm currently refactoring <a href="https://github.com/jneidel/mangareader-dl">mangareader-dl</a>. This means migrating the project to TypeScript, rewriting the download loop and restructuring the providers, to make adding new providers (and new download methods) easier in the future.
+  p I started studying applied computer science at <a href="https://www.htw-berlin.de/">HTW Berlin</a> and moved to a flat near the university (Oberschöneweide).
 
   h2#media Media
   p This is a list of running manga and comics that I'm currently following (updated weekly).
@@ -35,40 +30,35 @@ block body
   - const mangaTotal = manga.filter( x => !x.paused ).length
   h3#manga Manga (total: #{mangaTotal})
   .flex
-    p To download use:
-    a( href="https://github.com/jneidel/mangareader-dl" ) mangareader-dl
+    // p To download use:
+    // a( href="https://github.com/jneidel/mangareader-dl" ) mangareader-dl
   table
     tr
       td name
       td latest chapter
-      td download command
+      // td download command
     for i in manga
       tr
         td
           a( href=i.info )= i.readableName
         - const chapter = `${i.chapter}${i.paused ? " P" : ""}`
         td= chapter
-        td
+        // td
           code= i.get
 
   - const comicsTotal = comics.filter( x => !x.paused ).length
   h3#comics Comics (total #{comicsTotal})
   .flex
-    p To check for updates use:
-    a( href="https://github.com/jneidel/getcomics-update" ) getcomics-update
   table
     tr
       td name
       td latest issue
-      td getcomics link
     for i in comics
       tr
         td
           a( href=i.info )= i.name
         - const issue = `${i.issue}${i.paused ? " P" : ""}`
         td= issue
-        td.flex
-          a( href=i.get ) Download here
 
   hr
   .last-edit
