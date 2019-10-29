@@ -5,7 +5,7 @@ const prod = false;
 
 const config = [];
 
-[ "index", "resume-de", "resume-en", "now" ].forEach( ( name ) => {
+[ "index", "resume-de", "resume-en", "now", "movies" ].forEach( ( name ) => {
   const scss = genScss( `../css/${name}.css` );
   const entryPath = `./src/bundles/${name}.bundle.js`;
 
@@ -24,8 +24,7 @@ const config = [];
         pugData = require( "./src/data/resume-en.json" );
         break;
     }
-  }
-  if ( name === "now" ) {
+  } else if ( name === "now" ) {
     var pugData;
     try {
       const comics = require( "./src/data/now-comics.json" );
@@ -35,6 +34,8 @@ const config = [];
     } catch(err) {
       pugData = { manga: [], comics: [], lastEdit: new Date() }; // files don't exist fallback
     }
+  } else if ( name === "movies" ) {
+    var pugData = require( "./src/data/movies.js" );
   }
 
   config.push( {
