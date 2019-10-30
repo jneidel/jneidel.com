@@ -10,10 +10,18 @@ block head
     .flex a {
       margin: 0 5px;
     }
+    td p:nth-of-type(1) {
+      margin-bottom: 0;
+    }
 
 block body
   h1 movies
+  - movies.map( x => { x.genres = x.genres ? x.genres : x.genre; if ( x.nf && x.genres[x.genres.length -1] !== "" ) x.genres.push( "" ); return x; } );
+  - const maybe = movies.filter( x => x.maybe );
+  - movies = movies.filter( x => !x.maybe );
+  p Movies that I like, in no particular order.
 
+  h2 Full recommendation
   table
     tr
       td name
@@ -27,4 +35,24 @@ block body
           -i.known = typeof i.known === "string" ? [ i.known ] : i.known;
           p= i.known ? i.known.join( ", " ) : ""
         td
-          p= i.genres ? i.genres.join( ", " ) : i.genre ? i.genre.join( ", " ) : ""
+          p= i.genres.join( ", " )
+            if i.nf
+              a( href=`https://www.netflix.com/title/${i.nf}` ) netflix
+
+  h2 Limited recommendation (if the topic is of interest)
+  table
+    tr
+      td name
+      td known for
+      td genres
+    for i in maybe
+      tr
+        td
+          a( href=`https://www.imdb.com/title/${i.imdb}` )= i.name
+        td
+          -i.known = typeof i.known === "string" ? [ i.known ] : i.known;
+          p= i.known ? i.known.join( ", " ) : ""
+        td
+          p= i.genres.join( ", " )
+            if i.nf
+              a( href=`https://www.netflix.com/title/${i.nf}` ) netflix
