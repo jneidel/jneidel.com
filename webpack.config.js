@@ -5,7 +5,7 @@ const prod = false;
 
 const config = [];
 
-[ "index", "resume-de", "resume-en", "now", "movies" ].forEach( ( name ) => {
+[ "index", "resume-de", "resume-en", "now", "movies", "proposal" ].forEach( ( name ) => {
   const scss = genScss( `../css/${name}.css` );
   const entryPath = `./src/bundles/${name}.bundle.js`;
 
@@ -62,7 +62,8 @@ const config = [];
               }
             }
           ],
-        }
+        },
+        md( "../../proposal/index.html" ),
       ],
     },
     plugins     : [ scss.plugin ],
