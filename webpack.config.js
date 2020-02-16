@@ -15,7 +15,8 @@ const mdBundleDirectory = `${sourceDirectory}/bundles/md`
 
 const mdFilenames = fs.readdirSync( mdSourceDirectory ).map( file => path.parse( file ).name );
 mdFilenames.forEach( name => {
-  fs.writeFileSync( `${mdBundleDirectory}/${name}.bundle.js`, `require( "../../data/md/${name}.md" );` ); // Create bundle file
+  const mdBundleContent = `require( "../../data/md/${name}.md" );`;
+  fs.writeFileSync( `${mdBundleDirectory}/${name}.bundle.js`, mdBundleContent ); // Create bundle file
   bundles.push( `md/${name}` );
 } );
 
@@ -77,7 +78,7 @@ bundles.forEach( ( name ) => {
             }
           ],
         },
-        md( `../../md/${name.replace( /^[^\/]+\//, "" )}.html` ),
+        md( `../../md/${name.replace( /^[^\/]+\//, "" )}.html`, null, null, true ), // "../dist/css/md/test.css"
       ],
     },
     plugins     : [ scss.plugin ],
