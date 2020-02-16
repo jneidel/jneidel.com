@@ -1,10 +1,11 @@
 node_modules
 
+*.html
 dist/css
 dist/js
-*.html
 
-src/data/*
+src/data
+src/bundles/md
 
 *.pdf
 git-starter.zip

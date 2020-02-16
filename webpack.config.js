@@ -1,11 +1,25 @@
 const path = require( "path" );
+const fs = require( "fs" );
 const { genScss, pug, md } = require( "setup-webpack" );
 
 const prod = false;
-
 const config = [];
+const bundles = [ "index", "resume-de", "resume-en", "now", "movies", "proposal" ];
 
-[ "index", "resume-de", "resume-en", "now", "movies", "proposal" ].forEach( ( name ) => {
+/*
+* Dynamically add files from 'src/data/md/*.md' to be compiled to 'md/*.html'
+*/
+const sourceDirectory = path.resolve( __dirname, "src" );
+const mdSourceDirectory = `${sourceDirectory}/data/md`
+const mdBundleDirectory = `${sourceDirectory}/bundles/md`
+
+const mdFilenames = fs.readdirSync( mdSourceDirectory ).map( file => path.parse( file ).name );
+mdFilenames.forEach( name => {
+  fs.writeFileSync( `${mdBundleDirectory}/${name}.bundle.js`, `require( "../../data/md/${name}.md" );` ); // Create bundle file
+  bundles.push( `md/${name}` );
+} );
+
+bundles.forEach( ( name ) => {
   const scss = genScss( `../css/${name}.css` );
   const entryPath = `./src/bundles/${name}.bundle.js`;
 
@@ -63,7 +77,7 @@ const config = [];
             }
           ],
         },
-        md( "../../proposal/index.html" ),
+        md( `../../md/${name.replace( /^[^\/]+\//, "" )}.html` ),
       ],
     },
     plugins     : [ scss.plugin ],
