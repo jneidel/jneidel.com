@@ -4,7 +4,7 @@ const { genScss, pug, md } = require( "setup-webpack" );
 
 const prod = false;
 const config = [];
-const bundles = [ "index", "resume-de", "resume-en", "now", "movies", "proposal" ];
+const bundles = [ "index", "resume-de", "resume-en", "now", "movies", "proposal", "md" ];
 
 /*
 * Dynamically add files from 'src/data/md/*.md' to be compiled to 'md/*.html'
@@ -78,7 +78,7 @@ bundles.forEach( ( name ) => {
             }
           ],
         },
-        md( `../../md/${name.replace( /^[^\/]+\//, "" )}.html`, null, null, true ), // "../dist/css/md/test.css"
+        md( `../../md/${name.replace( /^[^\/]+\//, "" )}.html`, "../dist/css/md.css", null, false, "../dist/js/md.js" ),
       ],
     },
     plugins     : [ scss.plugin ],
