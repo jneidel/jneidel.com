@@ -47,6 +47,7 @@ block body
           code= i.get
 
   - const comicsTotal = comics.filter( x => !x.paused ).length
+  - comics = comics.filter( x => !x.paused )
   h3#comics Comics (total #{comicsTotal})
   .flex
   table
