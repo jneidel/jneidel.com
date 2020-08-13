@@ -8,11 +8,18 @@ function create(htmlStr) {
   return frag;
 }
 
-const match = document.URL.match( /.*\/(.+)\.html$/ );
+const isNested = document.URL.match( /.*\/md\/.+\/.+.html$/ );
+let match;
+if ( isNested ) {
+  match =document.URL.match( /.*\/md\/(.+\/.+)\.html$/ );
+} else {
+  match = document.URL.match( /.*\/(.+)\.html$/ );
+}
+
 if ( match ) {
   const file = match[1];
   console.log( match, file );
-  const rawUrl = `../src/data/md/${file}.md`;
+  const rawUrl = `${isNested ? "../" : ""}../src/data/md/${file}.md`;
   const htmlToBeInserted = create(`
     <div>
       <a href="${rawUrl}">Raw file</a>

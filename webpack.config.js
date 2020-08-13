@@ -7,15 +7,36 @@ const config = [];
 const bundles = [ "index", "resume-de", "resume-en", "now", "movies", "proposal", "md" ];
 
 /*
-* Dynamically add files from 'src/data/md/*.md' to be compiled to 'md/*.html'
-*/
+ * Dynamically add files from 'src/data/md/*.md' to be compiled to 'md/*.html'
+ * Also any subdirectories of 'src/data/md' and their contents to 'md/dir/*.html'
+ */
 const sourceDirectory = path.resolve( __dirname, "src" );
 const mdSourceDirectory = `${sourceDirectory}/data/md`
 const mdBundleDirectory = `${sourceDirectory}/bundles/md`
 
-const mdFilenames = fs.readdirSync( mdSourceDirectory ).map( file => path.parse( file ).name );
+const mdFilenames =  fs.readdirSync( mdSourceDirectory )
+  .map( file => path.resolve( mdSourceDirectory, file ) )
+  .reduce( function reducer( acc, cur ) {
+    const stat = fs.statSync( cur );
+    if ( stat.isDirectory() ) {
+      const subDirFiles = fs.readdirSync( cur )
+        .map( file => `${path.basename( cur )}/${path.parse( file ).name}` );
+      acc = acc.concat( subDirFiles );
+    } else {
+      acc.push( path.parse( cur ).name );
+    }
+    return acc;
+  }, [] );
+
 mdFilenames.forEach( name => {
-  const mdBundleContent = `require( "../../data/md/${name}.md" );`;
+  let mdBundleContent = `require( "../../data/md/${name}.md" );`;
+  if ( name.match( /\// ) ) {
+    const dir = path.resolve( mdBundleDirectory, path.dirname( name ) );
+    if ( !fs.existsSync( dir ) ) {
+      fs.mkdirSync( dir );
+    }
+    mdBundleContent = `require( "../../../data/md/${name}.md" );`; // extra set of ..
+  }
   fs.writeFileSync( `${mdBundleDirectory}/${name}.bundle.js`, mdBundleContent ); // Create bundle file
   bundles.push( `md/${name}` );
 } );
@@ -78,7 +99,9 @@ bundles.forEach( ( name ) => {
             }
           ],
         },
-        md( `../../md/${name.replace( /^[^\/]+\//, "" )}.html`, "../dist/css/md.css", null, false, "../dist/js/md.js" ),
+        md( `../../md/${name.replace( /^[^\/]+\//, "" )}.html`,
+          `${name.match( /\// ) ? "../" : ""}../dist/css/md.css`, null, false,
+          `${name.match( /\// ) ? "../" : ""}../dist/js/md.js` ),
       ],
     },
     plugins     : [ scss.plugin ],
