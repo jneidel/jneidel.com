@@ -4,7 +4,7 @@ const { genScss, pug, md } = require( "setup-webpack" );
 
 const prod = false;
 const config = [];
-const bundles = [ "index", "resume-de", "resume-en", "now", "movies", "proposal", "md" ];
+const bundles = [ "index", "resume-de", "resume-en", "now", "movies", "proposal", "md", "about" ];
 
 /*
  * Dynamically add files from 'src/data/md/*.md' to be compiled to 'md/*.html'
@@ -113,4 +113,3 @@ bundles.forEach( ( name ) => {
 } );
 
 module.exports = config;
-
