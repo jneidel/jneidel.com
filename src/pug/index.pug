@@ -11,8 +11,7 @@ block head
 block body
   h1 Hi, I'm Jonathan!
   p I study Applied Computer Science (Angewandte Informatik) at <a href="https://www.htw-berlin.de">HTW Berlin</a>.
-
-  //p Want to learn more <a href="about/index.html">about me</a>?
+  p More <a href="about">about me</a>.
   p What I'm doing right <a href="now">now</a>.
   p Get in touch with me: <a href="mailto:home@jneidel.com">home@jneidel.com</a>
   .badges
@@ -22,18 +21,14 @@ block body
   h2 Projects
   .projects
     .-m
+      +project( "dotfiles", "https://github.com/jneidel/dotfiles/raw/master/images/tmux.png" )
       +project( "lock-me-out", "https://raw.githubusercontent.com/jneidel/lock-me-out/master/media/new.png", false, "https://lmo.jneidel.com" )
-      +project( "projects-overview", "https://camo.githubusercontent.com/ce3995821ae28b4b8237828efca6f1f8dfbfbb1e/68747470733a2f2f692e696d6775722e636f6d2f577a6a70386e702e706e67", false, "https://po.jneidel.com" )
+    .-m
+      +project( "mangareader-dl", "https://raw.githubusercontent.com/jneidel/mangareader-dl/master/img/logo.png" )
+      +project( "projects-overview", "https://camo.githubusercontent.com/ce3995821ae28b4b8237828efca6f1f8dfbfbb1e/68747470733a2f2f692e696d6775722e636f6d2f577a6a70386e702e706e67" )
+      // +project( "projects-overview", "https://camo.githubusercontent.com/ce3995821ae28b4b8237828efca6f1f8dfbfbb1e/68747470733a2f2f692e696d6775722e636f6d2f577a6a70386e702e706e67", false, "https://po.jneidel.com" )
     .-s
-      +project( "mangareader-dl", "https://raw.githubusercontent.com/jneidel/mangareader-dl/master/img/logo.png", true )
       +project( "setup-webpack", null, true )
-      +project( "dotfiles" )
-      //+project( "api.jneidel.com", null, false, "https://api.jneidel.com" )
-    //.-m
-      +project( "mangareader-dl", "dist/img/logo.png", true )
-      +project( "mangareader-dl", "dist/img/logo.png", true )
-    //.-s
-      +project( "mangareader-dl", "dist/img/logo.png", true )
-      +project( "mangareader-dl", "dist/img/logo.png", true )
-      +project( "mangareader-dl", "dist/img/logo.png", true )
+      +project( "htw" )
+      +project( "cnsm" )
 
