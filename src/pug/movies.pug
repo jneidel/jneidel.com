@@ -19,15 +19,29 @@ block head
     }
 
 block body
-  h1 movies
   - movies.map( x => { x.genres = x.genres ? x.genres : x.genre; if ( x.nf && x.genres[x.genres.length -1] !== "" ) x.genres.push( "" ); return x; } );
   - const maybe = movies.filter( x => x.maybe );
   - movies = movies.filter( x => !x.maybe );
-  p Movies that I like, in no particular order. Recently watched movies have been more acurately judged.
+  h1 movies
+  b What is this page
+  p A list of movies that I like, in no particular order.
+  p I didn't opt for rating as not to obsess over building a ranked list. On a individual basis I, most of the time, have a good idea of whether or not I want to watch a movie again (and would thus recommend it to others).
 
-  p Click the yellow bar to sort the table (takes a sec, I was too lazy to implement it myself).
+  b Organisation
+  p Two lists, split between full and limited recommendation.
+  a( href="#limited" ) See Limited recommendations here
+  br
+  p The list is continually updated as I watch and re-watch movies. Recent entries include a date and have been more accurately judged and tagged.
+  p Click the yellow bar to sort the table by a row (takes a sec, I was too lazy to implement it myself).
 
-  a( href="#limited" ) Limited recommendations
+
+  // helper function
+  - function convertLast( last ) {
+  -   if ( !last ) return "";
+  -
+  -   const date = last.split( "." );
+  -   return `20${date[2]}-${date[1]}-${date[0]}`;
+  - }
 
   h2 Full recommendation
   table.w3-table-all#table_full
@@ -50,14 +64,15 @@ block body
         td
           p= i.genres.join( ", " )
         td
-          - let last = i.last || ""
-          - if ( last ) {
-          -   const date = last.split( "." )
-          -   last = `20${date[2]}-${date[1]}-${date[0]}`
-          - }
+          - const last = convertLast( i.last );
           p= last
 
-  h2#limited Limited recommendation (not for everyone or basic but enjoyable)
+  h2#limited Limited recommendation
+  b What is this
+  p Movies that are either <b>not for everyone</b> or <b>basic but enjoyable</b>.
+  p Check tags to see if the movie would <strong>not</strong> be for you.
+  // p Contained here are movies that I would fully recommend, but which are not suited for everyone because of their themes or presentation.
+  p Violence and more mature themes are marked as 'dark'.
   table.w3-table-all#table_maybe
     tr
       th
@@ -78,12 +93,11 @@ block body
         td
           p= i.genres.join( ", " )
         td
-          - let last = i.last || ""
-          - if ( last ) {
-          -   const date = last.split( "." )
-          -   last = `20${date[2]}-${date[1]}-${date[0]}`
-          - }
+          - const last = convertLast( i.last );
           p= last
+
+  // add a 3. list for comedy specials
+
   script( src="https://www.w3schools.com/lib/w3.js" )
   script.
     [ "#table_full", "#table_maybe" ]
@@ -91,4 +105,3 @@ block body
         document.querySelectorAll( table + " th" )
           .forEach( ( element, i ) => element.addEventListener( "click", () => w3.sortHTML( table, ".item", "td:nth-child(" + (i + 1) + ")") ) )
       );
-
