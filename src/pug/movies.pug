@@ -28,7 +28,6 @@ block head
     }
 
 block body
-  - movies.map( x => { x.genres = x.genres ? x.genres : x.genre; if ( x.nf && x.genres[x.genres.length -1] !== "" ) x.genres.push( "" ); return x; } );
   - const maybe = movies.filter( x => x.maybe );
   - movies = movies.filter( x => !x.maybe );
   h1 movies
@@ -60,7 +59,7 @@ block body
       th
         b known for
       th
-        b genre/tag/description
+        b tags (genre/descriptive)
       th
         b last watch
     for i in movies
@@ -71,7 +70,7 @@ block body
           -i.known = typeof i.known === "string" ? [ i.known ] : i.known;
           p= i.known ? i.known.join( ", " ) : ""
         td.tags
-          p= i.genres.join( ", " )
+          p= i.tags.join( ", " )
         td.last
           - const last = convertLast( i.last );
           p= last
@@ -89,7 +88,7 @@ block body
       th
         b known for
       th
-        b genre/tag/description
+        b tags (genre/descriptive)
       th
         b last watch
     for i in maybe
@@ -100,7 +99,7 @@ block body
           -i.known = typeof i.known === "string" ? [ i.known ] : i.known;
           p= i.known ? i.known.join( ", " ) : ""
         td.tags
-          p= i.genres.join( ", " )
+          p= i.tags.join( ", " )
         td.last
           - const last = convertLast( i.last );
           p= last
