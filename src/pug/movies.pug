@@ -17,6 +17,15 @@ block head
       cursor: pointer;
       background-color: #ffd700;
     }
+    .tags {
+      font-size: 12px;
+    }
+    .known {
+      font-size: 14px;
+    }
+    .last {
+      font-size: 9px;
+    }
 
 block body
   - movies.map( x => { x.genres = x.genres ? x.genres : x.genre; if ( x.nf && x.genres[x.genres.length -1] !== "" ) x.genres.push( "" ); return x; } );
@@ -58,12 +67,12 @@ block body
       tr.item
         td
           a( href=`https://www.imdb.com/title/${i.imdb}` )= i.name
-        td
+        td.known
           -i.known = typeof i.known === "string" ? [ i.known ] : i.known;
           p= i.known ? i.known.join( ", " ) : ""
-        td
+        td.tags
           p= i.genres.join( ", " )
-        td
+        td.last
           - const last = convertLast( i.last );
           p= last
 
@@ -87,12 +96,12 @@ block body
       tr.item
         td
           a( href=`https://www.imdb.com/title/${i.imdb}` )= i.name
-        td
+        td.known
           -i.known = typeof i.known === "string" ? [ i.known ] : i.known;
           p= i.known ? i.known.join( ", " ) : ""
-        td
+        td.tags
           p= i.genres.join( ", " )
-        td
+        td.last
           - const last = convertLast( i.last );
           p= last
 
