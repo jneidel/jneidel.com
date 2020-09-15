@@ -37,7 +37,7 @@
   "projects": {
     "h": "Open Source Projekte",
     "intro": "Alle Projekte finden sich auf",
-    "implementation": "Technische Umsetztung:",
+    "implementation": "Technische Umsetzung:",
     "lmo": {
       "p": "Eine Typescript Webapp um Strings, z.b. ein Passwort, für einen gegebenen Zeitraum weg zu sperren.",
       "li": [
