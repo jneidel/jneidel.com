@@ -14,6 +14,10 @@
   Redirect permanent /dot https://github.com/jneidel/dotfiles#readme
   RewriteRule ^dot/(.*)$ https://github.com/jneidel/dotfiles/tree/master/$1 [L]
 
+# redirect to websites
+  RewriteRule ^re/tpb/(.*)$ https://piratesbaycc.com/search.php?q=$1&page=0&orderby=99 [L]
+  RewriteRule ^re/lg/(.*)$ https://libgen.lc/search.php?&req=$1&view=simple&res=100&phrase=1&column=def&sort=extension&sortmode=ASC [L]
+
 # rewriterules: https://serverfault.com/questions/214512/redirect-change-urls-or-redirect-http-to-https-in-apache-everything-you-ever
 # testing rewriterules: https://htaccess.madewithlove.be/
 # rewriterules explaination: https://www.digitalocean.com/community/tutorials/how-to-set-up-mod_rewrite
@@ -22,15 +26,12 @@
   Redirect permanent /github https://github.com/jneidel
   Redirect permanent /git https://github.com/jneidel
   Redirect permanent /gh https://github.com/jneidel
-  Redirect permanent /pad https://yourpart.eu/p/jneidel
   Redirect permanent /keepass https://drive.google.com/open?id=1zdghN_BF9mgzrbs7lYn4_NQLjcecnYtS
 
   Redirect permanent /po https://po.jneidel.com
   Redirect permanent /api https://api.jneidel.com
   Redirect permanent /india https://india.jneidel.com
   Redirect permanent /indien https://india.jneidel.com
-
-  # Redirect /git https://github.com/jneidel/git-intro/blob/master/slideshow.md
 
 # enable cors for fonts directory
 # passing "fonts" works for chrome but not ff
@@ -42,5 +43,8 @@
   RewriteRule ^api/(.*) http://localhost:62220/$1 [P]
   RewriteRule ^india/(.*) http://localhost:63839/$1 [P]
 
-  # redirect /pad https://yourpart.eu/p/UcT8krNaUR
-  redirect /thunderbird-update https://github.com/jneidel/yoga-vidya-thunderbird2csv-add-on#update-thunderbird-add-on
+# random redirects
+  redirect /char /Character_Sheet.pdf
+  redirect /phb /Player%27s%20Handbook.pdf
+redirect /pad https://pad.riseup.net/p/VCFWrb4nqzCmAi1DyysS-tmp
+redirect /doodle https://dudle.inf.tu-dresden.de
