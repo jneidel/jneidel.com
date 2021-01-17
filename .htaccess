@@ -10,11 +10,14 @@
   RewriteCond %{HTTPS} !^on$
   RewriteRule ^/?(.*) https://%{HTTP_HOST}/$1 [R,L]
 
-# /dot/manjaro/.i3 > github.com/jneidel/dotfiles/tree/master/manjaro/.i3
+# /dot/scripts > github.com/jneidel/dotfiles/tree/master/scripts
   Redirect permanent /dot https://github.com/jneidel/dotfiles#readme
   RewriteRule ^dot/(.*)$ https://github.com/jneidel/dotfiles/tree/master/$1 [L]
 
 # redirect to websites
+  Redirect permanent /gh https://github.com/jneidel
+  RewriteRule ^gh/(.*)$ https://github.com/jneidel/$1 [L]
+
   RewriteRule ^re/tpb/(.*)$ https://piratesbaycc.com/search.php?q=$1&page=0&orderby=99 [L]
   RewriteRule ^re/lg/(.*)$ https://libgen.lc/search.php?&req=$1&view=simple&res=100&phrase=1&column=def&sort=extension&sortmode=ASC [L]
 
@@ -25,13 +28,18 @@
   Redirect permanent /resume /resume-de
   Redirect permanent /github https://github.com/jneidel
   Redirect permanent /git https://github.com/jneidel
-  Redirect permanent /gh https://github.com/jneidel
   Redirect permanent /keepass https://drive.google.com/open?id=1zdghN_BF9mgzrbs7lYn4_NQLjcecnYtS
+  Redirect permanent /htw https://github.com/jneidel/htw#readme
+  Redirect permanent /doodle https://dudle.inf.tu-dresden.de
+  Redirect /pad https://pad.riseup.net/p/VCFWrb4nqzCmAi1DyysS-tmp
 
   Redirect permanent /po https://po.jneidel.com
   Redirect permanent /api https://api.jneidel.com
   Redirect permanent /india https://india.jneidel.com
   Redirect permanent /indien https://india.jneidel.com
+
+  redirect /char /Character_Sheet.pdf
+  redirect /phb /Player%27s%20Handbook.pdf
 
 # enable cors for fonts directory
 # passing "fonts" works for chrome but not ff
@@ -44,7 +52,4 @@
   RewriteRule ^india/(.*) http://localhost:63839/$1 [P]
 
 # random redirects
-  redirect /char /Character_Sheet.pdf
-  redirect /phb /Player%27s%20Handbook.pdf
-redirect /pad https://pad.riseup.net/p/VCFWrb4nqzCmAi1DyysS-tmp
-redirect /doodle https://dudle.inf.tu-dresden.de
+  redirect /corona https://www.berlin.de/corona/massnahmen/verordnung
