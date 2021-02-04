@@ -19,7 +19,7 @@
   RewriteRule ^gh/(.*)$ https://github.com/jneidel/$1 [L]
 
   RewriteRule ^re/tpb/(.*)$ https://piratesbaycc.com/search.php?q=$1&page=0&orderby=99 [L]
-  RewriteRule ^re/lg/(.*)$ https://libgen.lc/search.php?&req=$1&view=simple&res=100&phrase=1&column=def&sort=extension&sortmode=ASC [L]
+  RewriteRule ^re/lg/(.*)$ http://libgen.rs/search.php?&req=$1&view=simple&res=100&phrase=1&column=def&sort=extension&sortmode=ASC [L]
 
 # rewriterules: https://serverfault.com/questions/214512/redirect-change-urls-or-redirect-http-to-https-in-apache-everything-you-ever
 # testing rewriterules: https://htaccess.madewithlove.be/
@@ -31,7 +31,6 @@
   Redirect permanent /keepass https://drive.google.com/open?id=1zdghN_BF9mgzrbs7lYn4_NQLjcecnYtS
   Redirect permanent /htw https://github.com/jneidel/htw#readme
   Redirect permanent /doodle https://dudle.inf.tu-dresden.de
-  Redirect /pad https://pad.riseup.net/p/VCFWrb4nqzCmAi1DyysS-tmp
 
   Redirect permanent /po https://po.jneidel.com
   Redirect permanent /api https://api.jneidel.com
@@ -53,3 +52,5 @@
 
 # random redirects
   redirect /corona https://www.berlin.de/corona/massnahmen/verordnung
+
+  Redirect /pad https://pad.riseup.net/p/VCFWrb4nqzCmAi1DyysS-tmp

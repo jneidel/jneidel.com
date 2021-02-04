@@ -4,7 +4,7 @@ const { genScss, pug, md } = require( "setup-webpack" );
 
 const prod = false;
 const config = [];
-const bundles = [ "index", "resume-de", "resume-en", "now", "movies", "proposal", "md", "about" ];
+const bundles = [ "index", "resume-de", "resume-en", "now", "movies", "md", "about" ];
 
 /*
  * Dynamically add files from 'src/data/md/*.md' to be compiled to 'md/*.html'
@@ -14,7 +14,9 @@ const sourceDirectory = path.resolve( __dirname, "src" );
 const mdSourceDirectory = `${sourceDirectory}/data/md`
 const mdBundleDirectory = `${sourceDirectory}/bundles/md`
 
+
 const mdFilenames =  fs.readdirSync( mdSourceDirectory )
+  .filter( file => file.match( /\.md$/ ) )
   .map( file => path.resolve( mdSourceDirectory, file ) )
   .reduce( function reducer( acc, cur ) {
     const stat = fs.statSync( cur );
