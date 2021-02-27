@@ -1,0 +1,17 @@
+#! /bin/sh
+
+if [ "$1" = "--help" ] || [ "$1" = "-h" ] || [ "$1" = "help" ]; then
+  cat <<EOF
+$ ff
+Scrape the Fest & Flauschig podcast
+EOF
+  exit
+fi
+
+command -v jq >/dev/null || { echo "jq is not installed" 1>&2; exit 127; }
+
+TMP=$(mktemp)
+curl -Ss "https://open.spotify.com/show/1OLcQdw2PFDPG1jo3s0wbp" | grep -Po '{.*?:episode:.*?}' | awk -F\; '{ print $1"," }' | sed '$ s/,$//' >>$TMP
+printf "]}}" >>$TMP
+
+echo $TMP
