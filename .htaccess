@@ -54,3 +54,4 @@
   redirect /corona https://www.berlin.de/corona/massnahmen/verordnung
 
   Redirect /pad https://pad.riseup.net/p/VCFWrb4nqzCmAi1DyysS-tmp
+redirect /dw http://jonathanaquino.com/latin/index.php
