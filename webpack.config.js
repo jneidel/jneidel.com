@@ -1,10 +1,10 @@
 const path = require( "path" );
 const fs = require( "fs" );
-const { genScss, pug, md } = require( "setup-webpack" );
+const { genScss, pug, md, babel, browserSync } = require( "setup-webpack" );
 
 const prod = false;
 const config = [];
-const bundles = [ "index", "resume-de", "resume-en", "now", "movies", "md", "about" ];
+const bundles = [ "index", "resume-de", "resume-en", "now", "movies", "md", "about", "monero" ];
 
 /*
  * Dynamically add files from 'src/data/md/*.md' to be compiled to 'md/*.html'
@@ -13,7 +13,6 @@ const bundles = [ "index", "resume-de", "resume-en", "now", "movies", "md", "abo
 const sourceDirectory = path.resolve( __dirname, "src" );
 const mdSourceDirectory = `${sourceDirectory}/data/md`
 const mdBundleDirectory = `${sourceDirectory}/bundles/md`
-
 
 const mdFilenames =  fs.readdirSync( mdSourceDirectory )
   .filter( file => file.match( /\.md$/ ) )
@@ -104,11 +103,11 @@ bundles.forEach( ( name ) => {
         md( `../../md/${name.replace( /^[^\/]+\//, "" )}.html`,
           `${name.match( /\// ) ? "../" : ""}../dist/css/md.css`, null, false,
           `${name.match( /\// ) ? "../" : ""}../dist/js/md.js` ),
+        ...( prod ? [babel] : [] )
       ],
     },
     plugins     : [ scss.plugin ],
     optimization: {
-      minimize : true,
       minimizer: [ scss.minimizer ],
     },
   } );

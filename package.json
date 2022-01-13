@@ -13,7 +13,6 @@
     "sync": "browser-sync start --server --files *"
   },
   "dependencies": {
-    "setup-webpack": "^2.5.3"
-  },
-  "devDependencies": {}
+    "setup-webpack": "^3.0.0"
+  }
 }

@@ -8,10 +8,10 @@ EOF
   exit
 fi
 
-command -v jq >/dev/null || { echo "jq is not installed" 1>&2; exit 127; }
-
 TMP=$(mktemp)
-curl -Ss "https://open.spotify.com/show/1OLcQdw2PFDPG1jo3s0wbp" | grep -Po '{.*?:episode:.*?}' | sed -E 's|,"html_description":"[^"]*"||g' | awk -F\; '{ print $1"," }' | sed '$ s/,$//' >>$TMP
+curl -Ss "https://open.spotify.com/show/1OLcQdw2PFDPG1jo3s0wbp" |
+  grep -Po '{.*?:episode:.*?}' | sed 's|&amp;|\&|g' | awk -F\; '{ print $1"," }' | sed '$ s/,$//' >>$TMP
+# grep -Po '{.*?:episode:.*?}' | sed -E 's|,"html_description":"[^"]*"||g' | awk -F\; '{ print $1"," }' | sed '$ s/,$//' >>$TMP
 printf "]}}" >>$TMP
 
 echo $TMP

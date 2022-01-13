@@ -1,6 +1,5 @@
 #! /bin/sh
 
-
 if [ "$1" = "--help" ] || [ "$1" = "-h" ] || [ "$1" = "help" ]; then
   cat <<EOF
 $ whisper-to-rss
