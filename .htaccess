@@ -25,6 +25,8 @@
 # testing rewriterules: https://htaccess.madewithlove.be/
 # rewriterules explaination: https://www.digitalocean.com/community/tutorials/how-to-set-up-mod_rewrite
 
+  Redirect permanent /cv /cv.pdf
+  Redirect permanent /resume /cv.pdf
   Redirect permanent /resume /resume-de
   Redirect permanent /github https://github.com/jneidel
   Redirect permanent /git https://github.com/jneidel
@@ -52,6 +54,8 @@
 
 # random redirects
   redirect /corona https://www.berlin.de/corona/massnahmen/verordnung
-
   Redirect /pad https://pad.riseup.net/p/VCFWrb4nqzCmAi1DyysS-tmp
-redirect /dw http://jonathanaquino.com/latin/index.php
+  Redirect /dw http://jonathanaquino.com/latin/index.php
+  Redirect /yoga https://github.com/jneidel/yoga-vidya-thunderbird2csv-add-on#benutzung
+
+redirect /send https://send.vis.ee

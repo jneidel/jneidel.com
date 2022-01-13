@@ -1,0 +1,126 @@
+#! /bin/sh
+
+
+if [ "$1" = "--help" ] || [ "$1" = "-h" ] || [ "$1" = "help" ]; then
+  cat <<EOF
+$ whisper-to-rss
+Convert trp.red blog to rss file
+
+Parameters:
+  [\$1]: out file, default: ./whisper.rss
+
+Example:
+  $ whisper-to-rss whisper.rss
+EOF
+  exit
+fi
+
+## getting the page
+URL="https://www.trp.red/b/whisper?start=0&wrap=1"
+get_html() {
+  curl -Ss "$URL"
+}
+increment_url() {
+  NEXT=$(($(echo $URL | cut -d\& -f1 | cut -d\= -f2)+1))
+  URL="https://www.trp.red/b/whisper?start=$NEXT&wrap=1"
+}
+
+clean_html() {
+  cat /dev/stdin | sed -E 's/ ?class="[^"]+"//g; s/ ?\[[^]]+Comment[^]]+\]//g; s|<p>(<span>)+<br>(</span>)+<\/p>||g; s|<div><\/div>||g; s|<p><br><\/p>||g'
+}
+has_next_page() {
+  local file="$1"
+  if grep -E "<\/div><\/div><a .+Next Page.*<\/a>" "$file" >/dev/null; then
+    sed -i -E 's|<\/div><\/div><a .+Next Page.*<\/a>||' "$file"
+    true
+  else
+    false
+  fi
+}
+
+## rss
+RSS_FILE=./whisper.rss
+if [ -n "$1" ]; then
+  RSS_FILE="$1"
+fi
+
+prep_rss_file() {
+  cat <<EOF >>$RSS_FILE
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel>
+  <title>Whispers Blog</title>
+  <link>https://www.trp.red/b/whisper</link>
+  <description>Whispers Blog on trp.red</description>
+
+EOF
+}
+finish_rss_file() {
+  cat <<EOF >>$RSS_FILE
+</channel>
+</rss>
+EOF
+}
+
+## conversion
+FILE=$(mktemp)
+PART1=$(mktemp)
+PART2=$(mktemp)
+HAS_NEXT=$(mktemp)
+echo 0 >$HAS_NEXT
+
+split_into_parts() {
+  cat /dev/stdin | clean_html >$FILE
+  if has_next_page $FILE; then
+    echo 1 >$HAS_NEXT
+  else
+    echo 0 >$HAS_NEXT
+  fi
+  if [ "$(grep -c '<\/div><\/div>' $FILE)" -ne 1 ]; then
+    echo "Something is wrong"
+    # put this in rss feed
+    exit 1
+  fi
+  # echo -n $(tr '\n' ' ' <$FILE) >$FILE
+  echo -n $(paste -sd " " $FILE) >$FILE
+  sed -E -i 's|<\/div><\/div>$||' $FILE
+
+  grep -Po ".+?<\/div><\/div>" $FILE >$PART1
+  sed -E 's|.+?<\/div><\/div>||' $FILE >$PART2
+}
+part_to_rss() {
+  PART="$1"
+
+  AUTHOR=Whisper
+  TITLE="$(grep -Po '<a href.+?>\K[^<]+' $PART | head -n1)"
+  LINK="$(grep -Po '<a href="\K[^"]+' $PART | head -n1)"
+  DATE="$(grep -Po 'Published \K[^ ]+' $PART | head -n1)"
+
+  cat <<EOF >>$RSS_FILE
+    <item>
+      <title>$TITLE</title>
+      <link>$LINK</link>
+      <pubDate>$(node -e "console.log(new Date('$DATE').toUTCString())")</pubDate>
+      <content:encoded><![CDATA[$(cat $PART)]]></content:encoded>
+    </item>
+
+EOF
+  echo "Added: $TITLE"
+}
+
+## main loop
+rm $RSS_FILE
+prep_rss_file
+
+while true; do
+  get_html | split_into_parts
+  part_to_rss $PART1
+  part_to_rss $PART2
+  increment_url
+
+  if [ "$(cat $HAS_NEXT)" -eq 0 ]; then
+    break
+  fi
+done
+
+finish_rss_file

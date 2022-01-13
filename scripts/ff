@@ -1,5 +1,6 @@
 #!/bin/sh
 
 TEMP=$(~/scripts/get-ff)
+echo $TEMP
 
 cat $TEMP | ~/scripts/ff.js
