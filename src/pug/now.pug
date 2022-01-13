@@ -4,37 +4,51 @@ block head
   title jneidel.com
   +links( "now" )
   style.
-    .flex {
+    .group {
       display: flex;
     }
-    .flex a {
+    .group a {
       margin: 0 5px;
+    }
+    .spaced {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
     }
 
 block body
   h1 What I’m doing now
-  i.flex
-    p( style="margin: 0;" ) (This is a
-    a( href="https://nownownow.com/about" ) now
-    p( style="margin: 0;" ) page.)
+  span.spaced
+    i.group
+      p( style="margin: 0;" ) (This is a
+      a( href="https://nownownow.com/about" ) now
+      p( style="margin: 0;" ) page.)
+    span.group
+      b( style="padding-right:4px" ) Last Edit:
+      i#lastEdit=lastEdit
+      // 'new Date()' is inserted on each webpack run
+
+  h2 Living situation
+  p I moved to <a href="https://www.openstreetmap.org/node/416316913">Oberschöneweide</a> again, less than 5 minutes from uni this time. Not that I can actually attend my uni lectures in person. But being able to hit the cafeteria from time to time is quite convenient ;)
+  p Hopefully a more permanent solution this time around :)
 
   h2 Uni
-  p I'm studying applied computer science at <a href="https://www.htw-berlin.de/">HTW Berlin</a> in the 3rd semester.
-  p My current modules are:
+  p I'm studying applied computer science at <a href="https://www.htw-berlin.de/">HTW Berlin</a> in my 5th semester.
+  p My modules this semesters are:
   ul
-    li Programmierung 3: Architektur, Tests, GUI
-    li
-      del Grundlagen Data Science: Datenanalyse, Statistik, ML
-    li
-      del Audio- Videotechnik: Audio, Video, Kompression, etc.
-    li
-      del Datenbanken: Database modelling, SQL
-    li Projektmanagement: Planung, Agile, Arbeit im Team
-    li Web Development: HTML/CSS/JS, SPA
+    li Komponentenbasierte Entwicklung: building a microservice architecture, clean code, patterns, various tooling
+    li Ausgewählte Kapitel der Gesundheitsinformatik: genome sequencing, building a denovo assembler
+    li Computergrafik: OpenGL C++ project, computer graphics theory
+    li Funktionale Programmierung: functional programming in scala, building a naive bayes statistical model
+    li Mathematik 3: statistics, octave exercises
+    li Europe in 3 Days: how policy in the EU works, simulation game where I play Hungary
+    li Internationale Politik und Globalisierung: discusses various topics concerning globalization and international politics
 
-    // li Mathe 3: Statistik, Mathlab
-    // li Software Engineering: Praktische Tools, Anforderungsanalyse, UML, Architektur, Planung
-    // li Computergrafik: Grafik, etc., OpenGL, C++
+  p Coming up I got exams in February, followed by a 3-month internship (PHP) leading into the next semester. Where I'll be writing my bachelor thesis, probably on effective command-line interface design.
+
+  h2 Learning
+  p Outside of uni I'm currently learning latin using the <a href="http://wcdrutgers.net/Latin.htm">Dowling Method</a>. And after learning my declensions for over 6 months, I'm now finally getting to the exciting part: reading <a href="https://www.goodreads.com/book/show/900634.Lingua_Latina_per_se_Illustrata">Lingua Latin</a>, an all latin textbook and a didactic masterpiece.
+  p I'm also like 6 months into my investment training at <a href="https://www.pjmueller.de/">Geldhochschule</a>. Still improving in the simulation and not rushing it.
 
   h2#media Media
   //h3 Books
@@ -50,46 +64,74 @@ block body
   //   li <a href="https://blog.fefe.de" >Fefes Blog</a> - Commented news stories, tech news
     // li <a href="https://verfassungsblog.de">Verfassungsblog</a> - Legal perspective on news stories
 
-  h3 Manga and comics
-  p List of running manga and comics that I'm following (outdated).
+  h3 Ongoing Comics and Managa
+  p Where I'm on the latest chapter or issue. That is: I'm reading them as they come out.
+  p Ordered by my current enjoyment:
+
+  ul
+    li <a href="https:///manga4life.com/manga/Jagaaaaaan">Jagaaaaaan</a>
+      ul
+        li <b>What this is</b>: Some peoples desires are realized through powers, but they can overtake you until you are a mindless monster.
+        li <b>Why is it worth reading</b>: I thought I knew where this story was heading, but then it pulled the rug out under me. And repeatedly so.
+    li <a href="https://www.webtoons.com/en/super-hero/unordinary/rss?title_no=679">Unordinary</a>
+      ul
+        li <b>What this is</b>: Superheroes in high school, dominated by a power level hierarchy.
+        li <b>Why is it worth reading</b>: Propably the least thought-out thing on here. Plot holes everywhere and the art is lack-luster. An enjoyable read though.
+    li <a href="https://getcomics.info/other-comics/the-walking-dead-deluxe-1-2020/">The Walking Dead Deluxe</a>
+      ul
+        li <b>What this is</b>: Zombie outbreak: A world suddenly without a government and modern technology. A story on people dealing with this.
+        li <b>Why is it worth reading</b>: It's THE zombie comic for a reason. Detailed world that has the time to really be built up and explored over 200 issues. The deluxe version is a republishing, so you can follow allow as they come out without the huge back catalog looming over you.
+    li <a href="https:///manga4life.com/manga/Onepunch-Man">Onepunch-Man</a>
+      ul
+        li <b>What this is</b>: Superheroes but the main character can beat everything in one punch.
+        li <b>Why is it worth reading</b>: Funny, good fights and a huge cast of side characters with a lot of different perspectives that clash in large-scale battles.
+    li <a href="https://getcomics.info/other-comics/oblivion-song-by-kirkman-and-de-felici-1-2018/">Oblivion Song</a>
+      ul
+        li <b>What this is</b>: Humanity found an Alien dimension. And the political and personal stories that evolve as humanity ties to cope the with resulting problems.
+        li <b>Why is it worth reading</b>: Keeps you on your toes, as Kirkman keeps pushing the story with new revelations and twists.
+    li <a href="https:///manga4life.com/manga/My-Home-Hero">My Home Hero</a>
+      ul
+        li <b>What this is</b>: You're a normal guy that has just murdered somebody to save their daugther. What do you do now?
+        li <b>Why is it worth reading</b>: Realistic world wherein the details matter. It feels like a real scenario instead of a concocted story. The first part is well worth a read as our dad ingenuitively finds himself in various sticky situations. The second part still has to pan out for me.
+    li <a href="https://getcomics.info/other-comics/stillwater-1-2020/">Stillwater</a>
+      ul
+        li <b>What this is</b>: Going in blind is best. Not a scenario I've seen before though. The political and personal ramifications of the scenario are explored.
+        li <b>Why is it worth reading</b>: Getting thrown into the scenario along the with main character is exciting. Jury is still out on the current arc (by far the shorted comic on here).
+    li <a href="https:///manga4life.com/manga/Kaguya-Wants-To-Be-Confessed-To">Kaguya-Wants-To-Be-Confessed-To</a>
+      ul
+        li <b>What this is</b>: Mind games and fun little high school stories where the story along with the characters grow up.
+        li <b>Why is it worth reading</b>: Very lighthearted and fun stories for the first ~80 chapters. I'm not sure I like where the more serious later part is heading, but the early chapters are great.
+
+  // cat ~/.config/newsboat/urls-manga | grep -ve "\#" -e "unread" -e "^$" | grep -Po "https.+.xml" | sed 's|rss|manga|g; s|\.xml||g' | awk -F/ '{ print "- ["$5"]("$1"//"$2"/"$3"/"$4"/"$5")\n  - <b>What this is</b>: <++>\n  - <b>Why is it worth reading</b>: <++>"}' ; cat ~/.config/newsboat/urls-manga | grep -ve "\#" -e "unread" -e "^$" -e "https.*xml"  | awk '{print "- []("$1")\n  - <b>What this is</b>: <++>\n  - <b>Why is it worth reading</b>: <++>"}'
+  // find ~/ct/comics -type d | grep -v yac | tail +2 | rev | cut -d/ -f1 | rev | sed 's|-| |g; s/^./\U&/g; s/ ./\U&/g' | awk -F\} '{print "- ["$1"]()\n  - <b>What this is</b>: <++>\n  - <b>Why is it worth reading</b>: <++>\n  TODO: https://getcomics.info/?s="$1" 1"}'
 
   // Comic and manga data is passed in by webpack
-  - const mangaTotal = manga.filter( x => !x.paused ).length
-  h3#manga Manga (total: #{mangaTotal})
-  .flex
-    // p To download use:
-    // a( href="https://github.com/jneidel/mangareader-dl" ) mangareader-dl
-  table
-    tr
-      td name
-      td latest chapter
-      // td download command
-    for i in manga
-      tr
-        td
-          a( href=i.info )= i.readableName
-        - const chapter = `${i.chapter}${i.paused ? " P" : ""}`
-        td= chapter
-        // td
-          code= i.get
+  // - const mangaTotal = manga.filter( x => !x.paused ).length
+  // h3#manga Manga (total: #{mangaTotal})
+  // .flex
+  // table
+  //   tr
+  //     td name
+  //     td latest chapter
+  //   for i in manga
+  //     tr
+  //       td
+  //         a( href=i.info )= i.readableName
+  //       - const chapter = `${i.chapter}${i.paused ? " P" : ""}`
+  //       td= chapter
 
-  - const comicsTotal = comics.filter( x => !x.paused ).length
-  - comics = comics.filter( x => !x.paused )
-  h3#comics Comics (total #{comicsTotal})
-  .flex
-  table
-    tr
-      td name
-      td latest issue
-    for i in comics
-      tr
-        td
-          a( href=i.info )= i.name
-        - const issue = `${i.issue}${i.paused ? " P" : ""}`
-        td= issue
+  // - const comicsTotal = comics.filter( x => !x.paused ).length
+  // - comics = comics.filter( x => !x.paused )
+  // h3#comics Comics (total #{comicsTotal})
+  // .flex
+  // table
+  //   tr
+  //     td name
+  //     td latest issue
+  //   for i in comics
+  //     tr
+  //       td
+  //         a( href=i.info )= i.name
+  //       - const issue = `${i.issue}${i.paused ? " P" : ""}`
+  //       td= issue
 
-  hr
-  .last-edit
-    b( style="margin-bottom: 0;" ) Last Edit:
-    p#lastEdit=lastEdit
-    // Replaced with 'new Date()' on each webpack run
