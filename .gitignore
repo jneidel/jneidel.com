@@ -8,5 +8,10 @@ src/data
 src/bundles/md
 
 *.pdf
+*.tgz
+*.zip
 
 fonts/
+
+mensa/
+rss/
