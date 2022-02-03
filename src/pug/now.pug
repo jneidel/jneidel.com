@@ -45,7 +45,7 @@ block body
      s Internationale Politik und Globalisierung: discusses various topics concerning globalization and international politics
 
   p Starting mid Febuary I got a 3-month internship at <a href="https://www.endava.com">endava</a>, leading into the next semester.
-  p Which I'll be writing my bachelor thesis in, probably on effective command-line interface design.
+  p In which I'll be writing my bachelor thesis, probably on effective command-line interface design.
 
   h2 Learning
   p Outside of uni I'm currently learning latin using the <a href="http://wcdrutgers.net/Latin.htm">Dowling Method</a>. And after learning my declensions for over 6 months, I'm now finally getting to the exciting part: reading <a href="https://www.goodreads.com/book/show/900634.Lingua_Latina_per_se_Illustrata">Lingua Latin</a>, an all latin textbook and a didactic masterpiece.
@@ -105,10 +105,10 @@ block body
       ul
         li <b>What this is</b>: Going in blind is best. Not a scenario I've seen before though. The political and personal ramifications of the scenario are explored.
         li <b>Why is it worth reading</b>: Getting thrown into the scenario along the with main character is exciting. Jury is still out on the current arc (by far the shorted comic on here).
-    li <a href="https:///manga4life.com/manga/Kaguya-Wants-To-Be-Confessed-To">Kaguya-Wants-To-Be-Confessed-To</a>
-      ul
-        li <b>What this is</b>: Mind games and fun little high school stories where the story along with the characters grow up.
-        li <b>Why is it worth reading</b>: Very lighthearted and fun stories for the first ~80 chapters. I'm not sure I like where the more serious later part is heading, but the early chapters are great.
+    // li <a href="https:///manga4life.com/manga/Kaguya-Wants-To-Be-Confessed-To">Kaguya-Wants-To-Be-Confessed-To</a>
+    //   ul
+    //     li <b>What this is</b>: Mind games and fun little high school stories where the story along with the characters grow up.
+    //     li <b>Why is it worth reading</b>: Very lighthearted and fun stories for the first ~80 chapters. I'm not sure I like where the story is currently headed, but the early chapters are great.
 
   // cat ~/.config/newsboat/urls-manga | grep -ve "\#" -e "unread" -e "^$" | grep -Po "https.+.xml" | sed 's|rss|manga|g; s|\.xml||g' | awk -F/ '{ print "- ["$5"]("$1"//"$2"/"$3"/"$4"/"$5")\n  - <b>What this is</b>: <++>\n  - <b>Why is it worth reading</b>: <++>"}' ; cat ~/.config/newsboat/urls-manga | grep -ve "\#" -e "unread" -e "^$" -e "https.*xml"  | awk '{print "- []("$1")\n  - <b>What this is</b>: <++>\n  - <b>Why is it worth reading</b>: <++>"}'
   // find ~/ct/comics -type d | grep -v yac | tail +2 | rev | cut -d/ -f1 | rev | sed 's|-| |g; s/^./\U&/g; s/ ./\U&/g' | awk -F\} '{print "- ["$1"]()\n  - <b>What this is</b>: <++>\n  - <b>Why is it worth reading</b>: <++>\n  TODO: https://getcomics.info/?s="$1" 1"}'
