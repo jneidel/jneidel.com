@@ -3,25 +3,19 @@ const date = new Date(Date.parse(lastEditObj.innerHTML));
 
 function prettyDate(time) {
   // source: https://stackoverflow.com/a/7641822
-  let date = new Date(
-      String(time || "")
-        .replace(/-/g, "/")
-    ),
-    diff = (new Date().getTime() - date.getTime()) / 1000,
-    day_diff = Math.floor(diff / 86400);
+  // let date = new Date( String(time || "").replace(/-/g, "/") );
+  let diff = (new Date().getTime() - time.getTime()) / 1000;
+  console.log( diff )
+  let day_diff = Math.floor(diff / 86400);
 
   if (isNaN(day_diff) || day_diff < 0 || day_diff >= 31) return "Invalid date";
 
   return (
-    (day_diff == 0 &&
-      ((diff < 60 && "just now") ||
-        (diff < 120 && "1 minute ago") ||
-        (diff < 3600 && Math.floor(diff / 60) + " minutes ago") ||
-        (diff < 7200 && "1 hour ago") ||
-        (diff < 86400 && Math.floor(diff / 3600) + " hours ago"))) ||
-    (day_diff == 1 && "Yesterday") ||
-    (day_diff < 7 && day_diff + " days ago") ||
-    (day_diff < 31 && Math.ceil(day_diff / 7) + " weeks ago")
+    (day_diff < 3 && "recently") ||
+    (day_diff < 7 && "within the last week") ||
+    (day_diff < 30 && "within the last month") ||
+    (day_diff < 90 && "within the last three months") ||
+    "some time ago"
   );
 }
 

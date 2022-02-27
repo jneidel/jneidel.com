@@ -15,60 +15,39 @@ block head
       flex-direction: row;
       justify-content: space-between;
     }
+    .group p {
+      margin: 0;
+    }
 
 block body
   h1 What I’m doing now
   span.spaced
     i.group
-      p( style="margin: 0;" ) (This is a
+      p (This is a
       a( href="https://nownownow.com/about" ) now
-      p( style="margin: 0;" ) page.)
+      p page. See also:
+      a( href="/about" style="margin-right: 0" ) about me
+      p )
     span.group
-      b( style="padding-right:4px" ) Last Edit:
-      i#lastEdit=lastEdit
-      // 'new Date()' is inserted on each webpack run
+      b( style="padding-right:4px" ) Updated:
+      i#lastEdit=new Date( "Feb 27 2022" )
 
   h2 Uni
-  p I'm studying applied computer science at <a href="https://www.htw-berlin.de/">HTW Berlin</a> in my 5th semester.
-  p My modules, that I still have exams for are:
+  p All thats left for degree in applied computer science are:
   ul
-    li Komponentenbasierte Entwicklung: building a microservice architecture, clean code, patterns, various tooling
-    li Ausgewählte Kapitel der Gesundheitsinformatik: genome sequencing, building a denovo assembler
-    li Computergrafik: OpenGL C++ project, computer graphics theory
-    li
-     s Funktionale Programmierung: functional programming in scala, building a naive bayes statistical model
-    li
-     s Mathematik 3: statistics, octave exercises
-    li
-     s Europe in 3 Days: how policy in the EU works, simulation game where I play Hungary
-    li
-     s Internationale Politik und Globalisierung: discusses various topics concerning globalization and international politics
-
-  p Starting mid Febuary I got a 3-month internship at <a href="https://www.endava.com">endava</a>, leading into the next semester.
-  p In which I'll be writing my bachelor thesis, probably on effective command-line interface design.
-
-  h2 Learning
-  p Outside of uni I'm currently learning latin using the <a href="http://wcdrutgers.net/Latin.htm">Dowling Method</a>. And after learning my declensions for over 6 months, I'm now finally getting to the exciting part: reading <a href="https://www.goodreads.com/book/show/900634.Lingua_Latina_per_se_Illustrata">Lingua Latin</a>, an all latin textbook and a didactic masterpiece.
-  p I'm also like 6 months into my investment training at <a href="https://www.pjmueller.de/">Geldhochschule</a>. Still simulating trading in paper trading and waiting for the markets to cool down a bit.
+    li internship: already underway at <a href="https://www.endava.com">endava</a> - learned about React and docker/k8s so far!
+    li my bachelors thesis (next semster): probably on effective command-line interface design
+    li one more course
 
   h2 Flat
   p Living in <a href="https://www.openstreetmap.org/node/416316913">Oberschöneweide</a> again, less than 5 minutes from uni.
 
+  h2 Learning
+  p Outside of uni I'm currently learning latin using the <a href="http://wcdrutgers.net/Latin.htm">Dowling Method</a>. And after learning my declensions for over 6 months, I'm now finally getting to the exciting part: reading <a href="https://www.goodreads.com/book/show/900634.Lingua_Latina_per_se_Illustrata">Lingua Latin</a>, an all latin textbook and a didactic masterpiece.
+  p I'm also like 6 months into my investment training at <a href="https://www.pjmueller.de/">Geldhochschule</a>. Still in paper trading (simulation).
+
   h2#media Media
-  //h3 Books
-  //p Books I'm currently reading:
-  //ul
-  //  li <a href="https://www.goodreads.com/book/show/12633800-models">Models</a> - A model for the modern man to live by
-  //  li <a href="https://www.goodreads.com/book/show/2631984-the-time-paradox">The Time Paradox</a> - Different time perspectives and understanding time as another dimenson of life
-
-  // h3 News
-  // p My news sources:
-  // ul
-  //   li <a href="https://de.wikipedia.org/wiki/Die_Zeit">DIE ZEIT</a> - Weekly newspaper
-  //   li <a href="https://blog.fefe.de" >Fefes Blog</a> - Commented news stories, tech news
-    // li <a href="https://verfassungsblog.de">Verfassungsblog</a> - Legal perspective on news stories
-
-  h3 Ongoing Comics and Managa
+  h3 Ongoing Comics and Manga
   p Where I'm on the latest chapter or issue. That is: I'm reading them as they come out.
   p Ordered by my current enjoyment:
 
