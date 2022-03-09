@@ -1,0 +1,38 @@
+#! /bin/sh
+
+REPO="https://github.com/jneidel/dotfiles.git"
+DIR="$HOME/tmp/dotfiles"
+BANGLIST_FILE="$DIR/scripts/rofi/banglist"
+OUT_FILE="$HOME/html/re/.htaccess"
+
+if [ "$1" = "--help" ] || [ "$1" = "-h" ] || [ "$1" = "help" ]; then
+  cat <<EOF
+$ banglist-to-redirects
+Take the list of bangs from my dotfiles and convert them into a apache .htaccess redirects file
+EOF
+fi
+
+command -v git >/dev/null || { echo "git is not installed" 1>&2; exit 127; }
+command -v awk >/dev/null || { echo "awk is not installed" 1>&2; exit 127; }
+
+if [ ! -d "$DIR" ]; then
+  git clone "$REPO" "$DIR" >/dev/null
+else
+  git -C "$DIR" pull origin master >/dev/null
+fi
+
+if [ ! -e "$BANGLIST_FILE" ]; then
+  echo "banglist does not exist in $BANGLIST_FILE"
+  exit 1
+fi
+
+TEMP=$(mktemp)
+
+echo "RewriteEngine On" >$TEMP
+sed 's|%s|$1|' "$BANGLIST_FILE" | awk '{ print "RewriteRule ^"$1"/(.*)$ "$2" [L]" }' >>$TEMP
+
+mkdir -p "$(dirname "$OUT_FILE")"
+mv $TEMP "$OUT_FILE"
+chmod 755 "$OUT_FILE"
+
+echo "successfully created redirection file"

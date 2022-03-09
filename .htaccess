@@ -18,16 +18,12 @@
   Redirect permanent /gh https://github.com/jneidel
   RewriteRule ^gh/(.*)$ https://github.com/jneidel/$1 [L]
 
-  RewriteRule ^re/tpb/(.*)$ https://piratesbaycc.com/search.php?q=$1&page=0&orderby=99 [L]
-  RewriteRule ^re/lg/(.*)$ http://libgen.rs/search.php?&req=$1&view=simple&res=100&phrase=1&column=def&sort=extension&sortmode=ASC [L]
-
 # rewriterules: https://serverfault.com/questions/214512/redirect-change-urls-or-redirect-http-to-https-in-apache-everything-you-ever
 # testing rewriterules: https://htaccess.madewithlove.be/
 # rewriterules explaination: https://www.digitalocean.com/community/tutorials/how-to-set-up-mod_rewrite
 
   Redirect permanent /cv /cv.pdf
   Redirect permanent /resume /cv.pdf
-  Redirect permanent /resume /resume-de
   Redirect permanent /github https://github.com/jneidel
   Redirect permanent /git https://github.com/jneidel
   Redirect permanent /keepass https://drive.google.com/open?id=1zdghN_BF9mgzrbs7lYn4_NQLjcecnYtS
@@ -58,4 +54,4 @@
   Redirect /dw http://jonathanaquino.com/latin/index.php
   Redirect /yoga https://github.com/jneidel/yoga-vidya-thunderbird2csv-add-on#benutzung
 
-redirect /send https://send.vis.ee
+  redirect /send https://send.vis.ee
