@@ -70,7 +70,7 @@ block body
           -i.known = typeof i.known === "string" ? [ i.known ] : i.known;
           p= i.known ? i.known.join( ", " ) : ""
         td.tags
-          p= i.tags.join( ", " )
+          p= i.tags ? i.tags.join( ", " ) : ""
         td.last
           - const last = convertLast( i.last );
           p= last
@@ -99,7 +99,7 @@ block body
           -i.known = typeof i.known === "string" ? [ i.known ] : i.known;
           p= i.known ? i.known.join( ", " ) : ""
         td.tags
-          p= i.tags.join( ", " )
+          p= i.tags ? i.tags.join( ", " ) : ""
         td.last
           - const last = convertLast( i.last );
           p= last
