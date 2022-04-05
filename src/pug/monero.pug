@@ -2,15 +2,26 @@ extends base
 
 block head
   title jneidel.com
-  +links( "index" )
+  +links( "monero" )
   style.
     .intro p {
       margin-bottom: 0px;
     }
+    #qrcode {
+      width: 200px;
+    }
 
 block body
-  h1 Sending me Monero
+  h1 Payment
+  h2 Crypto: Monero (XMR)
   p My wallet address:
   b 47M8wc3gtTcTWrDVRRVjRn7pRbTY14Dhx9ZNC95XoaVFa6hEuwk9PiZH95jSscgauP5dpwGgiCgtmPeE1Xe33S411ArGSKL
-  br
-  img( src="../dist/img/monero-qr.png" )
+  p Or as a qr code:
+  img#qrcode( src="../dist/img/monero-qr.png" )
+  h2 Paypal
+  a(href="https://paypal.me/jneidel") paypal.me
+  h2 Bank Transfer
+  p My IBAN is:
+  b DE93100110012626639412
+  h2 N26
+  p Available through my phone number or n26@jneidel.com
