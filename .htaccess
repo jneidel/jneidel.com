@@ -22,8 +22,11 @@
 # testing rewriterules: https://htaccess.madewithlove.be/
 # rewriterules explaination: https://www.digitalocean.com/community/tutorials/how-to-set-up-mod_rewrite
 
-  Redirect permanent /cv /cv.pdf
-  Redirect permanent /resume /cv.pdf
+  Redirect permanent /resume /cv
+  Redirect permanent /cv /cv.de.pdf
+  Redirect permanent /cv.de /cv.de.pdf
+  Redirect permanent /cv.en /cv.en.pdf
+
   Redirect permanent /github https://github.com/jneidel
   Redirect permanent /git https://github.com/jneidel
   Redirect permanent /keepass https://drive.google.com/open?id=1zdghN_BF9mgzrbs7lYn4_NQLjcecnYtS
