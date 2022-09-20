@@ -1,0 +1,3 @@
+#! /bin/sh
+
+ curl -Ss https://www.rueckersdorf.eu/news/index.php | grep -Po "<hr>\K.*?(?=<div)"

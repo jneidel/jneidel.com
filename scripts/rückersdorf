@@ -1,0 +1,7 @@
+#!/bin/sh
+
+DIR=~/html/scripts
+
+TEMP=$(mktemp)
+$DIR/get-rückersdorf >$TEMP
+cat $TEMP | $DIR/rückersdorf.js
