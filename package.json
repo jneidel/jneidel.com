@@ -13,6 +13,7 @@
     "sync": "browser-sync start --server --files *"
   },
   "dependencies": {
+    "rss": "^1.2.2",
     "setup-webpack": "^3.0.0"
   }
 }

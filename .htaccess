@@ -58,5 +58,5 @@
   Redirect /yoga https://github.com/jneidel/yoga-vidya-thunderbird2csv-add-on#benutzung
 
   redirect /send https://send.vis.ee
-redirect /xmr /monero
-redirect /payment /monero
+  redirect /xmr /monero
+  redirect /payment /monero
