@@ -1,3 +1,3 @@
-require( "../scss/base.scss" );
+require( "../scss/index.scss" );
 
 require( "../pug/about.pug" );

@@ -1,8 +1,8 @@
 node_modules
 
 *.html
-dist/css
-dist/js
+dist
+!dist/img
 
 src/data
 src/bundles/md

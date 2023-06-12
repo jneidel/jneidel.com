@@ -14,6 +14,6 @@
   },
   "dependencies": {
     "rss": "^1.2.2",
-    "setup-webpack": "^3.0.0"
+    "setup-webpack": "^3.0.1"
   }
 }

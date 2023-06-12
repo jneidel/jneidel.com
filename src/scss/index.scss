@@ -1,0 +1,95 @@
+@import "_variables.scss";
+
+html {
+  display: flex;
+  justify-content: center;
+  color-scheme: dark !important;
+  background: $grey;
+}
+
+body {
+  margin: 50px auto;
+  max-width: 650px;
+  line-height: 1.6;
+  font-size: 20px;
+  padding: 0 10px;
+  color: darken( #d8d4cf, 5% );
+}
+
+h1,h2,h3 {
+  line-height: 1.2;
+  color: lighten( #d8d4cf, 10% );
+}
+h1 {
+  // text-justify: center;
+}
+a {
+  text-decoration: none;
+  color: $red;
+}
+
+.figureWithCaption {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#me {
+  margin: 0;
+  padding-left: 15px;
+
+  .crop-container {
+      width: 320px;
+      overflow: hidden;
+  }
+  .crop-container img {
+      margin-left: -15px;
+  }
+}
+
+#textWithFigure {
+  display: flex;
+  flex-direction: row;
+  width: 750px;
+
+  .text {
+    h2 {
+      margin-top: 0;
+    }
+  }
+  .figure {
+    margin-top: 20px;
+  }
+}
+
+.links {
+  p {
+    margin: 0;
+    padding-left: 30px;
+  }
+}
+
+// now
+#marriage {
+  .crop-container {
+    width: 700px;
+    height: 900px;
+    overflow: hidden;
+  }
+  .crop-container img {
+    margin-top: -1860px;
+    margin-left: -2700px;
+    transform: scale(0.37);
+  }
+}
+
+::-webkit-scrollbar {
+  background-color: #202324;
+  color: #aba499;
+}
+::-webkit-scrollbar-corner {
+  background-color: #181a1b;
+}
+::-webkit-scrollbar-thumb {
+  background-color: #454a4d;
+}

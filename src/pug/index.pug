@@ -9,28 +9,23 @@ block head
     }
 
 block body
-  h1 Hi, I'm Jonathan!
-  p I study Applied Computer Science (Angewandte Informatik) at <a href="https://www.htw-berlin.de">HTW Berlin</a>.
-  p More <a href="about">about me</a>.
-  p What I'm doing right <a href="now">now</a>.
-  p Get in touch with me: <a href="mailto:home@jneidel.com">home@jneidel.com</a>
-  p You can find my CV here <a href="cv.en.pdf">in English</a> and <a href="cv.de.pdf">in German</a>.
-  .badges
-    +badge( "gpg.txt", "GPG", "7DFD16FA", "brightgreen", "GPG Key" )
-    +badge( "monero/", "XMR", "47M8wc3g", "brightgreen", "Monero Address" )
-    +badge( "https://github.com/jneidel", "github", "jneidel", "orange" )
-    +badge( "https://github.com/jneidel?utf8=%E2%9C%93&tab=repositories&q=&type=&language=javascript", "main lang", "Node.js", "orange", "Main Programming Language" )
-  h2 Projects
-  .projects
-    .-m
-      +project( "dotfiles", "https://github.com/jneidel/dotfiles/raw/master/images/tmux.png" )
-      +project( "lock-me-out", "https://raw.githubusercontent.com/jneidel/lock-me-out/master/media/new.png", false, "https://lmo.jneidel.com" )
-    .-m
-      +project( "mangareader-dl", "https://raw.githubusercontent.com/jneidel/mangareader-dl/master/img/logo.png" )
-      +project( "projects-overview", "https://camo.githubusercontent.com/ce3995821ae28b4b8237828efca6f1f8dfbfbb1e/68747470733a2f2f692e696d6775722e636f6d2f577a6a70386e702e706e67" )
-      // +project( "projects-overview", "https://camo.githubusercontent.com/ce3995821ae28b4b8237828efca6f1f8dfbfbb1e/68747470733a2f2f692e696d6775722e636f6d2f577a6a70386e702e706e67", false, "https://po.jneidel.com" )
-    .-s
-      +project( "setup-webpack", null, true )
-      +project( "htw" )
-      +project( "cnsm" )
-
+  h1 Jonathan Neidel
+  div#textWithFigure
+    div.text
+      h2 Introduction
+      p Hi, I'm Jonathan. A self-taught backend developer and CLI Enthusiast. Besides coding, I like optimizing in the kitchen and enjoy spending time in nature. You can find out more <a href="about">about me here</a>. And here you find a out what I'm up-to <a href="now">now</a>.
+      p To get in touch with me:<br><a href="mailto:home@jneidel.com">home@jneidel.com</a> (or via <a href="/gpg.txt">GPG</a>)
+    div.figure
+      figure#me.figureWithCaption
+        .crop-container
+          img( width="350px" src="/profile-picture.jpg" )
+        i
+          figcaption Me.
+  h2 Links
+  div.links
+    a( href="https://github.com/jneidel/dotfiles" ) My dotfiles
+    p Everything around my arch linux setup: scripts, browser extensions and a whole lot of configs (check the releases for regular updates)
+    a( href="/movies" ) Movies
+    p Movies that I like
+    a( href="/md/colors.html" ) Colors
+    p My personal colorscheme

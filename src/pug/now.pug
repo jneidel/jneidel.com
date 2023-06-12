@@ -1,8 +1,10 @@
 extends base
 
 block head
-  title jneidel.com
-  +links( "now" )
+  title Now
+  link( rel="icon" href="../dist/img/favicon.png" )
+  link( rel="stylesheet" type="text/css" href=`../dist/css/now.css` )
+  script( async src=`../dist/js/now.js` )
   style.
     .group {
       display: flex;
@@ -30,69 +32,77 @@ block body
       p )
     span.group
       b( style="padding-right:4px" ) Updated:
-      i#lastEdit=new Date( "Mar 20 2022" )
+      // i#lastEdit=new Date( "Jun 12 2023" )
+      i="June 12th 2023"
 
-  h2 Uni/Programming
-  p Studying applied computer science at HTW Berlin. I got one more semster left, which includes:
-  ul
-    li My full-time internship at Endava, where I'm building a Symfony project with me in a backend and organizational role.
-    li My bachelors thesis, probably on command-line interface design.
-    li One course in Swift development.
-  p I've also picked up a few more packages to maintain in the <a href="https://aur.archlinux.org/packages?SeB=m&K=jneidel">AUR</a> and am building a yet to be released react/express app with my best friend.
+  h2 Marriage
+  p I got married on May 12th:
+  #marriage
+    figure.figureWithCaption
+      .crop-container
+        img( src="/dist/img/marriage.jpg" )
+      i
+        figcaption Francis and I at the Standesamt in Aabenraa, Denmark.
 
-  h2 Social
-  p Met a cute girl, that I enjoy hanging out with.
-  p I'm really enjoying working at the same place as my best friend and meeting him at the office everyday.
 
-  h2 Flat
-  p Living in <a href="https://www.openstreetmap.org/node/416316913">Oberschöneweide</a> again, less than 5 minutes from uni.
+  h2 Uni
+  p I finished my Bachelor in applied computer science in March of this year.
 
-  h2 Learning
-  p Outside of uni I'm currently learning latin using the <a href="http://wcdrutgers.net/Latin.htm">Dowling Method</a>. I'm on the 11th chapter of <a href="https://www.goodreads.com/book/show/900634.Lingua_Latina_per_se_Illustrata">Lingua Latina</a>, which is an all latin textbook and a didactic masterpiece.
-  p I'm learning stock investing at <a href="https://www.pjmueller.de/">Geldhochschule</a>. Still in the simulation stage, while at the same time putting money aside to be invested.
+  h2 Work
+  p I'm working full-time at Endava, where I nowadays work on a big Symfony App.
 
-  h2 Sports
-  p Picked up my gym routine again. Lifting <a href="https://stronglifts.com/5x5/">5x5</a> in my gym accross the street.
-  p With the nicer weather I'm regularly riding my road bike to work (Tempelhof).
+  h2 Apartment
+  p We moved out to the country-side last August. Nice and quiet, cheap rent, forrest nearby. We're going to Berlin regularly though. To come into the office and see friends and family.
 
   h2#media Media
   h3 Ongoing Comics and Manga
   p Where I'm on the latest chapter or issue. That is: I'm reading them as they come out.
   p Ordered by my current enjoyment:
-
   ul
-    li <a href="https://manga4life.com/manga/The-Fable">The Fable</a>
+
+    li <a href="https:///manga4life.com/manga/Kingdom">Kingdom</a>
       ul
-        li <b>What this is</b>: The worlds best hitman is told to take a break and spend a year among regular people.
-        li <b>Why is it worth reading</b>: The story paints real characters that find themselves in unfamiliar circumstances. The manga does not shy away from adult themes (unlike Shonen Jumps Sakamoto Days) and just keeps you engaged.
+        li <b>What this is</b>: Largescale warfare in ancient china.
+        li <b>Why is it worth reading</b>: An epic tale where you get to see the characters grow over time and through hard battles. Very satisfying progess. I've never seen anything of this scope. Discusses the inner workings, economics, politics and logistics of state-level warfare.
+
     li <a href="https:///manga4life.com/manga/Onepunch-Man">Onepunch-Man</a>
       ul
         li <b>What this is</b>: Superheroes but the main character can beat everything in one punch.
         li <b>Why is it worth reading</b>: Funny, good fights and a huge cast of side characters with a lot of different perspectives that clash in large-scale battles.
-    li <a href="https://www.webtoons.com/en/super-hero/unordinary/rss?title_no=679">Unordinary</a>
-      ul
-        li <b>What this is</b>: Superheroes in high school, dominated by a power level hierarchy.
-        li <b>Why is it worth reading</b>: Propably the least thought-out thing on here. Plot holes everywhere and the art is lack-luster. An enjoyable read nonetheless.
-    li <a href="https://getcomics.info/other-comics/the-walking-dead-deluxe-1-2020/">The Walking Dead Deluxe</a>
-      ul
-        li <b>What this is</b>: Zombie outbreak: A world suddenly without a government and modern technology. A story on people dealing with this.
-        li <b>Why is it worth reading</b>: It's THE zombie comic for a reason. Detailed world that has the time to really be built up and explored over 200 issues. The deluxe version is a republishing, so you can follow along as they come out, without the huge backcatalog looming over you.
-    li <a href="https:///manga4life.com/manga/Jagaaaaaan">Jagaaaaaan</a>
-      ul
-        li <b>What this is</b>: Some peoples desires are realized through powers, but they can overtake you until you are a mindless monster.
-        li <b>Why is it worth reading</b>: I thought I knew where this story was heading, but then it pulled the rug out under me. And repeatedly so.
+
     li <a href="https:///manga4life.com/manga/My-Home-Hero">My Home Hero</a>
       ul
         li <b>What this is</b>: You're a normal guy that has just murdered somebody to save their daugther. What do you do now?
         li <b>Why is it worth reading</b>: Realistic world wherein the details matter. It feels like a real scenario instead of a concocted story. The first part is well worth a read as our dad ingenuitively finds himself in various sticky situations. The second part still has to pan out for me.
-    li <a href="https://getcomics.info/other-comics/oblivion-song-by-kirkman-and-de-felici-1-2018/">Oblivion Song</a>
+
+    li <a href="https:///manga4life.com/manga/Omniscient-Readers-Viewpoint">Omniscient Reader</a>
       ul
-        li <b>What this is</b>: Humanity found an Alien dimension. And the political and personal stories that evolve as humanity tries to cope with the resulting problems.
-        li <b>Why is it worth reading</b>: Keeps you on your toes, as Kirkman keeps pushing the story with new revelations and twists.
+        li <b>What this is</b>: A nerd is the only person reading a disaster web-novel that ends up becoming true. He makes use of the knowledge gained.
+        li <b>Why is it worth reading</b>: Gets more and more elaborate as it goes along. Best I've seen in the video-game-like genre of Manwa. Unlike Solo Leveling this has kept the bar consistently high.
+
+    li <a href="https:///manga4life.com/manga/Show-ha-Shoten">Show-ha Shoten!</a>
+      ul
+        li <b>What this is</b>: Two high-schoolers trying to become the best duo in comedy.
+        li <b>Why is it worth reading</b>: Stays fun and dynamic despite the simple premise.
+
+    li <a href="https:///manga4life.com/manga/Undead-Unluck">Undead Unluck</a>
+      ul
+        li <b>What this is</b>: Abilities based on negating something. In case of the main characters "death" and "luck".
+        li <b>Why is it worth reading</b>: It's a superhero epic. They assemble a cast and beat impossible monsters.
+
+    li <a href="https://manga4life.com/manga/The-Fable">The Fable</a>
+      ul
+        li <b>What this is</b>: The worlds best hitman is told to take a break and spend a year among regular people.
+        li <b>Why is it worth reading</b>: The story paints real characters that find themselves in unfamiliar circumstances. The manga does not shy away from adult themes (unlike Shonen Jumps Sakamoto Days) and just keeps you engaged.
+
     li <a href="https://getcomics.info/other-comics/stillwater-1-2020/">Stillwater</a>
       ul
         li <b>What this is</b>: Going in blind is best. Not a scenario I've seen before though. The political and personal ramifications of the scenario are explored.
         li <b>Why is it worth reading</b>: Getting thrown into the scenario along the with main character is exciting. Jury is still out on the current arc (by far the shorted comic on here).
+    // li <a href="https://getcomics.info/other-comics/the-walking-dead-deluxe-1-2020/">The Walking Dead Deluxe</a>
+    //   ul
+    //     li <b>What this is</b>: Zombie outbreak: A world suddenly without a government and modern technology. A story on people dealing with this.
+        li <b>Why is it worth reading</b>: It's THE zombie comic for a reason. Detailed world that has the time to really be built up and explored over 200 issues. The deluxe version is a republishing, so you can follow along as they come out, without the huge backcatalog looming over you.
     // li <a href="https:///manga4life.com/manga/Kaguya-Wants-To-Be-Confessed-To">Kaguya-Wants-To-Be-Confessed-To</a>
     //   ul
     //     li <b>What this is</b>: Mind games and fun little high school stories where the story along with the characters grow up.

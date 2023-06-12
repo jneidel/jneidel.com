@@ -2,13 +2,14 @@ extends base
 
 block head
   title About
-  +links( "about" )
+  link( rel="icon" href="../dist/img/favicon.png" )
+  link( rel="stylesheet" type="text/css" href=`../dist/css/about.css` )
   style.
 
 block body
   h1 About me
 
-  p You can find my cv <a href="/cv">here</a>.
+  p You can find my cv here: <a href="/cv.de.pdf">de</a>, <a href="/cv.de.pdf">en</a>
 
   h2 What I do
 
