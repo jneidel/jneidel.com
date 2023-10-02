@@ -1,0 +1,5 @@
+#! /bin/sh
+
+hugo
+rm public/index.html
+sscp public/* u:html/
