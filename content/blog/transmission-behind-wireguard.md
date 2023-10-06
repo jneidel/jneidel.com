@@ -63,8 +63,8 @@ Endpoint = 185.209.196.76:51820
 
 Before we start the container we need to think about where to put the
 configuration. On most OS's you can put them in
-`/opt/docker/volumes/wireguard/config`, but on unraid that directory will not
-survive a reboot, which is why I put it in `/opt/docker/volumes/wireguard/config`.
+`/opt/docker/volumes/wireguard/config`, but on [UNRAID](https://unraid.net) that directory will not
+survive a reboot, which is why I put it in `/mnt/cache/appdata/wireguard`.
 
 Once you decided on a directory, put your wireguard configuration file
 `wg0.conf` in there.
@@ -92,7 +92,7 @@ like this:
 docker stop wireguard 2>/dev/null
 docker rm wireguard 2>/dev/null
 ```
-Checkout the image on [docker hub](https://hub.docker.com/r/linuxserver/wireguard) for more configuration options.
+Check out the image on [docker hub](https://hub.docker.com/r/linuxserver/wireguard) for more configuration options.
 
 ### Debugging
 
@@ -122,11 +122,11 @@ incompleted download files. I store them on my unraid media share in a torrents
 directory (`/mnt/user/media/torrents`), but you should choose a directory of
 your own.
 
-Since we want to use the transmission web UI which does not come bundled anymore
-we need to install it ourselves.
+Since we want to use the transmission web UI, which does not come bundled with
+the app anymore, we need to install it ourselves.
 
-There are multiple available. For demonstration purposes we're using
-transmission-web-control.
+There are multiple available.
+I just went with transmission-web-control.
 
 Head over to their [Github releases](https://github.com/transmission-web-control/transmission-web-control/releases)
 and pick the link to their latest release as `dist.zip`.
@@ -136,6 +136,7 @@ Then in your terminal go into your transmission config directory:
 ```sh
 cd /opt/docker/volumes/transmission/config # for example, use your own
 mkdir web
+cd web
 wget https://github.com/transmission-web-control/transmission-web-control/releases/download/v1.6.31/dist.zip # latest version at the time of writing
 unzip dist.zip
 mv dist transmission-web-control
@@ -162,7 +163,7 @@ You can also pass a third `--volume`, which transmission will watch. Any
 
 Checkout the image on [docker hub](https://hub.docker.com/r/linuxserver/transmission) for more configuration options.
 
-## Testing connectivity and transmission
+## Testing connectivity and transmission web UI
 
 ```sh
 docker exec wireguard sh -c 'curl -Ss https://ipinfo.io'
@@ -190,7 +191,7 @@ Notice that the given IP is the one specified in your wireguard config as the
 `Endpoint` and the city is the one I chose on mullvads website.
 
 The transmission web UI will now be available on port `9091` (http://192.168.178.69:9091 for me).
-To test that transmission works you for example download the [archlinux iso](https://archlinux.org/download).
+If you want to test that transmission can download, you test with the [archlinux iso](https://archlinux.org/download).
 
 ## Notes and caveats
 
