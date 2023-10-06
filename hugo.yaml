@@ -1,0 +1,9 @@
+baseURL: 'https://jneidel.com'
+languageCode: 'en-us'
+title: 'jneidel'
+theme: 'ananke'
+enableGitInfo: true
+frontmatter:
+  lastmod:
+  - lastmod
+  - :git
