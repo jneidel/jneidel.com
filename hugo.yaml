@@ -2,11 +2,16 @@ baseURL: 'https://jneidel.com'
 languageCode: 'en-us'
 title: 'jneidel'
 theme: 'ananke'
+enableRobotsTXT: true
+
 enableGitInfo: true
 frontmatter:
   lastmod:
   - lastmod
   - :git
+
+params:
+  background_color: "#1c1c1c"
 
 languages:
   en:
