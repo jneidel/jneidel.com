@@ -7,3 +7,11 @@ frontmatter:
   lastmod:
   - lastmod
   - :git
+
+languages:
+  en:
+    weight: 1
+    contentDir: "content/en"
+  de:
+    weight: 2
+    contentDir: "content/de"
