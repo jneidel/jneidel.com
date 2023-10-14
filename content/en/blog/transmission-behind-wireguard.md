@@ -1,6 +1,7 @@
 +++
 title = 'Transmission behind WireGuard'
 date = 2023-10-02T11:27:05+02:00
+tags = [ "homeserver" ]
 +++
 
 Walkthrough for my setup.
