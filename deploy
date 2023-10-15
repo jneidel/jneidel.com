@@ -1,5 +1,5 @@
 #! /bin/sh
 
-hugo
+HUGO_ENV=production hugo
 rm public/index.html
 sscp public/* u:html/

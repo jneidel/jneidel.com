@@ -5,5 +5,5 @@ windows:
   - zsh:
       layout: 278d,151x33,0,0[151x12,0,0,35,151x20,0,13,36]
       panes:
-        - hugo server -D
-        - $BROWSER http://localhost:1313 &
+        - $BROWSER http://localhost:1313 & hugo server -D -p 1313 --navigateToChanged
+        -
