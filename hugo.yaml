@@ -12,6 +12,9 @@ frontmatter:
 
 params:
   background_color: "#1c1c1c"
+  ananke_socials:
+    - name: rss
+  date_format: "Jan 2. 2006"
 
 languages:
   en:

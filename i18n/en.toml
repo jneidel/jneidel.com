@@ -47,3 +47,8 @@ other = "{{ .Count }} words"
 
 [pageTitle]
 other = "{{ .Name }} page"
+
+[published]
+other = "Published"
+[updated]
+other = "Updated"
