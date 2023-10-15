@@ -14,7 +14,7 @@ other = "read more"
 other = "By"
 
 [whatsInThis]
-other = "What's in this {{ .Type }}"
+other = "Overview"
 
 [related]
 other = "Related"
