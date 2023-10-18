@@ -1,23 +1,23 @@
 ---
 title: Auf Kleinanzeigen kaufen
-date: 2023-10-15T07:48:54+02:00
-draft: true
+date: 2023-10-18T07:48:54+02:00
 tags:
     - Kleinanzeigen
 ---
 
-Kleinanzeigen kann ein sehr gutes Werkzeug sein um günstig an Dinge – vor allem
-Möbel – zu kommen.
+> Kleinanzeigen kann ein sehr gutes Werkzeug sein um günstig an Dinge – vor allem Möbel – zu kommen.
 
-Ich möchte hier kurz beschreiben wie ich immer auf Kleinanzeigen in Berlin
-vorgegangen bin.
+Auf Kleinanzeigen kann man richtig gute Deals machen.
+Hier beschreibe ich mein Vorgehen und Dinge die ich über die Jahre auf
+Kleinanzeigen in Berlin gelernt habe.
 
 ## Warum Kleinanzeigen?
 
-TODO: REASONING
-Hat die meisten Nutzer im classifieds space.
+Es gibt keine wirkliche Alternative für [classifieds](https://en.wikipedia.org/wiki/Classified_advertising).
+Kleinanzeigen hat die meisten Nutzer und du wirst bei fast allem zu einem guten
+Preis fündig. (Bei manchen Sachen musst du dich auf die Lauer legen.)
 
-## Auftreten als Käufer
+## Dein Auftreten als Käufer
 
 > was letzte preis?
 
@@ -43,38 +43,40 @@ Jonathan
 ```
 
 Das weiß Olaf genau was ab geht. Nachdem wir uns auf einen Termin geeinigt haben
-frage ich nach der Adresse:
+frage ich direkt nach der Adresse um den Chat von meiner Seite her abzuschließen:
 
 ```txt
 Okay, dann sehen wir uns Dienstag gegen 18 Uhr.
 Was ist die Adresse + Name am Klingelschild?
 ```
 
-Den Nachnamen kann man manchmal der Anzeige entnehmen, aber ich frage immer nach um
-Problemen vorzubeugen.
+Den Nachnamen kann man manchmal der Anzeige entnehmen, ich frage aber immer trotzdem nach und lasse mir den bestätigen.
+Das beugt Problemen vor.
 
-Und dann rechtzeitig mit dem Geld in bar (passend zahlen!) aufkreuzen.
+Und dann rechtzeitig mit dem Geld in bar aufkreuzen.
+Als Käufer ist es gute Etiquette den exakten Betrag in bar mit zu bringen.
+Gehe nicht davon aus, dass der Verkäufer dir was wechseln kann.
 
 ## Verhandeln
 
 Frage immer nach einem Rabatt.
-(Außer der Preis ist schon kriminell tief und du willst den Verkäufer nicht verschrecken. Ist sehr selten.)
-Aber sein vernünftig.
+(Außer der Preis ist schon kriminell tief und du willst den Verkäufer nicht verschrecken. Was sehr selten ist.)
+Aber sei vernünftig.
 Nicht 50%, sondern 5-20%.
-Mache es dem Verkäufer leicht ja zu sagen.
+Mache es dem Verkäufer leicht "Ja" zu sagen.
 
 Ich verhandle auch bei Festpreis.
-Ich bin der Käufer den man sich wünscht.
-Jeder Verkäufer der seine Zeit und Nerven schätzt hat ein Interesse an mich zu
+Ich weiß, dass ich der Käufer den man sich wünscht.
+Jeder Verkäufer der seine Zeit und Nerven schätzt hat ein Interesse daran an mich zu
 verkaufen.
 Und bei denen die den Preis nicht akzeptieren wollen kann man immer noch im
-Preis hochgehen wenn man will.
+Preis hochgehen (wenn man will.)
 Es ist mir in meinen Jahren auf Kleinanzeigen nur einmal vorgekommen das der Verkäufer so angepisst war, dass der Kauf vom Tisch war.
 
-Warum frage ich nicht nach 50% um dann durchs verhandeln bei 75% raus zu kommen?
+Warum frage ich nicht nach 50% um dann durchs Verhandeln bei Rabatten von >20% raus zu kommen?
 Weil ich keine Lust auf Chatten habe.
 Das ist Zeitverschwendung.
-Besonders deutsche Verkäufer können damit auch nichts anfangen.
+Besonders deutsche Verkäufer können damit auch nicht viel anfangen.
 Das sind aber die besten Verkäufer :)
 
 ## Risiko kaputter Sachen
@@ -86,29 +88,53 @@ du dir keine Gedanken machen.
 Gute Verkäufer bieten das meist von sich an.
 
 Wenn du ein schlechtes Gefühl dabei hast. Entweder mit den Verkäufer, der
-Situation oder dem Gegenstand kannst du immer noch einfach gehen.
+Situation oder dem Gegenstand bist du nicht verpflichtet irgendetwas zu kaufen.
 
-Ich hatte schon eine weirde Situation wo ich nicht gekauft habe.
-Szene: im Bonzenviertel in West-Berlin, wir sind an mehreren Posche
-vorbeigelaufen.
-Der Verkäufer ist nicht da, seine Frau (Migratin, vlt. Rumänierin) soll die Übergabe machen.
+Hier eine weirde Situation in die ich mal geraten bin.
+Die Szene: in einem Bonzenviertel in West-Berlin, wir sind bereits an
+mehreren Porsche vorbeigelaufen.
+Der Verkäufer ist nicht da, seine Frau (Migrantin, vlt. Rumänierin) soll die Übergabe machen.
 Das Laufband in soll in der Verpackung aushändigen werden.
-Die Verpackung ist nicht orignalverpackt sondern eher geöffnete Retoure.
-Sie meinten zwei Exemplare statt einem bekommen zu haben.
-Und die wollten mich das Paket nicht öffnen lassen, sondern ich sollte das Risiko
-tragen wenn da was nicht stimmt.
-Preis war etwas teuer angesetzt.
-Komischer vibe mit dem Verkäufer am Telefon der mich überzeugen will.
+Die Verpackung ist nicht originalverpackt sondern sieht eher nach geöffneter Retoure aus.
+Sie meint sie hätten ein Exemplare zu viel zugeschickt bekommen.
+Ich darf das Paket nicht öffnen lassen um die Funktionsweise zu überprüfen.
+Sondern soll das Risiko tragen wenn damit etwas nicht stimmt.
+Der Preis war etwas teuer angesetzt (>150€.)
+Komischer Vibe mit dem Verkäufer am Telefon der mich überzeugen will.
 Nach so vielen red flags hat es mir dann auch irgendwann gereicht.
 
 ## Transport
 
-TODO: write section
+Seit einigen Jahren gibt es Ride-share Dienste in großen Städten.
+Damit kann ohne Bürokratie und relativ günstig einfach ein Transporter gemietet
+werden um Möbel zu transportieren.
+Das flexible Anmieten um die Ecke und einfach irgendwo abstellen sind aber das
+Killer-feature.
 
-- routen
-- nähe
-- miles
-- miles zusammenrechnen
+### Van-sharing Anbieter
+
+In Berlin habe ich in den letzten Jahren immer [Miles](https://www.miles-mobility.com/) verwendet.
+Die hatten immer die besten Preise und die größte Flotte von Transportern.
+Bevor ich weggezogen bin kam auch [SIXT share](https://www.sixt.com/share), die
+meist besser Preise anbieten.
+
+Zum Vergleich hatte ich mir damals einen [Spreadsheet](/img/2023/kleinanzeigen-kauf/transporter-sharing.ods) zum Preisvergleich gebaut (ziemlich sicher outdated).
+
+![Preisvergleich Spreadsheet](/img/2023/kleinanzeigen-kauf/transporter-sharing.png)
+
+### Routen
+
+Wenn du einen Transporter mietest ergibt es Sinn mehrere Abholungen zu
+kombinieren. Am besten zusammen suchen das sich entweder ein Roundtrip oder eine
+"Linie" von einer weit entfernten Abholung zu dir nach Hause ergibt. Bei der Linie
+kannst du Kosten sparen indem du mit den Öffis hinfährst und erst dort den
+Transporter anmietest.
+
+![Beispiel "Linen" Route](/img/2023/kleinanzeigen-kauf/route-example.jpeg)
+
+Plane auf jeden Fall etwas Puffer zwischen den Stops ein und gibt den Verkäufer
+eine Range oder versichere dich das es Okay ist wenn es etwas früher wird
+(Samstags meist kein Problem.)
 
 ## Anwendungsfall
 
