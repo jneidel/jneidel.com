@@ -1,7 +1,10 @@
-+++
-title = 'Gebrauchtes verkaufen'
-date = 2023-10-14T08:40:18+02:00
-+++
+---
+title: Gebrauchtes verkaufen
+date: 2023-10-14T08:40:18+02:00
+tags:
+    - Kleinanzeigen
+    - Ebay
+---
 
 Alles was ich zum Verkaufen von gebrauchtem Zeug weiß.
 

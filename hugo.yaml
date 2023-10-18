@@ -1,7 +1,7 @@
 baseURL: 'https://jneidel.com'
 languageCode: 'en-us'
 title: 'jneidel'
-theme: 'ananke'
+theme: "ananke"
 enableRobotsTXT: true
 
 enableGitInfo: true
@@ -15,6 +15,8 @@ params:
   ananke_socials:
     - name: rss
   date_format: "Jan 2. 2006"
+  custom_css:
+    - "custom.scss"
 
 languages:
   en:
@@ -23,3 +25,9 @@ languages:
   de:
     weight: 2
     contentDir: "content/de"
+
+markup:
+  tableOfContents:
+    endLevel: 3
+    ordered: true
+    startLevel: 2

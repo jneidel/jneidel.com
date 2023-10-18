@@ -1,0 +1,9 @@
+#TableOfContents ol {
+  list-style-type: square;
+  margin-left: 20px;
+
+  li ol {
+    list-style-type: circle;
+    margin-left: 25px;
+  }
+}
