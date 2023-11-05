@@ -95,6 +95,8 @@ Artikeln mit ähnlicher Qualität suchen.
 Bei Ebay kann man das sehr gut über die Filter "Auktion" + "Verkaufte Artikel"
 machen.
 
+![Verkaufte Artikel Filter](/img/2023/verkaufte-artikel.png)
+
 ## Was gibt es sonst noch zu beachten?
 
 ### Beschreibung
