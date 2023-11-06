@@ -28,18 +28,18 @@ More harmful I found the instance were I was enumerating the shortcomings of a
 colleague.
 How is this gonna effect my work in that team? Negatively.
 
-If I only look at how they don't live up to my standards, I'm gonna miss the
-thing that they can bring to the table. And everybody has something.
-Focusing on others others strengths instead of their shortcomings is gonna make
+If I only look at how they don't live up to my standards, I'm going miss what
+they can bring to the table. And everybody has something.
+Focusing on others strengths instead of their shortcomings is going make
 me a better leader, team player, brother, friend and husband.
 Especially when the person in question is very different from me or has very
 different priorities.
 
 Another not great thing I caught myself with was discouraging my wife.
-Shes very uninhibited and playful and was customizing her pizza
+She is very uninhibited and playful and was customizing her pizza
 (by putting a whole, uncut ball of mozzarella on there) and instead of letting
 her enjoy it I have to comment on how this is going to go wrong.
-And even if I'm right (and I was), I still made it less fun for her, for no good
+And even if I'm right, I still made it less fun for her for no good
 reason.
 
 ![Le Masterpiece](/img/2023/le-masterpiece.jpeg)

@@ -14,7 +14,7 @@ It was [inspired by Tim Ferriss](https://tim.blog/2007/09/18/real-mind-control-t
 
 ## Challenge definition
 
-We have a braclet[^1] on that we have to switch from one wrist to the other if
+We have a bracelet[^1] on that we have to switch from one wrist to the other if
 we complain. The goal is to make it 21 days without complaining.
 
 The definition of complaining we use is:
@@ -24,7 +24,7 @@ The definition of complaining we use is:
 Additionally swear words are also banned. Just because they usually go along
 with negativity.
 
-[^1]: We didn't get the [offical bracelets](https://www.willbowen.com/complaintfree/),
+[^1]: We didn't get the [official bracelets](https://www.willbowen.com/complaintfree/),
 but some cheap copies from [ebay](https://www.ebay.de/itm/283680812769) which
 were only $7.5 with shipping from China.
 Just search for "A complaint free world" on ebay if the above is unavailable.
@@ -35,13 +35,12 @@ What am I doing the challenge for?
 
 I have caught myself complaining here and there, and I want to shed that
 negativity.
-I also know that personal development is the key to attracting more wealth[^2]
-(which is still an unsolved problem for me.)
+I also know that personal growth is the key to attracting more wealth[^2].
 By being more positive I will uplift the people close to me and be surrounded by
 more positive people[^3].
 
 [^2]: Cf. [GeldRICHTIG](https://www.goodreads.com/book/show/55575147-geldrichtig)
-[^3]: > Everyone around you represents some apect of yourself. When you stop seeing
+[^3]: > Everyone around you represents some aspect of yourself. When you stop seeing
 yourself in them, they disappear.
 New people take their place not because the other left you, but because you
 left them.
