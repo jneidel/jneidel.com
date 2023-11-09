@@ -130,7 +130,7 @@ kombinieren. Am besten zusammen suchen das sich entweder ein Roundtrip oder eine
 kannst du Kosten sparen indem du mit den Öffis hinfährst und erst dort den
 Transporter anmietest.
 
-![Beispiel "Linen" Route](/img/2023/kleinanzeigen-kauf/route-example.jpeg)
+{{<img-height height="400px" url="/img/2023/kleinanzeigen-kauf/route-example.jpeg">}}
 
 Plane auf jeden Fall etwas Puffer zwischen den Stops ein und gibt den Verkäufer
 eine Range oder versichere dich das es Okay ist wenn es etwas früher wird
@@ -149,8 +149,8 @@ Wohnung braucht.
     + großer Kühlschrank: 90€
     + schäbiger Tisch: 10€
 
-    {{<small-img url="/img/2023/kleinanzeigen-kauf/dishwasher.jpeg">}}
-    {{<small-img url="/img/2023/kleinanzeigen-kauf/fridge.jpeg">}}
+    {{<img-height url="/img/2023/kleinanzeigen-kauf/dishwasher.jpeg">}}
+    {{<img-height url="/img/2023/kleinanzeigen-kauf/fridge.jpeg">}}
 - Büro
     + Standing desk 120x60: 100€!
     + Standing desk 160x80: 330€
@@ -162,21 +162,21 @@ Wohnung braucht.
     + Apple Tastatur: 30€
     + Apple Trackpad: 30€
 
-    {{<small-img url="/img/2023/kleinanzeigen-kauf/ftisch.jpeg">}}
-    {{<small-img url="/img/2023/kleinanzeigen-kauf/jtisch.jpeg">}}
-    {{<small-img url="/img/2023/kleinanzeigen-kauf/sitzball.jpeg">}}
-    {{<small-img url="/img/2023/kleinanzeigen-kauf/fstuhl.jpeg">}}
-    {{<small-img url="/img/2023/kleinanzeigen-kauf/schallabsorber.jpeg">}}
-    {{<small-img url="/img/2023/kleinanzeigen-kauf/schaukelstuhl.jpeg">}}
-    {{<small-img url="/img/2023/kleinanzeigen-kauf/tastatur.jpeg">}}
+    {{<img-height url="/img/2023/kleinanzeigen-kauf/ftisch.jpeg">}}
+    {{<img-height url="/img/2023/kleinanzeigen-kauf/jtisch.jpeg">}}
+    {{<img-height url="/img/2023/kleinanzeigen-kauf/sitzball.jpeg">}}
+    {{<img-height url="/img/2023/kleinanzeigen-kauf/fstuhl.jpeg">}}
+    {{<img-height url="/img/2023/kleinanzeigen-kauf/schallabsorber.jpeg">}}
+    {{<img-height url="/img/2023/kleinanzeigen-kauf/schaukelstuhl.jpeg">}}
+    {{<img-height url="/img/2023/kleinanzeigen-kauf/tastatur.jpeg">}}
 
-    <!-- {{<small-img url="/img/2023/kleinanzeigen-kauf/<++>.jpeg">}} -->
+    <!-- {{<img-height url="/img/2023/kleinanzeigen-kauf/<++>.jpeg">}} -->
 - Schlafzimmer
     + IKEA Bett mit 1 Jahr alter Matratze 220x180: 90€!
     + Vanity table: 20€
     + Blackout curtains: 30€
 
-    {{<small-img url="/img/2023/kleinanzeigen-kauf/bett.jpeg">}}
+    {{<img-height url="/img/2023/kleinanzeigen-kauf/bett.jpeg">}}
 - Flur
     + Schuhregal: 20€
 - Wohnzimmer
@@ -184,13 +184,13 @@ Wohnung braucht.
     + Schlafsofa: 120€!
     + 4x Stühle: 70€
 
-    {{<small-img url="/img/2023/kleinanzeigen-kauf/sofa.jpeg">}}
-    {{<small-img url="/img/2023/kleinanzeigen-kauf/schlafsofa.jpeg">}}
-    {{<small-img url="/img/2023/kleinanzeigen-kauf/stuhl.jpeg">}}
+    {{<img-height url="/img/2023/kleinanzeigen-kauf/sofa.jpeg">}}
+    {{<img-height url="/img/2023/kleinanzeigen-kauf/schlafsofa.jpeg">}}
+    {{<img-height url="/img/2023/kleinanzeigen-kauf/stuhl.jpeg">}}
 - Bad
     + kleine Beko Waschmaschine: 30€
 
-    {{<small-img url="/img/2023/kleinanzeigen-kauf/waschmaschine.jpeg">}}
+    {{<img-height url="/img/2023/kleinanzeigen-kauf/waschmaschine.jpeg">}}
 - Divers
     + Fritzbox Router (neuste Generation): 65€
     + Lampen: 12€+66€
@@ -198,7 +198,7 @@ Wohnung braucht.
     + Wanduhr: 10€
     + Charge 3 Bluetooth speaker: 45€
 
-    {{<small-img url="/img/2023/kleinanzeigen-kauf/fritzbox.jpeg">}}
-    {{<small-img url="/img/2023/kleinanzeigen-kauf/lamps.jpeg">}}
-    {{<small-img url="/img/2023/kleinanzeigen-kauf/charge3.jpeg">}}
+    {{<img-height url="/img/2023/kleinanzeigen-kauf/fritzbox.jpeg">}}
+    {{<img-height url="/img/2023/kleinanzeigen-kauf/lamps.jpeg">}}
+    {{<img-height url="/img/2023/kleinanzeigen-kauf/charge3.jpeg">}}
 - Plus weitere bei denen ich die Preis verloren haben :)
