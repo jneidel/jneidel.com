@@ -1,42 +1,78 @@
 ---
-title: "Weekly Reflections: <++>"
-date: 2023-11-06T09:32:35+01:00
+title: "Weekly Reflections: no complaints and structuring my producting system"
+date: 2023-11-12T09:32:35+01:00
 hidetoc: true
 tags:
     - weekly-challenge
     - no-complaints
     - productivity-system
-draft: true
 ---
 
 **Week 45 of 2023**
 
-## Accessing my productivity system
+## Update on the No Complaints[^nocomplaints] challenge
 
-> Every system is perfect for the result it is getting.[^s]
+After two consecutive non-failing days it was back to complaining about
+circumstances with the work VPN and the "incompetence" of some colleagues.
+Also a lot of resets for cussing (mostly "fuck"), which we paid more attention to.
+
+After getting my mom, brother and their yoga group to join the challenge, I
+found out that they interpreted the challenge stricter than we did.
+They included their thoughts and not just what you actually vocalized.
+I'm tentatively adding that rule to the challenge. We'll see how it goes.
+
+> A man can fail many times, but he isn't a failure until he begins to blame
+> somebody else.
+>
+> – John Burroughs
+
+Not blaming others or circumstance is also being added as an additional rule.
+
+I've noticed that my wife and I are adding the prelude "This is not a complaint,
+but…" to criticisms :)
+
+## (Re-) Structuring my productivity system
+
+> Every system is perfect for the result it is getting.
+>
+> – Steven Chandler, *Crazy Good*, p66
 
 I'm not satisfied with the results my productivity system is delivering.
-The results that it create are good.
-But there is a lot of time wasted working on unimportant things, getting
-distracted, not working at all.
+The results created are fine and things are moving forward.
+Just not at the rate I would like to see.
+There is a lot of time wasted working on unimportant things, getting
+distracted or not working at all.
+There is too much information flowing in, which creates unnecessary
+administrative work and disperses my focus.
 All of which frustrate me.
 
-My approach in the past was usually to add to the system.
-Processes. Scripts. Habits. Rules.
+In the past I always tried to fix the system by adding to it.
+More processes, scripts, habits and rules.
+After the initial motivation ran out, I quickly became overwhelmed.
+All the things I was expecting myself to do were too much.
+I hadn't made any space for the new activates by first removing some weren't serving me.
+Additionally a lot of schemes were ill conceived.
+I just had this cool idea, or read about an inspiring concept and wanted to implement
+it right away.
+It quickly became apparent that I hadn't thought them through properly and spent
+the time integrating them into my life.
+Trying out these new ideas for a trial period became this weekly challenge.
 
-After coming across Occam's Razor[^occam_razor],
-I wanted to approach this restructuring by getting rid of the harmful while
-keeping the good parts.
+So instead of repeating my mistakes of the past I wanted to approach this
+restructuring by cutting out the harmful and unnecessary[^occ].
+To be able to do that, I first needed to understand what I was working with though.
 
-First I wanted to gain a detached understanding of the current system.
-To this end I just wrote down what a normal day looks like, all the different
-ways I get derailed from work.
-Next: analyzing patterns and coming up with ideas:
+Aiming to gain a detached understanding of the current system I just wrote down what a
+normal day for me looks like. Including all the different combinations (work day,
+weekend, sleeping in, appointments in the morning, etc.) and ways I get derailed
+from my routines or the task at hand.
+
+Next up: analyzing patterns and coming up with some ideas:
 - What are the bad habits that derail the whole day?
 - At what point is the flow split into a bunch of possibilities?
 - How can this decision node be streamlined or avoided?
 - How do you break up your work?[^bw]
-- What work blocks are the most productive?
+- Which of those work blocks are the most productive?
 - What interferes with you making full use of them? Or circumvents them
 completely?
 - How can they be defended from interruptions?
@@ -46,14 +82,28 @@ To protect it from being derailed and to eliminate a bunch of diverging paths I
 made a slight adjustment as described [here](/blog/weekly-challenge-2023-44/).
 
 I now concisely wrote down the habits I identified within my existing system.
-Seeing them so clearly in front of me I could chain the individual habits
-together. Clarifying the steps that I'm supposed to take for each habit and
+Seeing them so clearly in front of me allowed me to chain the individual habits
+together[^hs]. Clarifying the steps that I'm supposed to take for each habit and
 the transitions between them helped me reduce my sky-high abandonment rate[^1].
+Things have been going a lot smoother already, just by becoming conscious
+of my habits and properly structuring them.
 
-[^1]: Abandoning my routine half-way was so bad that I basically never did my
+I've been reading [Mindset](https://www.goodreads.com/book/show/40745.Mindset)
+and [The Slight Edge](https://www.goodreads.com/book/show/590652.The_Slight_Edge) and am now
+in the process of consciously shaping my personal philosophy.
+The hope being that it will keep me on the right track, help me focus on the
+goal(s) at hand and increase my buy-in with future additions to the system.
+More on that next time.
+
+[^hs]: Referred to as "habit stacking" in Atomic Habit.
+[^1]: Abandoning my routine half-way had gotten so bad that I basically never did a
     full morning routine.
-[^bw]: E.g.: 6am until the daily standup; from the first meeting block until lunch;
-    between lunch and 18:00; between dinner and 1am
-[^occam_razor]: > It is vain to do with more what can be done with less. [see](https://en.wikipedia.org/wiki/Occam's_razor)
-[^s]: Steven Chandler - Crazy Good, p66
+[^bw]: I do my best work on the [maker schedule](https://paulgraham.com/makersschedule.html), so I
+    tried to find or create uninterrupted blocks of work.
+    With the beginnings and ends being immovable
+    or natural barriers (after some time I need a break, or I feel hungry, etc.)
+    E.g.: 6am until the daily standup; from the first meeting block until lunch;
+    between my daily walk and the end of the work day; between dinner and 1am.
+[^occ]: In the spirit of Occam's Razor: "It is vain to do with more what can
+be done with less ([see](https://en.wikipedia.org/wiki/Occam's_razor))", and Tim Ferriss' principle of eliminating first.
 [^nocomplaints]: See [challenge definition](/blog/weekly-challenge-2023-43) for No complaints
