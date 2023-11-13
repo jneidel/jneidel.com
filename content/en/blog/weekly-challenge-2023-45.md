@@ -1,16 +1,16 @@
 ---
-title: "Weekly Reflections: no complaints and structuring my producting system"
+title: "[Weekly Reflections]: Structuring my productivity system & Updates"
 date: 2023-11-12T09:32:35+01:00
 hidetoc: true
 tags:
-    - weekly-challenge
+    - weekly-reflections
     - no-complaints
     - productivity-system
 ---
 
 **Week 45 of 2023**
 
-## Update on the No Complaints[^nocomplaints] challenge
+## Update for the [No Complaints](/tags/no-complaints) challenge
 
 After two consecutive non-failing days it was back to complaining about
 circumstances with the work VPN and the "incompetence" of some colleagues.
@@ -106,4 +106,3 @@ More on that next time.
     between my daily walk and the end of the work day; between dinner and 1am.
 [^occ]: In the spirit of Occam's Razor: "It is vain to do with more what can
 be done with less ([see](https://en.wikipedia.org/wiki/Occam's_razor))", and Tim Ferriss' principle of eliminating first.
-[^nocomplaints]: See [challenge definition](/blog/weekly-challenge-2023-43) for No complaints

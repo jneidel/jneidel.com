@@ -1,9 +1,9 @@
 ---
-title: "Weekly Challenge Update on No complaints"
+title: "[Weekly Reflections]: How I get out of bed in the morning & Updates"
 date: 2023-11-05T09:53:52+01:00
 hidetoc: true
 tags:
-    - weekly-challenge
+    - weekly-reflections
     - no-complaints
     - habits
 ---
@@ -48,7 +48,7 @@ going back to bed.
 
 I started with these habits on Wednesday and have been going flawlessly.
 
-## No complaints[^nocomplaints] update
+## Update for the [No Complaints](/tags/no-complaints) challenge
 
 There was a lot of switching the bracelet this week.
 

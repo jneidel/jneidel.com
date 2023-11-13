@@ -1,18 +1,18 @@
 ---
-title: "New Weekly Challenge: No complaints"
+title: "[Weekly Reflections]: Start of No Complaints"
 date: 2023-11-03T01:57:34+01:00
 hidetoc: true
 tags:
-    - weekly-challenge
+    - weekly-reflections
     - no-complaints
 ---
 
 **Week 43 of 2023**
 
+## New Challenge: No Complaints
+
 This week I'm starting a new challenge of not complaining, together with my wife.
 It was [inspired by Tim Ferriss](https://tim.blog/2007/09/18/real-mind-control-the-21-day-no-complaint-experiment/).
-
-## Challenge definition
 
 We have a bracelet[^1] on that we have to switch from one wrist to the other if
 we complain. The goal is to make it 21 days without complaining.
