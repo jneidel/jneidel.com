@@ -12,3 +12,8 @@ h4 {
   // make spacing approriate to the font size
   margin-bottom: 7px;
 }
+
+.mermaid {
+  background: none; // remove black background
+  overflow: hidden; // remove scroll bars
+}
