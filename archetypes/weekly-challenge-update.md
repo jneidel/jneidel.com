@@ -1,5 +1,5 @@
 ---
-title: "Weekly Challenge: <++>"
+title: "[Weekly Reflections]: <++>"
 date: {{ .Date }}
 hidetoc: true
 tags:
@@ -10,4 +10,5 @@ tags:
 
 **Week <++> of {{ dateFormat "2006" .Date }}**
 
-[^nocomplaints]: See [challenge definition](/blog/weekly-challenge-2023-43) for No complaints
+## Update for the [No Complaints](/tags/no-complaints) challenge
+
