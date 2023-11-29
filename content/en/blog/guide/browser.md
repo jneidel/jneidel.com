@@ -1,6 +1,6 @@
 ---
 title: Browser configuration
-date: 2023-11-09T16:51:58+01:00
+date: 2023-11-29T16:51:58+01:00
 draft: true
 tags:
     - tools
