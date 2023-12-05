@@ -1,0 +1,83 @@
+---
+title: "[Weekly Reflections]: Cheat days & updates"
+date: 2023-12-05T07:33:36+01:00
+hidetoc: true
+tags:
+    - weekly-challenge
+    - no-complaints
+---
+
+**Week 48 of 2023**
+
+## Cheat day
+
+> Everybody loves a cheat day!
+
+A few weeks ago my wife and I established a cheat day.
+No limitations on sugar, unhealthy foods and media consumption for the day.
+The rest of the week there are no snacks, fast food, etc. and no consumption of
+audio-visual media.
+
+Earlier this year during my months long no sugar challenge I had no problem
+forgoing sweet and savoury snacks.
+The same during my no media challenges.
+I learned about myself that I can go fine with complete abstinence.
+In fact it way easy for me, because the rules were so strict and clear.
+It's not allowed, so my brain stops seeing it as an option.
+No cravings, no appetite for it.
+
+For our wedding celebration there was cake without sugar.
+In place of movies and YouTube I started reading again.
+
+This sometimes felt restrictive.
+I occasionally wanted to watch a movie that was recommended to me or that I
+remembered and my wife craved sweets irregularly.
+
+As I read the [4-Hour Body](https://www.goodreads.com/book/show/7148931-the-4-hour-body),
+Tims cheat day struck me as the solution.
+We could contain the cravings by satisfying them on one day of the week.
+(So the theory.)
+
+On these cheat days, after a normal breakfast I completely would let the monkey out of the cage though.
+I overate on chocolate, cake, chips and whatever I wanted and watched the YouTube
+equivalent of Fentanyl[^fent] for hours on end.
+My wife did not feel the need to go that far and could enjoy indulging what she
+had wanted to eat all week.
+
+For me though, the fallout was immediate and lingered well into the next week.
+
+For the physical symptoms I got the obvious stomach pain from overeating,
+headaches, acid reflux, acne outbreaks, contracted nostrils (it was noticeably
+harder to breathe) as well as much decreased sleep quality and thus poor
+recovery.
+
+Mentally things were not much better. The next days I felt sluggish and
+more irritable, had a lack of energy and was craving sugar. Due to the dopamine
+overstimulation I was also lacking the motivation to move or work on my things.
+
+Looking back at it, it seems like self torture.
+Nobody is making me eat and watch those things.
+But while you're in it, while you're high you pay no heed to the consequences
+you know you will incur later.
+
+For me I'm going back to eating no sugar indefinitely.
+No challenge, no deadline, no cheat days.
+Forsaking sugar will make my life better and easier, so that's what I'm gonna do.
+
+For media I will stick with the cheat day as an opening to watch a movie if we
+feel like it. A [guide](/guide) on those rules with will definitely follow.
+
+[^fent]: If you don't know what [Fentanyl](https://en.wikipedia.org/wiki/Fentanyl) is, this quote should give you
+some idea: "fentanyl is 20 to 40 times more potent than heroin". The YouTube
+videos I'm referring to here are fast-cut twitch complications from a specific
+channel that has mastered their craft. The videos are quickly jumping from one
+funny clip to the next, with one rapid punch-line or stupid action after the
+next. All backed by short snippets of catchy songs. I can not imagine something
+that's more audio-visually stimulating.
+
+## Update for the [No Complaints](/tags/no-complaints) challenge
+
+Only two infractions this week.
+
+1. Got annoyed at people driving the speed limit. This needs to be addressed, I don't wanna be that guy.
+2. Unconsciously expressed my angry through stronger language.
