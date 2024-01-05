@@ -16,15 +16,15 @@ notes inbox.
 - it just works™
 - open source
 - feels-like-instant sync
-- works behind NAT router
-- nice management web-UI
+- works behind CGNAT routers (no outgoing IP address)
+- nice web-inteface for management
 - decent memory/cpu usage
     + Has configurable run conditions on the phone to e.g. only run while being charged
-- you don't have to pay for storage with a cloud provider
+- you don't have worry about storage costs with a cloud provider
     + Dropbox's free plan is a paltry 2GB
     + my notes are 30GB and I don't have to care
 - ignore patterns
-    + very useful for node_modules, vendor, etc.
+    + very useful for caches, node_modules, vendor, etc.
 - nested folders (more on that later)
 - built-in versioning
     + so you can easily revert unintentional changes/deletions

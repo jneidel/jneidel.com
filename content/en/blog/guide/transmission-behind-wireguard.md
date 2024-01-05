@@ -73,7 +73,9 @@ Once you decided on a directory, put your wireguard configuration file
 Start the container:
 
 ```sh
-docker run -d --name="wireguard" \ --volume /opt/docker/volumes/wireguard/config:/config \ --volume /lib/modules:/lib/modules \
+docker run -d --name="wireguard" \
+    --volume /opt/docker/volumes/wireguard/config:/config \
+    --volume /lib/modules:/lib/modules \
     --publish 51820:51820/udp \
     --publish 9091:9091 \
     --env PUID=1022 \
@@ -149,18 +151,19 @@ With this you can start the container:
 ```sh
 docker run -d --name="transmission" \
     --volume /opt/docker/volumes/transmission/config:/config \
-    --volume '/mnt/downloads/torrents':/downloads \
+    --volume /mnt/user/media/torrents:/downloads \
     --network=container:wireguard \
     --env UID=1008 \
     --env GID=1008 \
+    --env USER=transmission \
+    --env PASS=1234 \
     --env TRANSMISSION_WEB_HOME=/config/web/transmission-web-control \
     --env TZ="Europe/Berlin" \
     --restart=unless-stopped \
     linuxserver/transmission
 ```
 
-You can also pass a third `--volume`, which transmission will watch. Any
-`.torrent` files added there will be created as torrents in the application.
+The `USER` and `PASS` directives secure the Web-UI.
 
 Checkout the image on [docker hub](https://hub.docker.com/r/linuxserver/transmission) for more configuration options.
 
