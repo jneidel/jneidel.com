@@ -1,4 +1,4 @@
-colorScheme = "cherry"
+colorScheme = "jneidel"
 defaultAppearance = "light" # valid options: light or dark
 autoSwitchAppearance = true
 dateFormat = "Jan 2. 2006"
