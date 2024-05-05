@@ -1,0 +1,14 @@
+name = "jneidel"
+description = "Jonathan Neidels Blog"
+
+title = "jneidel"
+copyright = "&copy; Jonathan Neidel"
+
+homepage = "https://github.com/jpanther/congo/"
+demosite = "https://jpanther.github.io/congo/"
+
+tags = ["blog", "minimal", "responsive", "dark mode", "dark", "light", "tailwind", "personal"]
+features = ["syntax highlighting", "dark mode", "emoji"]
+
+[params]
+  description = "A powerful, lightweight theme for Hugo built with Tailwind CSS."

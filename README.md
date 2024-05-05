@@ -1,4 +1,6 @@
-# jneidel.com/blog
+# jneidel.com
+
+A website built with [Hugo](https://gohugo.io) and [Congo](https://jpanther.github.io/congo)
 
 ## Development
 

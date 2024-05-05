@@ -1,0 +1,12 @@
+languageCode = "en"
+languageName = "English"
+languageDirection = "ltr"
+weight = 1
+
+[params]
+  mainSections = ["essay", "guide", "dev"]
+  description = "A personal blog."
+
+# [params.author]
+  # headline = ""
+  # bio = ""

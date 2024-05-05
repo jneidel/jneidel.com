@@ -1,0 +1,84 @@
+colorScheme = "cherry"
+defaultAppearance = "light" # valid options: light or dark
+autoSwitchAppearance = true
+dateFormat = "Jan 2. 2006"
+
+enableSearch = true
+enableCodeCopy = true
+enableImageLazyLoading = true
+enableImageWebp = true
+enableQuicklink = true
+
+# robots = ""
+fingerprintAlgorithm = "sha256"
+
+[header]
+  layout = "hybrid" # valid options: basic, hamburger, hybrid, custom
+  # logo = "img/logo.jpg"
+  # logoDark = "img/dark-logo.jpg"
+  showTitle = true
+
+[footer]
+  showCopyright = true
+  showThemeAttribution = false
+  showAppearanceSwitcher = true
+  showScrollToTop = true
+
+[homepage]
+  layout = "page" # valid options: page, profile, custom
+  showRecent = true
+  recentLimit = 5
+
+[author]
+  name = "Jonathan Neidel"
+  image = "img/author.jpg"
+  bio = 'Get in touch with me: <a href="mailto:blog@jneidel.com">blog@jneidel.com</a>'
+  # links = [
+  #   { x-twitter = "https://twitter.com/" },
+  #   { facebook = "https://facebook.com/" },
+  #   { linkedin = "https://linkedin.com/" },
+  #   { youtube = "https://youtube.com/" },
+  # ]
+
+[article]
+  showDate = true
+  showDateUpdated = false
+  showAuthor = true
+  showBreadcrumbs = true # see: https://yoast.com/breadcrumbs-seo
+  showDraftLabel = true
+  showHeadingAnchors = true
+  showPagination = true
+  invertPagination = false
+  showReadingTime = true
+  showWordCount = false
+  showTableOfContents = true
+  showTaxonomies = true
+  showComments = false
+
+  # edit on github
+  showEdit = false
+  editURL = "https://github.com/jneidel/jneidel.com/tree/master/content/"
+  editAppendPath = true
+
+[list]
+  showBreadcrumbs = true
+  showTableOfContents = true
+  showTaxonomies = false
+  showSummary = true
+  groupByYear = false
+  paginationWidth = 1
+
+[sitemap]
+  excludedKinds = ["taxonomy", "term"]
+
+[taxonomy]
+  showTermCount = true
+
+[fathomAnalytics]
+  # site = "ABC12345"
+
+[verification]
+  # google = ""
+  # bing = ""
+  # pinterest = ""
+  # yandex = ""

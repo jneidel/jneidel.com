@@ -1,0 +1,12 @@
+languageCode = "de"
+languageName = "Deutsch"
+languageDirection = "ltr"
+weight = 2
+
+[params]
+  mainSections = ["misc"]
+  description = "Ein Blog."
+
+# [params.author]
+  # headline = ""
+  # bio = ""
