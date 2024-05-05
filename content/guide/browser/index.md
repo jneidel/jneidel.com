@@ -69,34 +69,32 @@ A must have.
 On top of the ad-blocking you can also use it to remove visual clutter from
 webpages using the picker:
 
-{{<figure width="300px" src="ublock-picker.png">}}
+{{<figure width="130px" src="ublock-picker.png">}}
 
 **Some before and after demonstrations of what you can do with it:**
 
 - Hiding ads on the Amazon homepage:
-
-{{<figure width="325px" src="ama-before.png">}}
-{{<figure width="295px" src="ama-after.png">}}
+{{<figure width="355px" src="ama-before.png" caption="Before" multi="1">}}
+{{<figure width="325px" src="ama-after.png" caption="After" multi="1">}}
 
 - Hiding side bars on Stack Overflow:
 
-{{<figure width="/img/2023/browser/so-before.png">}}
-{{<figure width="so-after.png">}}
+{{<figure src="so-before.png" alt="Screenshot of StackOverflow before side bars were removed" caption="Before">}}
+{{<figure src="so-after.png" alt="Screenshot of StackOverflow after side bars were removed" caption="After">}}
 
-- src banners on Goodreads:
+- Hinding banners on Goodreads:
 
 {{<figure src="gr-before.png">}}
-{{<figure src="/img/2023/browser/gr-after.png">}}
+{{<figure src="gr-after.png">}}
 
-- Hiding the product update notification bubble on Trading View:
+- Hiding the product update notification bubble (top-left) on Trading View:
+{{<figure width="250px" src="tv-before.png" caption="Before" multi="1">}}
+{{<figure width="240px" src="tv-after.png" caption="After" multi="1">}}
 
-{{<figure width="250px" src="tv-before.png">}}
-{{<figure width="240px" src="tv-after.png">}}
+- Hiding thumbnails on Youtube (Invidious):
 
-- Hiding thumbnails on Youtube/Invidious:
-
-{{<figure src="/img/2023/browser/yt-before.png">}}
-{{<figure src="/img/2023/browser/yt-after.png">}}
+{{<figure width="370px" caption="Before" src="yt-before.png" multi="1">}}
+{{<figure width="370px" caption="After" src="yt-after.png" multi="1">}}
 
 ### Surfing Keys
 
@@ -110,10 +108,10 @@ Navigate your browser through keybindings.
 Powerful and configurable.
 I'm only using a small set of keys that fulfills all my needs:
 
-- Movements: `j`, `k`, `gg`, `G`, `d`, `u`, `<SPC>`
-- Open links: `f`, `af`, `gf`, `cf`
-- Copy link: `yf` (very useful for grabbing magnet links)
-- Show all bindings: `?`
+- Movements: <kbd>j</kbd>, <kbd>k</kbd>, <kbd>gg</kbd>, <kbd>G</kbd>, <kbd>d</kbd>, <kbd>u</kbd>, <kbd>Space</kbd>
+- Open links: <kbd>f</kbd>, <kbd>af</kbd>, <kbd>gf</kbd>, <kbd>cf</kbd>
+- Copy link: <kbd>yf</kbd> (very useful for grabbing magnet links)
+- Show all bindings: <kbd>?</kbd>
 
 ### Dark Reader
 
@@ -124,7 +122,7 @@ I'm only using a small set of keys that fulfills all my needs:
 Dark mode for every website.
 
 Quality of the results vary, but I love having the option.
-Definitely map the website toggling so you can quickly turn it off (I'm using `Alt-Shift-a`):
+Definitely map the website toggling so you can quickly turn it off (I'm using <kbd>Alt-Shift-a</kbd>):
 
 {{<figure width="250px" src="darkreader-toggle.png">}}
 
