@@ -16,7 +16,10 @@ These topics are being covered:
 - Clean code
 
 {{<alert>}}
-Working knowledge of the terminal and the terminology is assumed.
+A working knowledge of the terminal is assumed.
 {{</alert>}}
+
+
+{{<icon "github">}}[jneidel](https://github.com/jneidel)
 
 ---

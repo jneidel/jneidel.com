@@ -170,8 +170,6 @@ Wohnung braucht.
     {{<figure src="schallabsorber.jpeg" width="120px" multi="1">}}
     {{<figure src="schaukelstuhl.jpeg" width="120px" multi="1">}}
     {{<figure src="tastatur.jpeg" width="120px" multi="1">}}
-
-    <!-- {{<figure src="<++>.jpeg">}} -->
 - Schlafzimmer
     + IKEA Bett mit 1 Jahr alter Matratze 220x180: 90€!
     + Vanity table: 20€

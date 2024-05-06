@@ -32,13 +32,10 @@ fingerprintAlgorithm = "sha256"
 [author]
   name = "Jonathan Neidel"
   image = "img/author.jpg"
-  bio = 'Get in touch with me: <a href="mailto:blog@jneidel.com">blog@jneidel.com</a>'
-  # links = [
-  #   { x-twitter = "https://twitter.com/" },
-  #   { facebook = "https://facebook.com/" },
-  #   { linkedin = "https://linkedin.com/" },
-  #   { youtube = "https://youtube.com/" },
-  # ]
+  # bio = 'Get in touch with me'
+  links = [
+    { email = "mailto:blog@jneidel.com" },
+  ]
 
 [article]
   showDate = true
