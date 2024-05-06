@@ -82,3 +82,9 @@ fingerprintAlgorithm = "sha256"
   # bing = ""
   # pinterest = ""
   # yandex = ""
+
+[render_hooks.link]
+  errorLevel = 'warning'
+  highlightBroken = true
+[render_hooks.image]
+  errorLevel = 'warning'

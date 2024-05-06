@@ -9,6 +9,71 @@
   {{ $width := .Get "width" }}
   {{ $multi := .Get "multi" }} <!-- Place multiple images next to each other -->
 
+  <!--
+  code from layouts/_default/_markup/render-image.html
+  to validate that a valid image is being passed
+  -->
+  {{- $errorLevel := or site.Params.render_hooks.image.errorLevel "ignore" | lower }}
+
+  {{- /* Determine content path for warning and error messages. */}}
+  {{- $contentPath := "" }}
+  {{- with .Page.File }}
+    {{- $contentPath = .Path }}
+  {{- else }}
+    {{- $contentPath = .Path }}
+  {{- end }}
+
+  {{- /* Parse destination. */}}
+  {{- $u := $url }}
+
+  {{- /* Set common message. */}}
+  {{- $msg := printf "The figure shortcode was unable to resolve the destination %q in %s" $u.String $contentPath }}
+
+  {{- /* Get image resource. */}}
+  {{- $r := "" }}
+  {{- if $u.IsAbs }}
+    {{- with resources.GetRemote $u.String }}
+      {{- with .Err }}
+        {{- if eq $errorLevel "warning" }}
+          {{- warnf "%s. See %s" . $contentPath }}
+        {{- else if eq $errorLevel "error" }}
+          {{- errorf "%s. See %s" . $contentPath }}
+        {{- end }}
+      {{- else }}
+        {{- /* Destination is a remote resource. */}}
+        {{- $r = . }}
+      {{- end }}
+    {{- else }}
+      {{- if eq $errorLevel "warning" }}
+        {{- warnf $msg }}
+      {{- else if eq $errorLevel "error" }}
+        {{- errorf $msg }}
+      {{- end }}
+    {{- end }}
+  {{- else }}
+    {{- with .Page.Resources.Get (strings.TrimPrefix "./" $u.Path) }}
+      {{- /* Destination is a page resource. */}}
+      {{- $r = . }}
+    {{- else }}
+      {{- with (and (ne .Page.BundleType "leaf") (.Page.CurrentSection.Resources.Get (strings.TrimPrefix "./" $u.Path))) }}
+        {{- /* Destination is a section resource, and current page is not a leaf bundle. */}}
+        {{- $r = . }}
+      {{- else }}
+        {{- with resources.Get $u.Path }}
+          {{- /* Destination is a global resource. */}}
+          {{- $r = . }}
+        {{- else }}
+          {{- if eq $errorLevel "warning" }}
+            {{- warnf $msg }}
+          {{- else if eq $errorLevel "error" }}
+            {{- errorf $msg }}
+          {{- end }}
+        {{- end }}
+      {{- end }}
+    {{- end }}
+  {{- end }}
+  <!-- image path validation end -->
+
   {{ $file := $url.Path }}
   {{ $img := .Page.Resources.GetMatch $file }}
   {{- if and (not $img) .Page.File }}

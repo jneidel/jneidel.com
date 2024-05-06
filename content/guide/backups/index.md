@@ -33,8 +33,8 @@ Threat vectors covered: Main machine drive failure, revert undesired changes
 
 ## Notes and laptop/phone media
 
-As detailed in my post about my [Note synchronization
-setup](/blog/guide/sync-notes) I use [Syncthing](https://syncthing.net) to sync
+As detailed in my post about my [Note synchronization setup](sync-notes)
+I use [Syncthing](https://syncthing.net) to sync
 them to my homeserver (and from there to other devices.)
 The same applies to music and any other media on my phone or computer.
 

@@ -11,12 +11,13 @@ and video transcoding.
 Why should you learn about audio and video codecs?
 
 For me it all started with this:
+
 ![CPU at 80%](transcoding-cpu-at-80.png)
 
 That's my homeservers CPU jumping to 80% load when I played some movies in
 [Jellyfin](https://jellyfin.org/), which let me know:
 
-{{<figure src="transcoding-reason.png" alt="The reason for transcoding: The video codec is not supported">}}
+{{<figure src="transcoding-reason.png" width="270px" alt="The reason for transcoding: The video codec is not supported">}}
 
 I would hear the fan roar every time my wife was watching her series.
 And it doesn't scale either.

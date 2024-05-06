@@ -20,3 +20,8 @@ brave http://localhost:1313 & hugo server -D -p 1313 --navigateToChanged
 ./deploy
 true
 ```
+
+## Features added on top of congo
+
+- pass a `width` property to the `{{<figure>}}` shortcode
+- validate internal links and image links
