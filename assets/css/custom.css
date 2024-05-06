@@ -2,6 +2,10 @@ html {
   font-size: 14pt;
 }
 
+header li button:last-child {
+  margin-right: -20px;
+}
+
 /*
  * Start a paragraph with a big letter.
  * Trigger by putting {.dropcap} under the paragraph.
