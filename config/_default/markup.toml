@@ -11,3 +11,9 @@
 [tableOfContents]
   startLevel = 2
   endLevel = 3
+
+# Add support for markdown attributes like {.danger}
+# Source: https://www.veriphor.com/articles/markdown-attributes
+[goldmark.parser.attribute]
+  title = true # h1-h6 elements
+  block = true # other block-level elements

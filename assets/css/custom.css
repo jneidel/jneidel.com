@@ -2,6 +2,20 @@ html {
   font-size: 14pt;
 }
 
+/*
+ * Start a paragraph with a big letter.
+ * Trigger by putting {.dropcap} under the paragraph.
+ * Source: https://www.veriphor.com/articles/markdown-attributes/#drop-caps
+ */
+.dropcap:first-letter {
+  color: rgba(var(--color-primary-500),var(--tw-text-opacity));
+  float: left;
+  font-family: serif;
+  font-size: 76px;
+  line-height: 60px;
+  padding-right: 4px;
+}
+
 /* Highlight broken links detected by render_hooks */
 a.broken {
   background: #ff0;
