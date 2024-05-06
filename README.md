@@ -10,6 +10,15 @@ Build in development:
 brave http://localhost:1313 & hugo server -D -p 1313 --navigateToChanged
 ```
 
+### Install
+
+```sh
+git submodule init
+git submodule update
+cd themes/congo
+npm i
+```
+
 ### Git hooks
 
 **pre-push**:

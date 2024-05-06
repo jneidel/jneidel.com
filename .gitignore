@@ -1,4 +1,7 @@
+tmp
 .hugo_build.lock
+
+# generated
 public
 resources/_gen
-tmp
+assets/css/compiled
