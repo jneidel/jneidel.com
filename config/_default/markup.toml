@@ -6,7 +6,8 @@
   unsafe = true
 
 [highlight]
-  noClasses = false
+  # uses githubs light and dark themes by linking them in layouts/partials/head.html
+  noClasses = false # needs to be false to render correctly
 
 [tableOfContents]
   startLevel = 2
