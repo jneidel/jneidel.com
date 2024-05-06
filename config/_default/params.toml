@@ -33,6 +33,7 @@ fingerprintAlgorithm = "sha256"
   name = "Jonathan Neidel"
   image = "img/author.jpg"
   # bio = 'Get in touch with me'
+  email = "blog@jneidel.com"
   links = [
     { email = "mailto:blog@jneidel.com" },
   ]

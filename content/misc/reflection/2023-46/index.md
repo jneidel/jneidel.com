@@ -1,6 +1,7 @@
 ---
 title: "Personal philosophy & Updates"
 date: 2023-11-19
+excludeRss: true
 tags:
     - weekly-challenge
     - no-complaints

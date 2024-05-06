@@ -1,6 +1,7 @@
 ---
 title: "How I get out of bed in the morning & Updates"
 date: 2023-11-05
+excludeRss: true
 tags:
     - weekly-reflections
     - no-complaints

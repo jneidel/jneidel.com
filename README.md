@@ -35,3 +35,5 @@ true
 - pass a `width` property to the `{{<figure>}}` shortcode
 - validate internal links and image links
 - use githubs dark and light themes for code highlighting
+- renamed RSS feeds to `rss.xml`
+- hide articles with `excludeRss: true` in the front matter from rss feed
