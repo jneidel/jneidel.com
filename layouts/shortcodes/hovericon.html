@@ -1,0 +1,4 @@
+{{ $href := .Get 0 }}
+<a href="{{$href}}" class="px-1 transition-transform hover:scale-125 hover:text-primary-700 dark:hover:text-primary-400" style="display: inline-block; background: none; font-size: 25px;">
+  {{ .Inner }}
+</a>
