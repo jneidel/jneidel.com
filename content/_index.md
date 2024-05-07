@@ -1,6 +1,10 @@
 ---
 title: ""
 description: ""
+cascade:
+    showReadingTime: false
+    showDate: false
+    showDateUpdated: false
 ---
 
 {{<figure caption="_Me._" class="float-right my-0 pl-2 pr-4" src="img/profile-picture.jpg" width="350px">}}

@@ -2,7 +2,8 @@
 title: "Technical guides"
 description: "These are all my development related articles."
 cascade:
-    enableCodeCopy: true
+    showReadingTime: true
+    showDateUpdated: true
 ---
 
 {{<lead>}}

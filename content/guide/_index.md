@@ -1,5 +1,9 @@
 ---
+title: "Guides"
 description: "Guides"
+cascade:
+    showReadingTime: true
+    showDateUpdated: true
 ---
 
 {{<lead>}}
