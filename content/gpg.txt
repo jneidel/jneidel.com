@@ -1,0 +1,59 @@
+################################################################
+# Owner: Jonathan Neidel                                       #
+# Keyid: B29E6A7A7DFD16FA                                      #
+# Link:  https://jneidel.com/gpg.txt                           #
+# Import:                                                      #
+# $ curl https://jneidel.com/gpg.txt | gpg --import            #
+################################################################
+
+-----BEGIN PGP PUBLIC KEY BLOCK-----
+
+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
+MmWNJo5pUuKVJBRjgFLk1IU=
+=PmFK
+-----END PGP PUBLIC KEY BLOCK-----

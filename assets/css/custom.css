@@ -2,8 +2,19 @@ html {
   font-size: 14pt;
 }
 
-header li button:last-child {
-  margin-right: -20px;
+
+header li {
+  button:last-child {
+    margin-right: -20px;
+  }
+  a[href="/rss"] {
+    margin-right: -23px;
+    svg {
+      margin-bottom: -3px;
+      width: 1.50rem;
+      height: 1.50rem;
+    }
+  }
 }
 
 /*
