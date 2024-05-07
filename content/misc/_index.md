@@ -6,7 +6,9 @@ cascade:
 ---
 
 {{< lead >}}
-A random assortment of articles
+A random assortment of articles without a clear thread.
 {{< /lead >}}
+
+You might come across something of interest :slightly_smiling_face:
 
 ---

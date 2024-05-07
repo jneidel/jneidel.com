@@ -1,6 +1,7 @@
 ---
 title: "My personal colorscheme"
 description: "A collection of colors I use when customizing."
+date: 2020-11-27
 excludeRss: true
 showDate: false
 showReadingTime: false
