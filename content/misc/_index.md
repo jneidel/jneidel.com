@@ -1,5 +1,5 @@
 ---
-title: "Miscellaneous Articles"
+title: "Miscellaneous"
 description: "This is a random assortment of articles."
 cascade:
     showDate: true
