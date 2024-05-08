@@ -9,3 +9,6 @@ TZ = "Europe/Berlin"
 
 [context.production.environment]
 HUGO_ENV = "production"
+
+[context.deploy-preview]
+  command = "make preview"

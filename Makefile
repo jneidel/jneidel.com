@@ -19,3 +19,6 @@ assets/css/compiled/main.css: themes/congo/node_modules
 
 build: assets/css/compiled/main.css
 	hugo --gc --minify -b ${URL}
+
+preview: assets/css/compiled/main.css
+	hugo --gc --minify -D -b ${DEPLOY_PRIME_URL}
