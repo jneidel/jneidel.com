@@ -1,5 +1,0 @@
-#! /bin/sh
-
-HUGO_ENV=production hugo
-rm public/index.html
-rsync -rP public/* k:websites/public_html/

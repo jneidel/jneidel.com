@@ -1,0 +1,11 @@
+[build]
+command = "make build"
+publish = "public"
+
+[build.environment]
+HUGO_ENV = "production"
+HUGO_VERSION = "0.125.5"
+TZ = "Europe/Berlin"
+
+[context.production.environment]
+HUGO_ENV = "production"

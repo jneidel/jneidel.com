@@ -19,17 +19,6 @@ cd themes/congo
 npm i
 ```
 
-### Git hooks
-
-**pre-push**:
-
-```sh
-#!/bin/sh
-
-./deploy
-true
-```
-
 ## Features and customization on top of congo
 
 - pass a `width` property to the `{{<figure>}}` shortcode

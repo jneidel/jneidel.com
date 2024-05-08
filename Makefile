@@ -8,3 +8,14 @@ tw:
 	./themes/congo/node_modules/tailwindcss/lib/cli.js -c ./themes/congo/tailwind.config.js -i ./themes/congo/assets/css/main.css -o ./assets/css/compiled/main.css --jit >/dev/null
 tww:
 	./themes/congo/node_modules/tailwindcss/lib/cli.js -c ./themes/congo/tailwind.config.js -i ./themes/congo/assets/css/main.css -o ./assets/css/compiled/main.css --jit --watch >/dev/null
+
+themes/congo/node_modules:
+	git submodule init
+	git submodule update
+	npm install --prefix ./themes/congo
+
+assets/css/compiled/main.css: themes/congo/node_modules
+	./themes/congo/node_modules/tailwindcss/lib/cli.js -c ./themes/congo/tailwind.config.js -i ./themes/congo/assets/css/main.css -o ./assets/css/compiled/main.css ---minify
+
+build: assets/css/compiled/main.css
+	hugo --gc --minify -b ${URL}
