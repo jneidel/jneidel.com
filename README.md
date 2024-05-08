@@ -4,19 +4,14 @@ A website built with [Hugo](https://gohugo.io) and [Congo](https://jpanther.gith
 
 ## Development
 
-Build in development:
-
 ```sh
-brave http://localhost:1313 & hugo server -D -p 1313 --navigateToChanged
+make
 ```
 
-### Install
+## Production
 
 ```sh
-git submodule init
-git submodule update
-cd themes/congo
-npm i
+make build
 ```
 
 ## Features and customization on top of congo
