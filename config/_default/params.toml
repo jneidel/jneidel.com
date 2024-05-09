@@ -56,8 +56,8 @@ fingerprintAlgorithm = "sha256"
   showComments = false
 
   # edit on github
-  showEdit = false
-  editURL = "https://github.com/jneidel/jneidel.com/tree/master/content/"
+  showEdit = true
+  editURL = "https://github.com/jneidel/blog/tree/master/content/"
   editAppendPath = true
 
 [list]

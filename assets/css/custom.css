@@ -2,6 +2,7 @@ html {
   font-size: 14pt;
 }
 
+/* Correct spacing of the header icons */
 header li {
   button:last-child {
     margin-right: -20px;
@@ -14,6 +15,11 @@ header li {
       height: 1.50rem;
     }
   }
+}
+
+/* Move "Edit on Github" button closer to h1 if it's alone */
+#article-metadata:has(> div > span:only-child > a[title="Edit content"]) {
+  margin: 0 0 15px 0;
 }
 
 /*
