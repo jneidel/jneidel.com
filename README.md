@@ -22,3 +22,9 @@ make build
 - renamed RSS feeds to `rss.xml`
 - hide articles with `excludeRss: true` in the front matter from rss feed
 - set Lastmod value based on last commit date
+
+## Copyright
+
+The contents of this repository are **NOT** to be used under any cirumstances
+without the explicit approval of the author.
+All copyrights belong to Jonathan Neidel.
