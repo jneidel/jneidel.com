@@ -6,9 +6,9 @@ cascade:
 ---
 
 {{< lead >}}
-Eine Ansammlung von verschiedensten Artikeln ohne Zusammenhang.
+Eine bunt zusammengewürfelte Ansammlung von verschiedensten Artikeln.
 {{< /lead >}}
 
-Vielleicht ist ja doch etwas Interesantes dabei :slightly_smiling_face:
+Vielleicht ist ja etwas Interesantes dabei :slightly_smiling_face:
 
 ---
