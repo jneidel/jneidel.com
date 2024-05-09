@@ -22,6 +22,15 @@
     action = "search"
 
 [[main]]
+  name = "RSS"
+  url = "/de/rss"
+  weight = 92
+  [main.params]
+    icon = "rss"
+    showName = false
+    target = "_self"
+
+[[main]]
   identifier = "appearance"
   weight = 95
   [main.params]
