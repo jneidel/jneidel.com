@@ -18,7 +18,7 @@ assets/css/compiled/main.css: themes/congo/node_modules
 	./themes/congo/node_modules/tailwindcss/lib/cli.js -c ./themes/congo/tailwind.config.js -i ./themes/congo/assets/css/main.css -o ./assets/css/compiled/main.css ---minify
 
 build: assets/css/compiled/main.css
-	hugo --gc --minify -b ${URL}
+	HUGO_ENV=production hugo --gc --minify -b ${URL}
 
 preview: assets/css/compiled/main.css
-	hugo --gc --minify -D -b ${DEPLOY_PRIME_URL}
+	HUGO_ENV=production hugo --gc --minify -D -b ${DEPLOY_PRIME_URL}
