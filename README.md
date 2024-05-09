@@ -22,6 +22,7 @@ make build
 - renamed RSS feeds to `rss.xml`
 - hide articles with `excludeRss: true` in the front matter from rss feed
 - set Lastmod value based on last commit date
+- if date is not to be shown, but dateUpdated is show dateUpdated despite `date = dateUpdated`
 
 ## Copyright
 
