@@ -1,6 +1,11 @@
 ---
 title: {{ replace .File.ContentBaseName "-" " " | title }}
-date: {{ .Date }}
-draft: true
+description:
+summary:
 tags:
+date: {{ .Date | dateFormat "2006-01-02" }}
+draft: true
+writingTime:
 ---
+
+<++>
