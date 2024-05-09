@@ -24,12 +24,12 @@ In der Regel steht der bei über drei Euro.
 
 Relativ schnell entdeckte ich dann doch diesen Rabatt bei Aldi:
 
-{{<figure width="450px" alt="Rabatt bei Aldi 1,79€ für Kerrygold Butter" src="thumb-price-label.jpg" caption="Kerrygold 1,79€">}}
+{{<figure class="w-10/12" alt="Rabatt bei Aldi 1,79€ für Kerrygold Butter" src="thumb-price-label.jpg" caption="Kerrygold 1,79€">}}
 
 Ok, cool.
 Dann kaufe ich auf Vorrat.
 
-{{<figure width="450px" alt="Kassenbon 15x Kerrygold" src="receipt.jpg">}}
+{{<figure class="w-10/12" alt="Kassenbon 15x Kerrygold" src="receipt.jpg">}}
 
 Und als sich mein Vorrat die Woche des Verfallsdatums erreichte sah ich was?
 Nochmal der gleiche Sale bei Aldi!
@@ -37,7 +37,7 @@ Und als der Vorrat wieder ablief?
 Wieder Sale!
 
 **Ein Beispiel**
-{{<figure width="450px" alt="Zwei Stücken Kerrygold Butter mit Beispielhaften Verfallsdaten" src="verfallsdatum-beispiele.jpg">}}
+{{<figure class="w-10/12" alt="Zwei Stücken Kerrygold Butter mit Beispielhaften Verfallsdaten" src="verfallsdatum-beispiele.jpg">}}
 
 1. Butter hat das <abbr title="Mindesthaltbarkeitsdatum">MHD</abbr>: 24.04.2024
 2. Butter hat das <abbr title="Mindesthaltbarkeitsdatum">MHD</abbr>: 11.06.2024

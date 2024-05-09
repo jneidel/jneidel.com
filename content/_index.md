@@ -7,7 +7,7 @@ cascade:
     showDateUpdated: false
 ---
 
-{{<figure caption="_Me._" class="float-right my-0 pl-2 pr-4" src="img/profile-picture.jpg" width="350px">}}
+{{<figure caption="_Me._" clearClass="true" class="sm:h-3/6 sm:max-w-72 sm:float-right sm:pl-6 my-0" src="img/profile-picture.jpg">}}
 
 {{<lead>}}
 Hi, I'm Jonathan.

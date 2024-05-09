@@ -120,7 +120,7 @@ meist besser Preise anbieten.
 
 Zum Vergleich hatte ich mir damals einen [Spreadsheet](transporter-sharing.ods) zum Preisvergleich gebaut (ziemlich sicher outdated).
 
-{{<figure alt="Transporter Preisvergleich Spreadsheet" src="transporter-sharing.png" class="mx-auto" caption="Transportermietpreise beim verschieden Anbietern">}}
+{{<figure alt="Transporter Preisvergleich Spreadsheet" src="transporter-sharing.png" caption="Transportermietpreise beim verschieden Anbietern">}}
 
 ### Routen
 
@@ -130,7 +130,7 @@ kombinieren. Am besten zusammen suchen das sich entweder ein Roundtrip oder eine
 kannst du Kosten sparen indem du mit den Öffis hinfährst und erst dort den
 Transporter anmietest.
 
-{{<figure width="300px" src="route-example.jpeg" caption="Eine Beispielroute mit mehreren Stops">}}
+{{<figure class="w-9/12" src="route-example.jpeg" caption="Eine Beispielroute mit mehreren Stops">}}
 
 Plane auf jeden Fall etwas Puffer zwischen den Stops ein und gibt den Verkäufer
 eine Range oder versichere dich das es Okay ist wenn es etwas früher wird
@@ -144,14 +144,19 @@ Freundin zusammen zu ziehen.
 Wir habe also über einen Monat alles zusammengetragen was man so für eine
 Wohnung braucht.
 
+{{<center class="sm:float-right">}}
+    {{<figure src="dishwasher.jpeg" class="h-52 w-auto my-0" alt="Geschirrspühler">}}
+    {{<figure src="fridge.jpeg" class="h-52 w-auto my-0" alt="Kühlschrank">}}
+{{</center>}}
 - Küche
     + Bosch Geschirrspühler: 90€
     + großer Kühlschrank: 90€
     + schäbiger Tisch: 10€
-
-    {{<figure src="dishwasher.jpeg" width="150px" multi="1">}}
-    {{<figure src="fridge.jpeg" width="150px" multi="1">}}
 - Büro
+    {{<center class="sm:float-right">}}
+        {{<figure src="ftisch.jpeg" class="h-52 w-auto my-0">}}
+        {{<figure src="jtisch.jpeg" class="h-52 w-auto my-0">}}
+    {{</center>}}
     + Standing desk 120x60: 100€!
     + Standing desk 160x80: 330€
     + edler Sitzball: 70€
@@ -159,46 +164,47 @@ Wohnung braucht.
     + mäßiger Bürostuhl: 35€
     + Schallabsorber: 50€
     + Schaukelstuhl: 20€
+    {{<center class="sm:float-right">}}
+        {{<figure src="fstuhl.jpeg" class="h-52 w-auto my-0">}}
+        {{<figure src="sitzball.jpeg" class="h-52 w-auto my-0">}}
+    {{</center>}}
     + Apple Tastatur: 30€
     + Apple Trackpad: 30€
 
-    {{<figure src="ftisch.jpeg" width="150px" multi="1">}}
-    {{<figure src="jtisch.jpeg" width="150px" multi="1">}}
-    {{<figure src="fstuhl.jpeg" width="150px" multi="1">}}
-
-    {{<figure src="sitzball.jpeg" width="120px" multi="1">}}
-    {{<figure src="schallabsorber.jpeg" width="120px" multi="1">}}
-    {{<figure src="schaukelstuhl.jpeg" width="120px" multi="1">}}
-    {{<figure src="tastatur.jpeg" width="120px" multi="1">}}
 - Schlafzimmer
     + IKEA Bett mit 1 Jahr alter Matratze 220x180: 90€!
     + Vanity table: 20€
+    {{<center class="sm:float-right">}}
+        {{<figure src="schallabsorber.jpeg" class="h-52 w-auto my-0">}}
+        {{<figure src="schaukelstuhl.jpeg" class="h-52 w-auto my-0">}}
+    {{</center>}}
     + Blackout curtains: 30€
-
-    {{<figure src="bett.jpeg" width="120px" multi="1">}}
 - Flur
     + Schuhregal: 20€
 - Wohnzimmer
     + Leder Sofa: 100€
+    {{<center class="sm:float-right">}}
+        {{<figure src="tastatur.jpeg" class="h-52 w-auto my-0">}}
+        {{<figure src="bett.jpeg" class="h-52 w-auto my-0">}}
+    {{</center>}}
     + Schlafsofa: 120€!
     + 4x Stühle: 70€
-
-    {{<figure src="sofa.jpeg" width="150px" multi="1">}}
-    {{<figure src="schlafsofa.jpeg" width="150px" multi="1">}}
-    {{<figure src="stuhl.jpeg" width="150px" multi="1">}}
 - Bad
     + kleine Beko Waschmaschine: 30€
-
-    {{<figure src="waschmaschine.jpeg" width="120px" multi="1">}}
 - Divers
+    {{<center class="sm:float-right">}}
+        {{<figure src="sofa.jpeg" class="h-52 w-auto my-0">}}
+        {{<figure src="schlafsofa.jpeg" class="h-52 w-auto my-0">}}
+    {{</center>}}
     + Fritzbox Router (neuste Generation): 65€
     + Lampen: 12€+66€
     + Miele Staubsauger: 20€
     + Wanduhr: 10€
     + Charge 3 Bluetooth speaker: 45€
 
-    {{<figure src="fritzbox.jpeg" width="150px" multi="1">}}
-    {{<figure src="lamps.jpeg" width="150px" multi="1">}}
-    {{<figure src="charge3.jpeg" width="150px" multi="1">}}
-
-Plus weitere bei denen ich die Preis verloren haben :)
+Plus weitere bei denen ich die Preis verloren haben :slightly_smiling_face:
+{{<figure src="stuhl.jpeg" class="sm:float-right h-52 w-auto my-0">}}
+{{<figure src="waschmaschine.jpeg" class="px-1 sm:float-right h-52 w-auto my-0">}}
+{{<figure src="fritzbox.jpeg" class="sm:float-right h-52 w-auto my-0">}}
+{{<figure src="lamps.jpeg" class="px-1 sm:float-right h-52 w-auto my-0">}}
+{{<figure src="charge3.jpeg" class="sm:float-right h-52 w-auto my-0">}}

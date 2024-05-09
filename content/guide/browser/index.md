@@ -69,32 +69,39 @@ A must have.
 On top of the ad-blocking you can also use it to remove visual clutter from
 webpages using the picker:
 
-{{<figure width="130px" src="ublock-picker.png">}}
+{{<figure class="w-7/12" src="ublock-picker.png">}}
 
 **Some before and after demonstrations of what you can do with it:**
 
 - Hiding ads on the Amazon homepage:
-{{<figure width="355px" src="ama-before.png" caption="Before" multi="1">}}
-{{<figure width="325px" src="ama-after.png" caption="After" multi="1">}}
+{{<center>}}
+    {{<figure src="ama-before.png" href="ama-before.png" caption="Before">}}
+    {{<figure src="ama-after.png" href="ama-after.png" caption="After">}}
+{{</center>}}
 
 - Hiding side bars on Stack Overflow:
-
-{{<figure src="so-before.png" alt="Screenshot of StackOverflow before side bars were removed" caption="Before">}}
-{{<figure src="so-after.png" alt="Screenshot of StackOverflow after side bars were removed" caption="After">}}
+{{<center>}}
+    {{<figure src="so-before.png" href="so-before.png" alt="Screenshot of StackOverflow before side bars were removed" caption="Before">}}
+    {{<figure src="so-after.png" href="so-after.png" alt="Screenshot of StackOverflow after side bars were removed" caption="After">}}
+{{</center>}}
 
 - Hinding banners on Goodreads:
-
-{{<figure src="gr-before.png">}}
-{{<figure src="gr-after.png">}}
+{{<center>}}
+    {{<figure src="gr-before.png" href="gr-before.png">}}
+    {{<figure src="gr-after.png" href="gr-after.png">}}
+{{</center>}}
 
 - Hiding the product update notification bubble (top-left) on Trading View:
-{{<figure width="250px" src="tv-before.png" caption="Before" multi="1">}}
-{{<figure width="240px" src="tv-after.png" caption="After" multi="1">}}
+{{<center>}}
+    {{<figure src="tv-before.png" caption="Before">}}
+    {{<figure src="tv-after.png" caption="After">}}
+{{</center>}}
 
 - Hiding thumbnails on Youtube (Invidious):
-
-{{<figure width="370px" caption="Before" src="yt-before.png" multi="1">}}
-{{<figure width="370px" caption="After" src="yt-after.png" multi="1">}}
+{{<center>}}
+    {{<figure caption="Before" src="yt-before.png">}}
+    {{<figure caption="After" src="yt-after.png">}}
+{{</center>}}
 
 ### Surfing Keys
 
@@ -122,9 +129,10 @@ I'm only using a small set of keys that fulfills all my needs:
 Dark mode for every website.
 
 Quality of the results vary, but I love having the option.
-Definitely map the website toggling so you can quickly turn it off (I'm using <kbd>Alt-Shift-a</kbd>):
+Definitely map the website toggling so you can quickly turn it off when it
+distorts a site. I'm using <kbd>Alt-Shift-a</kbd>:
 
-{{<figure width="250px" src="darkreader-toggle.png">}}
+{{<figure class="w-9/12" alt="Settings screen of Dark Reader to configure website togging" src="darkreader-toggle.png" caption="Click *Configure website toggling*, then enter it at the bottom">}}
 
 ### KeepassXC
 
@@ -159,7 +167,7 @@ It's quite configurable and should fullfil all your blocking needs.
 I now use it to deny myself access to YouTube, manga sites and such on all days
 of the week but one. That can be achieved like so:
 
-{{<figure width="300px" src="leechblock-when.png">}}
+{{<figure class="w-10/12" src="leechblock-when.png" alt="LeechBlock blocking configuration screen">}}
 
 To always block the sites just select all days of the week.
 
@@ -174,11 +182,14 @@ yourself to mess with the settings in a moment of weakness.
 
 Automatically skip sponsored sections in YouTube videos.
 
-Multiple kinds of sections are blockable, here are the sections and my settings:
+You can skip depending on the type of section it is.
+These are my settings:
 
-{{<figure width="700px" src="sponsor-block-options.png">}}
+{{<figure class="w-10/12" src="sponsor-block-options.png" alt="My options of the SponsorBlock configuration">}}
 
-It also works on alternative YouTube clients like [Invidious](https://github.com/iv-org/invidious).
+It also works on alternative YouTube interfaces like [Invidious](https://github.com/iv-org/invidious).
+I use Invidous over YouTubs because it loads faster, is less cluttered and
+the UI doesn't change all the time.
 
 ### FastForward
 
@@ -230,17 +241,18 @@ Teddit (Reddit) throws to a "Too many requests" error from time to time.
 [firefox](https://addons.mozilla.org/en-US/firefox/addon/autofill-quantum/) |
 [chrome](https://chromewebstore.google.com/detail/autofill/nlmmgnhgdeffjkdckmikfpnddkbbfkkk)
 
-Automatically fill forms and execute arbitrary code.
+Automatically fill forms and executes arbitrary code on a given website.
 
-I use this to automatically log me into websites that have a particularly short
-cookie durations:
+I use this to automatically log me into websites that have a annoyingly short
+cookie durations.
 
-{{<figure width="700px" src="autofill-demo.png">}}
+{{<figure caption="Enter these credentials and then submit" src="autofill-demo.png" alt="An example of an Autofill configuration">}}
 
-I also have it check some boxes for me on a form that I have to submit weekly:
+I also use it to automatically check boxes on a survey I'm doing regularly:
 
 ```js
-Array.from(document.querySelectorAll(".surveyradiobutton")).filter(x => x.value === "-9").forEach(x => x.checked = true)
+Array.from(document.querySelectorAll(".surveyradiobutton"))
+    .filter(x => x.value === "-9").forEach(x => x.checked = true)
 ```
 
 ### <++>

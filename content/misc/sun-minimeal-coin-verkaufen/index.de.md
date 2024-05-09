@@ -19,7 +19,7 @@ willst, in dem Wissen das du auch jederzeit verkaufen kannst.
 
 ## Vorraussetzungen
 
-{{<figure class="float-right my-0 rounded" alt="Es werden 975 $PO benötigt um die Bridge zu aktivieren" src="spo-benötigt-um-bridge-zu-aktivieren.png" width="170x">}}
+{{<figure class="float-right h-24 w-auto" alt="Es werden 975 $PO benötigt um die Bridge zu aktivieren" src="spo-benötigt-um-bridge-zu-aktivieren.png">}}
 
 - \>975 $PO oder eine beliebige Anzahl an schon umgewandelten $UN Coins
 - Einen Account bei einem Crypto Exchange bei dem Cryptocurrencies gegen Echtgeld
@@ -40,8 +40,8 @@ Zum hinzufügen geht auf [chainlist.wtf](https://chainlist.wtf) und verbindet
 eure Wallet. Sucht nach "Pulse" und "Polygon" und fügt diese hinzu.
 
 {{<center>}}
-    {{<figure alt="PulseChain Netzwerk der MetaMask Wallet hinzufügen" src="add-pulse.png" width="200px" multi="1">}}
-    {{<figure alt="Polgon Netzwerk der MetaMask Wallet hinzufügen" src="add-polygon.png" width="200px" multi="1">}}
+    {{<figure alt="PulseChain Netzwerk der MetaMask Wallet hinzufügen" src="add-pulse.png" class="w-9/12">}}
+    {{<figure alt="Polgon Netzwerk der MetaMask Wallet hinzufügen" src="add-polygon.png" class="w-9/12">}}
 {{</center>}}
 
 Jetzt müssen noch die nötigen Tokens importiert werden.
@@ -49,7 +49,7 @@ Jetzt müssen noch die nötigen Tokens importiert werden.
 Wechsele dazu oben links in das PulseChain Netzwerk und klickte auf "Import
 Token" und füge die Addresse von $UN ein: `0x2460328E89260dDFBa4A942a0cfa417F202C04C2`
 
-{{<figure alt="$UN Token importieren" src="import-sun-token.png" width="210px">}}
+{{<figure alt="$UN Token importieren" src="import-sun-token.png" class="w-8/12">}}
 
 Die richtige Token Adresse ist wichtig und kann auch [hier](https://www.minimeal.com/dashboard/sun) gegengeprüft werden.
 
@@ -57,13 +57,15 @@ Um jetzt noch USDT zu importieren wechsle auf das Polygon Netzwerk.
 Beim Klick auf "Import Token" muss jetzt einmal das automatische Erkennen von
 Tokens aktiviert werden:
 
-{{< figure alt="MetaMask Token Detection Warnung" src="metamask-enable-token-detection.png" width="200px" multi="1" >}}
-{{< figure alt="Enable autodetect tokens" src="enable-autodetect-tokens.png" width="400px" multi="1" caption="Die Option 'Autodetect tokens' aktivieren" >}}
+{{<center>}}
+    {{<figure alt="MetaMask Token Detection Warnung" src="metamask-enable-token-detection.png" class="w-9/12">}}
+    {{<figure alt="Enable autodetect tokens" src="enable-autodetect-tokens.png" class="w-12/12" caption="Die Option 'Autodetect tokens' aktivieren" >}}
+{{</center>}}
 
 Dannach einfach via "Import Token" nach USDT suchen und den ersten Eintrag
 auswählen:
 
-{{< figure alt="Import USDT" src="import-USDT-polygon.png" width="200px" >}}
+{{<figure alt="Import USDT" src="import-USDT-polygon.png" class="w-8/12">}}
 
 ## Umwandlung von $PO -> $UN Minimeal Coin
 
@@ -87,7 +89,7 @@ möglich, deswegen muss ich den Weg über ein anderen Netzwerk gehen.
 Prüft gern bei ob euer Exchange Pulse anbietet, das sind bei Kraken die
 Optionen:
 
-{{< figure alt="Kraken USDT depot options" src="kraken-deposit-options.png" width="400px" caption="Die verschiedenen Netzwerke zum Einzahlen von USDT" >}}
+{{<figure alt="Kraken USDT depot options" src="kraken-deposit-options.png" class="w-10/12" caption="Die verschiedenen Netzwerke zum Einzahlen von USDT">}}
 
 Aus den Optionen habe ich mich für Polygon entschieden (geringste Gebühren.)
 
@@ -113,7 +115,7 @@ PulseChain tauschen.
 3. Gib als Ausgangstoken `PLS` ein
 4. Swap
 
-{{< figure alt="Swap $UN for PLS" src="sun-to-pls-swap.png" width="400px" >}}
+{{<figure alt="Swap $UN for PLS" src="sun-to-pls-swap.png" class="w-10/12">}}
 
 Es fällt ein geringer Beitrag (Gas fees bzw. Transfergebühren) in PLS an (SUN
 hat euch bereits ein paar PLS für gas fees in eurem Wallet gutgeschrieben.)
@@ -132,12 +134,12 @@ Um also unsere USDT im Polygon Netzwerk entgegen zu nehmen müssen wir erst ein
 paar MANTIC an unsere Wallet schicken.
 
 Also:
+{{<figure class="float-right h-8 w-auto" alt="Mantic auf Kraken kaufen" src="mantic-eur-trade.png">}}
 1. MANTIC beim Exchange für Euro kaufen (ein paar Euro reichen)
-{{<figure class="float-right my-0" alt="Mantic auf Kraken kaufen" src="mantic-eur-trade.png" width="100px">}}
 2. Polygon Addresse des Wallets kopieren:
-{{<figure class="my-0" alt="Polygon Adresse in MetaMask raus kopieren" src="polygon-addresse-im-wallet-kopieren.png" width="400px">}}
+{{<figure alt="Polygon Adresse in MetaMask raus kopieren" src="polygon-addresse-im-wallet-kopieren.png" class="w-10/12">}}
 3. Beim Exchange an eure Wallet Addrese auszahlen lassen
-{{<figure alt="Bei Kraken an Polygon Adresse auszahlen" src="polygon-kraken-withdraw.png" width="500px">}}
+{{<figure alt="Bei Kraken an Polygon Adresse auszahlen" src="polygon-kraken-withdraw.png" class="w-10/12">}}
 
 Sobald wir unsere MANTIC und PLS haben um gas fees bezahlen zu können kann es
 auf [PortalX](https://portalxswap.io) losgehen:
@@ -146,7 +148,7 @@ auf [PortalX](https://portalxswap.io) losgehen:
 3. Nach auswählen: Polygon Netzwerk und dann USDT
 4. Swap
 
-{{< figure alt="Swap PLS auf PulseChain for USDT auf Polygon" src="pls-to-polygon-usdt.png" width="700px" >}}
+{{<figure alt="Swap PLS auf PulseChain for USDT auf Polygon" src="pls-to-polygon-usdt.png">}}
 
 Bei diesem Tausch fallen etwas höhere Gebühren an.
 Aber auch nicht mehr als wenige Dollar.
@@ -156,7 +158,7 @@ Aber auch nicht mehr als wenige Dollar.
 Jetzt sucht ihr euch auf eurem Exchange die Addresse zum Einzahlen von USDT auf
 Polygon raus:
 
-{{<figure alt="USDT auf Kraken über Polygon einzahlen" src="deposit-USDT-on-polygon.png" width="470px" caption="Kraken Einzahlfester für USDT im Polygon Netzwerk">}}
+{{<figure alt="USDT auf Kraken über Polygon einzahlen" src="deposit-USDT-on-polygon.png" class="w-10/12" caption="Kraken Einzahlfester für USDT im Polygon Netzwerk">}}
 
 Wählt in MetaMask das Polygon Netzwerk aus und versendet von dort die USDT an
 die Einzahladdresse eures Exchanges.
@@ -165,7 +167,7 @@ Beachte das es hier Mindestgrenzen geben kann (Kraken: 2 USDT.)
 
 ## USDT auf dem Exchange für Euro verkaufen
 
-{{<figure class="float-right my-0 rounded" alt="USDT auf Kraken verkaufen: 10 USDT Minimum" src="USDT-minimum-amount.png" width="400px" caption="Mindesteinzahlgrenze bei Kraken">}}
+{{<figure class="float-right h-20 w-auto" alt="USDT auf Kraken verkaufen: 10 USDT Minimum" src="USDT-minimum-amount.png" caption="Mindesteinzahlgrenze bei Kraken">}}
 Jetzt kann über das Interface des Exchanges USDT auf Polygon für Euro verkauft
 werden. Beachte das es auch hier Mindestgrenzen geben kann.
 

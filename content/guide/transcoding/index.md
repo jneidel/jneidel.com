@@ -12,23 +12,25 @@ Why should you learn about audio and video codecs?
 
 For me it all started with this:
 
-![CPU at 80%](transcoding-cpu-at-80.png)
+{{<figure src="transcoding-cpu-at-80.png" class="w-11/12" alt="CPU usage jumps to 80%">}}
 
-That's my homeservers CPU jumping to 80% load when I played some movies in
-[Jellyfin](https://jellyfin.org/), which let me know:
+That's my homeservers CPU jumping to 80% load when I played a movie in
+[Jellyfin](https://jellyfin.org). I was informed of the reason: some transcoding was happening.
 
-{{<figure src="transcoding-reason.png" width="270px" alt="The reason for transcoding: The video codec is not supported">}}
+{{<figure src="transcoding-reason.png" class="w-9/12" alt="The reason for transcoding: The video codec is not supported">}}
 
 I would hear the fan roar every time my wife was watching her series.
 And it doesn't scale either.
 Watching a second movie simultaneously would max out the CPU and decrease
 playback quality since the server can't keep up.
 
-I had to figure this codec issue out :)
+I had to figure this codec issue out :slightly_smiling_face:
 
-For you the reason might to reduce your file sizes and conserve disk space or to
-understand [torrent labels](#torrent-quality) or because you want to assemble
-together a bunch of clips you collected or simply out of curiosity.
+For you the reason to learn about encodings might be:
+1. Reduce the file sizes of your media and conserving disk space
+2. To understand [torrent labels](#torrent-quality)
+3. Because you want to combine together a bunch of clips you collected
+4. Or simply out of curiosity.
 
 Let's start with analysing and picking the codecs that are right for you:
 
@@ -65,7 +67,7 @@ Opus:
 I started with this table.
 You can see the codec support Jellyfin has in the browsers I picked.
 
-{{<figure src="jellyfin-video-codecs.png" width="250px" caption="Jellyfin support for video codecs ([Source](https://jellyfin.org/docs/general/clients/codec-support/#video-compatibility))">}}
+{{<figure src="jellyfin-video-codecs.png" class="w-9/12" caption="Jellyfin support for video codecs ([Source](https://jellyfin.org/docs/general/clients/codec-support/#video-compatibility))">}}
 
 VP9 can be excluded as it's the predecessor of AV1.
 Let's look into the other three in some detail.
@@ -114,7 +116,7 @@ And I am not using surround sound capable speakers, so I don't really care.
 But if I'm already transcoding something I might as well put it into the best
 available audio codec while I'm at it.
 
-{{<figure width="240px" src="jellyfin-audio-codecs.png" caption="Jellyfin support for audio codecs ([Source](https://jellyfin.org/docs/general/clients/codec-support/#audio-compatibility))">}}
+{{<figure class="w-8/12" src="jellyfin-audio-codecs.png" caption="Jellyfin support for audio codecs ([Source](https://jellyfin.org/docs/general/clients/codec-support/#audio-compatibility))">}}
 
 Looking at the table we see that we can pretty much use whatever codec we want
 (with the exception of DTS and AC3.)
@@ -230,14 +232,17 @@ out my CPU with a combined processing power of 16.20GHz.
 Pausing on some shots you will definitely see some artifacts, but in motion
 it looks fine to me.
 
-{{<figure width="315px" href="transcoding-example-seinfeld.png" src="transcoding-example-seinfeld.png" alt="Transcoding quality example: Seinfeld at -crf 30, -preset 8" multi="1">}}
-{{<figure width="315px" href="transcoding-example-office.png" src="transcoding-example-office.png" alt="Transcoding quality example: The Office at -crf 30, -preset 8" multi="1">}}
+{{<center>}}
+    {{<figure href="transcoding-example-seinfeld.png" src="transcoding-example-seinfeld.png" alt="Transcoding quality example: Seinfeld at -crf 30, -preset 8">}}
+    {{<figure href="transcoding-example-office.png" src="transcoding-example-office.png" alt="Transcoding quality example: The Office at -crf 30, -preset 8" >}}
+{{</center>}}
 
 Here are two transcodes of the same file at different quality levels:
 
-{{<figure width="315px" href="transcoding-example-jess-crf-38.png" src="transcoding-example-jess-crf-38.png" caption="-crf 38 -preset 8" alt="Transcoding quality example: New Girl S01E01 at -crf 38, -preset 8" multi="1">}}
-{{<figure width="315px" href="transcoding-example-jess-crf-26.png" src="transcoding-example-jess-crf-26.png" caption="-crf 26 -preset 8" alt="Transcoding quality example: New Girl S01E01 at -crf 26, -preset 8" multi="1">}}
-
+{{<center>}}
+    {{<figure href="transcoding-example-jess-crf-38.png" src="transcoding-example-jess-crf-38.png" caption="-crf 38 -preset 8" alt="Transcoding quality example: New Girl S01E01 at -crf 38, -preset 8">}}
+    {{<figure href="transcoding-example-jess-crf-26.png" src="transcoding-example-jess-crf-26.png" caption="-crf 26 -preset 8" alt="Transcoding quality example: New Girl S01E01 at -crf 26, -preset 8">}}
+{{</center>}}
 
 With a lower preset you get achieve an even smaller file size (and slightly
 better quality.) It will just take longer to encode[^pre6].
@@ -391,8 +396,10 @@ picture) and WEB-DL (second picture) can look like.
 Take a look at the roof of the car on the right.
 It looks much more crisp in the WEB-DL version.
 
-{{<figure width="315px" src="torrent-source-webrip.png" href="torrent-source-webrip.png" caption="WEBRIP Example" multi="1">}}
-{{<figure width="315px" src="torrent-source-web-dl.png" href="torrent-source-web-dl.png" caption="WEB-DL Example" multi="1">}}
+{{<center>}}
+    {{<figure src="torrent-source-webrip.png" href="torrent-source-webrip.png" caption="WEBRIP Example">}}
+    {{<figure src="torrent-source-web-dl.png" href="torrent-source-web-dl.png" caption="WEB-DL Example">}}
+{{</center>}}
 
 `HDRip` are screen captures of a show/movie on TV and commonly include the
 stations logos, announcements and banner ads.

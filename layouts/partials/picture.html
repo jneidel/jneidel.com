@@ -5,7 +5,6 @@
 {{ $webp := .webp }}
 {{ $lqip := .lqip | default false }}
 {{ $x2 := .x2 | default false }}
-{{ $widthArg := .width }}
 
 {{ with $img }}
   {{ if (eq .MediaType.SubType "svg") }}
@@ -55,10 +54,6 @@
         {{ $height = div .Height 2 }}
       {{ end }}
 
-      {{ with $widthArg }}
-        {{ $width = $widthArg }}
-        {{ $height = "auto" }}
-      {{ end }}
       {{ if and $webp (ne .MediaType.SubType "gif") }}
         <source
           {{ if lt .Width 660 }}
