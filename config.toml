@@ -11,3 +11,5 @@ tags = ["blog", "minimal", "responsive", "dark mode", "dark", "light", "tailwind
 features = ["syntax highlighting", "dark mode", "emoji"]
 
 enableGitInfo = true # required for lastmod to get date from git
+
+baseURL="http://localhost"
