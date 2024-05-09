@@ -1,5 +1,5 @@
 ---
-title: Day Kerrygold Muster
+title: Das Kerrygold Muster
 description: Erklärung eines Muster beim Einkaufen von Kerrygold Butter
 summary: Kerrygold hat alle 7 Wochen einen Sale bei Aldi, dies lässt sich ausnutzen um immer günstig Weidemilchbutter zu kaufen.
 date: 2024-05-09
