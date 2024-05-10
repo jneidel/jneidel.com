@@ -20,5 +20,8 @@ assets/css/compiled/main.css: themes/congo/node_modules
 build: assets/css/compiled/main.css
 	HUGO_ENV=production hugo --gc --minify -b ${URL}
 
+stage: assets/css/compiled/main.css
+	HUGO_ENV=production hugo --gc --minify --buildDrafts -b ${URL}
+
 preview: assets/css/compiled/main.css
-	HUGO_ENV=production hugo --gc --minify -D -b ${DEPLOY_PRIME_URL}
+	HUGO_ENV=production hugo --gc --minify --buildDrafts -b ${DEPLOY_PRIME_URL}

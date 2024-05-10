@@ -1,14 +1,16 @@
+# docs: https://docs.netlify.com/configure-builds/file-based-configuration
+
 [build]
-command = "make build"
+# command = "make build" # use setting on netlify to allow for stage/prod to be both deployed from master
 publish = "public"
 
 [build.environment]
 HUGO_ENV = "production"
-HUGO_VERSION = "0.125.5"
+HUGO_VERSION = "0.125.7"
 TZ = "Europe/Berlin"
 
 [context.production.environment]
 HUGO_ENV = "production"
 
 [context.deploy-preview]
-  command = "make preview"
+command = "make preview"
