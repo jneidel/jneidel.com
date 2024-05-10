@@ -17,12 +17,15 @@ header li {
   }
 }
 
-#content ul {
-  margin-top: -22px !important;
-  li {
-    margin: 3px 0 !important;
-  }
+#content p + ul, p + ol { /* p followed by ul */
+  margin-top: -15px !important;
 }
+/* #content ul > li, ol > li { */
+/*   margin: 3px 0 !important; */
+/*   ul, ol { /* nested lists */ */
+/*     margin: 3px 0 !important; */
+/*   } */
+/* } */
 
 hr#list-page-divider {
   margin: 25px 0 5px 0;
