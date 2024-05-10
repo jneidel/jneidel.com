@@ -1,14 +1,13 @@
 ---
 title: "Verschiedenes"
-description: "Ansammlung verschiedenster Artikel."
+summary: "Ansammlung verschiedenster Artikel."
 cascade:
-    showDate: true
+    showDateUpdated: true
+    showReadingTime: true
 ---
 
-{{< lead >}}
-Eine bunt zusammengewürfelte Ansammlung von verschiedensten Artikeln.
-{{< /lead >}}
+{{<lead>}}
+{{<i18n "category.misc_description">}}
+{{</lead>}}
 
 Vielleicht ist ja etwas Interesantes dabei :slightly_smiling_face:
-
----

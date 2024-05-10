@@ -1,6 +1,6 @@
 ---
 title: "Essays"
-description: "Focused writing on a specific topic."
+summary: "Overview of philosophical essays."
 cascade:
     showDate: false
     showReadingTime: false
@@ -9,7 +9,5 @@ cascade:
 ---
 
 {{<lead>}}
-Focused writing on a specific topic.
+{{<i18n "category.essay_description">}}
 {{</lead>}}
-
----

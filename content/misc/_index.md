@@ -1,14 +1,13 @@
 ---
 title: "Miscellaneous"
-description: "This is a random assortment of articles."
+summary: "This is a random assortment of articles."
 cascade:
-    showDate: true
+    showDateUpdated: true
+    showReadingTime: true
 ---
 
-{{< lead >}}
-A random assortment of articles without a clear thread.
-{{< /lead >}}
+{{<lead>}}
+{{<i18n "category.misc_description">}}
+{{</lead>}}
 
 You might come across something of interest :slightly_smiling_face:
-
----

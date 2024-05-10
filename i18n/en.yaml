@@ -1,2 +1,16 @@
+category:
+  essay_name: "Essays"
+  essay_description: "Focused writing that explores a specific topic."
+  guide_name: "Practial Guides"
+  guide_description: "Practical guides that go into detail."
+  review_name: "Reviews"
+  review_description: "Reviews of everything I come across."
+  project_name: "Projects"
+  project_description: "Some of the projects I've created."
+  misc_name: "Miscellaneous"
+  misc_description: "A random assortment of articles without a clear thread."
+  dev_name: "Technical Guides"
+  dev_description: "In-depth guides for the technically inclined."
+
 shortcode:
   recent_articles: "Recent posts"

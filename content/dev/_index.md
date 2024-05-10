@@ -7,7 +7,7 @@ cascade:
 ---
 
 {{<lead>}}
-In-depth guides for the technically inclined.
+{{<i18n "category.dev_description">}}
 {{</lead>}}
 
 These topics are being covered:

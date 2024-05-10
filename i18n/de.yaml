@@ -1,0 +1,16 @@
+category:
+  essay_name: " Essays"
+  essay_description: "Kurze, fokusierte Artikel die eine einzelne Idee beleuchten."
+  guide_name:  "Guides/Anleitungen"
+  guide_description: "Praxisorientierte Guides die ins Detail gehen."
+  review_name: "Reviews"
+  review_description: "Bewertungen von allem was mir über den Weg läuft."
+  project_name: "Projekte"
+  project_description: "Einige der Projekte die ich gebaut habe."
+  misc_name: "Verschiedenes"
+  misc_description: "Eine bunt zusammengewürfelte Ansammlung von verschiedensten Artikeln."
+
+list:
+  no_articles: "Es gibt noch keine Artikel."
+shortcode:
+  recent_articles: "Neue Artikel"

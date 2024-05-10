@@ -4,8 +4,8 @@ languageDirection = "ltr"
 weight = 2
 
 [params]
-  mainSections = ["misc"]
-  description = "Ein Blog."
+  mainSections = ["essay", "guide", "review", "project", "misc"]
+  description = "Ein Blog über die die funktionieren."
 
 # [params.author]
   # headline = ""
