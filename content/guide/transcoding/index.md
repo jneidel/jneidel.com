@@ -325,7 +325,7 @@ Now though, with our new-found knowledge we can understand what those labels mea
 
 Picking a random movie, we look at a few example titles and decipher them together:
 
-```
+```txt
 Anatomy of a Fall (2023) (1080p BluRay x265 HEVC 10bit EAC3 5.1 French Silence) [QxR]
 ```
 
@@ -337,7 +337,7 @@ And audio codec: `EAC3` (aka DDP/DD+) in `5.1` surround sound.
 Lastly we got `French` to let us know that the only included audio track is
 french and lastly the tags of the encoding group.
 
-```
+```txt
 Anatomy Of A Fall (2023) 1080p H264 iTA Fre AC3 5.1 Sub iTA EnG-MIRCrew
 ```
 
@@ -349,7 +349,7 @@ are included.
 What is notably missing is the encoding source.
 It's not mentioned in the description either, so we can only guess.
 
-```
+```txt
 Anatomy.of.a.Fall.[Anatomie.D.Une.Chute].2023.1080p.WEB-DL.x264.AC3-HORiZON-ArtSubs
 ```
 
@@ -357,7 +357,7 @@ Next we have the original french title included and `WEB-DL` as the encoding
 source.
 The `x264` encoder was use to encode to h.264.
 
-```
+```txt
 Anatomy of a Fall 2023-FR-1080p-HD-WEBRip-2.76GiB-AAC-x264 [PortalGoods]
 ```
 
