@@ -17,6 +17,13 @@ header li {
   }
 }
 
+#content ul {
+  margin-top: -22px !important;
+  li {
+    margin: 3px 0 !important;
+  }
+}
+
 /* Move "Edit on Github" button closer to h1 if it's alone */
 #article-metadata:has(> div > span:only-child > a[title="Edit content"]) {
   margin: 0 0 15px 0;
