@@ -13,17 +13,22 @@
 [[main]]
   name = "Essays"
   pageRef = "essay"
-  weight = 20
+  weight = 10
 
 [[main]]
   name = "Guides"
   pageRef = "guide"
   weight = 21
 
-[[main]]
-  name = "Development"
-  pageRef = "dev"
-  weight = 30
+# [[main]]
+#   name = "Reviews"
+#   pageRef = "review"
+#   weight = 40
+#
+# [[main]]
+#   name = "Projects"
+#   pageRef = "project"
+#   weight = 30
 
 [[main]]
   name = "RSS"
