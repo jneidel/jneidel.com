@@ -1,5 +1,9 @@
 ---
 title: Reflections
+description: Collection of weekly reflections
+summary: Collection of weekly reflections
+showDate: false
+showReadingTime: false
 cascade:
     showTableOfContents: false
     showDates: true
