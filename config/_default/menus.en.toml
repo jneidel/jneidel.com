@@ -34,6 +34,7 @@
   name = "RSS"
   url = "/rss"
   weight = 92
+  title = "RSS logo icon"
   [main.params]
     icon = "rss"
     showName = false
@@ -42,18 +43,21 @@
 [[main]]
   identifier = "search"
   weight = 90
+  title = "Search icon"
   [main.params]
     action = "search"
 
 [[main]]
   identifier = "appearance"
   weight = 95
+  title = "Toggle dark/light mode icon"
   [main.params]
     action = "appearance"
 
 [[main]]
   identifier = "locale"
   weight = 100
+  title = "Switch locale icon"
   [main.params]
     action = "locale"
 

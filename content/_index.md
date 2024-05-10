@@ -26,9 +26,8 @@ You can explore the categories below:
 - [{{<i18n "category.review_name">}}](review) - {{<i18n "category.review_description">}}
 - [{{<i18n "category.project_name">}}](project) - {{<i18n "category.project_description">}}
 
-If you want to find out more about the author and the purpose of this website,
-you can read about it [here](about). I also have a page on what I am doing
-[now](now).
+[Find out more about the author and the purpose of this website](about).
+ I also have a page on what I am doing [now](now).
 
 {{<hovericon "mailto:home@jneidel.com">}}
     {{<icon "email">}}

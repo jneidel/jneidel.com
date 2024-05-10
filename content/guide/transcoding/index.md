@@ -67,7 +67,7 @@ Opus:
 I started with this table.
 You can see the codec support Jellyfin has in the browsers I picked.
 
-{{<figure src="jellyfin-video-codecs.png" class="w-9/12" caption="Jellyfin support for video codecs ([Source](https://jellyfin.org/docs/general/clients/codec-support/#video-compatibility))">}}
+{{<figure src="jellyfin-video-codecs.png" class="w-9/12" caption="Jellyfin support for video codecs ([Source](https://jellyfin.org/docs/general/clients/codec-support/#video-compatibility))" alt="Table of video codecs Jellyfin supports">}}
 
 VP9 can be excluded as it's the predecessor of AV1.
 Let's look into the other three in some detail.
@@ -116,7 +116,7 @@ And I am not using surround sound capable speakers, so I don't really care.
 But if I'm already transcoding something I might as well put it into the best
 available audio codec while I'm at it.
 
-{{<figure class="w-8/12" src="jellyfin-audio-codecs.png" caption="Jellyfin support for audio codecs ([Source](https://jellyfin.org/docs/general/clients/codec-support/#audio-compatibility))">}}
+{{<figure class="w-8/12" src="jellyfin-audio-codecs.png" caption="Jellyfin support for audio codecs ([Source](https://jellyfin.org/docs/general/clients/codec-support/#audio-compatibility))" alt="Table of audio codecs Jellyfin supports">}}
 
 Looking at the table we see that we can pretty much use whatever codec we want
 (with the exception of DTS and AC3.)
@@ -397,8 +397,8 @@ Take a look at the roof of the car on the right.
 It looks much more crisp in the WEB-DL version.
 
 {{<center>}}
-    {{<figure src="torrent-source-webrip.png" href="torrent-source-webrip.png" caption="WEBRIP Example">}}
-    {{<figure src="torrent-source-web-dl.png" href="torrent-source-web-dl.png" caption="WEB-DL Example">}}
+    {{<figure src="torrent-source-webrip.png" href="torrent-source-webrip.png" alt="Screenshot of They Cloned Tyrone to demostrace WEBRIP quality" caption="WEBRIP Example">}}
+    {{<figure src="torrent-source-web-dl.png" href="torrent-source-web-dl.png" alt="Screenshot of They Cloned Tyrone to demostrace WEB-DL quality" caption="WEB-DL Example">}}
 {{</center>}}
 
 `HDRip` are screen captures of a show/movie on TV and commonly include the

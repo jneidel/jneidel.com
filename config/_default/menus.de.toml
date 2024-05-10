@@ -38,6 +38,7 @@
 [[main]]
   identifier = "search"
   weight = 90
+  title = "Search icon"
   [main.params]
     action = "search"
 
@@ -45,6 +46,7 @@
   name = "RSS"
   url = "/de/rss"
   weight = 92
+  title = "RSS logo icon"
   [main.params]
     icon = "rss"
     showName = false
@@ -53,12 +55,14 @@
 [[main]]
   identifier = "appearance"
   weight = 95
+  title = "Dark/light mode anschalten icon"
   [main.params]
     action = "appearance"
 
 [[main]]
   identifier = "locale"
   weight = 100
+  title = "Sprache wechseln icon"
   [main.params]
     action = "locale"
 
