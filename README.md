@@ -1,28 +1,49 @@
 # jneidel.com
 
-A website built with [Hugo](https://gohugo.io) and [Congo](https://jpanther.github.io/congo)
+This is my website built with [Hugo](https://gohugo.io) & [Congo](https://jpanther.github.io/congo) and is deployed on [Netlify](https://netlify.com).
+These tools do an amazing amount of work for you and take care of all the hard
+parts. You just need to configure and hack them to your liking.
 
-## Development
+## Things that hugo and congo provide for free
+
+These are the things I'm utilizing.
+
+- Fully responsive layout with [Tailwind CSS 3](https://tailwindcss.com) -> allows for easy customization from markdown
+- Supply your own colour scheme
+- Dark mode -> easy to hook into in css
+- Multilingual content support -> (de/en)
+- Client-side site search powered by Fuse.js -> works great
+- Diagrams and visualisations using Mermaid, Charts using Chart.js
+- Automatic image resizing using Hugo Pipes
+- Heading anchors, Tables of Contents, Code copy, Buttons, Badges and more
+- HTML and Emoji support in articles
+- SEO friendly
+- Analytics integration
+- RSS feeds, Favicons
+- Optimised for performance and accessibility with perfect Lighthouse scores
+
+### Features and customization on top of congo
+
+This is the stuff I added that improves functionality.
+
+- Validate that internal links and image links exist
+- Use githubs dark and light themes for code highlighting
+- Renamed RSS feeds to `rss.xml`
+- Exclude articles from the rss feed with `excludeRss: true` in the front matter
+- Set Lastmod value based on last commit date
+- If `date = dateUpdated` and `showDate: false` and `showDateUpdated: true` -> show dateUpdated
+
+Plus shortcodes and such.
+
+## Run
 
 ```sh
+# dev
 make
-```
 
-## Production
-
-```sh
+# prod
 make build
 ```
-
-## Features and customization on top of congo
-
-- pass a `width` property to the `{{<figure>}}` shortcode
-- validate internal links and image links
-- use githubs dark and light themes for code highlighting
-- renamed RSS feeds to `rss.xml`
-- hide articles with `excludeRss: true` in the front matter from rss feed
-- set Lastmod value based on last commit date
-- if date is not to be shown, but dateUpdated is show dateUpdated despite `date = dateUpdated`
 
 ## Copyright
 
