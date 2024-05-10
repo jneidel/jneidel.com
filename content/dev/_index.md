@@ -20,7 +20,4 @@ These topics are being covered:
 A working knowledge of the terminal is assumed.
 {{</alert>}}
 
-
 {{<icon "github">}}[jneidel](https://github.com/jneidel)
-
----

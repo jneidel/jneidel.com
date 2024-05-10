@@ -26,5 +26,3 @@ more [about me here](about). And here you find a out what I'm up-to [now](now).
 {{<hovericon "/rss">}}
     {{<icon "rss">}}
 {{</hovericon>}}
-
----
