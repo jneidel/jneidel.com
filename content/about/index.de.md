@@ -1,6 +1,6 @@
 ---
 title: Über diese Website und den Autor
-summary: Die Mission dieser Website und eine Beschreibung des Authors.
+summary: Die Mission dieser Website und eine Beschreibung des Autors.
 tags:
 date: 2024-05-10
 excludeRss: true

@@ -1,12 +1,40 @@
 ---
-title: ""
-description: ""
+title: "Jonathan's Page"
+summary: "Die Hompage von Jonathan Neidel."
+cascade:
+    showReadingTime: false
+    showDate: false
+    showDateUpdated: false
 ---
 
-{{< lead >}}
-Hi, I'm Jonathan.
-{{< /lead >}}
+{{<figure caption="_Me._" clearClass="true" class="sm:h-3/6 sm:max-w-72 sm:float-right sm:pl-6 my-0" alt="Profilbild von Jonathan Neidel" src="img/profile-picture.jpg">}}
 
-A self-taught backend developer and CLI Enthusiast. Besides coding, I like
-optimizing in the kitchen and enjoy spending time in nature. You can find out
-more about me here. And here you find a out what I'm up-to now.
+{{<lead>}}
+Moin, ich bin Jonathan.
+{{</lead>}}
+
+Willkommen auf meiner Website.
+Hier findest du meine pragmatischen Artikel mit dem Fokus die Dinge zu finden,
+die funktionieren. Für alle Bereiche des Lebens.
+
+Ich habe die Artikel nach Stil auf die untenstehenden Kategorien aufgeteilt.
+Schau dich gerne um:
+
+- [{{<i18n "category.essay_name">}}](essay) - {{<i18n "category.essay_description">}}
+- [{{<i18n "category.guide_name">}}](guide) - {{<i18n "category.guide_description">}}
+- [{{<i18n "category.review_name">}}](review) - {{<i18n "category.review_description">}}
+- [{{<i18n "category.project_name">}}](project) - {{<i18n "category.project_description">}}
+
+Wenn du mehr über das erklärte Ziel  dieser Website und seinen Autor erfahren
+möchtest, kannst du das [hier](about) tun.
+
+{{<hovericon "mailto:home@jneidel.com">}}
+    {{<icon "email">}}
+{{</hovericon>}}
+{{<hovericon "/gpg.txt">}}
+    {{<icon "gpg">}}
+{{</hovericon>}}
+{{<hovericon "/rss">}}
+    {{<icon "rss">}}
+{{</hovericon>}}
+
