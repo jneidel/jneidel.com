@@ -4,6 +4,7 @@ languageDirection = "ltr"
 weight = 1
 
 [params]
+  dateFormat = "Jan 2. 2006"
   mainSections = ["essay", "guide", "review", "project", "misc"]
   description = "A blog about what works."
 
