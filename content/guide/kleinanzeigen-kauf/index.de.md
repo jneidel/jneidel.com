@@ -1,5 +1,6 @@
 ---
 title: Erfolgreich auf Kleinanzeigen kaufen
+summary: "Mein Vorgehen um auf Kleinanzeigen viel zu sparen."
 date: 2023-10-18
 tags:
     - Kleinanzeigen

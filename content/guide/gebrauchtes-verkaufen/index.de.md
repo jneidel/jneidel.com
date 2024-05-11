@@ -1,6 +1,7 @@
 ---
 title: Gebrauchtes verkaufen
-date: 2023-10-14T08:40:18+02:00
+summary: "Übersicht von Strategien und Verkaufsplatformen für Privatpersonen."
+date: 2023-10-14
 tags:
     - Kleinanzeigen
     - Ebay

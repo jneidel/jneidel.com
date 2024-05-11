@@ -1,6 +1,7 @@
 ---
-title: Syncing Plaintext Notes between multiple Devices
-date: 2023-11-13T18:48:35+01:00
+title: Syncing text notes between multiple devices
+summary: "Description of the technical setup for my note-taking system."
+date: 2023-11-13
 ---
 
 If you're not using a note-taking app that handles synchronization for you,
