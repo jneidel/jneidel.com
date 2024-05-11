@@ -90,3 +90,7 @@ input[type="checkbox"][checked][disabled] {
     border-width: 0 2px 2px 0;
   }
 }
+
+html.dark div.lead {
+  color: rgb(var(--color-neutral-300));
+}
