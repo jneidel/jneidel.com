@@ -21,7 +21,7 @@ On my list are:
 - [x] Optimize hosting
 - [ ] Optimize SEO and Lighthouse
 - [ ] Start an email list
-- [ ] Analytics
+- [x] Analytics
 - [ ] Privacy policy & Impressum
 - [ ] AdWords
 - [ ] Sign up for affiliate programs

@@ -6,6 +6,7 @@ excludeRss: true
 showDate: false
 showDateUpdated: false
 showReadingTime: false
+thumbnailAlt: "Various different multi-colored items"
 ---
 
 {{<lead>}}
@@ -13,7 +14,7 @@ A collection of colors I use when customizing.
 {{</lead>}}
 
 | color | hex | 256 | rgb |
-|--|--|--|--|
+|--|:-:|:-:|:-:|
 | {{<color "#1c1c1c">}} grey | 1c1c1c | 234 | 28 28 28 |
 | {{<color "#d0d0d0">}} white | d0d0d0 | 252 | 208 208 208 |
 | {{<color "#005fd7">}} blue | 005fd7 | 26 | 0 95 215 |

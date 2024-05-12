@@ -5,6 +5,7 @@ summary: Overview of the ways I optimized feedback collection for blog.
 tags:
     - blog
 date: 2024-05-11
+thumbnailAlt: Cute mailbox for collecting feedback
 writingTime: 120
 ---
 
