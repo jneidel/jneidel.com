@@ -32,7 +32,7 @@
 
 [[main]]
   name = "RSS"
-  url = "/rss"
+  url = "/rss/"
   weight = 92
   title = "RSS logo icon"
   [main.params]

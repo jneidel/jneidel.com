@@ -36,7 +36,7 @@ fingerprintAlgorithm = "sha256"
   links = [
     { email = "mailto:blog@jneidel.com" },
     { gpg = "/gpg.txt" },
-    { rss = "/rss" },
+    { rss = "/rss/" },
   ]
 
 [article]
