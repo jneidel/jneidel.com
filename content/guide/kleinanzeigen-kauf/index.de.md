@@ -155,8 +155,8 @@ Wohnung braucht.
     + schäbiger Tisch: 10€
 - Büro
     {{<center class="sm:float-right">}}
-        {{<figure src="ftisch.jpeg" class="h-52 w-auto my-0">}}
-        {{<figure src="jtisch.jpeg" class="h-52 w-auto my-0">}}
+        {{<figure src="ftisch.jpeg" alt="Höhenverstellbarer Schreibtisch" class="h-52 w-auto my-0">}}
+        {{<figure src="jtisch.jpeg" alt="Höhenverstellbarer Schreibtisch" class="h-52 w-auto my-0">}}
     {{</center>}}
     + Standing desk 120x60: 100€!
     + Standing desk 160x80: 330€
@@ -166,8 +166,8 @@ Wohnung braucht.
     + Schallabsorber: 50€
     + Schaukelstuhl: 20€
     {{<center class="sm:float-right">}}
-        {{<figure src="fstuhl.jpeg" class="h-52 w-auto my-0">}}
-        {{<figure src="sitzball.jpeg" class="h-52 w-auto my-0">}}
+        {{<figure src="fstuhl.jpeg" alt="Bürostuhl" class="h-52 w-auto my-0">}}
+        {{<figure src="sitzball.jpeg" alt="Ledersitzball" class="h-52 w-auto my-0">}}
     {{</center>}}
     + Apple Tastatur: 30€
     + Apple Trackpad: 30€
@@ -176,8 +176,8 @@ Wohnung braucht.
     + IKEA Bett mit 1 Jahr alter Matratze 220x180: 90€!
     + Vanity table: 20€
     {{<center class="sm:float-right">}}
-        {{<figure src="schallabsorber.jpeg" class="h-52 w-auto my-0">}}
-        {{<figure src="schaukelstuhl.jpeg" class="h-52 w-auto my-0">}}
+        {{<figure src="schallabsorber.jpeg" alt="Hellblaue Schallabsorber im Büro" class="h-52 w-auto my-0">}}
+        {{<figure src="schaukelstuhl.jpeg" alt="Schaukelstuhl" class="h-52 w-auto my-0">}}
     {{</center>}}
     + Blackout curtains: 30€
 - Flur
@@ -185,8 +185,8 @@ Wohnung braucht.
 - Wohnzimmer
     + Leder Sofa: 100€
     {{<center class="sm:float-right">}}
-        {{<figure src="tastatur.jpeg" class="h-52 w-auto my-0">}}
-        {{<figure src="bett.jpeg" class="h-52 w-auto my-0">}}
+        {{<figure src="tastatur.jpeg" alt="Apple Tastatur auf dem Tisch" class="h-52 w-auto my-0">}}
+        {{<figure src="bett.jpeg" alt="Bett mit Matratze" class="h-52 w-auto my-0">}}
     {{</center>}}
     + Schlafsofa: 120€!
     + 4x Stühle: 70€
@@ -194,8 +194,8 @@ Wohnung braucht.
     + kleine Beko Waschmaschine: 30€
 - Divers
     {{<center class="sm:float-right">}}
-        {{<figure src="sofa.jpeg" class="h-52 w-auto my-0">}}
-        {{<figure src="schlafsofa.jpeg" class="h-52 w-auto my-0">}}
+        {{<figure src="sofa.jpeg" alt="Grünes Ledersofa" class="h-52 w-auto my-0">}}
+        {{<figure src="schlafsofa.jpeg" alt="Graues ausklappbares Schlafsofa" class="h-52 w-auto my-0">}}
     {{</center>}}
     + Fritzbox Router (neuste Generation): 65€
     + Lampen: 12€+66€
@@ -204,8 +204,8 @@ Wohnung braucht.
     + Charge 3 Bluetooth speaker: 45€
 
 Plus weitere bei denen ich die Preis verloren haben :slightly_smiling_face:
-{{<figure src="stuhl.jpeg" class="sm:float-right h-52 w-auto my-0">}}
-{{<figure src="waschmaschine.jpeg" class="px-1 sm:float-right h-52 w-auto my-0">}}
-{{<figure src="fritzbox.jpeg" class="sm:float-right h-52 w-auto my-0">}}
-{{<figure src="lamps.jpeg" class="px-1 sm:float-right h-52 w-auto my-0">}}
-{{<figure src="charge3.jpeg" class="sm:float-right h-52 w-auto my-0">}}
+{{<figure src="stuhl.jpeg" alt="Bürostuhl" class="sm:float-right h-52 w-auto my-0">}}
+{{<figure src="waschmaschine.jpeg" alt="Beko Waschmaschine im Bad" class="px-1 sm:float-right h-52 w-auto my-0">}}
+{{<figure src="fritzbox.jpeg" alt="Fritzbox an der Wand montiert" class="sm:float-right h-52 w-auto my-0">}}
+{{<figure src="lamps.jpeg" alt="Deckenlampen" class="px-1 sm:float-right h-52 w-auto my-0">}}
+{{<figure src="charge3.jpeg" alt="JBL Charge 3 in Türkis" class="sm:float-right h-52 w-auto my-0">}}

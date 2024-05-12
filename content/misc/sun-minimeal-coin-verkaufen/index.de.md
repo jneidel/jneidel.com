@@ -3,7 +3,9 @@ title: "SUN Minimeal Coin verkaufen: $UN in Euro umwandeln"
 description: "Anleitung Sun Minimeal Coin zu Euro umwandeln."
 summary: "Eine Erklärung der Schritte die nötig sind um den SUN Minimeal Coin ($UN) zu verkaufen."
 date: 2024-04-27
-tags: ["crypto"]
+tags:
+    - crypto
+thumbnailAlt: SUN Minimeal Coin Umwandlung in Euro
 ---
 
 Du hast [SUN Minimeals](https://www.minimeal.com) gekauft und dabei $PO bzw. $UN

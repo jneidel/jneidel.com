@@ -4,6 +4,7 @@ description: What if you stopped believing about yourself that you don't have th
 summary: The power plant doesn't have power, it generates power.
 tags:
     - energy
+thumbnailAlt: Person omitting power
 date: 2024-05-11
 writingTime: 25
 ---

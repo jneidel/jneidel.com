@@ -4,6 +4,7 @@ description: Was passiert wenn du nicht mehr glaubst das dir die Energie fehlt?
 summary: Das Kraftwerk hat keine Energie, es generiert Energie.
 tags:
     - Energie
+thumbnailAlt: Eine Person die Energie ausstrahlt
 date: 2024-05-11
 writingTime: 15
 ref: Reality loop, Article on energizing yourself
