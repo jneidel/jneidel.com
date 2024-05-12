@@ -24,7 +24,10 @@ In der Regel steht der bei über drei Euro.
 
 Relativ schnell entdeckte ich dann doch diesen Rabatt bei Aldi:
 
-{{<figure class="w-10/12" alt="Rabatt bei Aldi 1,79€ für Kerrygold Butter" src="thumb-price-label.jpg" caption="Kerrygold 1,79€">}}
+{{<center>}}
+    {{<figure alt="Preisschild 3,39€" src="regular-price.jpg" caption="Regulärer Preis">}}
+    {{<figure alt="Rabatt bei Aldi 1,79€ für Kerrygold Butter" src="thumb-price-label.jpg" caption="Sale">}}
+{{</center>}}
 
 Ok, cool.
 Dann kaufe ich auf Vorrat.
