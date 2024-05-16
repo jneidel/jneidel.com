@@ -1,6 +1,6 @@
 ---
 title: Producing vs. Consuming
-description:
+description: An Essay
 summary:
 tags:
 date: 2024-05-11

@@ -1,6 +1,6 @@
 ---
 title: Das Kraftwerk
-description: Was passiert wenn du nicht mehr glaubst das dir die Energie fehlt?
+description: Ein Essay darüber was passiert wenn aufhörst daran zu glauben das dir die Kraft fehlt das zu tun, was du tun musst.
 summary: Das Kraftwerk hat keine Energie, es generiert Energie.
 tags:
     - Energie

@@ -1,5 +1,7 @@
 ---
 title: One reason for a trip
+description: An Essay on how you can make a trip more enjoyable by focusing on a single reason to take it.
+summary: Why are you going on that trip?
 date: 2023-11-28
 slug: "trip-one-reason"
 tags:

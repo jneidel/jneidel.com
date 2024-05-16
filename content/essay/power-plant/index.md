@@ -1,6 +1,6 @@
 ---
 title: The Power Plant
-description: What if you stopped believing about yourself that you don't have the energy right now?
+description: An Essay about questioning the belief about yourself that you don't have enough energy to do what you must.
 summary: The power plant doesn't have power, it generates power.
 tags:
     - energy
