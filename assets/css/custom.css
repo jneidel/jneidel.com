@@ -94,3 +94,60 @@ input[type="checkbox"][checked][disabled] {
 html.dark div.lead {
   color: rgb(var(--color-neutral-300));
 }
+
+@keyframes pulse {
+  0% {
+    box-shadow: none;
+  }
+  90% {
+    box-shadow: 0 0 0 0 rgba(255, 77, 77, 0.7);
+  }
+  97% {
+    box-shadow: 0 0 0 15px rgba(255, 77, 77, 0);
+  }
+  100% {
+    box-shadow: 0 0 0 0 rgba(255, 77, 77, 0);
+  }
+}
+.email-form {
+  button {
+    font-size: .9rem;
+    animation: pulse 20s infinite;
+  }
+
+  span {
+    margin-bottom: 0;
+  }
+
+  .input-container {
+    position: relative;
+
+    input {
+      padding: 10px 0;
+      font-size: .8rem;
+      border: none;
+      border-bottom: 1px solid rgb(var(--color-neutral-300));
+      outline: none;
+      background: transparent;
+    }
+    label {
+      position: absolute;
+      top: 0;
+      left: 0;
+      padding: 10px 0;
+      font-size: 16px;
+      color: rgb(var(--color-neutral-400));
+      pointer-events: none;
+      transition: 0.2s ease-in-out;
+    }
+    input:focus ~ label, input:valid ~ label {
+      top: -20px;
+      left: 0;
+      font-size: 12px;
+      color: rgb(var(--color-primary-400));
+    }
+    input:focus {
+      border-bottom: 2px solid rgb(var(--color-primary-400));
+    }
+  }
+}

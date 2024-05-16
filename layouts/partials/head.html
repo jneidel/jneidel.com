@@ -44,6 +44,10 @@
     href="{{ $bundleCSS.RelPermalink }}"
     integrity="{{ $bundleCSS.Data.Integrity }}"
   />
+  {{ $newsletterForm := resources.Get "js/newsletter-form.js" }}
+  {{ if $newsletterForm }}
+    {{ $assets.Add "js" (slice $newsletterForm) }}
+  {{ end }}
   {{ if .Site.Params.enableSearch | default false }}
     {{ $jsFuse := resources.Get "lib/fuse/fuse.min.js" }}
     {{ $jsSearch := resources.Get "js/search.js" }}

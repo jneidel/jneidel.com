@@ -3,6 +3,8 @@
 [build]
 # command = "make build" # use setting on netlify to allow for stage/prod to be both deployed from master
 publish = "public"
+base = "."
+functions = "./.functions"
 
 [build.environment]
 HUGO_ENV = "production"
