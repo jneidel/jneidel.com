@@ -50,7 +50,7 @@ This will work for most sites.
 
 ### Automatic Login
 
-The Autofill extension: [Firefox](https://addons.mozilla.org/en-US/firefox/addon/autofill-quantum/) [Chrome](https://chromewebstore.google.com/detail/autofill/nlmmgnhgdeffjkdckmikfpnddkbbfkkk)
+[The Autofill extension](https://www.tohodo.com/autofill).
 
 The extension for [KeePassXC](https://keepassxc.org) (my preferred Password
 manager) also does autofilling once configured, but requires your password

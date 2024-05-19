@@ -35,6 +35,6 @@ You can explore the categories below:
 {{<hovericon "/gpg.txt">}}
     {{<icon "gpg">}}
 {{</hovericon>}}
-{{<hovericon "/rss">}}
+{{<hovericon "/rss/">}}
     {{<icon "rss">}}
 {{</hovericon>}}

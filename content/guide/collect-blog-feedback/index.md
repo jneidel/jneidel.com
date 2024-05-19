@@ -1,7 +1,7 @@
 ---
 title: More easily collect feedback on your blog
-description: How I collect typos and corrections using Netlify Drawer and Github.
-summary: Overview of the ways I optimized feedback collection for blog.
+description: "How I collect blog feedback (typos and corrections) using Netlify Drawer and Github."
+summary: Overview of the ways I optimized feedback collection for this blog.
 tags:
     - blog
 date: 2024-05-11

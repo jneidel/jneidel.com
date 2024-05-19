@@ -131,7 +131,7 @@ kombinieren. Am besten zusammen suchen das sich entweder ein Roundtrip oder eine
 kannst du Kosten sparen indem du mit den Öffis hinfährst und erst dort den
 Transporter anmietest.
 
-{{<figure class="w-9/12" src="route-example.jpeg" caption="Eine Beispielroute mit mehreren Stops">}}
+{{<figure class="w-9/12" src="route-example.jpeg" alt="Route durch Berlin mit mehreren Stops" caption="Eine Beispielroute mit mehreren Stops">}}
 
 Plane auf jeden Fall etwas Puffer zwischen den Stops ein und gibt den Verkäufer
 eine Range oder versichere dich das es Okay ist wenn es etwas früher wird

@@ -33,7 +33,7 @@ Hier kannst du mehr über das [erklärte Ziel dieser Website und seinen Autor er
 {{<hovericon "/gpg.txt">}}
     {{<icon "gpg">}}
 {{</hovericon>}}
-{{<hovericon "/rss">}}
+{{<hovericon "/rss/">}}
     {{<icon "rss">}}
 {{</hovericon>}}
 

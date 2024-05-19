@@ -238,8 +238,8 @@ Teddit (Reddit) throws to a "Too many requests" error from time to time.
 
 ### Autofill
 
-[firefox](https://addons.mozilla.org/en-US/firefox/addon/autofill-quantum/) |
-[chrome](https://chromewebstore.google.com/detail/autofill/nlmmgnhgdeffjkdckmikfpnddkbbfkkk)
+[firefox](https://addons.mozilla.org/en-US/firefox/addon/lightning-autofill/) |
+[chrome](https://chromewebstore.google.com/detail/autofill/nlmmgnhgdeffjkdckmikfpnddkbbfkkk) | [website](https://www.tohodo.com/autofill)
 
 Automatically fill forms and executes arbitrary code on a given website.
 
