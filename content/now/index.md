@@ -15,16 +15,18 @@ I have pushed it off for so long, but now is the time.
 On my list are:
 - [x] Migrate old hugo install to the [congo](https://jpanther.github.io/congo) theme
 - [x] Make it fit my requirements (features and styling)
-- [ ] Migrate all existing website content and functionality over
 - [x] Define purpose and content strategy
-- [x] Create systems writing and review
+- [ ] Migrate all existing website content over
+- [ ] Migrate redirects over
+- [x] Create systems for writing and review
 - [x] Optimize hosting
-- [ ] Optimize SEO and Lighthouse
+- [x] Optimize SEO and Lighthouse
 - [ ] Start an email list
 - [x] Analytics
 - [ ] Privacy policy & Impressum
 - [ ] AdWords
 - [ ] Sign up for affiliate programs
+- [ ] Replace jneidel.com repo
 
 And in the long-term:
 - [ ] Build backlinks, grow the email list
