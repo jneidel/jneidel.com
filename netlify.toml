@@ -15,4 +15,6 @@ TZ = "Europe/Berlin"
 HUGO_ENV = "production"
 
 [context.deploy-preview]
-command = "make preview"
+command = "make buildDrafts"
+[context.branch-deploy]
+command = "make buildDrafts"

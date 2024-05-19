@@ -4,9 +4,9 @@ serve:
 	${BROWSER} http://localhost:1313 >/dev/null 2>&1 &
 	hugo server -D -p 1313 --navigateToChanged
 
-tw: themes/congo/node_modules
+tw: themes/congo/node_modules  # tailwind
 	./themes/congo/node_modules/tailwindcss/lib/cli.js -c ./themes/congo/tailwind.config.js -i ./themes/congo/assets/css/main.css -o ./assets/css/compiled/main.css --jit >/dev/null
-tww: themes/congo/node_modules
+tww: themes/congo/node_modules # tailwind watch
 	./themes/congo/node_modules/tailwindcss/lib/cli.js -c ./themes/congo/tailwind.config.js -i ./themes/congo/assets/css/main.css -o ./assets/css/compiled/main.css --jit --watch >/dev/null
 
 themes/congo/node_modules:
@@ -20,8 +20,5 @@ assets/css/compiled/main.css: themes/congo/node_modules
 build: assets/css/compiled/main.css
 	HUGO_ENV=production hugo --gc --minify -b ${URL}
 
-stage: assets/css/compiled/main.css
-	HUGO_ENV=production hugo --gc --minify --buildDrafts -b ${URL}
-
-preview: assets/css/compiled/main.css
+buildDrafts: assets/css/compiled/main.css
 	HUGO_ENV=production hugo --gc --minify --buildDrafts -b ${DEPLOY_PRIME_URL}
