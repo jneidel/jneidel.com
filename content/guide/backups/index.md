@@ -1,6 +1,7 @@
 ---
 title: My Backup strategy
 date: 2024-01-05
+thumbnailAlt: Open hard drive in front of rack
 tags:
     - homeserver
 ---

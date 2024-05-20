@@ -2,6 +2,7 @@
 title: Gebrauchtes verkaufen
 summary: "Übersicht von Strategien und Verkaufsplatformen für Privatpersonen."
 date: 2023-10-14
+thumbnailAlt: Girls smiling with book and laptop with ebay open
 tags:
     - Kleinanzeigen
     - Ebay

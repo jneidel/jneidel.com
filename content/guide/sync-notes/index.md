@@ -2,6 +2,7 @@
 title: Syncing text notes between multiple devices
 summary: "Description of the technical setup for my note-taking system."
 date: 2023-11-13
+thumbnailAlt: Pages and devices flying through the air
 ---
 
 If you're not using a note-taking app that handles synchronization for you,

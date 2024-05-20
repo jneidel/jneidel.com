@@ -5,6 +5,7 @@ summary: "Review of Intermittent Fasting"
 tags:
     - technique
 showDateUpdated: false
+thumbnailAlt: Woman with salad and water, clock showing the afternoon
 writingTime: 60
 ---
 
