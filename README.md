@@ -1,5 +1,7 @@
 # jneidel.com
 
+<img width="400px" src="https://github.com/jneidel/blog/assets/25589715/353b68d4-04cf-4db6-bea6-218e7290d659"/><img width="400px" src="https://github.com/jneidel/blog/assets/25589715/5b90cb33-ce98-4c98-979e-58d42b921689"/>
+
 This is my website built with [Hugo](https://gohugo.io) & [Congo](https://jpanther.github.io/congo) and is deployed on [Netlify](https://netlify.com).
 These tools do an amazing amount of work for you and take care of all the hard
 parts. You just need to configure and hack them to your liking.

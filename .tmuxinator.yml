@@ -7,3 +7,5 @@ windows:
       panes:
         - $BROWSER http://localhost:1313 & hugo server -D -p 1313 --navigateToChanged
         -
+  - lf: lf
+  - lf: lf
