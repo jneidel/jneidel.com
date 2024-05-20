@@ -10,16 +10,16 @@
 # overridden by providing a weight value. The menu will then be
 # ordered by weight from lowest to highest.
 
-# [[main]]
-#   name = "Artikel"
-#   pageRef = "essay"
-#   weight = 10
-#
-# [[main]]
-#   name = "Guides"
-#   pageRef = "guide"
-#   weight = 21
-#
+[[main]]
+  name = "Essays"
+  pageRef = "essay"
+  weight = 10
+
+[[main]]
+  name = "Guides"
+  pageRef = "guide"
+  weight = 21
+
 # [[main]]
 #   name = "Reviews"
 #   pageRef = "review"
@@ -30,10 +30,10 @@
 #   pageRef = "project"
 #   weight = 30
 
-[[main]]
-  name = "Divers"
-  pageRef = "misc"
-  weight = 50
+# [[main]]
+#   name = "Divers"
+#   pageRef = "misc"
+#   weight = 50
 
 [[main]]
   identifier = "search"
