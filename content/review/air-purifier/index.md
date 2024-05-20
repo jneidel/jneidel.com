@@ -13,7 +13,7 @@ writingTime: 70
 ## What is an air purifier?
 
 {{<center class="sm:float-right">}}
-    {{<figure src="./air-purifier.jpg" alt="Air Purifier with a bottle for scale" class="ml-2 h-52 w-auto">}}
+    {{<figure src="cover-air-purifier.jpg" alt="Air Purifier with a bottle for scale" class="ml-2 h-52 w-auto">}}
 {{</center>}}
 
 A white cylinder that captiously draws in air through a filter system.

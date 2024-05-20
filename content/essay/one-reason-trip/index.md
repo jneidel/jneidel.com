@@ -4,7 +4,7 @@ description: An Essay on how you can make a trip more enjoyable by focusing on a
 summary: Why are you going on that trip?
 date: 2023-11-28
 slug: "trip-one-reason"
-thumbnailAlt: Golf driving in traffic at sundown
+thumb: Golf driving in traffic at sundown
 tags:
     - philosophy
 ---
