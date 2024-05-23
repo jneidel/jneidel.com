@@ -20,7 +20,7 @@ The reverse is true as well.
 If I am producing a ton and consuming little is when I feel like I can go out
 and achieve my goals. I radiate positivity and go for what I want confidently.
 
-{{<figure src="./thumb-scale.jpeg" class="w-8/12" alt="Scale with the words producing and consuming">}}
+{{<figure src="./cover-scale.jpeg" class="w-8/12" alt="Scale with the words producing and consuming">}}
 
 It's a balance between producing and consuming.
 Adding to one must take away from the other. Time is limited.

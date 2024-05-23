@@ -20,22 +20,27 @@ Current streak: 2 week
 {{</badge>}}
 
 - [x] Week 19: "[The power plant doesn't have power, it generates power](essay/power-plant)"
-- [ ] **Week 20-21**: Eat that frog. Start every day by working on the hardest task. I
-    used to do this, but it has slipped away. Now I work on whatever comes to mind.
-- [ ] Week 22: Ask myself multiple times through-out the day
-    "Does this feel right for me? Does this feel right for the other person?"
+- [ ] **Week 20-21**: Eat that frog. Start every day by working on the hardest
+    task. I used to do this, but it has slipped away. Now I work on whatever
+    comes to mind.
+- [ ] Week 22: [Neurostreams](https://www.neurostreams.de/) intensive: intensively use and test all the
+    neurostreams and conclude sensible applications for the future
 - [ ] Week 23: "People are like balloons, with each interaction you can either
     let some air out of them, or blow them up a little." - I will be around
     people that week and I want to challenge myself consciously interact with
     them in a more positive manner
-- [ ] Week 24: Writing and publishing two shorter blog articles per day or one long one
+- [ ] Week 24: No interrupting others. I've done this before and it was great. I
+    will be meeting some friends that week.
 - [ ] Week 25: No new information. Only read and listen to what I have read or
     listened to before.
 <!-- - [ ] Week <++>: <++> -->
 
+<!-- - [ ] Week 24: Writing and publishing two shorter blog articles per day or one long one -->
 <!-- - [ ] Week 22: Write down 4x4 goals (4 biggest goals, 4 times each) followed by -->
 <!--     a visualization technique that sounds actually effective -->
 <!--     (not just a loose "just imagine it bro") -->
+<!-- - [ ] Week 22: Ask myself multiple times through-out the day -->
+<!--     "Does this feel right for me? Does this feel right for the other person?" -->
 
 If you have a suggestion for something I should try,
 just [let me know](mailto:challenge-suggestion@jneidel.com) :slightly_smiling_face:.
