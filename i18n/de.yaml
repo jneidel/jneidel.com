@@ -16,3 +16,7 @@ shortcode:
   recent_articles: "Neue Artikel"
 article:
   date_updated: "Aktualisiert am {{ .Date }}"
+
+footer:
+  light_appearance: "Wecheln in den hellen Modus"
+  dark_appearance: "Wecheln in den dunklen Modus"
