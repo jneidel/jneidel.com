@@ -55,9 +55,12 @@ Project start: May23 2024
 {{</badge>}}
 
 1. Write this article.
-<!-- 24. -->
+24. Finished writing [Eat the frog](essay/eat-that-frog), edit and translate it.
+Started writing The Inner Game review.
+25. Continued writing and editing The Inner Game review.
 
 ## References
 
 Andy was my inspiration for this:
-[CHALLENGE: Start a 365 Day Project](https://killyourinnerloser.com/challenge-start-a-365-day-project/)
+[CHALLENGE: Start a 365 Day Project](https://killyourinnerloser.com/challenge-start-a-365-day-project/) and
+a more [in-depth podcast episode](https://www.listennotes.com/podcasts/kill-your-inner/365-day-projects-are-amazing-ZgEoY2xBrJk/)

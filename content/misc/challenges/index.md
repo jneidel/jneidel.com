@@ -16,18 +16,17 @@ A way to continuously apply self-development learnings and expand my comfort zon
 {{</lead>}}
 
 {{<badge>}}
-Current streak: 2 week
+Current streak: 3 weeks
 {{</badge>}}
 
-- [x] Week 19: "[The power plant doesn't have power, it generates power](essay/power-plant)"
-- [ ] **Week 20-21**: Eat that frog. Start every day by working on the hardest
-    task. I used to do this, but it has slipped away. Now I work on whatever
-    comes to mind.
-- [ ] Week 22: [Neurostreams](https://www.neurostreams.de/) intensive: intensively use and test all the
-    neurostreams and conclude sensible applications for the future
+- [x] Week 19: Applied "[The power plant doesn't have power, it generates power](essay/power-plant)"
+- [x] Week 20-21: Applied [Eat that frog](essay/eat-that-frog)
+- [ ] **Week 22**: [Neurostreams](https://www.neurostreams.de/) intensive:
+    Use and test all the Neurostreams and conclude sensible applications for
+    the future.
 - [ ] Week 23: "People are like balloons, with each interaction you can either
     let some air out of them, or blow them up a little." - I will be around
-    people that week and I want to challenge myself consciously interact with
+    people that week and I want to challenge myself to consciously interact with
     them in a more positive manner
 - [ ] Week 24: No interrupting others. I've done this before and it was great. I
     will be meeting some friends that week.

@@ -68,9 +68,10 @@ Project start: 23. Mai 2024
 {{</badge>}}
 
 1. Schreiben und übersetzen dieses Artikels.
-<!-- 24. -->
+24. [Eat the frog](essay/eat-that-frog) zuende schreiben, editieren und übersetzen.
 
 ## References
 
 Andy hat mich inspiriert diese Challenge zu machen:
 [CHALLENGE: Start a 365 Day Project](https://killyourinnerloser.com/challenge-start-a-365-day-project/)
+und noch eine [tiefergehende Episode seines Podcasts](https://www.listennotes.com/podcasts/kill-your-inner/365-day-projects-are-amazing-ZgEoY2xBrJk/).
