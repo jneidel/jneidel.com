@@ -28,7 +28,7 @@ We have the machine running in automatic mode, which means that when the air is
 clean, the machine is quiet and just sits there.
 But when my wife starts cooking without oil again and creates a bunch of smoke
 in the kitchen, then the air purifier will kick into overdrive and start
-whirling loudly, doing it's best get that burnt smell out of the air <abbr title="As soon as possible">ASAP</abbr>.
+whirling loudly, doing it's best to get that burnt smell out of the air <abbr title="As soon as possible">ASAP</abbr>.
 
 And that is really our main use of the thing.
 To get unpleasant smells out of the air (mostly from cooking, but also smells
@@ -54,8 +54,8 @@ The costs come out to three factors:
 ## Conclusion
 
 Do you _need_ one: No.
-But some people would people benefit from having an air purifier.
-E.g. if you have a sensitive nose or are cooking a lot.
+But some people would benefit from having an air purifier.
+E.g. if you have a sensitive nose or cook a lot.
 
 I don't care about the marginal health benefits.
 For me the utility lies in removing unwanted smells from the air.

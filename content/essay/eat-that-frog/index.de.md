@@ -48,6 +48,14 @@ Das ist ein überschaubares Commitment. Da kann nichts schief gehen.
 Schau danach einfach wie es sich anfühlt.
 Genauso gehe ich bei meinen [wöchentlichen Challenges](/misc/challenges) vor.
 
+Frage dich selbst jeden Morgen:
+
+> Welche schwierige, herausfordernde und wichtige Aufgabe eignet sich für
+einen produktiven Start in den Tag?
+<br>
+<br>
+> Welche Aufgabe ist wichtig und trotzdem würde ich sie gerne schieben?
+
 ## Referenzen
 
 Dieses Prinzip entstammt natürlich dem Werk [Eat That Frog! von Brian Tracy](https://www.amazon.de/Eat-that-Frog-weniger-erreichen/dp/3869369094).
