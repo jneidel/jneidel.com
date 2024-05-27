@@ -58,6 +58,8 @@ Project start: May23 2024
 24. Finished writing [Eat the frog](essay/eat-that-frog), edit and translate it.
 Started writing The Inner Game review.
 25. Continued writing and editing The Inner Game review.
+26. Started writing on a post about vulnerability.
+27. Wrote first version of the Neurostreams quick reference guide
 
 ## References
 
