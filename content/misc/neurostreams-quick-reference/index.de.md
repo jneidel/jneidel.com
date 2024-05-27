@@ -7,6 +7,8 @@ tags:
 date: 2024-05-27
 thumbnailAlt:
 slug: neurostreams-kurzanleitung
+showDate: true
+showDateUpdated: true
 draft: true
 writingTime: 106
 ---
@@ -90,3 +92,23 @@ Also: bitte einfach an die Symbolen halten.
 
 **Sonstige**
 - <abbr class="no-underline" title="Hinlegen">:bed:</abbr>: Hinlegen bzw. bequem machen
+
+---
+
+Ausleitend gibt es noch meine Kollektion von Pineal Gland Pine
+Cones :slightly_smiling_face:
+
+{{<center>}}
+    {{<figure src="collection/1.jpeg" alt="Abstract pine cone as pineal gland">}}
+    {{<figure src="collection/8.jpeg" alt="Abstract pine cone as pineal gland">}}
+{{</center>}}
+<div class="pt-2"></div>
+{{<center>}}
+    {{<figure src="collection/3.jpeg" alt="Abstract pine cone as pineal gland">}}
+    {{<figure src="collection/9.jpeg" alt="Abstract pine cone as pineal gland">}}
+{{</center>}}
+<div class="pt-2"></div>
+{{<center>}}
+    {{<figure src="collection/10.jpeg" class="w-12/12" alt="Abstract pine cone as pineal gland">}}
+    {{<figure src="collection/2.jpeg" alt="Abstract pine cone as pineal gland">}}
+{{</center>}}
