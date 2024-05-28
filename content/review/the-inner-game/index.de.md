@@ -4,6 +4,9 @@ description: "Erfahrungsbericht zu dem Kurs The Inner Game von Alexander Hartman
 summary: "Meine Learnings aus dem Kurs."
 tags:
     - "course review"
+    - mindset
+    - performance
+    - self-improvement
 date: 2024-05-27
 thumbnailAlt: "Ein Kraftwerk in einem Eimer"
 writingTime: 105
@@ -16,7 +19,7 @@ In dem 6-tägigen Kurs erklärt Alexander sein Konzept des Reality Loop und
 wie dieser konkret verwendet werden kann um höhere Performance zu erzielen
 und mehr leisten zu können.
 
-Der Author hat einen Hintergrund als Hypnotiseur und High Performance
+Der Autor hat einen Hintergrund als Hypnotiseur und High Performance
 Coach und hat ein Buch über die erfolgreiche Zusammenarbeit mit dem
 Unterbewusstsein geschrieben.
 Diese Aspekte werden auch im Audiokurs aufgegriffen.

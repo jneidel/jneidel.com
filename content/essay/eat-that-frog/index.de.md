@@ -5,7 +5,7 @@ summary: "Starte mit der wichtigsten Aufgabe in den Tag"
 tags:
 date: 2024-05-24
 thumbnailAlt: "Ein Frosch auf einem Teller"
-writingTime: 67
+writingTime: 85
 ---
 
 Das Prinzip ist simpel.
@@ -23,10 +23,10 @@ sich vornimmt.
 Du weißt jetzt schon das dieser Tag ein guter Tag werden wird.
 Alles was du jetzt noch schaffst ist on-top!
 
-Das Prinzip zwingt dich herauszufinden was überhaupt das Wichtigste ist an
-dem du arbeiten solltest.
-Das Wissen um deine wichtigsten Aufgaben arbeitet auch, durch den starken
-Kontrast, die Unwichtigen Sachen heraus.
+Das Prinzip bring Klarheit, indem es dich zwingt herauszufinden was
+überhaupt das Wichtigste ist an dem du arbeiten solltest.
+Das Wissen darum arbeitet auch, durch den starken
+Kontrast, die unwichtigen Sachen heraus.
 Es erlaubt dir, selbst wenn du den Tag nicht mit dem Essen des Frosches
 begonnen hast, zu erkennen das du an Unwichtigem gearbeitet hast und dann
 noch den Tag herumzureißen.

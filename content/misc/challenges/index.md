@@ -5,7 +5,7 @@ summary: "Overview of challenges I have done and will be doing."
 tags:
     - challenge
 date: 2024-05-12
-thumbnailAlt: "Two people challenging themselves"
+thumbnailAlt: "Two people in the gym challenging themselves"
 excludeRss: true
 showDateUpdated: true
 writingTime: 50

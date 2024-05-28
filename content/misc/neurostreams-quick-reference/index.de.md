@@ -10,7 +10,7 @@ slug: neurostreams-kurzanleitung
 showDate: true
 showDateUpdated: true
 draft: true
-writingTime: 106
+writingTime: 120
 ---
 
 {{<lead>}}

@@ -5,7 +5,7 @@ summary: "Start the day with the most important task."
 tags:
 date: 2024-05-24
 thumbnailAlt: "A frog on a dinner plate"
-writingTime: 22
+writingTime: 23
 ---
 
 The principle is simple.
@@ -23,8 +23,8 @@ what's most important.
 You already know that it's going to be a good day.
 Everything else that you're doing will just be on-top!
 
-The principle forces to consider: "What even is the most important thing for
-me to work on?"
+The principle brings clarity, by forcing you to consider: "What even is the
+most important thing for me to work on?"
 This knowledge will put in stark contrast the things that are not.
 It allows you, even on days that you don't start by eating the frog, to
 recognize that you have been working on unimportant things.

@@ -59,7 +59,8 @@ Project start: May23 2024
 Started writing The Inner Game review.
 25. Continued writing and editing The Inner Game review.
 26. Started writing on a post about vulnerability.
-27. Wrote first version of the Neurostreams quick reference guide
+27. Wrote first version of the Neurostreams quick reference guide.
+28. Wrote the coupon essay.
 
 ## References
 
