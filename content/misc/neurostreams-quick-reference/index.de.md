@@ -7,9 +7,8 @@ tags:
 date: 2024-05-27
 thumbnailAlt:
 slug: neurostreams-kurzanleitung
-showDate: true
-showDateUpdated: true
-draft: true
+showDateUpdated: false
+showReadingTime: false
 writingTime: 120
 ---
 
