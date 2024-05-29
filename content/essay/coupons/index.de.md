@@ -4,16 +4,18 @@ description: "Über die Sinnhaftigkeit von Coupon, Überoptimierung und ihren Ei
 Mindset."
 summary: "Man kann eine Meinung zu Coupons haben?"
 tags:
+    - mindset
+    - pareto
+    - shopping
 date: 2024-05-28
-thumbnailAlt: "Galaxy brain"
-draft: true
-writingTime: 80
+thumbnailAlt: "Vilfredo Pareto in einer Bar mit einem Coupon in der Hand"
+writingTime: 90
 ---
 
 ## 10% Rabatt!!1!
 
 Edeka drückt mir nach dem Einkauf ständig Coupons in die Hand.
-Ein Euro hier, 50 Cent da.
+50 Cent hier, 10% da.
 
 Ich dachte, ich wäre übersmart weil ich die Manipulation durchschaut habe:
     1) "Komm doch wieder zu uns" und 2) "Kauf doch etwas das du sonst nicht
@@ -90,3 +92,12 @@ Das bisschen weniger, das sich dein Gehirn auf Weniger konzentriert.
 
 Für mich steht fest:
 Coupons wandern ab sofort unbeachtet in den Müll.
+
+## Verständnisfragen & Action Steps
+- Erkläre in deinen Worten: Warum kosten dich Coupons mehr
+als sie nützen?
+- Was haben Coupons mit der Pareto-Formel zu tun?
+- Findest du Beispiele in deinem Leben wo du Tätigkeiten nachgehst die
+Augenscheinlich ein guter Deal sind, dich jedoch versteckt kosten?
+- Triff eine Entscheidung ob du Coupons und ähnlichen Rabattaktionen für dich
+in Zukunft kategorisch ausschließen wirst.
