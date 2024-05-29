@@ -68,7 +68,13 @@ Project start: 23. Mai 2024
 {{</badge>}}
 
 1. Schreiben und übersetzen dieses Artikels.
-24. [Eat the frog](essay/eat-that-frog) zuende schreiben, editieren und übersetzen.
+24. [Eat the frog](essay/eat-that-frog) zuende schreiben, editieren und übersetzen. Der Anfang von [The Inner Game](review/the-inner-game).
+25. Weiterschreiben und editieren des [The Inner Game](review/the-inner-game) review.
+26. Habe damit begonnen einn Post über Verletzlichkeit zu schreiben.
+27. Die erste Version der [Neurostreams Kurzanleitung](misc/neurostreams-quick-reference).
+28. Schreiben und publishen des [Coupon](essay/coupons) essays.
+29. Fertigstellung des [Coupon](essay/coupons) essays.
+30. Schreiben vom [Minimeal review](review/sun-minimeal). Überarbeitung von [$UN verkaufen](misc/sun-minimeal-coin-verkaufen).
 
 ## References
 

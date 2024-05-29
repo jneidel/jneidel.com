@@ -57,10 +57,12 @@ Project start: May23 2024
 1. Write this article.
 24. Finished writing [Eat the frog](essay/eat-that-frog), edit and translate it.
 Started writing The Inner Game review.
-25. Continued writing and editing The Inner Game review.
+25. Continued writing and editing [The Inner Game review](/de/review/the-inner-game).
 26. Started writing on a post about vulnerability.
 27. Wrote first version of the Neurostreams quick reference guide.
-28. Wrote the coupon essay.
+28. Wrote & published the coupon essay.
+29. Put finishing touches on coupon. Started on Neurostreams review.
+30. Wrote & published [Minimeal review](/de/review/sun-minimeal/). Updates to [Selling $UN](/de/misc/sun-minimeal-coin-verkaufen/).
 
 ## References
 
