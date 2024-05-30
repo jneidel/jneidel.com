@@ -1,12 +1,13 @@
 ---
-title: "Do you need an Air Purifier? – Levoit Core 300S Review"
-description: "What is an Air Purifier and do you need one? An honest review and setup"
-summary: "A review of our air purifier, how we use it and if you should get one."
+title: "What can an Air Purifier do for you? – Levoit Core 300S Review"
+description: "What is an Air Purifier and do you need one? An honest review and setup."
+summary: "How we use our Air Purifier."
 tags:
     - "product review"
+    - utility
 date: 2024-05-18
 showDateUpdated: false
-thumbnailAlt: "Air Purifier with a bottle"
+thumbnailAlt: "Air Purifier with a bottle next to it"
 writingTime: 70
 ---
 
