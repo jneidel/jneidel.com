@@ -63,6 +63,8 @@ Started writing The Inner Game review.
 28. Wrote & published the coupon essay.
 29. Put finishing touches on coupon. Started on Neurostreams review.
 30. Wrote & published [Minimeal review](/de/review/sun-minimeal/). Updates to [Selling $UN](/de/misc/sun-minimeal-coin-verkaufen/).
+31. Started on [Jim Rohn review](review/jim-rohn).
+32. Finished the [Jim Rohn](review/jim-rohn) person review.
 
 ## References
 
