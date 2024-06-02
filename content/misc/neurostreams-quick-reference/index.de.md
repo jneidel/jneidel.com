@@ -5,7 +5,7 @@ summary: Übersicht aller Neurostreams mit Anwendungshinweisen.
 tags:
     - referenz
 date: 2024-05-27
-thumbnailAlt:
+thumbnailAlt: "Ein abstrakter Tannenzapfen ähnlich dem Neurostreams Logo"
 slug: neurostreams-kurzanleitung
 showDateUpdated: false
 showReadingTime: false
