@@ -8,7 +8,7 @@ thumbnailAlt:
 draft: true
 showDateUpdated: false
 showReadingTime: false
-writingTime:
+writingTime: 10
 ---
 
 <++>
