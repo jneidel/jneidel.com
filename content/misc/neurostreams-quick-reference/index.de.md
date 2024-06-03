@@ -30,7 +30,7 @@ der [Funktionsweise vertraut](#über-diese-seite).
 
 ## Zum Entspannen
 
-| Titel | Verwendug | Wann <span class="text-xs">(Empfehlung)</span> | Anwendung |
+| Titel | Verwendung | Wann <span class="text-xs">(Empfehlung)</span> | Anwendung |
 |-|-|:-:|-|
 | <a href=/documents/neurostreams/katalog-de/Mini_Alpha_Breaks.pdf target=_blank>Mini Alpha</a> <a href="https://www.neurostreams.de/portfolio/alpha-zustand-reset/#aff=jneidel" target=_blank>Breaks</a> | Kurze, knackige Entspannung | Vor oder nach dem Mittagessen | <span class="text-xl"><abbr class="no-underline" title="Augen geschlossen">:see_no_evil:</abbr>, <abbr class="no-underline" title="Kopfhörer sind Pflicht">:headphone:</abbr>, <abbr class="no-underline" title="Aktiv zuhören">:person_in_lotus_position:</abbr> <abbr class="no-underline text-xl" title="Hinlegen bzw. bequem machen">:bed:</abbr> |
 | <a href=/documents/neurostreams/katalog-de/Gaia_Club_Radio.pdf target=_blank>Gaia Club</a> <a href="https://www.neurostreams.de/portfolio/schumann-frequenz/#aff=jneidel" target=_blank>Radio</a> | Entspannung zwischen Wachsein und Träumen. Wirkt besonders bei Hyperaktivität und Nervösität | Siesta, Nap, Abends | <span class="text-xl"><abbr class="no-underline" title="Augen geschlossen">:see_no_evil:</abbr>, <abbr class="no-underline" title="Kopfhörer sind Pflicht">:headphone:</abbr>, <abbr class="no-underline" title="Aktiv zuhören">:person_in_lotus_position:</abbr> <abbr class="no-underline" title="Schlafmaske verwenden">:goggles:</abbr><span class="text-xs"> Schlafmaske<span> <abbr class="no-underline text-xl" title="Hinlegen bzw. bequem machen">:bed:</abbr>  |
@@ -93,7 +93,7 @@ der [Funktionsweise vertraut](#über-diese-seite).
 - Auf dem Namen sind die Katalogseite und ggf. der Shop verlinkt (wenn
 dieser mehr Infos hat.)
 - Mit der Maus über einen Emoji hovern (halten) zeigt eine Erklärung an.
-- Es sind alle Titel des Kompendiums enthalten.
+- Es sind alle Titel des Kompendiums beschrieben.
 - Bei Fehlern oder Unklarheiten gebt mir bitte [Bescheid](mailto:neurostreams@jneidel.com).
 
 **Emoji Erklärungen**
