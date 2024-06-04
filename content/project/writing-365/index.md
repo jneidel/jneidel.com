@@ -60,13 +60,14 @@ Started writing The Inner Game review.
 25. Continued writing and editing [The Inner Game review](/de/review/the-inner-game).
 26. Started writing on a post about vulnerability.
 27. Wrote first version of the [Neurostreams quick reference guide](misc/neurostreams-quick-reference).
-28. Wrote & published the coupon essay.
-29. Put finishing touches on coupon. Started on Neurostreams review.
+28. Wrote & published the [coupons](essay/coupons) essay in German.
+29. Put finishing touches on [coupons](essay/coupons). Started on Neurostreams review.
 30. Wrote & published [Minimeal review](/de/review/sun-minimeal/). Updates to [Selling $UN](/de/misc/sun-minimeal-coin-verkaufen/).
 31. Started on [Jim Rohn review](review/jim-rohn).
 1. Finished the [Jim Rohn](review/jim-rohn) person review.
 2. Continued writing the Neurostreams review.
 3. Final version of the [Neurostreams quick reference guide](misc/neurostreams-quick-reference). Translated it as well.
+4. Translated the [coupons](essay/coupons) essay.
 
 ## References
 

@@ -1,7 +1,6 @@
 ---
 title: "Treffen sich ein Coupon und Pareto in einer Bar…"
-description: "Über die Sinnhaftigkeit von Coupon, Überoptimierung und ihren Einfluss auf dein
-Mindset."
+description: "Über die Sinnhaftigkeit von Coupon, Überoptimierung und ihren Einfluss auf dein Mindset."
 summary: "Man kann eine Meinung zu Coupons haben?"
 tags:
     - mindset
@@ -32,7 +31,9 @@ habe auf Vorrat gekauft. Alles nur Sachen die ich wirklich benutze.
 Ersparnis: 2,63€.
 
 Und die Kosten?
-Real keine. Aber, das sind die Aktivitäten die damit einhergingen:
+Real keine.
+Aber, das sind die Aktivitäten die mit dem Einlösen des Coupons
+einhergingen:
 
 1. Ich habe mir Zuhause überlegt welche Produkte und Mengen ungefähr Sinn
    ergeben.
@@ -53,8 +54,8 @@ Lohnt es sich, für 2,63€ mein Gehirn mit Kleinkram vollzumüllen?
 
 Das ist die reinste Form von geringer
 <abbr title="Return on Investment = Redite auf Investment">ROI</abbr>
-Optimierung und findet auf jeden Fall in den 80% (dem ineffektiveren Teil,
-der nur für 20% der Ergebnisse sorgt) der 80/20 Formel statt.
+Optimierung und ist auf jeden Fall in den 80% (dem ineffektiveren Teil,
+der nur für 20% der Ergebnisse sorgt) der 80/20 Formel angesiedelt.
 
 ## Fokus auf dem Sparen
 
@@ -94,10 +95,11 @@ Für mich steht fest:
 Coupons wandern ab sofort unbeachtet in den Müll.
 
 ## Verständnisfragen & Action Steps
+
 - Erkläre in deinen Worten: Warum kosten dich Coupons mehr
 als sie nützen?
 - Was haben Coupons mit der Pareto-Formel zu tun?
 - Findest du Beispiele in deinem Leben wo du Tätigkeiten nachgehst die
 Augenscheinlich ein guter Deal sind, dich jedoch versteckt kosten?
-- Triff eine Entscheidung ob du Coupons und ähnlichen Rabattaktionen für dich
-in Zukunft kategorisch ausschließen wirst.
+- Triff eine Entscheidung ob du Coupons und ähnlichen Rabattaktionen für 
+dich in Zukunft kategorisch ausschließen wirst.
