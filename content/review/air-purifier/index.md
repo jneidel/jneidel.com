@@ -54,6 +54,16 @@ The costs come out to three factors:
 [^draw]: The machine draws 15W at peak operation. What that averages out to and
     if there is a draw on standby would have to be measured.
 
+## Maintenance
+
+With time dust will collect around the air intake holes and on the filter.
+Just vacuum the outer shell and the filter.
+Don't vacuum the sensor though.
+No dust will collect on it and vacuuming it created this weird sound for
+me[^sound].
+
+[^sound]: I could fix that by blowing into the sensor hard.
+
 ## Conclusion
 
 Do you _need_ one: No.
