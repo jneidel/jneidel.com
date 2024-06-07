@@ -68,6 +68,8 @@ Started writing The Inner Game review.
 2. Continued writing the Neurostreams review.
 3. Final version of the [Neurostreams quick reference guide](misc/neurostreams-quick-reference). Translated it as well.
 4. Translated the [coupons](essay/coupons) essay.
+5. Some corrections, reworked and expanded the [intermittent fasting](review/intermittent-fasting) review.
+6. 
 
 ## References
 
