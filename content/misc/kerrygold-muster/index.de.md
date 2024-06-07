@@ -27,7 +27,7 @@ Relativ schnell entdeckte ich dann doch diesen Rabatt bei Aldi:
 
 {{<center>}}
     {{<figure alt="Preisschild 3,39€" src="regular-price.jpg" caption="Regulärer Preis">}}
-    {{<figure alt="Rabatt bei Aldi 1,79€ für Kerrygold Butter" src="cover-price-label.jpg" caption="Sale">}}
+    {{<figure alt="Rabatt bei Aldi 1,79€ für Kerrygold Butter" src="price-label.jpg" caption="Sale">}}
 {{</center>}}
 
 Ok, cool.
