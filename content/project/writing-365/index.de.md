@@ -75,6 +75,17 @@ Project start: 23. Mai 2024
 28. Schreiben und publishen des [Coupon](essay/coupons) essays.
 29. Fertigstellung des [Coupon](essay/coupons) essays.
 30. Schreiben vom [Minimeal review](review/sun-minimeal). Überarbeitung von [$UN verkaufen](misc/sun-minimeal-coin-verkaufen).
+31. Begonnen mit dem [Jim Rohn review](/review/jim-rohn).
+1. [Jim Rohn review](/review/jim-rohn) fertigestellt.
+2. Weiterschreiben am [Neurostreams review](review/neurostreams).
+3. Große Überarbeitung der [Neurostreams Kurzanleitung](misc/neurostreams-quick-reference) + Übersetzung.
+4. Übersetzen des [coupons](essay/coupons) essays.
+5. Korrekturen und überarbeiten und erweitern des [intermittent fasting](/review/intermittent-fasting) reviews.
+6. Quellen für [intermittent fasting](/review/intermittent-fasting) review raussuchen, Maintenance für den [air purifier](/review/air-purifier) beschreiben
+7. Weiterschreiben am [Neurostreams review](review/neurostreams).
+8. Weiterschreiben am [Neurostreams review](review/neurostreams).
+9. :slightly_frowning_face:
+10. Mit dem Schreiben am [waves essay](essay/waves) begonnen.
 
 ## References
 

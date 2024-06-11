@@ -65,12 +65,16 @@ Started writing The Inner Game review.
 30. Wrote & published [Minimeal review](/de/review/sun-minimeal/). Updates to [Selling $UN](/de/misc/sun-minimeal-coin-verkaufen/).
 31. Started on [Jim Rohn review](review/jim-rohn).
 1. Finished the [Jim Rohn](review/jim-rohn) person review.
-2. Continued writing the Neurostreams review.
+2. Continued writing the [Neurostreams review](review/neurostreams).
 3. Final version of the [Neurostreams quick reference guide](misc/neurostreams-quick-reference). Translated it as well.
 4. Translated the [coupons](essay/coupons) essay.
 5. Some corrections, reworked and expanded the [intermittent fasting](review/intermittent-fasting) review.
 6. Collect sources for intermittent fasting, add maintenance paragraph to
 [air purifier](review/air-purifier).
+7. Continue on [Neurostreams review](review/neurostreams).
+8. Continue on [Neurostreams review](review/neurostreams).
+9. :slightly_frowning_face:
+10. Started on [waves essay](essay/waves).
 
 ## References
 

@@ -16,17 +16,15 @@ A way to continuously apply self-development learnings and expand my comfort zon
 {{</lead>}}
 
 {{<badge>}}
-Current streak: 4 weeks
+Current streak: 5 weeks
 {{</badge>}}
 
 - [x] Week 19: Applied "[The power plant doesn't have power, it generates power](essay/power-plant)"
 - [x] Week 20-21: Applied [Eat that frog](essay/eat-that-frog)
 - [x] Week 22: [Neurostreams](https://www.neurostreams.de/) intensive
-- [ ] **Week 23**: "People are like balloons, with each interaction you can either
-    let some air out of them, or blow them up a little." - I will be around
-    people that week and I want to challenge myself to consciously interact with
-    them in a more positive manner
-- [ ] Week 24: No interrupting others. I've done this before and it was great. I
+- [x] Week 23: "People are like balloons, with each interaction you can either
+    let some air out of them, or blow them up a little."
+- [ ] **Week 24**: No interrupting others. I've done this before and it was great. I
     will be meeting some friends that week.
 - [ ] Week 25: No new information. Only read and listen to what I have read or
     listened to before.
