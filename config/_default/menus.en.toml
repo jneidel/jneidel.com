@@ -25,21 +25,21 @@
   pageRef = "review"
   weight = 40
 
-# [[main]]
-#   name = "Projects"
-#   pageRef = "project"
-#   weight = 30
-
 [[main]]
-  name = "RSS"
-  url = "/rss/"
-  weight = 92
-  title = "Subscribe via RSS"
-  [main.params]
-    icon = "rss"
-    showName = false
-    target = "_self"
+  name = "Projects"
+  pageRef = "project"
+  weight = 30
 
+# [[main]]
+#   name = "RSS"
+#   url = "/rss/"
+#   weight = 92
+#   title = "Subscribe via RSS"
+#   [main.params]
+#     icon = "rss"
+#     showName = false
+#     target = "_self"
+#
 [[main]]
   identifier = "search"
   weight = 90

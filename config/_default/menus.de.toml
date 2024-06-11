@@ -20,20 +20,15 @@
   pageRef = "guide"
   weight = 21
 
-# [[main]]
-#   name = "Reviews"
-#   pageRef = "review"
-#   weight = 40
-#
-# [[main]]
-#   name = "Projekte"
-#   pageRef = "project"
-#   weight = 30
+[[main]]
+  name = "Reviews"
+  pageRef = "review"
+  weight = 40
 
-# [[main]]
-#   name = "Divers"
-#   pageRef = "misc"
-#   weight = 50
+[[main]]
+  name = "Projekte"
+  pageRef = "project"
+  weight = 30
 
 [[main]]
   identifier = "search"
@@ -42,16 +37,16 @@
   [main.params]
     action = "search"
 
-[[main]]
-  name = "RSS"
-  url = "/de/rss/"
-  weight = 92
-  title = "Mit RSS abonnieren"
-  [main.params]
-    icon = "rss"
-    showName = false
-    target = "_self"
-
+# [[main]]
+#   name = "RSS"
+#   url = "/de/rss/"
+#   weight = 92
+#   title = "Mit RSS abonnieren"
+#   [main.params]
+#     icon = "rss"
+#     showName = false
+#     target = "_self"
+#
 [[main]]
   identifier = "appearance"
   weight = 95
