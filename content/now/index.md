@@ -4,30 +4,16 @@ summary: "An overview of what is going on in my life right now."
 showDateUpdated: true
 ---
 
-_This is a [now](https://nownownow.com/about) page. See also: [about me](about)._
+{{<lead>}}
+This is a [now](https://nownownow.com/about) page. See also: [about me](about).
+{{</lead>}}
 
-## Ongoing Projects
-
-### This website
-
-I am building this website!
-I have pushed it off for so long, but now is the time.
-On my list are:
-- [x] Migrate old hugo install to the [congo](https://jpanther.github.io/congo) theme
-- [x] Make it fit my requirements (features and styling)
-- [x] Define purpose and content strategy
-- [ ] Migrate all existing website content over
-- [ ] Migrate redirects over
-- [x] Create systems for writing and review
-- [x] Optimize hosting
-- [x] Optimize SEO and Lighthouse
-- [ ] Start an email list
-- [x] Analytics
-- [ ] Privacy policy & Impressum
-- [ ] AdWords
-- [ ] Sign up for affiliate programs
-- [ ] Replace jneidel.com repo
-
-And in the long-term:
-- [ ] Build backlinks, grow the email list
-- [ ] Regularly write new posts
+Still living in the Brandenburg country-side and working as a Backend
+Developer at Endava, together with my wife.
+I reduced my work hours to three days a week.
+Any spare time goes into [writing for this website](project/writing-365).
+My purpose is to make the vision, that I have for this website, a reality.
+General [self](essay/power-plant)-[improvment](misc/challenges) is another
+topic.
+Recently I've examined my limiting beliefs about money and have set up
+accountability calls with people close to me.
