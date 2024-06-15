@@ -75,6 +75,11 @@ Started writing The Inner Game review.
 8. Continue on [Neurostreams review](review/neurostreams).
 9. :slightly_frowning_face:
 10. Started on [waves essay](essay/waves).
+11. Continued on [waves essay](essay/waves).
+12. Wrote my [now page](now).
+13. Make headway on [Neurostreams review](review/neurostreams).
+14. Editing first half of the [Neurostreams review](review/neurostreams).
+15. Add buying guide and do some editing on [Neurostreams quick reference guide](misc/neurostreams-quick-reference).
 
 ## References
 
