@@ -34,6 +34,7 @@ This is the stuff I added that improves functionality.
 - Exclude articles from the rss feed with `excludeRss: true` in the front matter
 - Set Lastmod value based on last commit date
 - If `date = dateUpdated` and `showDate: false` and `showDateUpdated: true` -> show dateUpdated
+- Hovering the logo underlines the title
 
 Plus shortcodes and such.
 

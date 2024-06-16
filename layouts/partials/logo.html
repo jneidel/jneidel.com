@@ -1,0 +1,28 @@
+<a class="flex items-center decoration-primary-500 hover:underline hover:decoration-2 hover:underline-offset-2" rel="me" href="{{ "" | relLangURL }}">
+  {{- if .Site.Params.header.logo }}
+    {{- $logo := resources.Get .Site.Params.header.logo }}
+    {{- $logo_dark := resources.Get .Site.Params.header.logoDark }}
+    {{- if $logo }}
+        <img
+          src="{{ $logo.RelPermalink }}"
+          width="{{ div $logo.Width 2 }}"
+          height="{{ div $logo.Height 2 }}"
+          class="mr-1 max-h-[10rem] max-w-[10rem] object-scale-down object-left
+          {{ if $logo_dark }}hidden dark:flex{{ end }}"
+          alt="{{ .Site.Title }}"
+        />
+        {{- if $logo_dark }}
+          <img
+            src="{{ $logo_dark.RelPermalink }}"
+            width="{{ div $logo_dark.Width 2 }}"
+            height="{{ div $logo_dark.Height 2 }}"
+            class="max-h-[10rem] max-w-[10rem] object-scale-down object-left dark:hidden"
+            alt="{{ .Site.Title }}"
+          />
+        {{- end }}
+    {{- end }}
+  {{- end }}
+  {{- if .Site.Params.header.showTitle | default true }}
+    <p>{{ .Site.Title | markdownify | emojify }}</p>
+  {{- end }}
+</a>
