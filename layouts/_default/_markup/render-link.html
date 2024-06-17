@@ -150,7 +150,7 @@ either of these shortcodes in conjunction with this render hook.
             {{- /* Destination is a global resource; drop query and fragment. */}}
             {{- $attrs = dict "href" .RelPermalink }}
           {{- else }}
-            {{- if (not (strings.HasSuffix $u.String "rss.xml")) }}
+            {{- if (and (not (strings.HasPrefix $u.Path "/")) (not (strings.HasSuffix $u.String "rss.xml")) ) }}
               {{- if eq $errorLevel "warning" }}
                 {{- warnf $msg }}
                 {{- if and $highlightBrokenLinks hugo.IsDevelopment }}
