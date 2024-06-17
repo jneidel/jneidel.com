@@ -23,6 +23,6 @@
     {{- end }}
   {{- end }}
   {{- if .Site.Params.header.showTitle | default true }}
-    <p>{{ .Site.Title | markdownify | emojify }}</p>
+    <p class="pr-5">{{ .Site.Title | markdownify | emojify }}</p>
   {{- end }}
 </a>

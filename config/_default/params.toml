@@ -12,7 +12,7 @@ enableQuicklink = true
 fingerprintAlgorithm = "sha256"
 
 [header]
-  layout = "hybrid" # valid options: basic, hamburger, hybrid, custom
+  layout = "custom" # valid options: basic, hamburger, hybrid, custom
   logo = "img/logo.png"
   # logoDark = "img/logo-dark.png"
   showTitle = true
