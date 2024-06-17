@@ -80,6 +80,9 @@ Started writing The Inner Game review.
 13. Make headway on [Neurostreams review](review/neurostreams).
 14. Editing first half of the [Neurostreams review](review/neurostreams).
 15. Add buying guide and do some editing on [Neurostreams quick reference guide](misc/neurostreams-quick-reference).
+16. Write introduction to [challenges](misc/challenges).
+17. Edit first half of [Neurostreams review](review/neurostreams).
+18. Continue editing/rewriting [Neurostreams review](review/neurostreams) a little.
 
 ## References
 
