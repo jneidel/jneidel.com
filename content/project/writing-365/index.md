@@ -84,6 +84,8 @@ Started writing The Inner Game review.
 17. Edit first half of [Neurostreams review](review/neurostreams).
 18. Continue editing/rewriting [Neurostreams review](review/neurostreams) a little.
 19. Write first draft of [No interrupting](essay/no-interrupting).
+20. Continue a bit on the [Neurostreams review](review/neurostreams).
+21. Finish editing the second half of the [Neurostreams review](review/neurostreams).
 
 ## References
 

@@ -9,7 +9,7 @@ tags:
 date: 2024-06-14
 thumbnailAlt: "Giant pine cone"
 draft: true
-writingTime: 382
+writingTime: 412
 ---
 
 ## What are Neurostreams?
@@ -21,7 +21,7 @@ These sounds can make you more focused, calm you down, put you into
 deep meditation, give you energy and motivation and more.
 
 If you want to get an idea of what they sound like:
-<audio controls src="https://server10077.streamplus.de/"></audio>
+<audio controls src="https://neurostreams.s3.amazonaws.com/previews/PREVIEW_02_432_Hz_DNA_Talk_4S02v.mp3"></audio>
 
 A caveat up-front: There is not an official English version of this product.
 For the sounds that does **not** make a difference.
@@ -191,20 +191,13 @@ Worked really well when I used it.
 
 ### Energize myself
 
-Sometimes you are unmotivated and can't get going.
+Sometimes you are unmotivated and can't seem do what you set out for
+yourself.
 But, you want or need to perform.
 
-These tracks are perfect for [generating energy](essay/power-plant).
-They will speed up your brainwaves to a level of high activity
-where **you will want to do
-whatever you set out for yourself.**
-
-For an acute case of demotivation.
-Gets you up and going.
-
-For whenever you need or want to perform.
-Very helpful for getting yourself into shape for work, when you're not
-really feeling it.
+These tracks are perfect for [generating that energy](essay/power-plant) and motivation.
+They can speed up your brainwaves to a point where you are highly motivated
+and where **you will want to do stuff**.
 
 #### The tracks
 
@@ -212,19 +205,22 @@ really feeling it.
 Sturm und Drang :thunder_cloud_and_rain:
 {{</button>}}
 
-This track get me going.
+It functions like coffee, giving me a boost of energy.
+I never drank coffee regularly and the same applies to this track.
+I don't use it on a regular basis.
+It's tool I have with me, for the times when I need a little push, when I
+otherwise wouldn't want to move.
 
 ### Falling asleep
 
 Sometimes you just can't fall asleep.
 For whatever reason.
+Because you're excited about a trip, you slept during the day or your
+thoughts are keeping you up.
 
-Not being able to sleep is hurting your recovery and hurts your performance
-the day after.
-
-This is the most effective way I've found to addressing that problem.
-All other solutions (writing down your thoughts, sleep drink, get up and
-doing something else and then returning, etc.) are just hacks in comparison.
+Not being able to sleep is hurts your recovery and your performance the next
+day.
+These tracks can help you to fall asleep or even force you to.
 
 #### The tracks
 
@@ -234,18 +230,24 @@ Sleep forcing :sleeping: Schlaferzwingung
 
 Personally I have a hard time falling asleep.
 My wife can sleep anywhere and any time.
-She falls asleep so quickly, it's astonishing.
+The speed with which she falls asleep is really astonishing.
 But, that's not me.
 
-When I'm excited about something.
-When my thoughts are racing.
-When I had a little too much bluelight or activity before going to bed.
-I just sometimes have a hard time falling sleep.
-I try it naturally, but at some point I need a hammer to knock myself out
-and force it.
+It happens from time to time that I'm lying in bed and am excited about
+something, my thoughts racing or I had a little too much bluelight/activity
+before going to bed.
+And I can't fall asleep.
 
-This Neurostream is that tool.
-You just force yourself to fall asleep.
+I tried falling sleep naturally and using some hacks (writing down your
+thoughts, sleep drink, cooling down the bed, get up and doing something else
+and then returning, etc.), which kinda work, but not as consistently or as
+quickly as I would like.
+At some point, I just need a hammer to knock myself out.
+
+This Neurostream is that hammer.
+And I am the nail:slightly_smiling_face:.
+I can just force myself to fall asleep.
+It's the most effective way I've found to addressing this problem.
 
 ## Costs
 
