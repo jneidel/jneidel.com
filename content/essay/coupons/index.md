@@ -1,7 +1,7 @@
 ---
-title: "A coupon and Pareto meet in a bar…"
+title: "A coupon and Pareto walk into a bar…"
 description: "Of the utility of coupons, overoptimization and their influence on your mindset."
-summary: "You can have an opinion on coupons?"
+summary: 'Coupons and "saving" a bit of money'
 tags:
     - mindset
     - pareto

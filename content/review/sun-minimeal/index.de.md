@@ -4,8 +4,8 @@ description: "Ehrlicher Erfahrungsbericht zu dem Mahlzeit Ersatz. Genaue Kostenr
 summary: "Ein toller Snack."
 tags:
     - recommended
-    - food
     - "product review"
+    - food
 date: 2024-05-30
 thumbnailAlt: "Astronautin die in ein SUN Minimeal beißt"
 writingTime: 200

@@ -1,8 +1,9 @@
 ---
-title: "Review: The Inner Game von Alexander Hartmann"
+title: "Review: The Inner Game - Alexander Hartmann"
 description: "Erfahrungsbericht zu dem Kurs The Inner Game von Alexander Hartmann und meine Learnings."
 summary: "Meine Learnings aus dem Kurs."
 tags:
+    - recommended
     - "course review"
     - mindset
     - performance
@@ -13,7 +14,7 @@ writingTime: 105
 ---
 
 The Inner Game ist ein kostenfreier Audiokurs von Alexander Hartmann.
-Hier bekommst du [Zugang dazu](https://www.alexanderhartmann.de/kostenlos/)[^ungeduldig].
+Den Zugang findest du [hier](https://www.alexanderhartmann.de/kostenlos/)[^ungeduldig].
 
 In dem 6-tägigen Kurs erklärt Alexander sein Konzept des Reality Loop und
 wie dieser konkret verwendet werden kann um höhere Performance zu erzielen

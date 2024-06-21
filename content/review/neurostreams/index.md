@@ -3,6 +3,7 @@ title: "Neurostreams: Review & Explaination"
 description: "What are Neurostream and what are they useful for? An explaination and a review of how I use them."
 summary: "A great tool I never want to miss."
 tags:
+    - recommended
     - tool
     - performance
     - relaxation

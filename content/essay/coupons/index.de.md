@@ -1,7 +1,7 @@
 ---
 title: "Treffen sich ein Coupon und Pareto in einer Bar…"
 description: "Über die Sinnhaftigkeit von Coupon, Überoptimierung und ihren Einfluss auf dein Mindset."
-summary: "Man kann eine Meinung zu Coupons haben?"
+summary: 'Coupons und ein bisschen Geld zu "sparen"'
 tags:
     - mindset
     - pareto
