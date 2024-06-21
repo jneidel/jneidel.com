@@ -1,27 +1,32 @@
 ---
 title: "Neurostreams: Review & Explaination"
-description: "What are Neurostream and what are they useful for? A review of experience and how I use them."
-summary: "What are they and what's the use?"
+description: "What are Neurostream and what are they useful for? An explaination and a review of how I use them."
+summary: "A great tool I never want to miss."
 tags:
+    - tool
     - performance
-    - motivation
     - relaxation
-date: 2024-06-14
+    - motivation
+    - sleep
+date: 2024-06-21
 thumbnailAlt: "Giant pine cone"
-draft: true
-writingTime: 412
+writingTime: 446
 ---
 
 ## What are Neurostreams?
 
-[Neurostreams](https://www.neurostreams.de#aff=jneidel) are a powerful tool for putting you into a desired state.
+[Neurostreams](https://www.neurostreams.de#aff=jneidel) are a powerful tool
+for putting you into a desired mental state.
 The product itself is a collection of sounds.
 
 These sounds can make you more focused, calm you down, put you into
 deep meditation, give you energy and motivation and more.
 
-If you want to get an idea of what they sound like:
-<audio controls src="https://neurostreams.s3.amazonaws.com/previews/PREVIEW_02_432_Hz_DNA_Talk_4S02v.mp3"></audio>
+If you want to get an idea of what a Neurostream sounds like:
+<audio controls preload="none">
+    <source src="https://neurostreams.s3.amazonaws.com/previews/PREVIEW_02_432_Hz_DNA_Talk_4S02v.mp3"/>
+    <source src="https://server10077.streamplus.de"/>
+</audio>
 
 A caveat up-front: There is not an official English version of this product.
 For the sounds that does **not** make a difference.
@@ -29,14 +34,14 @@ For your convenience I wrote an English [quick reference guide](misc/neurostream
 that works as an overview for all the available tracks.
 It also links to the translated catalogue pages where you can find more
 details about each sound.
-**With that, you should have everything you need, to get the most out of this
-great tool.**
+With that, you should have everything you need, to get the most out of this
+great tool.
 
-## How does it work?
+## How do they work?
 
-Your brainwaves oscillate around a given frequency.
-Each frequency is associated with a certain state.
-Frequencies are commonly grouped into[^freq]:
+Your brainwaves oscillate (swing backward and forth) around a given frequency.
+Frequencies are associated with a mental state and are commonly grouped
+into[^freq]:
 
 - Delta: Deep sleep
 - Theta: Light sleep, meditation
@@ -49,33 +54,29 @@ Frequencies are commonly grouped into[^freq]:
 When listening to a Neurostream, your brainwaves synchronize with the
 frequency of the included beat.
 The beat then modifies that frequency (and your brainwaves along with it) to
-take you to a wave length associated with the desired state.
+take you to a wave length associated with the desired mental state.
 
-## Why this product?
+Commonly a track will include an intro section, which "picks you up" at
+an Alpha frequency and then slowly moves the frequency up or down to the
+desired level.
 
-I prefer Neurostreams over random YouTube videos, which promise
-similar effects.
-These tracks were carefully built, tested and refined.
-They were designed with specific applications in mind and come with clear
-usage instructions.
-You don't need to figure them out for myself, you get a working toolbox.
-
-Frankly, I discovered this kind of brainwave manipulation through
-Neurostreams and never bothered to venture outside of them, since I was very
-happy with what I got.
+At the end you might have an outro section that returns you to a normal
+level.
+This is, so you don't remain in e.g. light sleep, but are put back into Beta,
+ready to get back to work.
 
 ## Applications
 
 Neurostreams exist for various different applications, to which they are
 specifically tailored.
-I will introduce them in groups based what you can achieve with them.
-I will only be discussing my personal favorites.
-Just know that there are plenty more out there.
-You can discover what works best for your personal use-cases.
+I will introduce them in groups based what they can do for you.
+I will only mention my favorite tracks.
+Just know, that there are plenty more out there.
+You can discover what works best for you.
 
 The purpose of this review is to give you an idea of what is possible and
 what Neurostreams are doing for me.
-Those that are interested in more options & details can find a
+If you are interested in more options & details afterwards, you can find a
 concise overview of all available tracks in my [quick reference guide](misc/neurostreams-quick-reference).
 
 ### Calm me down
@@ -186,7 +187,7 @@ Brainstorms :lightning:
 
 As the name suggests: for more effective brainstorming sessions.
 The beat is unpredictable and will trigger your brain to make new
-connection.
+connections.
 Worked really well when I used it.
 
 ### Energize myself
@@ -208,7 +209,7 @@ Sturm und Drang :thunder_cloud_and_rain:
 It functions like coffee, giving me a boost of energy.
 I never drank coffee regularly and the same applies to this track.
 I don't use it on a regular basis.
-It's tool I have with me, for the times when I need a little push, when I
+It's a tool I have with me, for the times when I need a little push, when I
 otherwise wouldn't want to move.
 
 ### Falling asleep
@@ -218,7 +219,7 @@ For whatever reason.
 Because you're excited about a trip, you slept during the day or your
 thoughts are keeping you up.
 
-Not being able to sleep is hurts your recovery and your performance the next
+Not being able to sleep hurts your recovery and your performance the next
 day.
 These tracks can help you to fall asleep or even force you to.
 
@@ -249,6 +250,19 @@ And I am the nail:slightly_smiling_face:.
 I can just force myself to fall asleep.
 It's the most effective way I've found to addressing this problem.
 
+## Why this product?
+
+I prefer Neurostreams over random YouTube videos, which promise
+similar effects.
+These tracks were carefully built, tested and refined.
+They were designed with specific applications in mind and come with clear
+usage instructions.
+You don't need to figure them by yourself, you get a working toolbox.
+
+I discovered this brainwave manipulation through Neurostreams and never
+bothered to explore what else is out there, since I am very happy with what
+I got.
+
 ## Costs
 
 I started with the [Panorama](https://www.neurostreams.de/portfolio/panorama/#aff=jneidel),
@@ -274,9 +288,10 @@ decide you want a  bundle later on.
 The laboratory (Labor) includes more niche, experimental tracks, which
 weren't of interest to me.
 
-**Try it for free**
+**Try for free**
 
 - On the [homepage](https://www.neurostreams.de#aff=jneidel) Tim has a radio station that cycles through some tracks.
+    These are missing the intro and outro sections. I never bothered with them.
 - [Signing up for the newsletter](https://www.neurostreams.de#aff=jneidel) gets you the title <a href="/documents/neurostreams/katalog-en/Planet_Relax.pdf" target="_blank">Planet Relax</a>.
 
 ## Conclusions
@@ -286,8 +301,7 @@ A great tool I don't ever want to live without.
 It's in the 20% of optimizations that deliver 80% of the results for sure. (Probably even in the 4% or 1% that deliver 64% and 51% respectively.)
 
 Neurostreams have something to offer for everybody and **I would recommend
-everybody to try it**.
+everybody to try them**.
 Start with [Panorama](https://www.neurostreams.de/portfolio/panorama/#aff=jneidel)
 and use the [quick reference guide](misc/neurostreams-quick-reference) to
 understand how to use the tracks.
-Just do it.

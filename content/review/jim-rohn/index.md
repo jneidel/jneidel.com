@@ -1,5 +1,5 @@
 ---
-title: "Should I listen to Jim Rohn?"
+title: "Person Review: Does Jim Rohn know what he's talking about?"
 description: "A review of the motivational speaker Jim Rohn and a look into his millionare status."
 summary: "A review of the motivational speaker."
 tags:
