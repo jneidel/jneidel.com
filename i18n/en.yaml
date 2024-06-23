@@ -11,6 +11,8 @@ category:
   misc_description: "A random assortment of articles without a clear thread."
   dev_name: "Technical Guides"
   dev_description: "In-depth guides for the technically inclined."
+  offer_name: "Offers"
+  offer_description: "The services I am offering."
 
 shortcode:
   recent_articles: "Recent posts"
