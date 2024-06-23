@@ -86,6 +86,8 @@ Started writing The Inner Game review.
 19. Write first draft of [No interrupting](essay/no-interrupting).
 20. Finish editing the second half of the [Neurostreams review](review/neurostreams).
 21. Final edits and publishing of [Neurostreams review](review/neurostreams).
+22. Write first draft of [donating blood review](/de/review/blutspende).
+23. Finish [donating blood analysis](/de/review/blutspende). Write offer [technical evaluation](offer/technical-evaluation).
 
 ## References
 
