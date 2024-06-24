@@ -44,11 +44,11 @@ Current streak: 6 weeks completed
     > People are like balloons, with each interaction you can either
     let some air out of them, or blow them up a little.
 - [x] Week 24: No interrupting others.
-- [ ] **Week 25**: No new information. Only read and listen to what I have read or
-    listened to before.
-- [ ] Week 26: Listen to my purpose. Consider the things that I am doing.
+- [x] Week 25: No new information. Don't consume anything I havn't read or
+    listed to before.
+- [ ] **Week 26**: Listen to my purpose. Consider the things that I am doing.
 Are they aligned with my compass (purpose) or are they not? What can I do
-about the ones that are not?
+about the ones that are not? How can I strengthen the ones that are?
 - [ ] Week 27: Leave work unfinished. Leave a task you want to continue
 later/tomorrow unfinished, so that you don't let it go and are drawn to it
 later.
