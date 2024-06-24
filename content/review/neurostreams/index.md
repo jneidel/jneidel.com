@@ -10,7 +10,7 @@ tags:
     - motivation
     - sleep
 date: 2024-06-21
-thumbnailAlt: "Giant pine cone"
+thumbnailAlt: "A giant abstract pine cone"
 writingTime: 446
 ---
 
@@ -119,6 +119,7 @@ The standard meditation track.
 In the past (after a lot of training) I was able to meditate deeply for a
 good amount of time.
 But now, after losing that routine, it is hard to just sit down for 5 mins.
+
 This track makes it easy though.
 It meditates you.
 You just sit there.
@@ -143,7 +144,8 @@ the middle of the day is just invaluable.
 ### Improve my work
 
 Most of my personal and professional work requires a lot of focus.
-Writing, studying, researching, reading, coding. Any kind of knowledge work.
+Writing, studying, researching, reading, coding.
+Any kind of knowledge work.
 
 There are some Neurostreams that put your mind into "focus mode".
 Making it easier for you to focus and do your best work.
@@ -156,7 +158,7 @@ That's it.
 
 I've had tremendous success with these.
 Especially in combination with blocking out distractions (notifications,
-interruptions and the like) and forging (doing without) consumption of
+interruptions and the like) and forgoing (doing without) consumption of
 things that would be detrimental to my attention span (short-form video,
 social media, the news, YouTube, etc.)
 
@@ -285,7 +287,8 @@ For me it was ca. 110€, because I bought it through the Grand Slam (a bundle
 with some other products.)
 Otherwise it can be up-to 200€.
 But, you can also buy tracks individually and get them accredited if you
-decide you want a  bundle later on.
+decide you want a bundle later on.
+
 The laboratory (Labor) includes more niche, experimental tracks, which
 weren't of interest to me.
 
@@ -293,16 +296,17 @@ weren't of interest to me.
 
 - On the [homepage](https://www.neurostreams.de#aff=jneidel) Tim has a radio station that cycles through some tracks.
     These are missing the intro and outro sections. I never bothered with them.
-- [Signing up for the newsletter](https://www.neurostreams.de#aff=jneidel) gets you the title <a href="/documents/neurostreams/katalog-en/Planet_Relax.pdf" target="_blank">Planet Relax</a>.
+- [Signing up for the newsletter](https://www.neurostreams.de/neurostreams-newsletter-anmeldung/#aff=jneidel) gets you the title <a href="/documents/neurostreams/katalog-en/Planet_Relax.pdf" target="_blank">Planet Relax</a>.
 
 ## Conclusions
 
-A great tool I don't ever want to live without.
+A great toolbox I don't ever want to live without.
 
-It's in the 20% of optimizations that deliver 80% of the results for sure. (Probably even in the 4% or 1% that deliver 64% and 51% respectively.)
+It's in the 20% of optimizations that deliver 80% of the results for sure.
 
 Neurostreams have something to offer for everybody and **I would recommend
 everybody to try them**.
+
 Start with [Panorama](https://www.neurostreams.de/portfolio/panorama/#aff=jneidel)
 and use the [quick reference guide](misc/neurostreams-quick-reference) to
 understand how to use the tracks.

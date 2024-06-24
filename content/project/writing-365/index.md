@@ -39,9 +39,9 @@ Uncertainty about what I can and can't do leads me to indecision and abusing loo
 It does not matter if the paragraph ends up being used.
 The intention should be that it will be.
 A note or rough draft does not count.
-    + §2 a) Process-appropriate _translation_ work is a suitable alternative.
+    + a) Process-appropriate _translation_ work is a suitable alternative.
 **The minimum for translation is a whole article**.
-    + §2 b) Late-stage _editing_ is another alternative.
+    + b) Late-stage _editing_ is another alternative.
 **The minimum for editing is bringing an article from the editing phase to publication.**
 - §3 Writing needs to happen on some article that is in the pipeline, not
 just: "Oh yeah, I wrote this note that will become an article later."
@@ -87,7 +87,8 @@ Started writing The Inner Game review.
 20. Finish editing the second half of the [Neurostreams review](review/neurostreams).
 21. Final edits and publishing of [Neurostreams review](review/neurostreams).
 22. Write first draft of [donating blood review](/de/review/blutspende).
-23. Finish [donating blood analysis](/de/review/blutspende). Write offer [technical evaluation](offer/technical-evaluation).
+23. Finish [donating blood analysis](/de/review/blutspende). Write offer [technical evaluation](offer/technical-evaluation). Translate first half of [Neurostreams review](review/neurostreams).
+24. Translate the second half of [Neurostreams review](review/neurostreams).
 
 ## References
 

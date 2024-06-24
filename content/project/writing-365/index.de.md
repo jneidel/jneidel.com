@@ -47,10 +47,10 @@ wird.
 Es ist dabei egal ob der Absatz auch verwendet wird.
 Was zählt ist die Absicht das er verwendet werden soll.
 Eine Notiz zählt nicht.
-    + §2 a) _Übersetzung_ als Teil des Prozesses ist eine angemessene
+    + a) _Übersetzung_ als Teil des Prozesses ist eine angemessene
     Alternative.
     **Das Mindestmaß ist dabei die Übersetzung eines ganzen Artikels.**
-    + §2 b) _Editieren_ mit Anschließender Publikation ist eine weitere
+    + b) _Editieren_ mit Anschließender Publikation ist eine weitere
     Alternative.
     **Das Mindestmaß ist hier einen Artikel von der Editieren Phase in den
     Publizierten Zustand zu bringen.**
