@@ -24,6 +24,8 @@ market share](https://gs.statcounter.com/browser-market-share) vs Firefox's 3%.
 
 I am also looking for vendor that cares about privacy[^mv3].
 
+[^mv3]: A vendor that will circumvent privacy threatening features like [Manifest V3](https://www.eff.org/deeplinks/2021/12/chrome-users-beware-manifest-v3-deceitful-and-threatening) or Googles mechanisms for phoning home.
+
 **Main browser:**
 
 My main browser is [Brave](https://brave.com).
@@ -36,6 +38,9 @@ customizable when it comes to privacy.
 Please don't use Google Chrome. It's spyware.
 [Chromium](https://www.chromium.org/Home/) or [Brave](https://brave.com) are
 drop-in replacements.
+
+[^uc]: Maintaining it was a hassle, even with a binary release. Not to speak of
+    recompiling the damned thing every update.
 
 **Secondary browsers:**
 
@@ -254,28 +259,8 @@ I also use it to automatically check boxes on a survey I'm doing regularly:
 Array.from(document.querySelectorAll(".surveyradiobutton"))
     .filter(x => x.value === "-9").forEach(x => x.checked = true)
 ```
-
-### <++>
-
-[firefox](<++>) |
-[chrome](<++>) |
-[git](<++>)
-
-
-### <++>
-
-[firefox](<++>) |
-[chrome](<++>) |
-[git](<++>)
-
-
-### <++>
-
-[firefox](<++>) |
-[chrome](<++>) |
-[git](<++>)
-
-
-[^uc]: Maintaining it was a hassle, even with a binary release. Not to speak of
-    recompiling the damned thing every update.
-[^mv3]: A vendor that will circumvent privacy threatening features like [Manifest V3](https://www.eff.org/deeplinks/2021/12/chrome-users-beware-manifest-v3-deceitful-and-threatening) or Googles mechanisms for phoning home.
+<!-- ### <++> -->
+<!---->
+<!-- [firefox](<++>) | -->
+<!-- [chrome](<++>) | -->
+<!-- [git](<++>) -->

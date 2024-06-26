@@ -49,9 +49,10 @@ Let's talk: tech-eval@jneidel.com
 
 ## How does it work
 
-We will have a call, in which you explain to me, what it is you need me to
-evaluate and what your requirements or expectations are.<br>
-We agree on a rate or fixed price package.<br>
+We will have an introductory call, in which you explain to me, what it is
+you need me from me and what your requirements or expectations are.<br>
+If we decided to go ahead together we will agree on a rate or fixed price
+package.<br>
 If I need anything else to understand your project or product I will request
 it at this time.
 

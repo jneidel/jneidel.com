@@ -12,7 +12,7 @@ writingTime: 148
 ---
 
 {{<lead>}}
-Overview of all [Neurostreams](https://www.neurostreams.de/#aff=jneidel) with usage instructions.
+Overview of all [Neurostreams](review/neurostreams) with usage instructions.
 {{</lead>}}
 
 Recommendation: Familiarize yourself with the [emoji descriptors](#about-this-page).

@@ -89,6 +89,7 @@ Started writing The Inner Game review.
 22. Write first draft of [donating blood review](/de/review/blutspende).
 23. Finish [donating blood analysis](/de/review/blutspende). Write offer [technical evaluation](offer/technical-evaluation). Translate first half of [Neurostreams review](review/neurostreams).
 24. Translate the second half of [Neurostreams review](review/neurostreams).
+25. Small addition to [no interrupting](essay/no-interrupting).
 
 ## References
 

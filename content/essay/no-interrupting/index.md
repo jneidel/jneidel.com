@@ -8,7 +8,7 @@ tags:
 date: 2024-06-19
 thumbnailAlt:
 draft: true
-writingTime: 90
+writingTime: 96
 ---
 
 > Yeah, like I was saying…
@@ -45,7 +45,7 @@ When you're missing a word (an obstacle) the other person finishes your
 sentence with what they think you were trying to say.
 
 As a consequence the person being interrupted has a harder time expressing
-themselves and navigating the conversation in a satifying way.
+themselves and navigating the conversation in a satisfying way.
 
 ## A serial offender
 
@@ -54,23 +54,26 @@ I think fast and often believed I _knew_ what the other person was trying to
 say and was going to say.
 I would try to hurry them along like "Yeah, I got that already" or "and
 then you did x and y" etc.
+Or I jump in to counter their point before they were done making it, based
+on what I thought they meant.
 
-The feedback I would get would be "You're not really listening to me."
+The feedback I got to this behavior ranged from being thought of as rude or
+aggressive to "You're not really listening to me."
 
 I would auto-complete the words the other person was searching for:
 - Other person: "I felt so…"
 - Me: "weird, awkward, out-of-place"
 - Other person: "eh, yeah, something like that…"
 
-In this example I'm denying the other person an opportunity to better
-understand how they feel.
+It denies the other person an opportunity to better understand how they feel
+by finding the right words for it.
 And that's a shame.
 
 ## Rehabilitation 
 
 Awareness.
 As a first step you need to catch yourself interrupting.
-Supressing the impuls to interrupt is a second step.
+Suppressing the impulse to interrupt is a second step.
 Awareness comes first.
 A lot is won by noticing that you're doing it and how the other person
 reacts to it.
@@ -96,7 +99,7 @@ impress you.
 you by saying it better.
 
 All of these are bad reasons.
-You think of the other person as below you or you want to satifying your
+You think of the other person as below you or you want to satisfying your
 ego.
 
 ## Action
@@ -130,9 +133,9 @@ See the book [I Need Your Love - Is That True? (Byron Katie)](https://www.amazon
 
 Interrupting somebody, especially somebody rude or inconsiderate, can be a
 power play and has it's place.
-It still has a negative conotation, so you better have a reason for it.
+It still has a negative connotation, so you better have a reason for it.
 You are trying to put the other person down, so it doesn't make you look
 cooperative.
 If the other people in the room don't agree with you that the person being
-interrupted was being disrespectful or was wasting everybodys time then they
+interrupted was being disrespectful or was wasting everybody's time then they
 could hold it against you.
