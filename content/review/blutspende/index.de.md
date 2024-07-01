@@ -1,6 +1,6 @@
 ---
-title: "Blutspende: Kosten-Nutzen-Anaylse"
-description: "Erfahrungsbericht und Kosten-Nutzen-Anaylse zum Blut spenden beim Deutschen Roten Kreuz"
+title: "Blutspende: Kosten-Nutzen-Analyse"
+description: "Erfahrungsbericht und Kosten-Nutzen-Analyse zum Blut spenden beim Deutschen Roten Kreuz"
 summary: "Warum ich nicht regelmäßig Blut spende."
 tags:
 slug: blutspende

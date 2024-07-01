@@ -90,6 +90,17 @@ Started writing The Inner Game review.
 23. Finish [donating blood analysis](/de/review/blutspende). Write offer [technical evaluation](offer/technical-evaluation). Translate first half of [Neurostreams review](review/neurostreams).
 24. Translate the second half of [Neurostreams review](review/neurostreams).
 25. Small addition to [no interrupting](essay/no-interrupting).
+26. Start project article about entrepreneurship.
+26. Expand the project article about entrepreneurship in scope.
+25. Significantly expand [no interrupting](essay/no-interrupting) essay.
+28. Started writing on Trading on Coporate Earnings review.
+25. Significantly expand [no interrupting](essay/no-interrupting) essay.
+26. Wrote a little on the entrepreneurship article.
+27. Wrote a little on [no interrupting](essay/no-interrupting).
+28. Started writing on Trading on Coporate Earnings review.
+29. Expanded & edited a good chunk of [no interrupting](essay/no-interrupting).
+30. Greatly expanded the Trading on Coporate Earnings review.
+1. Finish and publish Trading on Coporate Earnings review.
 
 ## References
 
