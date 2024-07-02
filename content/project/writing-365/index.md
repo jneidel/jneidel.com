@@ -101,6 +101,7 @@ Started writing The Inner Game review.
 29. Expanded & edited a good chunk of [no interrupting](essay/no-interrupting).
 30. Greatly expanded the Trading on Coporate Earnings review.
 1. Finish and publish Trading on Coporate Earnings review.
+2. Expand Trading on Coporate Earnings review. Update SOIL selling guide.
 
 ## References
 

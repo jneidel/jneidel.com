@@ -5,9 +5,8 @@ summary: "Bündige Erklärung der Börsenstrategie zum Handel über die Earnings
 tags:
 date: 2024-06-30
 thumbnailAlt: "Freiheitsstatue umgeben von Geld und Flaggen"
-writingTime: 211
+writingTime: 260
 ---
-
 
 <a href="https://www.amazon.de/Trading-Corporate-Earnings-News-Short-Term-ebook/dp/B004GXB3DA?&linkCode=ll1&tag=jneidel06-21&linkId=7edd9d758dfa2f1228f0e55fc6eb78dc" target=_blank>
 {{<figure src="https://m.media-amazon.com/images/I/51IGqh4YniL._SY445_SX342_.jpg" class="sm:float-right h-48 w-auto" alt="Trading on Corporate Earnings News - John Shon und Ping Zhou">}}
@@ -28,7 +27,6 @@ Es gibt auch eine deutsche Variante mit dem Namen: "Newstrading mit
 Optionen: Wie Sie Quartalszahlen mit der richtigen Strategie gewinnbringend
 handeln" von John Shon und Ping Zhou.
 </span>
-
 
 ## Stil
 
@@ -95,15 +93,18 @@ Strategie weiß.
 Es soll die nächste auslaufende Monatsoptions als Laufzeit gewählt werden.
 
 Warum?
-> option price movements are most sensitive to the near-month contracts
+> option price movements are most sensitive to the near-month
+contracts[^opricemove]
+[^opricemove]: Siehe Kapitel 8.
 
-Außer die Option hat nur noch wenige Tag übrig.
+Außer die Option hat nur noch wenige Tag übrig (Faustregel weniger als 7
+Tage.)
 Denn dann ist das Schmelzen des Eiswürfels (der Zeitverfall, "time decay")
 besonders stark (und der läuft gegen uns.)
 
 Stattdessen nimmt man die nachfolgende Monatsoption.
-Es können auch andere Laufzeiten gewählt werden, dabei muss nur der Spread
-(Spanne zwischen Kauf und Briefkurs) beachtet werden.
+Es können auch andere Laufzeiten gewählt werden, wobei nur der Spread
+(Spanne zwischen Geld- und Briefkurs) beachtet werden muss.
 
 ### Spread
 
@@ -167,15 +168,19 @@ So der Standardablauf.
 
 #### Timing: Kauf
 
+#### An welchem Tag?
+
 Das Buch diskutiert ausführlich die Frage ob ein früher Einstieg (1-2 Wochen
-vor Earnings) profitabler ist.
-Das Implied Volatility an den Tagen vor den Earnings ansteigt ist immer das
-Argument dafür.
+vor den Earnings) profitabler ist.
+Dafür spricht, dass die implizite Volatilität in den Tagen vor den Earnings
+ansteigt.
 
 > We believe the detrimental effect of time decay is often underestimated
 and that the increase in implied volatility is often overestimated,
 suggesting that a later entry point is, on average, the most profitable
 decision.
+
+#### Um welche Uhrzeit?
 
 Außerdem kaufen wir zum Ende des Handelstages, weil:
 
@@ -184,6 +189,18 @@ to be higher in the opening hours of trading. This occurs because the market
 is digesting any developments that occurred during the 17.5 hours that it
 was closed.
 
+#### Die Bekanntgabe ist morgens/abends
+
+Der Tradingkalender oder auch TradingView verraten dir den Zeitpunkt der
+Bekanntgabe.
+Entweder morgens vor Börseneröffnung oder abends nach Börsenschluss.
+
+Der Kauf erfolgt immer am Ende des Handelstages unmittelbar vor der
+Bekanntgabe.
+- Wenn die Bekanntgabe morgens vor Börseneröffnung erfolgt, kaufen wir am
+Vorabend.
+- Wenn die Bekanntgabe am Abend nach Börsenschluss erfolgt, kaufen wir
+direkt davor (also am selben Tag).
 
 #### Timing: Verkauf
 
@@ -208,13 +225,37 @@ of the straddle will decrease in the period after the earnings announcement,
 it’s also very possible that the implied volatility will significantly
 increase. It all depends on the type of news that is released and how the
 market interprets it.[^ivcrush]
-[^ivcrush]: Siehe Kapitel 11
+[^ivcrush]: Siehe Kapitel 11.
 
 
 Generell wollen wir aber den Trade beenden bevor die Implied Volatility zu
 weit absinkt.
 
 ### Aktienwahl
+
+#### Welche Aktien verkünden Earnings?
+
+Es gibt verschiedene Kalender, welche Werte auflisten die ihre Ergebnisse
+bekannt geben.
+
+Die beste Übersicht gibt es bei [Investing.com](https://www.investing.com/earnings-calendar).
+
+{{<figure src="./investing.com-calendar.de.png" class="w-11/12" alt="Earnings Kalender auf Investing.com" caption="Der Earnings Kalender auf Investing.com">}}
+
+Über den Filter können Nebenwerte die ggf. eh nicht in Frage kommen (keine
+Optionen, schlechter Spread), ausgeblendet werden.
+
+{{<figure src="./investing.com-calendar-filter.de.png" class="w-10/12" alt="Wichtigkeitsfilter auf Investing.com" caption="Wichtigkeitsfilter zum Ausblenden von Nebenwerten.">}}
+
+TradingView selbst hat auch einen Kalender.
+Dies hat den Vorteil, dass wir uns gleich einen Überblick über die Aktie
+verschaffen können.
+
+{{<figure src="./tradingview-arrow.de.png" class="w-9/12" alt="Location des Kalenders in TradingView" caption="Kalender befindet sich hier.">}}
+<div class="my-4"></div>
+{{<figure src="./tradingview-calendar.de.png" class="w-10/12" alt="Kalenderansicht in TradingView" caption="Kalenderansicht in TradingView">}}
+
+#### Wachstumswerte auswählen
 
 > given the same magnitude of earnings surprise, the market tended to **react
 more strongly** to the earnings surprises of **growth companies** and relatively
@@ -227,7 +268,7 @@ Was profitabler für die Strategie ist.
 Die Kriterien zur Kategorisierung von Wachstumswerten sind nicht universell
 definiert.
 Das Buch nennt `P/E` Ratio >40 als Kriterium.
-Ein hoher `P/B` Wert ist auch ein allgemein anerkanntes Kriterium.
+Ein hoher `P/B` Wert (>3) ist auch ein allgemein anerkanntes Kriterium.
 
 ## Hinweis für Privatpersonen
 
