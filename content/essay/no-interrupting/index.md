@@ -8,7 +8,7 @@ tags:
 date: 2024-06-19
 thumbnailAlt:
 draft: true
-writingTime: 96
+writingTime: 162
 ---
 
 > Yeah, like I was saying…
@@ -24,14 +24,15 @@ From time to time they just push you.
 Off the path and into the shrubs.
 You're disoriented, but you get back on the path.
 At a fork they push you in the direction they want to go in.
-You're slowly climbing over a stone and they push you over.
+You're slowly climbing over a tree that fallen over the path and they push
+you over it.
 All good, you landed on your feet.
-You're still not sure how to feel though.
+It wasn't pleasant though.
 
 You decide to leave that person behind.
 You come across another person to walk with.
 This person let's you find your way.
-They calmly wait besides you at the obstacle.
+They calmly wait while you climb an obstacle.
 
 Who would you rather walk with?
 
@@ -69,18 +70,49 @@ It denies the other person an opportunity to better understand how they feel
 by finding the right words for it.
 And that's a shame.
 
-## Rehabilitation 
+## Rehabilitation
+
+<!-- TODO: this section is too big -->
 
 Awareness.
 As a first step you need to catch yourself interrupting.
 Suppressing the impulse to interrupt is a second step.
 Awareness comes first.
-A lot is won by noticing that you're doing it and how the other person
-reacts to it.
+A lot is won by noticing that you're interrupting.
+
+Observe how the other person reacts to it.
+Some will be offended or start counter-interrupting you.
+Some will not react at all or only very subtly.
+That doesn't mean it has no effect, it just might not be observable to you.
+
+Observe how it changes the conversation.
+You might steer the conversation to topics that you want to talk about.
+Does the other person get to bring up their topics?
+Can they fully tell their side of the story?
+Can the other person express how they really feel?
+Are there things that you just had to say?
+
 In the beginning your automatic interruptions will be too fast for you to
 react to.
-But with time you will be able to stop yourself on more and more
-interruptions.
+But with time, you will be able to stop yourself more and more.
+
+There will be things, that you will want to say, for which there won't be an
+opportunity.
+The conversation moves on to a different topic or you forget it.
+You will learn to let go of those things left unsaid.
+Maybe the conversation was better off without them.
+
+I like to clear my mind while the other person speak.
+Holding a response in my head and waiting for an opportunity to throw it
+into the conversation leads to more interruptions and worse conversation
+flow.
+The other person will give you the time to come up with what you want to say
+as well.
+So when they give you the room, you don't have to rush out a prepared
+thought, you have the time to take all of what they said into account and
+come up with a response.
+It will also be a better response, because you were actively listening and have
+taken in everything they had to say.
 
 A method you can try would be to silently say to yourself, as you are
 interrupting: "I'm not letting you finish your sentence because ______" (and
@@ -99,16 +131,55 @@ impress you.
 you by saying it better.
 
 All of these are bad reasons.
-You think of the other person as below you or you want to satisfying your
-ego.
+
+<!-- TODO: fix -->
+A person who thinks like this see others as beneath them.
+Like they need assistance.
+A
+thinks of the person they talking to as in
+need of help and below them and they want to satisfy their ego.
+
+That's not the kind of person I want to be.
+
+## Examples from my own life
+
+At my first job I would interrupt people who were explaining a problem with
+what I believed to be the answer or a retort to why it's a non-issue.
+A girl I did this to became very hostile with me and there were multiple
+discussions with the leadership team about my behavior.
+Showing respect to her (by not interrupting among other things) put us on
+better terms.
+
+In the same team I would also interrupt people how were taking forever to
+get to the point.
+That behavior would be appropriate if I were a scrum master or the moderator
+of the meeting (I was not.)
+Despite some people appreciating that I got the guy to stop rambling, it
+still made me look uncooperative.
+I'm seen as more of a team player since I stopped interrupting and it has
+increased my standing in the team.
+
+I talk a lot with my mom and I would always put the words in her mouth that
+she was missing.
+She would never hold that against me, but it still stood in the way of her
+self-expression and made the conversation less valuable than it would have
+otherwise been.
+Our conversation have become much more helpful to her as a result of letting
+her find her words and letting the conversation flow.
+
+I interrupted my brother because I was looking down on him.
+I didn't need the whole story because I knew all about what he was going
+through.
+I would launch straight into the wisdom I had to say about it.
+Our relationship improved after meet him on equal term and I let him speak.
 
 ## Action
 
-If you recognize yourself in any of the descriptions as an interrupter, then
-this a topic you must address.
-It will stand in your way otherwise.
-The people that like you will put up with it, but any high value person you
-meet will pick up on your disrespectful behavior and avoid you accordingly.
+If you recognize yourself in any of these descriptions as an interrupter,
+like I did, then this a topic you must address.
+Otherwise it will stand in your way.
+The people who like you will put up with it, but any high value person you
+meet will pick up on your disrespectful behavior and avoid you in the future.
 You won't even notice what it costs you.
 
 ### Questions
@@ -119,23 +190,24 @@ You won't even notice what it costs you.
 - What does your interrupting say about you and how you feel about others?
 - Is there such a thing as a respectful interruption?
 
-### Action Step Recommendation
+### Recommendations
 
-Commit to paying attention to not interrupting people for a week.
-Just notice your behavior when others are speaking.
-Have a note on your daily planner, calendar, on your phone, etc. to remind
-you daily.
-This is exactly what I did as part of my [weekly challenge](misc/challenges) format.
+For a week, commit to paying attention to how you are interrupting others.
+Just notice your behavior when the other person speaks.
+Remind yourself of this commitment daily (a note on your daily planner,
+calendar, on your phone, etc.) and bring this awareness into most
+conversations.
+This is exactly what I did as part of a [weekly challenge](misc/challenges).
 
 ## References and Exceptions
 
-See the book [I Need Your Love - Is That True? (Byron Katie)](https://www.amazon.de/Need-Your-Love-approval-appreciation/dp/1844130266?&linkCode=ll1&tag=jneidel06-21&linkId=016ef1711a48856b04fb1f162508e831).
+Inspired by [I Need Your Love - Is That True? (Byron Katie)](https://www.amazon.de/Need-Your-Love-approval-appreciation/dp/1844130266?&linkCode=ll1&tag=jneidel06-21&linkId=016ef1711a48856b04fb1f162508e831).
 
 Interrupting somebody, especially somebody rude or inconsiderate, can be a
-power play and has it's place.
+power play that has it's place.
 It still has a negative connotation, so you better have a reason for it.
 You are trying to put the other person down, so it doesn't make you look
 cooperative.
-If the other people in the room don't agree with you that the person being
-interrupted was being disrespectful or was wasting everybody's time then they
-could hold it against you.
+If the other people in the room don't agree with you, that the person being
+interrupted was being disrespectful or was wasting everybody's time then
+they could hold it against you.
