@@ -97,7 +97,7 @@ Leute euren Coin halten.
 Ich halte es einfach für unehrlich die Kunden nicht darüber zu aufzuklären
 wie sie an ihr Geld kommen (wenn sie denn möchten.)
 Weil sie die Anleitung nicht schreiben wollen, habe ich diesen
-[fehlenden Guide zum Verkaufen des SUN Minimeal Coins](misc/sun-minimeal-coin-verkaufen) eben selbst geschrieben.
+[fehlenden Guide zum Verkaufen des SOIL Coins](misc/soil-verkaufen) eben selbst geschrieben.
 
 **Marketing und Sponsorings**
 

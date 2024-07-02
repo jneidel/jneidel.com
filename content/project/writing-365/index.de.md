@@ -74,7 +74,7 @@ Project start: 23. Mai 2024
 27. Die erste Version der [Neurostreams Kurzanleitung](misc/neurostreams-quick-reference).
 28. Schreiben und publishen des [Coupon](essay/coupons) essays.
 29. Fertigstellung des [Coupon](essay/coupons) essays.
-30. Schreiben vom [Minimeal review](review/sun-minimeal). Überarbeitung von [$UN verkaufen](misc/sun-minimeal-coin-verkaufen).
+30. Schreiben vom [Minimeal review](review/sun-minimeal). Überarbeitung von [SOIL verkaufen](misc/soil-verkaufen).
 31. Begonnen mit dem [Jim Rohn review](/review/jim-rohn).
 1. [Jim Rohn review](/review/jim-rohn) fertigestellt.
 2. Weiterschreiben am [Neurostreams review](review/neurostreams).

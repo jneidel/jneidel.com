@@ -1,12 +1,12 @@
 ---
-title: "SUN Minimeal Coin verkaufen: $UN in Euro umwandeln"
-description: "Die komplette Anleitung für den Verkauf oder die Umwandlung des Sun Minimeal Coins in Euro."
-summary: "Wie kann ich meinen SUN Minimeal Coin verkaufen?"
+title: "SUN Minimeal Coin verkaufen: SOIL in Euro umwandeln"
+description: "Die komplette Anleitung für den Verkauf oder die Umwandlung des Sun Minimeal SOIL Coins in Euro."
+summary: "Wie kann ich meine Minimeal Coins verkaufen?"
 date: 2024-04-27
 tags:
     - crypto
-thumbnailAlt: SUN Minimeal Coin Umwandlung in Euro
-writingTime: 290
+thumbnailAlt: SOIL Coin Umwandlung in Euro
+writingTime: 320
 ---
 
 Wenn du dich fragst was SUN Minimeals sind, dann findest du hier meine
@@ -14,22 +14,23 @@ Wenn du dich fragst was SUN Minimeals sind, dann findest du hier meine
 
 ---
 
-Du hast [SUN Minimeals](https://www.minimeal.com) gekauft und dabei $PO bzw. $UN
-Minimeal Coins als Teil des Sun Rewards Programmes bekommen.
+Du hast [SUN Minimeals](https://www.minimeal.com) gekauft und dabei $PO bzw.
+SOIL als Teil des Sun Rewards Programmes bekommen.
 Diese möchtest du nun gerne in Euro auszahlen oder überhaupt verstehen wie das gehen soll.
 
 Dazu soll dieser Artikel dienen.
 Ich zeige dir den gesamten Prozess. Bebildert und Schritt für Schritt.
 Dabei werde ich nur so technisch wie absolut notwendig.
 
-Dann kannst du dich immer noch entscheiden ob du deine $UN Coins behalten
+Dann kannst du dich immer noch entscheiden ob du deine SOIL behalten
 möchtest. Aber in dem Wissen, dass du sie auch jederzeit verkaufen kannst.
 
 ## Voraussetzungen
 
 {{<figure class="float-right h-24 w-auto" alt="Es werden 975 $PO benötigt um die Bridge zu aktivieren" src="spo-benötigt-um-bridge-zu-aktivieren.png">}}
 
-- Entweder mehr als 975 $PO (siehst du im Mitgliederbereich unter "Sun Rewards") oder eine beliebige Anzahl an schon umgewandelten $UN Coins
+- Entweder mehr als 975 $PO (das siehst du im [Mitgliederbereich](https://minimeal.com/dashboard/sun))
+oder eine beliebige Anzahl an schon umgewandelten SOIL
 - Einen Account bei einem Crypto Exchange bei dem Cryptowährungen gegen Echtgeld
 getauscht werden können (z.B. [Kraken](https://www.kraken.com), [Coinbase](https://www.coinbase.com), [Binance](https://www.binance.com))
 
@@ -49,9 +50,9 @@ Generelle Begriffe:
     jemandem Coins zu schicken. Beachte, dass diese Netzwerk-abhängig sind.
 
 Verwendete Netzwerke und Coins:
-- $PO … SUN Points. Eine Vorstufe des äquivalenten $UN Minimeal Coins.
-- $UN Minimeal Coin … der Coin um den sich alles dreht
-- PulseChain … das Netzwerk in dem der $UN Minimeal Coin lebt.
+- $PO … SUN Points. Eine Vorstufe des äquivalenten SOIL Coins.
+- SOIL … der Coin um den sich alles dreht
+- PulseChain … das Netzwerk in dem SOIL lebt.
 - Polygon … ein Netzwerk das wir zur Übertragung zum Crypto Exchange verwenden.
 - USDT … ein Coin der den gleichen Wert hat wie der US Dollar, im Prinzip
     eine digitale Version davon.
@@ -73,13 +74,13 @@ danach nach "Pulse" und "Polygon" und fügt diese hinzu.
     {{<figure alt="Polygon Netzwerk der MetaMask Wallet hinzufügen" src="add-polygon.png" class="w-9/12">}}
 {{</center>}}
 
-Jetzt müssen noch der $UN Minimeal Coin importiert werden. Mit dem kann euer
+Jetzt müssen noch der SOIL Coin importiert werden. Mit dem kann euer
 Wallet sonst nämlich nichts anfangen.
 
 Wechselt dazu oben links in MetaMask in das PulseChain Netzwerk und klickt auf "Import
-Token" und fügt die Adresse von $UN ein: `0x2460328E89260dDFBa4A942a0cfa417F202C04C2`
+Token" und fügt die SOIL Adresse ein: `0x22b2f187E6EE1f9Bc8f7Fc38bB0D9357462800e4`
 
-{{<figure alt="$UN Token importieren" src="import-sun-token.png" class="w-8/12">}}
+{{<figure alt="SOIL Token importieren" src="import-soil-token.png" class="w-8/12">}}
 
 Die richtige Token Adresse ist wichtig und kann auch im [Mitgliederbereich](https://www.minimeal.com/dashboard/sun) gegen geprüft werden.
 
@@ -97,24 +98,31 @@ ersten Eintrag auswählen:
 
 {{<figure alt="Import USDT" src="import-USDT-polygon.png" class="w-8/12">}}
 
-## $PO nach $UN Minimeal Coin
+## $PO nach SOIL
 
-Das ist die erste Umwandlung und passiert auf der SUN Platform.
+Die erste Umwandlung passiert über
 
-Falls ihr eure $PO noch nicht in den $UN Minimeal Coin umgewandelt habt könnt
-ihr das nun auf der [sunrewards.io](https://sunrewards.io/dashboard) Webseite tun.
-Verbindet euer Wallet oben rechts und wechselt in das PulseChain Netzwerk wenn ihr da noch nicht seid.
+Falls ihr eure $PO noch nicht in SOIL umgewandelt habt könnt ihr das nun
+über die [SUN Bridge](https://sunrewards.io/dashboard) tun.
+Verbindet euer Wallet oben rechts und wechselt (falls nötig) in das
+PulseChain Netzwerk.
 Wählt die Menge von Coins aus (nehmt ruhig alle) und klickt auf "Claim".
-Damit werden die $UN Coins in euer Wallet verschoben.
-Sie sind jetzt in MetaMask unter "Tokens" sichtbar.
+Falls der volle Betrag in einem Fehler resultiert nehmt nur eine kleinere
+Menge.
 
-Jetzt könnt ihr eure $UN Minimeal Coins entweder behalten und auf Wertanstieg hoffen
-([siehe den aktuellen Kurs](https://www.dexview.com/pulse/0x2460328E89260dDFBa4A942a0cfa417F202C04C2))
+{{<figure src="./claim-SOIL.de.png" class="w-8/12" alt="Claim von SOIL">}}
+
+Damit werden die SOIL in euer Wallet verschoben.
+Nachdem die Anfrage bearbeitet wurde sind sie in MetaMask unter "Tokens"
+sichtbar.
+
+Jetzt könnt ihr eure SOIL entweder behalten und auf Wertanstieg hoffen
+([siehe aktueller Kurs](https://www.dexview.com/pulse/0x22b2f187E6EE1f9Bc8f7Fc38bB0D9357462800e4))
 oder euch diese in Euro auszahlen.
 
 ## Überblick Umwandlungspfad
 
-Der $UN Coin liegt auf der PulseChain.
+SOIL liegt auf der PulseChain.
 
 Einzahlungen von der PulseChain sind bei meinen Crypto Exchange (Kraken) nicht
 möglich, deswegen muss ich den Weg über ein anderen Netzwerk gehen.
@@ -129,7 +137,7 @@ Aus den Optionen habe ich mich für Polygon entschieden (weil geringste Gebühre
 
 Der Pfad der sich daraus ergibt:
 
-1. $UN gegen PLS innerhalb der PulseChain tauschen
+1. SOIL gegen PLS innerhalb der PulseChain tauschen
 2. PLS auf der PulseChain gegen USDT auf dem Polygon Netzwerk tauschen
 3. USDT auf dem Polygon Netzwerk beim Crypto Exchange (z.B. Kraken) einzahlen
 4. USDT auf dem Exchange für Euro verkaufen
@@ -140,20 +148,20 @@ Wenn euer Exchange PulseChain Einzahlungen unterstützt könnt Schritt 2.
 Ich würde empfehlen die Schritte erst durchzulesen und zu verstehen bevor es an
 die Umsetzung geht, weil es an bestimmten Stellen kein zurück gibt.
 
-## $UN gegen PLS tauschen
+## SOIL gegen PLS tauschen
 
-Wir bleiben im PulseChain Netzwerk und tauschen den $UN Coin gegen etwas das
-wir im nächsten Schritt in USDT umwandeln können.
+Wir bleiben im PulseChain Netzwerk und tauschen SOIL gegen etwas das wir im
+nächsten Schritt in USDT umwandeln können.
 
 Dazu nutzen wir die Platform [PulseX](https://pulsex.pulsechainapp.com),
 welche es erlaubt Coins auf der PulseChain zu tauschen.
 
 1. Gehe auf [PulseX](https://pulsex.pulsechainapp.com) und verbinde deine Wallet
-2. Gib beim Eingangstoken die Nummer des $UN Coin ein: `0x2460328E89260dDFBa4A942a0cfa417F202C04C2`
+2. Gib beim Eingangstoken die Nummer des SOIL Tokens ein: `0x22b2f187E6EE1f9Bc8f7Fc38bB0D9357462800e4`
 3. Gib als Ausgangstoken `PLS` ein
 4. Klick auf Swap
 
-{{<figure alt="Swap $UN for PLS" src="sun-to-pls-swap.png" class="w-10/12">}}
+{{<figure alt="Swap SOIL for PLS" src="sun-to-pls-swap.png" class="w-10/12">}}
 
 Es fällt ein geringer Beitrag (Gas fees d.h. Transfergebühren) in der
 Währung PLS an (SUN hat euch bereits ein paar PLS für gas fees in eurem
@@ -215,11 +223,10 @@ Jetzt könnt ihr über das Interface des Exchanges eure USDT für Euro
 verkaufen. Beachtet, dass es auch hier Mindestgrenzen geben kann.
 
 Den Betrag in Euro :euro: könnt ihr euch dann wie gewohnt auf euer Bankkonto auszahlen.
-Nach so viel Arbeit habt ihr es euch ja jetzt auch redlich verdient!
 
-## Abschließend
+**Abschließend**
 
-Wenn du mir ein Trinkgeld da lassen willst kannst du mir gern ein paar $UN Coins oder PLS
+Wenn du mir ein Trinkgeld da lassen willst kannst du mir gern ein paar SOIL oder PLS
 zukommen lassen. Meine PulseChain Adresse ist: `0x4612Bd3FDc0471fF81D94595246777436c22DAF1`
 
 Anmerkungen gerne an: [sun@jneidel.com](mailto:sun@jneidel.com)
