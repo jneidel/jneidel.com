@@ -106,7 +106,7 @@ Started writing The Inner Game review.
 4. Wrote first half of trampoline jumping review.
 5. Wrote second half of trampoline jumping review.
 6. Final editing on trampoline jumping review.
-7. Publish trampoline review.
+7. Publish trampoline review. Publish [no interrupting](essay/no-interrupting).
 
 ## References
 
