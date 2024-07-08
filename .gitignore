@@ -2,7 +2,7 @@ tmp
 .hugo_build.lock
 
 # generated
-public
+public/*
 !public/_redirects
 resources/_gen
 assets/css/compiled
