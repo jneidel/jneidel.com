@@ -107,6 +107,9 @@ Started writing The Inner Game review.
 5. Wrote second half of trampoline jumping review.
 6. Final editing on trampoline jumping review.
 7. Publish trampoline review. Publish [no interrupting](essay/no-interrupting).
+8. Start writing [AWS review](review/aws).
+9. Continued writing [AWS review](review/aws).
+10. Published [AWS review](review/aws).
 
 ## References
 
