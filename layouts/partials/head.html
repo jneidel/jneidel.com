@@ -44,7 +44,7 @@
     href="{{ $bundleCSS.RelPermalink }}"
     integrity="{{ $bundleCSS.Data.Integrity }}"
   />
-  {{ $newsletterForm := resources.Get "js/newsletter-form.js" }}
+  {{ $newsletterForm := resources.Get "js/handle-newsletter-submission.js" }}
   {{ if $newsletterForm }}
     {{ $assets.Add "js" (slice $newsletterForm) }}
   {{ end }}
