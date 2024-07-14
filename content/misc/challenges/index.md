@@ -33,7 +33,7 @@ I invite you to do something similar.
 These are the learnings I have focused on, or will focus on in the future.
 
 {{<badge>}}
-Current streak: 6 weeks completed
+Current streak: 9 weeks completed
 {{</badge>}}
 
 - [x] Week 19: Applied:
@@ -44,19 +44,25 @@ Current streak: 6 weeks completed
     > People are like balloons, with each interaction you can either
     let some air out of them, or blow them up a little.
 - [x] Week 24: No interrupting others.
-- [x] Week 25: No new information. Don't consume anything I havn't read or
+- [x] Week 25: No new information. Don't consume anything I haven't read or
     listed to before.
-- [ ] **Week 26**: Listen to my purpose. Consider the things that I am doing.
+- [x] Week 26: Listen to my purpose. Consider the things that I am doing.
 Are they aligned with my compass (purpose) or are they not? What can I do
 about the ones that are not? How can I strengthen the ones that are?
-- [ ] Week 27: Leave work unfinished. Leave a task you want to continue
+- [x] Week 27: Leave work unfinished. Leave a task you want to continue
 later/tomorrow unfinished, so that you don't let it go and are drawn to it
 later.
-- [ ] Week 28: Measure my awareness. Ask myself every 30m "How present are
+- [x] Week 28: Watch for signs of VAKOG. What are the conversation partners
+preferred communication channels? Listen for signals. Preparation for an
+upcoming NLP seminar.
+- [ ] **Week 29**: Continue with the Hemingway trick (Week 27). I want to
+dedicate some more attention to it after I only just learned how to apply
+it.
+- [ ] Week 30: Measure my awareness. Ask myself every 30m "How present are
 you on a scale of 1-10?"
-- [ ] Week 29: Pose a question to my unconscious in the evening, something
+- [ ] Week 31: Pose a question to my unconscious in the evening, something
 that I want solved for my brain to work on overnight.
-- [ ] Week 30: Write down 4x4 goals (4 biggest goals, 4 times each) followed by
+- [ ] Week 32: Write down 4x4 goals (4 biggest goals, 4 times each) followed by
     a visualization technique that sounds actually effective
     (not just a loose "just imagine it bro")
 <!-- - [ ] Week <++>: <++> -->
