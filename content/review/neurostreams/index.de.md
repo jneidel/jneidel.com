@@ -12,7 +12,7 @@ tags:
 date: 2024-06-24
 thumbnailAlt: "Ein großer abstrakter Kiefernzapfen"
 draft: true
-writingTime: 112
+writingTime: 119
 ---
 
 ## Was sind Neurostreams?
@@ -61,7 +61,7 @@ Schlaf verbleibst, sondern im Beta wieder zurück an die Arbeit gehen kannst.
 
 ## Anwendungsbereiche
 
-Es gibt Neurostreams viel eine Vielzahl von Anwendungsfällen, für welche
+Es gibt Neurostreams für eine Vielzahl von Anwendungsfällen, für welche
 sie spezifisch kreiert wurden.
 Ich werde sie nach Effekt sortiert, in Gruppen vorstellen und dabei auch nur
 auf meine Favoriten eingehen.
@@ -104,7 +104,7 @@ Und das ganze ohne jeden Aufwand.
 Ich habe außerdem ein Werkzeug bekommen mit dem ich, wann immer es
 aufkommt, effektiv Stress abbauen und meine Gedanken beruhigen kann.
 
-Es funktioniert einfach. Verlässlich. Ein Werkzeug auf das ich nie
+Es funktioniert einfach und verlässlich. Ein Werkzeug auf das ich nie
 wieder verzichten möchte.
 
 #### Die Titel
@@ -173,7 +173,7 @@ IQ 7000 :brain:
 Mein primärer Neurostream für mehr Konzentration.
 Deep work zu leisten ist nur noch eine Frage der Zeit.
 
-{{<button href="/documents/neurostreams/katalog-de/Flow_triff_Genie.pdf" target="_blank">}}
+{{<button href="/documents/neurostreams/katalog-de/Flow_trifft_Genie.pdf" target="_blank">}}
 Flow triff Genie :handshake:
 {{</button>}}
 
@@ -235,8 +235,8 @@ erzwingen.
 
 #### Die Titel
 
-{{<button href="/documents/neurostreams/katalog-de/Schlaferzwingung.pdf" target="_blank">}}
-Schlaferzwingung :sleeping:
+{{<button href="/documents/neurostreams/katalog-de/Schlaf-Erzwingung.pdf" target="_blank">}}
+Schlaf-Erzwingung :sleeping:
 {{</button>}}
 
 Ich tue mich mit dem Einschlafen eher schwer.
@@ -264,15 +264,14 @@ Schlaflosigkeit gefunden habe.
 
 > Es gibt das gleiche doch auch auf YouTube!
 
-Ich ziehe Neurostreams irgendwelchen beliebigen Videos vor weil die Titel
-vorsichtig zusammengebaut, getestet und mit der Zeit verfeinert wurden.
+Ich ziehe Neurostreams irgendwelchen beliebigen Videos vor, weil die Titel
+mit Bedacht zusammengebaut, getestet und mit der Zeit verfeinert wurden.
 Sie wurden mit einem bestimmten Zweck kreiert und habe klare
 Anwendungshinweise.
 Du bekommst einfach einen funktionierenden Werkzeugkasten mit dem du direkt
 loslegen kannst.
-Du musst die Werkzeuge verstehen, klar.
-Aber du musst dich nicht fragen ob das Werkzeug dies oder das überhaupt
-leisten kann.
+Du musst die Werkzeuge verstehen, aber du musst dich nicht fragen ob das
+Werkzeug dies oder das überhaupt leisten kann.
 
 Ehrlicherweise habe ich diese Art von Gehirnwellenbeeinflussung durch Tim
 und Neurostream kennengelernt und war dann auch mit dem Produkt sehr
@@ -295,7 +294,7 @@ getestet hast.**
 
 Hier sind alle [Upgrade Optionen](https://www.neurostreams.de/produkte/#aff=jneidel).
 Ich habe mir das Kompendium zugelegt.
-Das enthält alles Klassiker und Titel die ich in diesem Artikel erwähnt
+Das enthält alle Klassiker und Titel die ich in diesem Artikel erwähnt
 habe.
 Mich hat das Paket ca. 110€ gekostet, weil ich es durch den Grand Slam (ein
 Bündel mit anderen von Tims Produkten) zusammengekauft habe.
@@ -316,7 +315,7 @@ interessant waren.
 
 ## Zusammenfassend
 
-Ein großartiger Werkzeugkasten den ich nicht missen möchte.
+Ein großartiger Werkzeugkasten den ich jeden Tag benutze und nicht missen möchte.
 
 Neurostreams gehören für mich klar zu den 20% der Optimierungen die 80% der
 Ergebnisse liefern.

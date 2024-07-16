@@ -11,7 +11,7 @@ tags:
     - sleep
 date: 2024-06-21
 thumbnailAlt: "A giant abstract pine cone"
-writingTime: 446
+writingTime: 450
 ---
 
 ## What are Neurostreams?
@@ -300,9 +300,10 @@ weren't of interest to me.
 
 ## Conclusions
 
-A great toolbox I don't ever want to live without.
+A great toolbox I use every day and wouldn't want to live without.
 
-It's in the 20% of optimizations that deliver 80% of the results for sure.
+To me, it's part of the 20% of optimizations that deliver 80% of the
+results.
 
 Neurostreams have something to offer for everybody and **I would recommend
 everybody to try them**.
