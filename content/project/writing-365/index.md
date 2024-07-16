@@ -110,6 +110,12 @@ Started writing The Inner Game review.
 8. Start writing [AWS review](review/aws).
 9. Continued writing [AWS review](review/aws).
 10. Published [AWS review](review/aws).
+11. Start writing essay on how to be miserable.
+12. Continue how to be miserable. Start writing article on changing internet providers.
+13. Continue writing on changing internet providers.
+14. Write a tiny bit more on changing internet providers.
+15. Edit and restructure changing internet providers article.
+16. Publish changing internet providers. Correct [neurostreams](review/neurostreams).
 
 ## References
 
