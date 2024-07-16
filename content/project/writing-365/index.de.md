@@ -5,6 +5,7 @@ Schreiben. Was ist meine Absicht dahinter?"
 summary: "Die 365 Tages Challenge zum Schreiben."
 tags:
     - challenge
+project-status: ongoing
 date: 2024-05-23
 thumbnailAlt: Gemälde von einem alten Tempel über dem die Sonne aufgeht mit einer Taschenuhr im Vordergrund
 showDate: true

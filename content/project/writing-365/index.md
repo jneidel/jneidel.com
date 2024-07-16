@@ -4,6 +4,7 @@ description: "My 365 day project of writing every day. What I want to get out of
 summary: "The 365 day challenge about writing."
 tags:
     - challenge
+project-status: ongoing
 date: 2024-05-23
 thumbnailAlt: Painting of the sun rising over an old temple with a pocketwatch in the foreground
 showDate: true
