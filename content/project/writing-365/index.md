@@ -115,7 +115,7 @@ Started writing The Inner Game review.
 13. Continue writing on changing internet providers.
 14. Write a tiny bit more on changing internet providers.
 15. Edit and restructure changing internet providers article.
-16. Publish changing internet providers. Correct [neurostreams](review/neurostreams).
+16. Publish changing internet providers. Correct mistakes on 3 articles. Slightly expand [aws review](review/aws).
 
 ## References
 

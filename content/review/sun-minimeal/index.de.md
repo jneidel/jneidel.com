@@ -8,15 +8,14 @@ tags:
     - food
 date: 2024-05-30
 thumbnailAlt: "Astronautin die in ein SUN Minimeal beißt"
-writingTime: 200
+writingTime: 202
 ---
 
 ## Was ist das Minimeal?
 
 Das [SUN Minimeal](https://minimeal.com/share/jneidel) ist ein vollwertiger und nährstoffreicher Snack.
-Es erfüllt die strikten EU-Voraussetzungen zum Mahlzeit Ersatz, so darf nicht
-nämlich nicht einfach alles nennen (Y-Food erfüllt diese Kriterien z.B.
-nicht.)
+Es erfüllt die strikten EU-Voraussetzungen zum Mahlzeit Ersatz, so darf sich
+nämlich nicht alles nennen (Y-Food erfüllt diese Kriterien z.B. nicht.)
 
 ## Wie benutzen wir es?
 
@@ -83,8 +82,9 @@ nebensächlich.
 
 **Rewardsprogram als Crypowährung**
 
-In meinen Augen wird durch den Cryptocoin nur unnötig Geld aus dem
-Fester geworfen. Die Kunden werden verwirrt und die Produktvision unnötig
+In meinen Augen wird durch den Cryptocoin nur unnötig Geld aus dem Fenster
+geworfen.
+Die Kunden werden verwirrt und die Produktvision unnötig
 durcheinandergebracht.
 Was hat Mahlzeit Ersatz mit der PulseChain zu tun? Nichts, aber wenn du dein
 Cashback willst, musst du es herausfinden :slightly_frowning_face:.

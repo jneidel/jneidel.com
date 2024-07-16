@@ -7,7 +7,7 @@ tags:
     - "not recommended"
 date: 2024-07-10
 thumbnailAlt: "Close-up of a server rack"
-writingTime: 215
+writingTime: 222
 ---
 
 I've tried to keep this review non-technical.
@@ -98,6 +98,7 @@ Least of all could I understand how things worked.
 
 There is technical mumbo-jumbo everywhere.
 Everything has arcane names and tons of options.
+You have to select the right region to see anything.
 Important points are hidden away in a menu somewhere.
 
 At no point was navigating the site ever easy, enjoyable or even just
@@ -121,6 +122,8 @@ Each time removing the things that I thought to be causing the costs.
 Only with multiple searches and ChatGPT debugging did I finally get it.
 Well, I don't know if I got it, I'll have to wait until for the next invoice
 to be sure :weary:
+
+{{<figure src="./cost-overview.png" class="w-11/12" alt="Unclickable AWS Cost Explorer" caption="Just let me click on it and disable what is causing the charge.">}}
 
 ### Dishonesty
 

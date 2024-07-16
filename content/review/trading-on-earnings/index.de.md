@@ -5,7 +5,7 @@ summary: "Bündige Erklärung der Börsenstrategie zum Handel über die Earnings
 tags:
 date: 2024-06-30
 thumbnailAlt: "Freiheitsstatue umgeben von Geld und Flaggen"
-writingTime: 260
+writingTime: 261
 ---
 
 <a href="https://www.amazon.de/Trading-Corporate-Earnings-News-Short-Term-ebook/dp/B004GXB3DA?&linkCode=ll1&tag=jneidel06-21&linkId=7edd9d758dfa2f1228f0e55fc6eb78dc" target=_blank>
@@ -217,8 +217,8 @@ Verkaufspreis.)
 
 Manchmal kann es lohnend sein die Option nicht direkt nach 24h zu verkaufen.
 Wenn die unterliegende Aktie sich noch explosiv bewegt (und dementsprechend
-das Niveau der Implied Volatility gehalten oder erhöht wird) kann trotz
-Zeitverfall profitabel sein im der Position zu bleiben.
+das Niveau der Implied Volatility gehalten oder erhöht wird) kann es trotz
+Zeitverfall profitabel sein in der Position zu bleiben.
 
 > Although it is possible that the implied volatility embedded in each leg
 of the straddle will decrease in the period after the earnings announcement,
@@ -262,7 +262,7 @@ more strongly** to the earnings surprises of **growth companies** and relatively
 less strongly to those of value companies.[^growthcom]
 [^growthcom]: Siehe Kapitel 12.
 
-Also mit Wachstumswerten sind vergleichsweise stärkere Reaktionen erwartbar.
+Mit Wachstumswerten sind vergleichsweise stärkere Reaktionen erwartbar.
 Was profitabler für die Strategie ist.
 
 Die Kriterien zur Kategorisierung von Wachstumswerten sind nicht universell
