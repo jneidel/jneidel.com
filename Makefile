@@ -22,3 +22,11 @@ build: assets/css/compiled/main.css
 
 buildDrafts: assets/css/compiled/main.css
 	HUGO_ENV=production hugo --gc --minify --buildDrafts -b ${DEPLOY_PRIME_URL}
+
+_:
+	mkdir -p _
+	ln -s ../content/review _/review
+	ln -s ../content/guide _/guide
+	ln -s ../content/project _/project
+	ln -s ../content/essay _/essay
+	ln -s ../layouts _/…layout
