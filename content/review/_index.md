@@ -10,7 +10,7 @@ cascade:
 {{<i18n "category.review_description">}}
 {{</lead>}}
 
-Reviews with the intention to find what work.
+Reviews with the intention to find what works.
 
 These are not your average reviews. They are concise and written for you to
 take something away from them, even if you are not interested in the object

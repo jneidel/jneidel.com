@@ -8,7 +8,7 @@ project-status: ongoing
 date: 2024-05-23
 thumbnailAlt: Painting of the sun rising over an old temple with a pocketwatch in the foreground
 showDate: true
-writingTime: 45
+writingTime: 90
 ---
 
 I have decided to commit myself and take my writing to the next level.
@@ -55,7 +55,7 @@ Here I will keep a daily log of what I have written (updated weekly.)
 Project start: May23 2024
 {{</badge>}}
 
-1. Write this article.
+1. Wrote this article.
 24. Finished writing [Eat the frog](essay/eat-that-frog), edit and translate it.
 Started writing The Inner Game review.
 25. Continued writing and editing [The Inner Game review](/de/review/the-inner-game).
@@ -75,8 +75,8 @@ Started writing The Inner Game review.
 7. Continue on [Neurostreams review](review/neurostreams).
 8. Continue on [Neurostreams review](review/neurostreams).
 9. :slightly_frowning_face:
-10. Started on [waves essay](essay/waves).
-11. Continued on [waves essay](essay/waves).
+10. Started on waves essay.
+11. Continued on waves essay.
 12. Wrote my [now page](now).
 13. Make headway on [Neurostreams review](review/neurostreams).
 14. Editing first half of the [Neurostreams review](review/neurostreams).
@@ -88,7 +88,7 @@ Started writing The Inner Game review.
 20. Finish editing the second half of the [Neurostreams review](review/neurostreams).
 21. Final edits and publishing of [Neurostreams review](review/neurostreams).
 22. Write first draft of [donating blood review](/de/review/blutspende).
-23. Finish [donating blood analysis](/de/review/blutspende). Write offer [technical evaluation](offer/technical-evaluation). Translate first half of [Neurostreams review](review/neurostreams).
+23. Finish [donating blood analysis](/de/review/blutspende). Write offer technical evaluation. Translate first half of [Neurostreams review](review/neurostreams).
 24. Translate the second half of [Neurostreams review](review/neurostreams).
 25. Small addition to [no interrupting](essay/no-interrupting).
 26. Start project article about entrepreneurship.
@@ -102,7 +102,7 @@ Started writing The Inner Game review.
 29. Expanded & edited a good chunk of [no interrupting](essay/no-interrupting).
 30. Greatly expanded the Trading on Coporate Earnings review.
 1. Finish and publish Trading on Coporate Earnings review.
-2. Expand Trading on Coporate Earnings review. Update SOIL selling guide.
+2. Expand Trading on Coporate Earnings review. Update german SOIL selling guide.
 3. Final edits on [no interrupting](essay/no-interrupting).
 4. Wrote first half of trampoline jumping review.
 5. Wrote second half of trampoline jumping review.
@@ -117,6 +117,67 @@ Started writing The Inner Game review.
 14. Write a tiny bit more on changing internet providers.
 15. Edit and restructure changing internet providers article.
 16. Publish changing internet providers. Correct mistakes on 3 articles. Slightly expand [aws review](review/aws).
+17. Structure and start writing on GbR project.
+18. Continue on GbR project.
+19. Write a little on GbR project.
+20. Continue on GbR project. Write [FYRST review](/de/review/fyrst).
+21. Describe learnings of this challenge. Write the [1. Newsletter](newsletter/1-hemingway-trick).
+
+## Learnings
+### Progress
+
+I can feel that I'm getting better at writing.
+
+Structuring posts is becoming easier.
+First drafts are becoming better.
+Editing is becoming faster.
+I have a better sense of what won't and will fit.
+The distinction between English/German has become more clear.
+I don't mix the two together as much and both sound more organic.
+I'm better at writing clear, short sentences.
+At omitting unneeded words.
+I pick up and improve little stylistic elements, like quoting a source, use
+of footnotes, parenthesis for explanations, headline interaction with the
+text before and after, etc.
+
+This outcome was expected, but it is still satisfying to see this happen
+organically, without conscious focus.
+
+### Comprehension & Completion
+
+The ideas and projects I pick to write about are usually very thought-out.
+I have already engaged with them, internalized and applied them to my life.
+
+What I find in writing about them is that they were not as clear in my mind
+as I had thought.
+There are aspects I overlooked.
+Discrepancies that reveal themselves.
+Questions I can't answer, that pop into my head.
+
+Writing forces me to clearly structure everything I know on the topic in my
+mind.
+
+It also makes me really complete a project.
+I go through my messy notes and create a beautifully shaped article out of
+them.
+One that put the core ideas are front and center.
+That lacks the unimportant references and tangents (side notes.)
+That is clearly structured and referenceable.
+
+### When I otherwise wouldn't
+
+There were many days that I sat down to write in the evening just because I
+had to.
+This challenge forced me to do the right thing, when I otherwise wouldn't.
+
+Sometimes I would write very little.
+That's ok.
+I made the bar (required minimum) very low on purpose.
+I still did the writing and kept up the habit.
+
+Sometimes I was not in the mood.
+I still sat down to write and discovered that it was a lot of fun.
+It always is.
 
 ## References
 
