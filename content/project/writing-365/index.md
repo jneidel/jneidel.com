@@ -122,6 +122,9 @@ Started writing The Inner Game review.
 19. Write a little on GbR project.
 20. Continue on GbR project. Write [FYRST review](/de/review/fyrst).
 21. Describe learnings of this challenge. Write the [1. Newsletter](newsletter/1-hemingway-trick).
+22. Continue a little on GbR project.
+22. Continue write the GbR project.
+23. Write an essay on [negating commands](essay/dont).
 
 ## Learnings
 ### Progress
