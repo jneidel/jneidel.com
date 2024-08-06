@@ -37,3 +37,4 @@ Hier kannst du mehr über das [erklärte Ziel dieser Website und seinen Autor er
     {{<icon "rss">}}
 {{</hovericon>}}
 
+{{<newsletter-signup>}}

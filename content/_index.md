@@ -38,3 +38,5 @@ You can explore the categories below:
 {{<hovericon "/rss/">}}
     {{<icon "rss">}}
 {{</hovericon>}}
+
+{{<newsletter-signup>}}

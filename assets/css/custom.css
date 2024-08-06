@@ -95,6 +95,7 @@ html.dark div.lead {
   color: rgb(var(--color-neutral-300));
 }
 
+/* newsletter-signup */
 @keyframes pulse {
   0% {
     box-shadow: none;
