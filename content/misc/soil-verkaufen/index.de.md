@@ -6,7 +6,7 @@ date: 2024-04-27
 tags:
     - crypto
 thumbnailAlt: SOIL Coin Umwandlung in Euro
-writingTime: 320
+writingTime: 360
 ---
 
 Wenn du dich fragst was SUN Minimeals sind, dann findest du hier meine
@@ -113,8 +113,8 @@ Menge.
 {{<figure src="./claim-SOIL.de.png" class="w-8/12" alt="Claim von SOIL">}}
 
 Damit werden die SOIL in euer Wallet verschoben.
-Nachdem die Anfrage bearbeitet wurde sind sie in MetaMask unter "Tokens"
-sichtbar.
+Nachdem die Anfrage bearbeitet wurde (was etwas dauern kann) sind sie in
+MetaMask unter "Tokens" sichtbar.
 
 Jetzt könnt ihr eure SOIL entweder behalten und auf Wertanstieg hoffen
 ([siehe aktueller Kurs](https://www.dexview.com/pulse/0x22b2f187E6EE1f9Bc8f7Fc38bB0D9357462800e4))
@@ -125,7 +125,7 @@ oder euch diese in Euro auszahlen.
 SOIL liegt auf der PulseChain.
 
 Einzahlungen von der PulseChain sind bei meinen Crypto Exchange (Kraken) nicht
-möglich, deswegen muss ich den Weg über ein anderen Netzwerk gehen.
+möglich, deswegen muss ich den Umweg über ein anderes Netzwerk gehen.
 
 Prüft gern bei ob euerem Crypto Exchange ob dieser Einzahlungen von der
 PulseChain unterstützt.
@@ -157,15 +157,22 @@ Dazu nutzen wir die Platform [PulseX](https://pulsex.pulsechainapp.com),
 welche es erlaubt Coins auf der PulseChain zu tauschen.
 
 1. Gehe auf [PulseX](https://pulsex.pulsechainapp.com) und verbinde deine Wallet
-2. Gib beim Eingangstoken die Nummer des SOIL Tokens ein: `0x22b2f187E6EE1f9Bc8f7Fc38bB0D9357462800e4`
+2. Gib beim Eingangstoken die Adresse des SOIL Tokens ein:
+   `0x22b2f187E6EE1f9Bc8f7Fc38bB0D9357462800e4` und dann "Import" und "I understand"
 3. Gib als Ausgangstoken `PLS` ein
-4. Klick auf Swap
+4. "Enable SOIL" und "Spending cap request" bestätigen
+5. "Swap" klicken
 
-{{<figure alt="Swap SOIL for PLS" src="sun-to-pls-swap.png" class="w-10/12">}}
+{{<center>}}
+    {{<figure alt="Enable SOIL to be swapped for PLS" src="enable-SOIL.png" class="w-12/12">}}
+    {{<figure alt="Confirm spending cap request" src="spending-cap-request.png" class="w-12/12">}}
+    {{<figure alt="Swap SOIL for PLS" src="swap-SOIL.png" class="w-12/12">}}
+{{</center>}}
 
 Es fällt ein geringer Beitrag (Gas fees d.h. Transfergebühren) in der
-Währung PLS an (SUN hat euch bereits ein paar PLS für gas fees in eurem
-Wallet gutgeschrieben.)
+Währung PLS an.
+SUN hat euch bereits ein paar PLS für gas fees in eurem Wallet
+gutgeschrieben.
 
 ## Übertragung in Polygon
 
@@ -177,20 +184,15 @@ Um zwischen verschiedenen Netzwerk hin-und-her zu tauschen nutzen wir nun
 die Platform [PortalX](https://portalxswap.io).
 
 Zu beachten gilt hier, dass wir Transfergebühren (gas fees) in beiden
-Netzwerken entrichten müssen (zum Senden und in Empfang nehmen.)
+Netzwerken entrichtet werden müssen (zum Senden und in Empfang nehmen.)
 Gas fees werden immer in der Hauptwährung des Netzwerkes fällig.
 In der PulseChain sind das PLS (haben wir bereits) und im Polygon Netzwerk MANTIC.
 
 Wir müssen uns nun also eine kleine Menge MANTIC besorgen, sonst können wir
 unsere USDT nicht entgegen nehmen.
+Das geht auch in [PortalX](https://portalxswap.io) über den Button "Gas":
 
-Also:
-{{<figure class="float-right h-8 w-auto" alt="Mantic auf Kraken kaufen" src="mantic-eur-trade.png">}}
-1. MANTIC beim Exchange für Euro kaufen (ein paar Euro reichen)
-2. Polygon Adresse des Wallets kopieren:
-{{<figure alt="Polygon Adresse in MetaMask raus kopieren" src="polygon-addresse-im-wallet-kopieren.png" class="w-10/12">}}
-3. Beim Exchange an eure Wallet Adrese auszahlen lassen
-{{<figure alt="Bei Kraken an Polygon Adresse auszahlen" src="polygon-kraken-withdraw.png" class="w-10/12">}}
+{{<figure src="./portal-x-gas-fees.de.png" class="w-10/12" alt="Gas fees über PortalX beziehen">}}
 
 Sobald wir unsere MANTIC und PLS haben um gas fees bezahlen zu können kann es
 auf [PortalX](https://portalxswap.io) losgehen:
@@ -199,26 +201,32 @@ auf [PortalX](https://portalxswap.io) losgehen:
 3. Nach Währung auswählen: Polygon Netzwerk und dann USDT
 4. Swap
 
-{{<figure alt="Swap PLS auf PulseChain for USDT auf Polygon" src="pls-to-polygon-usdt.png">}}
+{{<center>}}
+    {{<figure alt="Swap PLS auf PulseChain for USDT auf Polygon" class="w-12/12" src="./pls-usdt-swap.de.png">}}
+    {{<figure alt="Swap Prozess PLS auf PulseChain nach USDT auf Polygon" class="w-9/12" src="./swap-in-progress.de.png">}}
+{{</center>}}
 
-Bei diesem Tausch fallen etwas höhere Gebühren an.
-Aber auch nicht mehr als wenige Dollar.
+Nachdem PulseX fertig ist sollten die USDT im Wallet (im Polygon
+Netzwerk) auftauchen.
 
-## USDT Einzahlung
+## USDT einzahlen
 
-Jetzt sucht ihr euch auf eurem Exchange die Adresse zum Einzahlen von USDT
-im Polygon Netzwerk raus:
+In eurem Exchange sucht ihr euch jetzt die Adresse zum Einzahlen von USDT
+aus Polygon Netzwerk raus.
+Dann wählt ihr in MetaMask das Polygon Netzwerk aus und versendet von dort
+die USDT an die Einzahladresse eures Exchanges.
 
-{{<figure alt="USDT auf Kraken über Polygon einzahlen" src="deposit-USDT-on-polygon.png" class="w-10/12" caption="Kraken Einzahlfester für USDT im Polygon Netzwerk">}}
-
-Wählt in MetaMask das Polygon Netzwerk aus und versendet von dort die USDT an
-die Einzahladresse eures Exchanges.
+{{<center>}}
+{{<figure alt="USDT auf Kraken über Polygon einzahlen" src="./deposit-usdt-kraken.de.png" class="w-12/12" caption="Kraken Einzahlfester für USDT im Polygon Netzwerk">}}
+    {{<figure src="./confirm-sending-usdt.de.png" class="w-12/12" alt="Confirm sending USDT to Kraken" caption="USDT von MetaMask zu Kraken schicken">}}
+{{</center>}}
 
 Beachte das es hier Mindestgrenzen geben kann (Kraken: 2 USDT.)
 
 ## USDT für Euro verkaufen
 
-{{<figure class="float-right h-20 w-auto" alt="USDT auf Kraken verkaufen: 10 USDT Minimum" src="USDT-minimum-amount.png" caption="Mindesteinzahlgrenze bei Kraken">}}
+{{<figure class="float-right h-48 w-auto" alt="USDT auf Kraken verkaufen" src="./sell-usdt-kraken.de.png">}}
+
 Jetzt könnt ihr über das Interface des Exchanges eure USDT für Euro
 verkaufen. Beachtet, dass es auch hier Mindestgrenzen geben kann.
 
