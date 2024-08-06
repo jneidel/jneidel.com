@@ -125,6 +125,22 @@ Started writing The Inner Game review.
 22. Continue a little on GbR project.
 22. Continue write the GbR project.
 23. Write an essay on [negating commands](essay/dont).
+24. Write on technical documentation project.
+25. Write a little on GbR project.
+26. Rules are there as a guide to push you in the right direction.
+If a rule does not push you in the right direction, it's not a rule it's an
+impediment. – I'm just tired after preparing and driving all day. I could
+get my one paragraph in, as I did yesterday, but it was and would be sub par.
+27. Start NLP23 review.
+28. –
+29. –
+30. –
+31. –
+1. –
+2. –
+3. –
+4. Continue NLP23 review. Start writing hypnosis for coaching.
+5. Continue NLP23 review.
 
 ## Learnings
 ### Progress
