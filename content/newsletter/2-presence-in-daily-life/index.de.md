@@ -5,7 +5,6 @@ summary: "Neue Challenge zum Testen einer Technik um Allgegenwärtig im Alltag z
 tags:
 date: 2024-08-19
 slug: "allgegenwärtig-im-alltag"
-thumbnailAlt: "Zeitungsausträger der eine Zeitung schwänkt"
 writingTime: 26
 ---
 

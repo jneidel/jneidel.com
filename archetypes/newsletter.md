@@ -1,5 +1,5 @@
 ---
-title: "{{ replace .File.ContentBaseName "-" " " | replaceRE "^[0-9]+ " "" | title }}"
+title: "{{ replace .File.ContentBaseName "-" " " | replaceRE "^[0-9]+ " "" | title }}: <++>"
 description: ""
 summary: ""
 tags:

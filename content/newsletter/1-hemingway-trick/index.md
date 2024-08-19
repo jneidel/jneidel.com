@@ -5,7 +5,6 @@ summary: "1. Newsletter"
 tags:
 date: 2024-07-21
 slug: "hemingway-trick"
-thumbnailAlt: "Paper boy waving a newspaper"
 writingTime: 25
 ---
 

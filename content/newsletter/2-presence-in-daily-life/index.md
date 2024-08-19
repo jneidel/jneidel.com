@@ -5,7 +5,6 @@ summary: "New challenge for testing a technique for staying present in daily lif
 tags:
 date: 2024-08-19
 slug: "presence-in-daily-life"
-thumbnailAlt: "Paper boy waving a newspaper"
 writingTime: 16
 ---
 
