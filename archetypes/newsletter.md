@@ -11,3 +11,15 @@ writingTime:
 ---
 
 <++>
+
+## Last challenge
+
+<++>
+
+## Next challenge
+
+<++>
+
+## New articles
+
+<++>
