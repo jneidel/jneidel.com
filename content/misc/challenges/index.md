@@ -33,7 +33,7 @@ I invite you to do something similar.
 These are the learnings I have focused on, or will focus on in the future.
 
 {{<badge>}}
-Current streak: 10 weeks completed
+Current streak: 0 weeks completed
 {{</badge>}}
 
 - [x] Week 19: Applied:
@@ -56,13 +56,14 @@ later.
 preferred communication channels? Listen for signals. Preparation for an
 upcoming NLP seminar.
 - [x] Week 29: Dedicate some more attention to applying the Hemingway trick.
-- [ ] **Week 30**: Learn and apply the Milton model to my self-talk.
+- [x] Week 30: Learn and apply the Milton model to my self-talk.
 On the weekend make an effort to remember peoples names at the NLP seminar I'm attending.
-- [ ] Week 30: Measure my awareness. Ask myself every 30m "How present are
+- [ ] **Week 34**: Improve presence in daily life. [See more details](newsletter/2-presence-in-daily-life#next-challenge).
+- [ ] Week 35: Measure my awareness. Ask myself every 30m "How present are
 you on a scale of 1-10?"
-- [ ] Week 31: Pose a question to my unconscious in the evening, something
+- [ ] Week 36: Pose a question to my unconscious in the evening, something
 that I want solved for my brain to work on overnight.
-- [ ] Week 32: Write down 4x4 goals (4 biggest goals, 4 times each) followed by
+- [ ] Week 37: Write down 4x4 goals (4 biggest goals, 4 times each) followed by
     a visualization technique that sounds actually effective
     (not just a loose "just imagine it bro")
 <!-- - [ ] Week <++>: <++> -->
