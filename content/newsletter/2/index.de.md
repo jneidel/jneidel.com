@@ -15,7 +15,7 @@ dem Seminar erhole :slightly_smiling_face:
 
 ## Letzte Challenge
 
-Siehe [Challenge Beschreibung](newsletter/1-hemingway-trick#nächste-challenge).
+- [Challenge Definition von letzter Woche](newsletter/1#nächste-challenge)
 
 Die hypnotischen Sprachmuster nach Milton habe ich durch die Übung besser
 kennengelernt.

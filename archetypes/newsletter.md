@@ -1,5 +1,5 @@
 ---
-title: "{{ replace .File.ContentBaseName "-" " " | replaceRE "^[0-9]+ " "" | title }}: <++>"
+title: "Newsletter #{{ .File.ContentBaseName }}: <++>"
 description: ""
 summary: ""
 tags:
@@ -10,9 +10,12 @@ draft: true
 writingTime:
 ---
 
+Hi :slightly_smiling_face:,
 <++>
 
-## Last challenge
+## Review of last challenge
+
+- [Last week's challenge definition](newsletter/{{ sub (.File.ContentBaseName | int) 1 }}#next-challenge)
 
 <++>
 

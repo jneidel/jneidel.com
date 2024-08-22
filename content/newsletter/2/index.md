@@ -13,9 +13,9 @@ the last 3 weeks I had an NLP seminar which required my full focus, followed
 by a virus infection to ensure that I got my rest after the seminar
 :slightly_smiling_face:
 
-## Last challenge
+## Review of last challenge
 
-See [challenge description](newsletter/1-hemingway-trick#next-challenge).
+- [Last week's challenge definition](newsletter/1#next-challenge)
 
 I better understood hypnotic language patterns of the Milton model through
 their application.

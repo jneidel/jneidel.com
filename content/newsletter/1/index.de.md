@@ -1,8 +1,7 @@
 ---
-title: "1. Newsletter"
-description: "Gedanken zum Heminway trick und der kommenden Milton Modell challenge."
-summary: "1. Newsletter"
-tags:
+title: "Newsletter #1: Gedanken zum Hemingway Trick"
+description: "Gedanken zum Hemingway Trick und der kommenden Milton Modell challenge."
+summary: "Gedanken zum Hemingway Trick und der kommenden Milton Modell challenge."
 date: 2024-07-21
 slug: "hemingway-trick"
 writingTime: 10

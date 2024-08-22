@@ -29,4 +29,5 @@ _:
 	ln -s ../content/guide _/guide
 	ln -s ../content/project _/project
 	ln -s ../content/essay _/essay
+	ln -s ../content/newsletter _/newsletter
 	ln -s ../layouts _/…layout

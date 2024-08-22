@@ -58,7 +58,7 @@ upcoming NLP seminar.
 - [x] Week 29: Dedicate some more attention to applying the Hemingway trick.
 - [x] Week 30: Learn and apply the Milton model to my self-talk.
 On the weekend make an effort to remember peoples names at the NLP seminar I'm attending.
-- [ ] **Week 34**: Improve presence in daily life. [See more details](newsletter/2-presence-in-daily-life#next-challenge).
+- [ ] **Week 34**: Improve presence in daily life. [See more details](newsletter/2).
 - [ ] Week 35: Measure my awareness. Ask myself every 30m "How present are
 you on a scale of 1-10?"
 - [ ] Week 36: Pose a question to my unconscious in the evening, something

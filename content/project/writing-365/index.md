@@ -121,7 +121,7 @@ Started writing The Inner Game review.
 18. Continue on GbR project.
 19. Write a little on GbR project.
 20. Continue on GbR project. Write [FYRST review](/de/review/fyrst).
-21. Describe learnings of this challenge. Write the [1. Newsletter](newsletter/1-hemingway-trick).
+21. Describe learnings of this challenge. Write the [1. Newsletter](newsletter/1).
 22. Continue a little on GbR project.
 22. Continue write the GbR project.
 23. Write an essay on [negating commands](essay/dont).
@@ -154,7 +154,7 @@ get my one paragraph in, as I did yesterday, but it was and would be sub par.
 16. :face_with_thermometer:
 17. :slightly_frowning_face:
 18. Continue NLP23 review.
-19. Write [newsletter #2](newsletter/2-presence-in-daily-life).
+19. Write [newsletter #2](newsletter/2).
 20. Finish up writing NLP23 review. Start [Oladance open ear review](review/oladance-open-ear-headphones).
 21. Finish up editing [Oladance open ear review](review/oladance-open-ear-headphones).
 
