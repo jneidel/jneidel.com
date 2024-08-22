@@ -124,6 +124,7 @@ html.dark div.lead {
     position: relative;
 
     input {
+      width: 240px;
       padding: 10px 0;
       font-size: .8rem;
       border: none;

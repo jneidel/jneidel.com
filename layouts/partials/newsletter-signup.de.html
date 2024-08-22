@@ -1,10 +1,18 @@
 <div class="newsletter-signup flex justify-center">
-  <form class="email-form form-lang-de" name="newsletter" action="https://app.keila.io/forms/nfrm_6b3D2jVg" method="post" target="_blank">
-    <div class="flex justify-center">
-      Bleibe auf dem laufendem!
+  <form class="email-form form-lang-de w-full max-w-prose pt-4" name="newsletter" action="https://app.keila.io/forms/nfrm_6b3D2jVg" method="post" target="_blank">
+    <div class="flex justify-center text-center text-xl">
+      Bekomm wöchentlich Einblicke & Updates
     </div>
-    <div class="flex items-end mt-3 mb-7">
-      <span class="input-container inline-block mr-2">
+    <div class="flex justify-center">
+      <div class="text-sm text-center pt-2 max-w-xl">
+        Erhalte 1x die Woche einen kleinen Einblick in mein Leben.
+        Updates zu den Challenges die ich mache, den Projekten an denen ich
+        arbeite, und neu veröffentlichten Artikeln.
+        Inspiration und praktisches Wissen für dich.
+      </div>
+    </div>
+    <div class="flex flex-col sm:flex-row flex-wrap gap-y-4 gap-x-4 justify-center items-center lg:items-end my-5">
+      <span class="input-container inline-block">
         <input type="text" name="contact[first_name]" required/>
         <label for="contact_first_name">Nenn mich…</label>
       </span>
@@ -13,8 +21,11 @@
         <label for="contact_email">Meine beste Email…</label>
       </span>
       <button
-        class="rounded-md ml-2 px-4 py-1 text-neutral no-underline bg-primary-400 hover:bg-primary-500 dark:bg-primary-700 dark:hover:bg-primary-500"
-        type="submit">Zum Newsletter Anmelden</button>
+        class="rounded-md grow w-9/12 sm:w-fit px-4 py-1 text-neutral no-underline bg-primary-400 hover:bg-primary-500 dark:bg-primary-700 dark:hover:bg-primary-500"
+        type="submit">Updates erhalten</button>
     </div>
+    <p class="text-sm text-center pb-10 lg:pb-5">
+      Unsicher, ob das was für dich ist? Schau mal in die <a class="underline hover:!bg-primary-500 dark:hover:!bg-primary-700" target=_blank href="/de/newsletter/">vorherigen Newsletter</a> rein.
+    </p>
   </form>
 </div>

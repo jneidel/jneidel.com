@@ -1,20 +1,31 @@
 <div class="newsletter-signup flex justify-center">
-  <form class="email-form form-lang-en" name="newsletter" action="https://app.keila.io/forms/nfrm_y6VdGb9E" method="post" target="_blank">
-    <div class="flex justify-center">
-      Stay in touch!
+  <form class="email-form form-lang-en w-full max-w-prose pt-4" name="newsletter" action="https://app.keila.io/forms/nfrm_y6VdGb9E" method="post" target="_blank">
+    <div class="flex justify-center text-center text-xl">
+      Get Weekly Insights & Updates
     </div>
-    <div class="flex items-end mt-3 mb-7">
-      <span class="input-container inline-block mr-2">
+    <div class="flex justify-center">
+      <div class="text-sm text-center pt-2 max-w-xl">
+        Get a weekly peek into my life.
+        Updates on the challenges I'm doing, the projects I'm working on, and
+        the latest articles I released.
+        Gain practical insights for your journey.
+      </div>
+    </div>
+    <div class="flex flex-col sm:flex-row flex-wrap gap-y-4 gap-x-4 justify-center items-center lg:items-end my-5">
+      <span class="input-container inline-block">
         <input type="text" name="contact[first_name]" required/>
-        <label for="contact_first_name">Call me…</label>
+        <label for="contact_first_name">I want you to call me…</label>
       </span>
       <span class="input-container inline-block">
         <input type="email" name="contact[email]" required/>
         <label for="contact_email">My best email…</label>
       </span>
       <button
-        class="rounded-md ml-2 px-4 py-1 text-neutral no-underline bg-primary-400 hover:bg-primary-500 dark:bg-primary-700 dark:hover:bg-primary-500"
-        type="submit">Subscribe to the Newsletter</button>
+        class="rounded-md grow w-9/12 sm:w-fit px-4 py-1 text-neutral no-underline bg-primary-400 hover:bg-primary-500 dark:bg-primary-700 dark:hover:bg-primary-500"
+        type="submit">Subscribe for Updates</button>
     </div>
+    <p class="text-sm text-center pb-10 lg:pb-5">
+      Not sure yet? You can check out <a class="underline hover:!bg-primary-500 dark:hover:!bg-primary-700" target=_blank href="/newsletter/">past newsletters</a> to see what you'll get.
+    </p>
   </form>
 </div>
