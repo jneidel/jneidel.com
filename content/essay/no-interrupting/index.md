@@ -198,7 +198,7 @@ Just notice your behavior when the other person speaks.
 Remind yourself of this commitment daily (a note on your daily planner,
 calendar, on your phone, etc.) and bring this awareness into most
 conversations.
-This is exactly what I did as part of a [weekly challenge](misc/challenges).
+This is exactly what I did as part of a [weekly challenge](project/challenges).
 
 ## References and Exceptions
 

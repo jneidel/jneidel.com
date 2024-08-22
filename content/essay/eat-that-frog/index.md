@@ -46,7 +46,7 @@ Try it for a week.
 It's a reasonable commitment.
 Nothing can go wrong.
 See how it feels.
-This is exactly what I do in my [weekly challenge](misc/challenges)
+This is exactly what I do in my [weekly challenge](project/challenges)
 format.
 
 Ask yourself every morning:
