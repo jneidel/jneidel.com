@@ -33,9 +33,9 @@
 
   {{ $cssMain := resources.Get "css/compiled/main.css" }}
   {{ $assets.Add "css" (slice $cssMain) }}
-  {{ $cssCustom := resources.Get "css/custom.css" }}
-  {{ if $cssCustom }}
-    {{ $assets.Add "css" (slice $cssCustom) }}
+  {{ $customCSS := resources.Get "css/custom.css" }}
+  {{ if $customCSS }}
+    {{ $assets.Add "css" (slice $customCSS) }}
   {{ end }}
   {{ $bundleCSS := $assets.Get "css" | resources.Concat "css/main.bundle.css" | resources.Minify | resources.Fingerprint $algorithm }}
   <link
@@ -44,9 +44,9 @@
     href="{{ $bundleCSS.RelPermalink }}"
     integrity="{{ $bundleCSS.Data.Integrity }}"
   />
-  {{ $newsletterForm := resources.Get "js/handle-newsletter-submission.js" }}
-  {{ if $newsletterForm }}
-    {{ $assets.Add "js" (slice $newsletterForm) }}
+  {{ $customJS := resources.Get "js/custom.js" }}
+  {{ if $customJS }}
+    {{ $assets.Add "js" (slice $customJS) }}
   {{ end }}
   {{ if .Site.Params.enableSearch | default false }}
     {{ $jsFuse := resources.Get "lib/fuse/fuse.min.js" }}
