@@ -155,6 +155,8 @@ get my one paragraph in, as I did yesterday, but it was and would be sub par.
 17. :slightly_frowning_face:
 18. Continue NLP23 review.
 19. Write [newsletter #2](newsletter/2-presence-in-daily-life).
+20. Finish up writing NLP23 review. Start [Oladance open ear review](review/oladance-open-ear-headphones).
+21. Finish up editing [Oladance open ear review](review/oladance-open-ear-headphones).
 
 ## Learnings
 ### Progress
