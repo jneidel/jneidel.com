@@ -25,11 +25,11 @@ gleichen Daten eintrage.
 Mein vom Passwort-Manager generiertes Passwort ist ihnen zu sicher und wird
 still abgelehnt und muss zurückgesetzt werden.
 
-Alle zwei Tage kommt ein nervige Email "Vergiss nicht…" die mich zu
-weitermachen auffordert.
+Alle zwei Tage kommt ein nervige Email "Vergiss nicht…" die mich zum
+Weitermachen auffordert.
 
 Dann mache ich endlich was sie wollen.
-Und Stille von Ihrer Seite.
+Und dann: Stille von Ihrer Seite.
 Nach zwei Wochen muss ich nachfragen wie's denn aussieht.
 
 {{<figure src="./rejection.de.png" class="w-8/12" alt="Ablehnungsnachricht">}}
@@ -38,7 +38,7 @@ Eine Ablehnung ohne jede Aussagekraft.
 Ein Freund von mir hat die gleiche Ablehnung bekommen und ich glaube ich
 kenne den Grund.
 
-Weil Ausländer.
+Weil sie Ausländer sind.
 Das würde FYRST so nicht zugeben, aber meine Frau (und Geschäftspartnerin)
 hat das Problem ständig.
 

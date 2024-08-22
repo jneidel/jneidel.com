@@ -63,6 +63,8 @@ da wird irgendwann ein banger Artikel drauß."
 
 Hier werde ich festhalten was ich jeden Tag geschrieben habe (wöchentliche
 Updates.)
+Die deutsche Variante hängt der regelmäßig gepflegten englischen teils weit
+hinterher :smile:
 
 {{<badge>}}
 Project start: 23. Mai 2024

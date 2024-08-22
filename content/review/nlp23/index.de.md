@@ -233,6 +233,7 @@ Eine beispielhafte Auswahl:
 - Gruppenarbeiten müssen nicht durch mich getragen werden.
 - Ich bin empathischer als ich dachte.
   Andere können sehr viel empathischer sein als ich dachte.
+- Langanhaltende Veränderungen sind schnell erreichbar.
 
 Ein sehr unerwartete – aber mit die wertvollste – Erfahrung war es wirklich
 zum gegenwärtigen Moment zu finden und einfach zu sein.

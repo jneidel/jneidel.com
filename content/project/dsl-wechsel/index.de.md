@@ -4,7 +4,7 @@ description: "Erfahrungsbericht und Kosten/Nutzenanalyse zum Wechsel des Interne
 summary: "Kosten/Nutzenanalyse und meine Erfahrungen"
 tags:
     - "Service Review"
-project-status: ongoing
+project-status: completed
 date: 2024-07-16
 thumbnailAlt: "Internet Router mit vielen bunten Kabeln"
 writingTime: 210

@@ -3,6 +3,7 @@ title: "Don't use Negation"
 description: "Why do I still do something when I tell myself not to do it?"
 summary: "Why do I still do something when I tell myself not to do it?"
 tags:
+    - NLP
 date: 2024-07-24
 thumbnailAlt: "Milk in glass"
 writingTime: 70

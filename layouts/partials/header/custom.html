@@ -39,7 +39,7 @@
               </li>
               {{ if .Site.Menus.main }}
                 {{ range .Site.Menus.main }}
-                  {{ if and (eq .Params.action "locale") (or (not page.IsTranslated) (not site.IsMultiLingual)) }}
+                  {{ if and (eq .Params.action "locale") (or (not page.IsTranslated) (not hugo.IsMultilingual)) }}
                     {{ continue }}
                   {{ end }}
                   <li class="group mb-1">
@@ -125,7 +125,7 @@
       <ul id="basic-menu" class="hidden list-none flex-row text-end lg:flex">
         {{ if .Site.Menus.main }}
           {{ range .Site.Menus.main }}
-            {{ if and (eq .Params.action "locale") (or (not page.IsTranslated) (not site.IsMultiLingual)) }}
+            {{ if and (eq .Params.action "locale") (or (not page.IsTranslated) (not hugo.IsMultilingual)) }}
               {{ continue }}
             {{ end }}
             <li class="group mb-1 lg:mb-0 lg:me-7 lg:last:me-0">

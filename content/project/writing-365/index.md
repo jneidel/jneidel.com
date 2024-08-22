@@ -132,13 +132,13 @@ If a rule does not push you in the right direction, it's not a rule it's an
 impediment. – I'm just tired after preparing and driving all day. I could
 get my one paragraph in, as I did yesterday, but it was and would be sub par.
 27. Start NLP23 review.
-28. :classical_building:
-29. :books:
-30. :student: Full day at NLP Seminar
-31. –
-1. –
-2. –
-3. –
+28. :books: :student: Full day at NLP Seminar
+29. :books: :student:
+30. :books: :student:
+31. :books: :student:
+1. :books: :student:
+2. :books: :student:
+3. :books: :student:
 4. Continue NLP23 review. Start writing hypnosis for coaching.
 5. Continue NLP23 review.
 6. :face_with_thermometer:
@@ -157,6 +157,7 @@ get my one paragraph in, as I did yesterday, but it was and would be sub par.
 19. Write [newsletter #2](newsletter/2).
 20. Finish up writing NLP23 review. Start [Oladance open ear review](review/oladance-open-ear-headphones).
 21. Finish up editing [Oladance open ear review](review/oladance-open-ear-headphones).
+22. Write newsletter signup texts.
 
 ## Learnings
 ### Progress
