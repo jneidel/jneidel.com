@@ -108,15 +108,15 @@ Started writing The Inner Game review.
 5. Wrote second half of trampoline jumping review.
 6. Final editing on trampoline jumping review.
 7. Publish trampoline review. Publish [no interrupting](essay/no-interrupting).
-8. Start writing [AWS review](review/aws).
-9. Continued writing [AWS review](review/aws).
-10. Published [AWS review](review/aws).
+8. Start writing [AWS review].
+9. Continued writing [AWS review].
+10. Published [AWS review].
 11. Start writing essay on how to be miserable.
 12. Continue how to be miserable. Start writing article on changing internet providers.
 13. Continue writing on changing internet providers.
 14. Write a tiny bit more on changing internet providers.
 15. Edit and restructure changing internet providers article.
-16. Publish changing internet providers. Correct mistakes on 3 articles. Slightly expand [aws review](review/aws).
+16. Publish changing internet providers. Correct mistakes on 3 articles. Slightly expand [AWS review].
 17. Structure and start writing on GbR project.
 18. Continue on GbR project.
 19. Write a little on GbR project.
@@ -155,9 +155,10 @@ get my one paragraph in, as I did yesterday, but it was and would be sub par.
 17. :slightly_frowning_face:
 18. Continue NLP23 review.
 19. Write [newsletter #2](newsletter/2).
-20. Finish up writing NLP23 review. Start [Oladance open ear review](review/oladance-open-ear-headphones).
-21. Finish up editing [Oladance open ear review](review/oladance-open-ear-headphones).
+20. Finish up writing NLP23 review. Start [Oladance open ear review].
+21. Finish up editing [Oladance open ear review].
 22. Write newsletter signup texts.
+23. Rework and improve [collect website feedback].
 
 ## Learnings
 ### Progress
@@ -220,3 +221,7 @@ It always is.
 Andy was my inspiration for this:
 [CHALLENGE: Start a 365 Day Project](https://killyourinnerloser.com/challenge-start-a-365-day-project/) and
 a more [in-depth podcast episode](https://www.listennotes.com/podcasts/kill-your-inner/365-day-projects-are-amazing-ZgEoY2xBrJk/)
+
+[Oladance open ear review]: review/oladance-open-ear-headphones
+[AWS review]: review/aws
+[collect website feedback]: guide/collect-website-feedback
