@@ -22,3 +22,6 @@ article:
 footer:
   light_appearance: "Wecheln in den hellen Modus"
   dark_appearance: "Wecheln in den dunklen Modus"
+
+article:
+  edit_title: "Seite auf GitHub bearbeiten - Danke für das Einreichen einer Pull Request!"

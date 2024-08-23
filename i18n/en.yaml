@@ -20,3 +20,6 @@ shortcode:
 footer:
   light_appearance: "Switch to light mode"
   dark_appearance: "Switch to dark mode"
+
+article:
+  edit_title: "Edit content on GitHub - Thanks for submitting a pull request!"
