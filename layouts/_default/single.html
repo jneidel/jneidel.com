@@ -46,7 +46,9 @@
       </div>
     </section>
     <footer class="max-w-prose pt-8 print:hidden">
-      {{ partial (printf "newsletter-signup.%s.html" .Lang) . }}
+      {{ if not (.Params.hideNewsletterSignup | default false) }}
+        {{ partial (printf "newsletter-signup.%s.html" .Lang) . }}
+      {{ end }}
       {{ partial "author.html" . }}
       {{ partial "sharing-links.html" . }}
       {{ partial "article-pagination.html" . }}

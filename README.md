@@ -48,6 +48,16 @@ make
 make build
 ```
 
+## Custom frontmatter
+
+On top of what is provided by hugo and congo.
+
+- `excludeRSS: bool` - exclude the post from all RSS feeds
+- `hideNewsletterSignup: bool` - hide the newsletter signup prompt per
+default included in the footer on this post
+- `writingTime: int` - number of minutes spent writing this post over it's
+lifespan (just analytics for me, not used anywhere)
+
 ## Copyright
 
 The contents of this repository are **NOT** to be used under any cirumstances

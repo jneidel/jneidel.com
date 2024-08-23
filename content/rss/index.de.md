@@ -5,7 +5,7 @@ showDate: false
 showDateUpdated: true
 showReadingTime: false
 excludeRss: true
-hideNewsletterPrompt: true
+hideNewsletterSignup: true
 writingTime: 11
 ---
 
