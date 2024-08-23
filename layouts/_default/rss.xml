@@ -39,6 +39,10 @@
   {{- $pages = $pctx.Pages }}
 {{- end }}
 {{- $pages = (where $pages ".Params.excludeRss" "!=" true) }}
+{{- if eq .RelPermalink "/" }}
+  {{- $pages = (where $pages ".Section" "!=" "dev") }}
+  {{- $pages = (where $pages ".Section" "!=" "newsletter") }}
+{{- end }}
 {{- $limit := .Site.Config.Services.RSS.Limit }}
 {{- if ge $limit 1 }}
   {{- $pages = $pages | first $limit }}
