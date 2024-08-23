@@ -11,6 +11,8 @@ category:
   misc_description: "Eine bunt zusammengewürfelte Ansammlung von verschiedensten Artikeln."
   offer_name: "Offers"
   offer_description: "Dienstleistungen die ich anbiete."
+  newsletter_name: "Newsletter"
+  newsletter_description: "Bekomm wöchentlich Einblicke & Updates."
 
 list:
   no_articles: "Es gibt noch keine Artikel."

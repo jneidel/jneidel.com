@@ -13,6 +13,8 @@ category:
   dev_description: "In-depth guides for the technically inclined."
   offer_name: "Offers"
   offer_description: "The services I am offering."
+  newsletter_name: "Newsletters"
+  newsletter_description: "Get Weekly Insights & Updates."
 
 shortcode:
   recent_articles: "Recent posts"
