@@ -8,7 +8,10 @@
   function get_last_newsletter_signup() {
     const forms = Array.from( document.querySelectorAll(".newsletter-signup") );
     const lastForm = forms[forms.length-1];
-    return lastForm;
+    try {
+      if ( lastForm.classList.contains("allow-to-be-moved") )
+        return lastForm;
+    } catch {}
   }
 
   const footnotes = get_footnotes();

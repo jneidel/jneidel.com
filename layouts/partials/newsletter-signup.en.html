@@ -1,4 +1,4 @@
-<div class="newsletter-signup flex justify-center">
+<div class="newsletter-signup flex justify-center{{ if .allow_to_be_moved | default false }} allow-to-be-moved{{ end }}">
   <form class="email-form form-lang-en w-full max-w-prose pt-4" name="newsletter" action="https://app.keila.io/forms/nfrm_y6VdGb9E" method="post" target="_blank">
     <div class="flex justify-center text-center text-xl">
       Get Weekly Insights & Updates
