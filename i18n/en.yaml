@@ -25,3 +25,18 @@ footer:
 
 article:
   edit_title: "Edit content on GitHub - Thanks for submitting a pull request!"
+
+newsletter:
+  headline: "Get Weekly Insights & Updates"
+  value_proposition: "Get a weekly peek into my life.
+  Updates on the challenges I'm doing, the projects I'm working on, and
+  the latest articles I released.
+  Gain practical insights for your journey."
+  input_name: "I want you to call me…"
+  input_email: "My best email…"
+  call_to_action: "Subscribe for Updates"
+  last_word_before: "Not sure yet? You can check out"
+  last_word_link_text: "past newsletters"
+  last_word_link_href: "/newsletter/"
+  last_word_after: "to see what you'll get."
+  form_url: "https://app.keila.io/forms/nfrm_y6VdGb9E"
