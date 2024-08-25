@@ -32,9 +32,9 @@ fingerprintAlgorithm = "sha256"
   name = "Jonathan Neidel"
   image = "img/author.jpg"
   # bio = 'Get in touch with me'
-  email = "blog@jneidel.com"
+  email = "web@jneidel.com"
   links = [
-    { email = "mailto:blog@jneidel.com" },
+    { email = "mailto:web@jneidel.com" },
     { gpg = "/gpg.txt" },
     { rss = "/rss/" },
   ]
@@ -56,7 +56,7 @@ fingerprintAlgorithm = "sha256"
 
   # edit on github
   showEdit = true
-  editURL = "https://github.com/jneidel/blog/tree/master/content/"
+  editURL = "https://github.com/jneidel/jneidel.com/tree/master/content/"
   editAppendPath = true
 
 [list]

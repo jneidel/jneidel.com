@@ -1,5 +1,5 @@
-name: blog
-root: /home/jneidel/code/blog
+name: jneidel
+root: /home/jneidel/code/jneidel
 windows:
   - vim: vim
   - zsh:
