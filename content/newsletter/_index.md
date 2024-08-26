@@ -6,4 +6,5 @@ cascade:
     showReadingTime: true
     thumbnail: "img/newsletter.png"
     thumbnailAlt: "Paper boy waving a newspaper"
+    hideNewsletterSignup: true
 ---

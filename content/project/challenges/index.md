@@ -34,7 +34,7 @@ I invite you to do something similar.
 These are the learnings I have focused on, or will focus on in the future.
 
 {{<badge>}}
-Current streak: 0 weeks completed
+Current streak: 1 weeks completed
 {{</badge>}}
 
 - [x] Week 19: Applied:
@@ -58,16 +58,21 @@ preferred communication channels? Listen for signals. Preparation for an
 upcoming NLP seminar.
 - [x] Week 29: Dedicate some more attention to applying the Hemingway trick.
 - [x] Week 30: Learn and apply the Milton model to my self-talk.
-On the weekend make an effort to remember peoples names at the NLP seminar I'm attending. [See more details](newsletter/1).
-- [ ] **Week 34**: Improve presence in daily life. [See more details](newsletter/2).
-- [ ] Week 35: Measure my awareness. Ask myself every 30m "How present are
+On the weekend make an effort to remember peoples names at the NLP seminar I'm attending. See more: [definition][n1], [outcome][n2]
+- [x] Week 34: Improve presence in daily life. See more: [definition][n2], [outcome][n3]
+- [ ] **Week 35**: Wear formal clothing to promote abstract thinking. See more: [definition][n3]
+- [ ] Week 36: Measure my awareness. Ask myself every 30m "How present are
 you on a scale of 1-10?"
-- [ ] Week 36: Pose a question to my unconscious in the evening, something
+- [ ] Week 37: Pose a question to my unconscious in the evening, something
 that I want solved for my brain to work on overnight.
-- [ ] Week 37: Write down 4x4 goals (4 biggest goals, 4 times each) followed by
+- [ ] Week 38: Write down 4x4 goals (4 biggest goals, 4 times each) followed by
     a visualization technique that sounds actually effective
     (not just a loose "just imagine it bro")
 <!-- - [ ] Week <++>: <++> -->
+
+[n1]: newsletter/1
+[n2]: newsletter/2
+[n3]: newsletter/3
 
 If you have a suggestion for something I should try,
 just [let me know](mailto:challenge-suggestion@jneidel.com) :slightly_smiling_face:
@@ -93,3 +98,4 @@ I combine it with an accountability group that I keep up with every week.
 This page will be updated continuously and it will grow with time.
 Feel free to bookmark the site and come back to it on a later date
 :slightly_smiling_face:.
+

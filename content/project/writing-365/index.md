@@ -160,6 +160,8 @@ get my one paragraph in, as I did yesterday, but it was and would be sub par.
 22. Write newsletter signup texts.
 23. Rework and improve [collect website feedback].
 24. Translate und update [now].
+25. Start [newsletter #3].
+26. Publish [newsletter #3].
 
 ## Learnings
 ### Progress
@@ -227,3 +229,4 @@ a more [in-depth podcast episode](https://www.listennotes.com/podcasts/kill-your
 [AWS review]: review/aws
 [collect website feedback]: guide/collect-website-feedback
 [now]: now
+[newsletter #3]: newsletter/3

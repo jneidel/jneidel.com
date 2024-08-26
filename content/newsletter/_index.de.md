@@ -6,4 +6,5 @@ cascade:
     showReadingTime: true
     thumbnail: "img/newsletter.png"
     thumbnailAlt: "Zeitungsausträger der eine Zeitung schwänkt"
+    hideNewsletterSignup: true
 ---
