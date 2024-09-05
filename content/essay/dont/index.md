@@ -56,4 +56,4 @@ When communicating with others, and in your self-talk.
 
 ## References
 
-I got this idea from Richard Bandler in his programm Persuasion Engineering.
+I got this idea from Richard Bandler in his programm <cite>Persuasion Engineering</cite>.

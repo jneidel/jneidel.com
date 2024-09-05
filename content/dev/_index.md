@@ -16,8 +16,6 @@ These topics are being covered:
 - Provinding useful services
 - Clean code
 
-{{<alert>}}
-A working knowledge of the terminal is assumed.
-{{</alert>}}
+Working knowledge of the terminal is assumed.
 
-{{<icon "github">}}[jneidel](https://github.com/jneidel)
+<a href="https://github.com/jneidel" rel="me">{{<icon "github">}} jneidel</a>

@@ -22,11 +22,11 @@ Zuvor wird verständlich erklärt wie Earnings ticken und was sie ausmacht.
 {{<figure src="https://m.media-amazon.com/images/I/51QRv4Noe7L._SY425_.jpg" class="sm:float-right sm:h-44 w-auto sm:pl-2" alt="Cover der deutschen Edition Newstrading mit Optionen - John Shon und Ping Zhou">}}
 </a>
 
-<span class="text-sm">
-Es gibt auch eine deutsche Variante mit dem Namen: "Newstrading mit
-Optionen: Wie Sie Quartalszahlen mit der richtigen Strategie gewinnbringend
-handeln" von John Shon und Ping Zhou.
-</span>
+<small>
+Es gibt auch eine deutsche Edition names <cite>Newstrading mit Optionen: Wie
+Sie Quartalszahlen mit der richtigen Strategie gewinnbringend handeln</cite>
+von John Shon und Ping Zhou.
+</small>
 
 ## Stil
 

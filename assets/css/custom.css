@@ -2,6 +2,10 @@ html {
   font-size: 14pt;
 }
 
+h5 {
+  font-weight: bold;
+}
+
 /* Correct spacing of the header icons */
 header #basic-menu li {
   button:last-child {

@@ -54,14 +54,14 @@ As a result of this challenge, I was present for a greater percentage of my
 time and that was quite enjoyable.
 
 I will keep doing it.
-After reading the Power of Now again, I wanted to integrate more presence
-into my life, while at the same time keeping up the work on my projects that
-I so enjoy.
+After reading <cite>the Power of Now</cite> again, I wanted to integrate
+more presence into my life, while at the same time keeping up the work on my
+projects that I so enjoy.
 This technique seems like a good fit over the "dedicate your full focus"
 approach that was advocated up to this point in the book.
 That also has it's place also but doesn't pair as well with working.
 
-To read more, check out Chapter 6 of [The Power of Now](https://amzn.to/3yVW9yt).
+To read more, check out Chapter 6 of <cite>[The Power of Now](https://amzn.to/3yVW9yt)</cite>.
 
 ## Next challenge
 

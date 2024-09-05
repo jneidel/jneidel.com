@@ -15,7 +15,7 @@ Die Kosten und Risiken wollen aber bedacht werden und waren für mich weit
 höher als erwartet.
 Die Angebote waren am Ende nicht so unwiderstehlich, wie sie erst erschienen.
 
-<span class="text-xs">DSL ist der Festnetz- und Internetanschluss.</span>
+<small>DSL ist der Festnetz- und Internetanschluss.</small>
 
 ## Ausgangssituation
 
