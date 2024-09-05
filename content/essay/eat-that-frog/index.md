@@ -14,6 +14,7 @@ frog.)
 The consequent application of that principle is not as easy.
 It takes attention to work out what the most important task is.
 It takes discipline to not simply start with an easier, less important task.
+{.dropcap}
 
 To face the worst that the day has in store for you head-on feels great
 though.

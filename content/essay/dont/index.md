@@ -17,6 +17,7 @@ grindstones.
 He cuts himself in the finger while grinding.
 Then I cut myself in the finger, much in the same way.
 I had nicked my tendon and ended up in the hospital.
+{.dropcap}
 
 After the incident I thought for a long time:
 "How stupid can you be? He cut himself right before you did. You knew what

@@ -14,6 +14,7 @@ glibbrigen Frosch).
 Die konsequente Umsetzung des Prinzips ist es nicht.
 Es erfordert Aufmerksamkeit, diese wichtigste Aufgabe herauszuarbeiten.
 Es erfordert die Disziplin, nicht kurzerhand mit etwas Unwichtigem zu beginnen.
+{.dropcap}
 
 Sich zuerst dem Schlimmsten zu stellen was der Tag für einen auf Lager hat
 fühlt sich toll an.

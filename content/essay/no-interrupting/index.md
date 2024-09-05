@@ -17,6 +17,7 @@ You can only see some of the path in-front of you.
 There are turns, diverging ways and dead trees to climb over.
 You don't exactly know where you are going to go, but you'll figure it along
 the way.
+{.dropcap}
 
 There is another person walking the path together with you.
 From time to time they just push you.
