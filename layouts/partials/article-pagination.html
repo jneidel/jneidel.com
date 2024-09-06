@@ -1,0 +1,70 @@
+{{ if .Params.showPagination | default (.Site.Params.article.showPagination | default true) }}
+  {{ if or .NextInSection .PrevInSection }}
+    {{ $next := .NextInSection }}
+    {{ $prev := .PrevInSection }}
+    {{ if .Params.invertPagination | default (.Site.Params.article.invertPagination | default false) }}
+      {{ $next = .PrevInSection }}
+      {{ $prev = .NextInSection }}
+    {{ end }}
+    {{- $images := $.Resources.ByType "image" }}
+    <div class="pt-8">
+      <hr class="border-dotted border-neutral-300 dark:border-neutral-600" />
+      <div class="flex justify-between pt-3">
+        <span>
+          {{ with $prev }}
+            <a class="group flex flex-col" href="{{ .RelPermalink }}">
+              <div class="group flex">
+                <span
+                  class="me-2 text-neutral-700 transition-transform group-hover:-translate-x-[2px] group-hover:text-primary-600 dark:text-neutral dark:group-hover:text-primary-400"
+                  ><span class="ltr:inline rtl:hidden">&larr;</span
+                  ><span class="ltr:hidden rtl:inline">&rarr;</span></span
+                >
+                <span class="flex flex-col">
+                  <span
+                    class="mt-[0.1rem] leading-6 group-hover:underline group-hover:decoration-primary-500"
+                    >{{ .Title | emojify }}</span
+                  >
+                  <span class="mt-[0.1rem] text-xs text-neutral-500 dark:text-neutral-400">
+                    {{ if .Params.showDate | default (.Site.Params.article.showDate | default true) }}
+                      {{ partial "meta/date.html" .Date }}
+                    {{ end }}
+                  </span>
+                </span>
+              </div>
+              <span class="ml-6">
+                {{ partial "thumbnail.html" . }}  
+              </span>
+            </a>
+          {{ end }}
+        </span>
+        <span>
+          {{ with $next }}
+            <a class="group flex flex-col items-end" href="{{ .RelPermalink }}">
+              <div class="group flex justify-end">
+                <span class="flex flex-col">
+                  <span
+                    class="mt-[0.1rem] leading-6 group-hover:underline group-hover:decoration-primary-500"
+                    >{{ .Title | emojify }}</span
+                  >
+                  <span class="mt-[0.1rem] text-xs text-neutral-500 dark:text-neutral-400">
+                    {{ if .Params.showDate | default (.Site.Params.article.showDate | default true) }}
+                      {{ partial "meta/date.html" .Date }}
+                    {{ end }}
+                  </span>
+                </span>
+                <span
+                  class="ms-2 text-neutral-700 transition-transform group-hover:-translate-x-[-2px] group-hover:text-primary-600 dark:text-neutral dark:group-hover:text-primary-400"
+                  ><span class="ltr:inline rtl:hidden">&rarr;</span
+                  ><span class="ltr:hidden rtl:inline">&larr;</span></span
+                >
+              </div>
+              <span class="mr-6">
+                {{ partial "thumbnail.html" . }}  
+              </span>
+            </a>
+          {{ end }}
+        </span>
+      </div>
+    </div>
+  {{ end }}
+{{ end }}
