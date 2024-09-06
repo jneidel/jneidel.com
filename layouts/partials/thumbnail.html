@@ -1,0 +1,26 @@
+{{- $images := $.Resources.ByType "image" }}
+{{- $cover := $images.GetMatch (.Params.cover | default "*cover*") }}
+{{- $thumbnail := ""}}
+{{- with .Params.thumbnail }}
+  {{- $thumbnail = resources.Get . }} <!-- if image is global, like with newsletter image -->
+{{- end }}
+{{- if not $thumbnail }}
+  {{- $thumbnail = $images.GetMatch (.Params.thumbnail | default "*thumb*") | default $cover }}
+{{- end }}
+{{- $feature := $images.GetMatch (.Params.feature | default "*feature*") | default $thumbnail }}
+{{- with $feature }}
+  <img alt="{{ $.Params.featureAlt | default $.Params.thumbnailAlt | default $.Params.thumb | default "" }}"
+    {{ if eq .MediaType.SubType "svg" }}
+      class="w-24 max-w-[6rem] max-h-[4.5rem] rounded-md sm:max-h-[7.5rem] sm:w-40
+      sm:max-w-[10rem]" src="{{ .RelPermalink }}"
+    {{ else }}
+      class="w-24 rounded-md sm:w-40" srcset="
+      {{- (.Fill "160x120 smart").RelPermalink }}
+      160w, {{- (.Fill "320x240 smart").RelPermalink }} 2x"
+      src="{{ (.Fill "160x120 smart").RelPermalink }}" width="160" height="120"
+    {{ end }}
+    {{ if $.Site.Params.enableImageLazyLoading | default true }}
+      loading="lazy"
+    {{ end }}
+  />
+{{- end }}
