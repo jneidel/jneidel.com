@@ -1,0 +1,9 @@
+{{ $iconName := . }}
+{{ $icon := resources.Get (printf "icons/%s.svg" $iconName) }}
+{{ if $icon }}
+  <span class="icon relative inline-block align-text-bottom">
+    {{ $icon.Content | safeHTML }}
+  </span>
+{{ else }}
+  {{ errorf `[CONGO] Partial "icon" error: Resource "icons/%s.svg" not found. Check the path is correct or remove the partial.` $iconName }}
+{{ end }}
