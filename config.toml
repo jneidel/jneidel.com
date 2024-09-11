@@ -10,3 +10,5 @@ demosite = "https://jpanther.github.io/congo/"
 enableGitInfo = true # required for lastmod to get date from git
 
 baseURL="http://localhost"
+
+timeout = "45s"
