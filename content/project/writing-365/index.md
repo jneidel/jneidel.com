@@ -171,6 +171,13 @@ get my one paragraph in, as I did yesterday, but it was and would be sub par.
 2. Continue on technical documentation project.
 3. Continue on technical documentation project.
 4. Continue hypnosis for coaching.
+5. :slightly_frowning_face:
+6. :slightly_frowning_face:
+7. Start [20 Days in Mariupol review].
+8. Start on 720 Degree bottle review.
+9. Start [newsletter #4].
+10. Start on article about what NLP is.
+11. Continue on article about what NLP is. Add to NLP Practioner review. Finish [20 Days in Mariupol review].
 
 ## Learnings
 ### Progress
@@ -238,4 +245,9 @@ a more [in-depth podcast episode](https://www.listennotes.com/podcasts/kill-your
 [AWS review]: review/aws
 [collect website feedback]: guide/collect-website-feedback
 [now]: now
+[20 Days in Mariupol review]: review/20-days-in-mariupol
 [newsletter #3]: newsletter/3
+[newsletter #4]: newsletter/4
+[newsletter #5]: newsletter/5
+[newsletter #6]: newsletter/6
+[newsletter #7]: newsletter/7
