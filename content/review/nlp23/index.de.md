@@ -28,6 +28,8 @@ die tiefste Praxis Erfahrung im Coaching von NLP.
 
 Alle drei haben NLP bei Richard Bandler selbst gelernt und wissen wovon sie
 sprechen.
+Das Zertifikant, was du bekommst, stammt auch von Richard Bandler's Society
+of NLP.
 
 ## Aufbau
 
