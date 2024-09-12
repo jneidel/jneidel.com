@@ -24,8 +24,8 @@ Das schien mir schon sehr viel.
 
 Ist es aber nicht.
 Im Moment habe ich gar nicht so viel vor.
-NLP Nachbereitung ist gar nicht so ein riesen Projekt, Steuererklärung habe
-ich schon gut vorbereitet und der Newsletter braucht auch nur 1,5h.
+NLP Nachbereitung ist gar nicht so ein riesiges Projekt, Steuererklärung
+habe ich schon gut vorbereitet und der Newsletter braucht auch nur 1,5h.
 Die Arbeitsmenge ist überschaubar und nicht das Problem.
 
 Das Problem ist mein Mindset.
@@ -41,7 +41,7 @@ geht und das ich auch das neue Projekt diese Woche starten werde.
 
 ## Review der letzten Challenge
 
-Die Challenge von letzer Woche war: [Mehr Präsenz im Alltag](newsletter/2#nächste-challenge)
+Die Challenge von letzter Woche war: [Mehr Präsenz im Alltag](newsletter/2#nächste-challenge)
 
 Es war nicht immer leicht einen Teil meiner Aufmerksamkeit auf den inneren
 Körper (Begriff von Eckhart Tolle, nicht der selbe wie der physische, äußere
@@ -53,7 +53,7 @@ wichtig war.
 
 Ich habe mich auch öfter in Momenten der Unbewusstheit erwischt, was selbst
 ein Moment des Bewusstsein ist.
-Als Ergebniss dieser Challenge war ich für einen größeren Prozentsatz meiner
+Als Ergebnis dieser Challenge war ich für einen größeren Prozentsatz meiner
 Zeit präsent und das war sehr angenehm.
 
 Ich werde auf jeden Fall damit weitermachen.
@@ -83,7 +83,7 @@ These different metrics are indicators for abstract thinking.
 Ich will also für mich testen ob es einen Unterschied macht wenn ich mit
 Hemd, Anzughose und Sakko im Homeoffice sitze.
 Ich will das nur bei der Arbeit tragen, damit eine Assoziation mit
-Konzentration ergestellt wird.
+Konzentration hergestellt wird.
 Da sie auch weniger komfortabel als T-shirt und Shorts sind, denke ich das
 ich auch weniger auf der Couch versacken werde.
 

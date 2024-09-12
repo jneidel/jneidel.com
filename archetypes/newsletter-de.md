@@ -14,7 +14,7 @@ Hi :slightly_smiling_face:,<br>
 
 ## Review der letzten Challenge
 
-Die Challenge von letzer Woche war: [<++>](newsletter/{{ sub (.File.ContentBaseName | int) 1 }}#nächste-challenge)
+Die Challenge von letzter Woche war: [<++>](newsletter/{{ sub (.File.ContentBaseName | int) 1 }}#nächste-challenge)
 
 <++>
 
@@ -25,3 +25,6 @@ Die Challenge von letzer Woche war: [<++>](newsletter/{{ sub (.File.ContentBaseN
 ## Neue Artikel
 
 <++>
+
+Cheers,<br>
+Jonathan

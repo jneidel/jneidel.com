@@ -25,3 +25,6 @@ Last week's challenge was: [<++>](newsletter/{{ sub (.File.ContentBaseName | int
 ## New articles
 
 <++>
+
+Cheers,<br>
+Jonathan

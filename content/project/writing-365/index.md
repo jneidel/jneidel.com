@@ -178,6 +178,7 @@ get my one paragraph in, as I did yesterday, but it was and would be sub par.
 9. Start [newsletter #4].
 10. Start on article about what NLP is.
 11. Continue on article about what NLP is. Add to NLP Practioner review. Finish [20 Days in Mariupol review].
+12. Write page about [AI usage](ai). Finish and translate [newsletter #4].
 
 ## Learnings
 ### Progress
