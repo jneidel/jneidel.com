@@ -26,9 +26,10 @@ You can explore the categories below:
 - [{{<i18n "category.review_name">}}](review) - {{<i18n "category.review_description">}}
 - [{{<i18n "category.project_name">}}](project) - {{<i18n "category.project_description">}}
 
-Find out more [about the author and the purpose of this website](about).
+Find out more [about the author, the purpose of this website](about) and
+it's usage of [AI](ai).
 <br>
-Or check out what I am doing [now](now).
+Or check out [what I am currently up-to](now).
 
 {{<hovericon "mailto:home@jneidel.com">}}
     {{<icon "email">}}

@@ -25,8 +25,10 @@ Schau dich gerne um:
 - [{{<i18n "category.review_name">}}](review) - {{<i18n "category.review_description">}}
 - [{{<i18n "category.project_name">}}](project) - {{<i18n "category.project_description">}}
 
-Hier kannst du mehr über das [erklärte Ziel dieser Website und seinen Autor erfahren](about). <br>
-Oder darüber was ich [aktuell](now) so mache.
+Hier kannst du mehr über das [erklärte Ziel dieser Website und seinen Autor](about) erfahren.
+<br>
+Oder darüber [was ich aktuell so mache](now) und wie ich [AI](ai) auf
+dieser Website benutze.
 
 {{<hovericon "mailto:home@jneidel.com">}}
     {{<icon "email">}}
