@@ -1,5 +1,5 @@
 ---
-title: "What can an Air Purifier do for me? - Levoit Core 300S Review"
+title: "What can an Air Purifier do for me?"
 description: "What is an Air Purifier and do you need one? An honest review and setup."
 summary: "How we use our Air Purifier."
 tags:

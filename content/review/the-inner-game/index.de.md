@@ -95,7 +95,7 @@ Es kann also nur gut ausgehen.
 
 ### Noch nicht angewandt
 
-Stück für Stück werde ich über mein [Weekly Challenge](/misc/challenges) Format noch andere Idee einfließen lassen.
+Stück für Stück werde ich über mein [Weekly Challenge](/project/challenges)<sup>:uk:</sup> Format noch andere Idee einfließen lassen.
 Diese habe ich mir vorgemerkt:
 - 4x4 Ziele + Visualisierungen: das hört sich nach der ersten
 erfolgversprechenden Visualisierungstechnik an von der ich gehört habe.

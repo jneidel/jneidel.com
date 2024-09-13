@@ -4,6 +4,8 @@ summary: The websites mission statement and a description of the author.
 tags:
 date: 2024-05-10
 excludeRss: true
+thumbnail: "img/profile-picture.jpg"
+thumbnailAlt: "Jonathan Neidel"
 writingTime: 115
 intent: "First draft: don't have to include all the details, set the frame and expand it later. Only use verbs to describe myself."
 ---

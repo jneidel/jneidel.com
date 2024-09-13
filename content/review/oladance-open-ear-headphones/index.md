@@ -5,7 +5,7 @@ summary: "Why do I use open ear headphones?"
 tags:
     - "product review"
 date: 2024-08-25
-thumbnailAlt:
+thumbnailAlt: "Person wearing the Oladance open ear headphones."
 writingTime: 137
 ---
 
@@ -39,7 +39,7 @@ safety feature[^safety] (depending on use.)
 - You can hear your own voice, which is not being blocked out.
 - Comfort. They are more comfortable over an extended period of time
 (nothing in or pressing on your ear.)
-- Stable. They will not fall off your head (no problem on the [trampoline](review/trampoline).)
+- Stable. They will not fall off your head (no problem on the trampoline.)
 
 [^safety]: Open ear headphones are often advertised as safe, because you can
     hear traffic around you while you are jogging for example.

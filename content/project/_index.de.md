@@ -1,6 +1,6 @@
 ---
 title: "Projekte"
-description: "Überblick über Projekte die ich gebaut habe."
+summary: "Überblick über Projekte die ich gebaut habe."
 cascade:
     showDate: true
     showReadingTime: true

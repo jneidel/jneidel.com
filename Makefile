@@ -31,3 +31,6 @@ _:
 	ln -s ../content/essay _/essay
 	ln -s ../content/newsletter _/newsletter
 	ln -s ../layouts _/…layout
+
+short-descriptions:
+	short-descriptions .

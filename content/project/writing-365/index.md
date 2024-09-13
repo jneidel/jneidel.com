@@ -58,12 +58,12 @@ Project start: May23 2024
 1. Wrote this article.
 24. Finished writing [Eat the frog](essay/eat-that-frog), edit and translate it.
 Started writing The Inner Game review.
-25. Continued writing and editing [The Inner Game review](/de/review/the-inner-game).
+25. Continued writing and editing [The Inner Game review](/de/review/the-inner-game/)<sup>:de:</sup>.
 26. Started writing on a post about vulnerability.
 27. Wrote first version of the [Neurostreams quick reference guide](misc/neurostreams-quick-reference).
 28. Wrote & published the [coupons](essay/coupons) essay in German.
 29. Put finishing touches on [coupons](essay/coupons). Started on Neurostreams review.
-30. Wrote & published [Minimeal review](/de/review/sun-minimeal/). Updates to [Selling SOIL](/de/misc/soil-verkaufen/).
+30. Wrote & published [Minimeal review](/de/review/sun-minimeal/)<sup>:de:</sup>. Updates to [Selling SOIL](/de/misc/soil-verkaufen/)<sup>:de:</sup>.
 31. Started on [Jim Rohn review](review/jim-rohn).
 1. Finished the [Jim Rohn](review/jim-rohn) person review.
 2. Continued writing the [Neurostreams review](review/neurostreams).
@@ -87,8 +87,8 @@ Started writing The Inner Game review.
 19. Write first draft of [No interrupting](essay/no-interrupting).
 20. Finish editing the second half of the [Neurostreams review](review/neurostreams).
 21. Final edits and publishing of [Neurostreams review](review/neurostreams).
-22. Write first draft of [donating blood review](/de/review/blutspende).
-23. Finish [donating blood analysis](/de/review/blutspende). Write offer technical evaluation. Translate first half of [Neurostreams review](review/neurostreams).
+22. Write first draft of [donating blood review](/de/review/blutspende/)<sup>:de:</sup>.
+23. Finish [donating blood analysis](/de/review/blutspende/)<sup>:de:</sup>. Write offer technical evaluation. Translate first half of [Neurostreams review](review/neurostreams).
 24. Translate the second half of [Neurostreams review](review/neurostreams).
 25. Small addition to [no interrupting](essay/no-interrupting).
 26. Start project article about entrepreneurship.
@@ -120,7 +120,7 @@ Started writing The Inner Game review.
 17. Structure and start writing on GbR project.
 18. Continue on GbR project.
 19. Write a little on GbR project.
-20. Continue on GbR project. Write [FYRST review](/de/review/fyrst).
+20. Continue on GbR project. Write [FYRST review](/de/review/fyrst/)<sup>:de:</sup>.
 21. Describe learnings of this challenge. Write the [1. Newsletter](newsletter/1).
 22. Continue a little on GbR project.
 22. Continue write the GbR project.

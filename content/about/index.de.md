@@ -4,6 +4,8 @@ summary: Die Mission dieser Website und eine Beschreibung des Autors.
 tags:
 date: 2024-05-10
 excludeRss: true
+thumbnail: "img/profile-picture.jpg"
+thumbnailAlt: "Jonathan Neidel"
 writingTime: 35
 ---
 

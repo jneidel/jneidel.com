@@ -80,18 +80,20 @@ Project start: 23. Mai 2024
 30. Schreiben vom [Minimeal review](review/sun-minimeal). Überarbeitung von [SOIL verkaufen](misc/soil-verkaufen).
 31. Begonnen mit dem [Jim Rohn review](/review/jim-rohn).
 1. [Jim Rohn review](/review/jim-rohn) fertigestellt.
-2. Weiterschreiben am [Neurostreams review](review/neurostreams).
+2. Weiterschreiben am Neurostreams review.
 3. Große Überarbeitung der [Neurostreams Kurzanleitung](misc/neurostreams-quick-reference) + Übersetzung.
 4. Übersetzen des [coupons](essay/coupons) essays.
 5. Korrekturen und überarbeiten und erweitern des [intermittent fasting](/review/intermittent-fasting) reviews.
 6. Quellen für [intermittent fasting](/review/intermittent-fasting) review raussuchen, Maintenance für den [air purifier](/review/air-purifier) beschreiben
-7. Weiterschreiben am [Neurostreams review](review/neurostreams).
-8. Weiterschreiben am [Neurostreams review](review/neurostreams).
+7. Weiterschreiben am Neurostreams review.
+8. Weiterschreiben am Neurostreams review.
 9. :slightly_frowning_face:
-10. Mit dem Schreiben am [waves essay](essay/waves) begonnen.
+10. Mit dem Schreiben am waves essay](essay/waves) begonnen.
 
 ## References
 
 Andy hat mich inspiriert diese Challenge zu machen:
 [CHALLENGE: Start a 365 Day Project](https://killyourinnerloser.com/challenge-start-a-365-day-project/)
 und noch eine [tiefergehende Episode seines Podcasts](https://www.listennotes.com/podcasts/kill-your-inner/365-day-projects-are-amazing-ZgEoY2xBrJk/).
+
+[Neurostreams review]: review/neurostreams

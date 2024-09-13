@@ -47,7 +47,7 @@ Deshalb meine klare Empfehlung:
 Probier es einfach mal für eine Woche aus.
 Das ist ein überschaubares Commitment. Da kann nichts schief gehen.
 Schau danach einfach wie es sich anfühlt.
-Genauso gehe ich bei meinen [wöchentlichen Challenges](/misc/challenges) vor.
+Genauso gehe ich bei meinen [wöchentlichen Challenges](/project/challenges)<sup>:uk:</sup> vor.
 
 Frage dich selbst jeden Morgen:
 

@@ -2,6 +2,7 @@
 title: "Was mache ich aktuell?"
 summary: "Ein Überblick darüber was ich aktuell mache."
 showDateUpdated: true
+thumbnailAlt: "Große Uhr."
 ---
 
 {{<lead>}}

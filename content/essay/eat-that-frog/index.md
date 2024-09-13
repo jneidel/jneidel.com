@@ -1,5 +1,5 @@
 ---
-title: Eat the Frog first
+title: "Eat the Frog first"
 description: "Overview and my experiences with the principle of starting the day with the most challenging and important task. Kiss the frog first!"
 summary: "Start the day with the most important task."
 tags:

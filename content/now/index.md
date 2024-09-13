@@ -2,6 +2,7 @@
 title: "What am I doing now?"
 summary: "An overview of what is going on in my life right now."
 showDateUpdated: true
+thumbnailAlt: "Big clock."
 ---
 
 {{<lead>}}

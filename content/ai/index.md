@@ -3,6 +3,7 @@ title: "AI Usage"
 description: "How AI is used in the creation of this website."
 summary: "How AI is used in the creation of this website."
 date: 2024-09-12
+excludeRss: true
 thumbnailAlt: "Cute smiling robot waving at you."
 writingTime: 29
 ---

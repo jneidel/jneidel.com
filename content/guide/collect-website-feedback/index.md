@@ -198,7 +198,7 @@ improvements.
 Otherwise you need to grant access to individual reviewers to be able to
 receive their suggestions
 
-In my case the website's repo is hosted on [Github](https://github.com/jneidel/blog).
+In my case the website's repo is hosted on [Github](https://github.com/jneidel/jneidel.com).
 
 ### How does it work?
 
@@ -207,7 +207,7 @@ that page.
 
 {{<figure src="./edit-on-github-button.png" class="w-10/12" alt="A title on my website with the edit on github button highlighted">}}
 
-That buttons leads to [this page](https://github.com/jneidel/blog/blob/master/content/guide/collect-blog-feedback/index.md):
+That buttons leads to [this page](https://github.com/jneidel/jneidel.com/blob/master/content/guide/collect-blog-feedback/index.md):
 
 ```txt
 https://github.com/jneidel/blog/blob/master/content/guide/collect-blog-feedback/index.md
@@ -220,7 +220,7 @@ You can try it yourself at the top of this page.
 
 You need to find a way to generate and embed the link the source file into
 the page.
-That is something my [hugo](https://gohugo.io) theme ([congo](https://jpanther.github.io/congo)) does for me.
+That is something my [hugo](https://gohugo.io) theme ([congo](https://jpanther.github.io/congo/)) does for me.
 
 #### Setup with congo
 
