@@ -1,7 +1,7 @@
 ---
 title: "Lohnt es sich den DSL-Anbieter zu wechseln?"
 description: "Erfahrungsbericht und Kosten/Nutzenanalyse zum Wechsel des Internetanbieters."
-summary: "Kosten/Nutzenanalyse und meine Erfahrungen"
+summary: "Kosten/Nutzenanalyse und meine Erfahrungen."
 tags:
     - "Service Review"
 project-status: completed
