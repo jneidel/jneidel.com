@@ -11,4 +11,8 @@ cascade:
 {{</lead>}}
 
 The posts are a mix between lessons learned and an overview for people who want to
-do something similar (not as detailed as my regular [guides](guide).)
+do something similar.
+
+Overview of all projects by [status](project-status):
+- [Ongoing](project-status/ongoing): {{<i18n "project_status.ongoing_description">}}
+<!-- - [Completed](project-status/completed): {{<i18n "project_status.completed_description">}} -->

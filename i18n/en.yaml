@@ -1,3 +1,13 @@
+shortcode:
+  recent_articles: "Recent posts"
+
+footer:
+  light_appearance: "Switch to light mode"
+  dark_appearance: "Switch to dark mode"
+
+article:
+  edit_title: "Edit content on GitHub - Thanks for submitting a pull request!"
+
 category:
   essay_name: "Essays"
   essay_description: "Focused writing that explores ideas that had an impact on my life."
@@ -16,16 +26,6 @@ category:
   newsletter_name: "Newsletters"
   newsletter_description: "Get Weekly Insights & Updates."
 
-shortcode:
-  recent_articles: "Recent posts"
-
-footer:
-  light_appearance: "Switch to light mode"
-  dark_appearance: "Switch to dark mode"
-
-article:
-  edit_title: "Edit content on GitHub - Thanks for submitting a pull request!"
-
 newsletter:
   headline: "Get Weekly Insights & Updates"
   value_proposition: "Get a weekly peek into my life.
@@ -40,3 +40,16 @@ newsletter:
   last_word_link_href: "/newsletter/"
   last_word_after: "to see what you'll get."
   form_url: "https://app.keila.io/forms/nfrm_y6VdGb9E"
+
+project_status:
+  label: "Project status"
+  ongoing: "Ongoing"
+  ongoing_description: "Project was started and is still in progress."
+  completed: "Completed"
+  completed_description: "Project was completed successfully."
+  canceled: "Canceled"
+  canceled_description: "Project got scrapped, i.e. never started."
+  aborted: "Aborted"
+  aborted_description: "Project was started, but it got stopped before it finished."
+  failure: "Failure"
+  failure_description: "Project was completed, but didn't achieve the desired outcome."

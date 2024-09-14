@@ -11,5 +11,8 @@ cascade:
 {{</lead>}}
 
 Die Artikel sind ein Mix zwischen Lektionen die ich gelernt habe, kombiniert mit
-einem Überblick für Leute die etwas ähnliches machen wollen. (Aber nicht so detailiert
-wie meine [Guides](guide).)
+einem Überblick für Leute die etwas ähnliches machen wollen.
+
+Übersicht aller Projekte nach [Status](project-status):
+- [Laufend](project-status/ongoing): {{<i18n "project_status.laufend_description">}}
+- [Abgeschlossen](project-status/completed): {{<i18n "project_status.abgeschlossen_description">}}

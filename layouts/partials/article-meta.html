@@ -55,11 +55,7 @@
         {{ if (gt (len ($context.GetTerms $taxonomy)) 0) }}
           {{ range $context.GetTerms $taxonomy }}
             {{ if (eq $taxonomy "project-status") }}
-              <a
-                href="{{ .RelPermalink }}"
-                class="mx-1 my-1 rounded-md border border-neutral-200 px-1 py-[1px] hover:border-primary-300 hover:text-primary-700 dark:border-neutral-600 dark:hover:border-primary-600 dark:hover:text-primary-400"
-                >Project Status: {{ .LinkTitle }}</a
-              >
+              {{ partial "taxonomy/project-status.html" . }}
             {{ else }}
               <a
                 href="{{ .RelPermalink }}"

@@ -1,0 +1,12 @@
+{{ $status := .LinkTitle | lower }}
+{{ $i18nKey := printf "project_status.%s" $status }}
+
+{{ if i18n $i18nKey }}
+  <a href="{{ .RelPermalink }}"
+    class="mx-1 my-1 rounded-md border border-neutral-200 px-1 py-[1px] hover:border-primary-300 hover:text-primary-700 dark:border-neutral-600 dark:hover:border-primary-600 dark:hover:text-primary-400">
+    {{ i18n "project_status.label" }}: {{ i18n $i18nKey }}
+  </a>
+{{ else }}
+  {{ warnf "Invalid project status: %s" $status }}
+{{ end }}
+

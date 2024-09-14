@@ -1,3 +1,17 @@
+list:
+  no_articles: "Es gibt noch keine Artikel."
+shortcode:
+  recent_articles: "Neue Artikel"
+article:
+  date_updated: "Aktualisiert am {{ .Date }}"
+
+footer:
+  light_appearance: "Wecheln in den hellen Modus"
+  dark_appearance: "Wecheln in den dunklen Modus"
+
+article:
+  edit_title: "Seite auf GitHub bearbeiten - Danke für das Einreichen einer Pull Request!"
+
 category:
   essay_name: " Essays"
   essay_description: "Fokusierte Artikel die Ideen beleuchten, welche in meinem Leben einen Unterschied gemacht haben."
@@ -14,20 +28,6 @@ category:
   newsletter_name: "Newsletter"
   newsletter_description: "Bekomm wöchentlich Einblicke & Updates."
 
-list:
-  no_articles: "Es gibt noch keine Artikel."
-shortcode:
-  recent_articles: "Neue Artikel"
-article:
-  date_updated: "Aktualisiert am {{ .Date }}"
-
-footer:
-  light_appearance: "Wecheln in den hellen Modus"
-  dark_appearance: "Wecheln in den dunklen Modus"
-
-article:
-  edit_title: "Seite auf GitHub bearbeiten - Danke für das Einreichen einer Pull Request!"
-
 newsletter:
   headline: "Bekomm wöchentlich Einblicke & Updates"
   value_proposition: "Erhalte 1x die Woche einen kleinen Einblick in mein Leben.
@@ -42,3 +42,16 @@ newsletter:
   last_word_link_href: "/de/newsletter/"
   last_word_after: "rein."
   form_url: "https://app.keila.io/forms/nfrm_6b3D2jVg"
+
+project_status:
+  label: "Projekt Status"
+  laufend: "Laufend"
+  laufend_description: "Projekt wurde begonnen und läuft noch."
+  abgeschlossen: "Abgeschlossen"
+  abgeschlossen_description: "Projekt wurde erfolgreich fertig gestellt."
+  storniert: "Storniert"
+  storniert_description: "Projekt wurde gestrichen, bevor as anfangen konnte.."
+  abgebrochen: "Abgebrochen"
+  abgebrochen_description: "Projekt wurde begonnen, aber dann vorzeitig beendet."
+  misserfolg: "Misserfolg"
+  misserfolg_description: "Projekt wurde abgeschlossen, hatte aber nicht den gewünschten Ausgang."
