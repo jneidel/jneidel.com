@@ -12,6 +12,8 @@ footer:
 article:
   edit_title: "Seite auf GitHub bearbeiten - Danke für das Einreichen einer Pull Request!"
 
+rss_link: "/de/rss"
+
 category:
   essay_name: " Essays"
   essay_description: "Fokusierte Artikel die Ideen beleuchten, welche in meinem Leben einen Unterschied gemacht haben."

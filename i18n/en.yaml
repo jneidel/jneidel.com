@@ -8,6 +8,8 @@ footer:
 article:
   edit_title: "Edit content on GitHub - Thanks for submitting a pull request!"
 
+rss_link: "/rss"
+
 category:
   essay_name: "Essays"
   essay_description: "Focused writing that explores ideas that had an impact on my life."
