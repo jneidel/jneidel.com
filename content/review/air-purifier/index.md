@@ -48,7 +48,7 @@ Don't let them upsell you into a bigger machine.
 The costs come out to three factors:
 1. Initial cost of the machine: 125€ new, but we got it used for 30€.
     I would not have paid full price for a new one.
-2. Regular costs of replacing the filter: 20€ every 6-8 months.
+2. Regular costs of [replacing the filter](https://amzn.to/3BgL5N4): 17€ every 6-8 months.
 3. Regular energy costs: Not measured[^draw].
 
 [^draw]: The machine draws 15W at peak operation. What that averages out to and

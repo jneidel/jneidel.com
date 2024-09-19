@@ -1,27 +1,27 @@
 ---
-title: "Creating technical documentation for a legacy project with Arc42"
-description: ""
+title: "Migrating a legacy projects technical documentation to Arc42"
+description: "Creating technical documentation for a legacy project with Arc42"
 summary: ""
 tags:
 date: 2024-08-27
 thumbnailAlt: "Blue-gray PHP Elefant (ElePHPant) surrounded by pages of documentation"
 slug: "technical-documentation-with-arc42"
 draft: true
-writingTime: 169
 ---
+<!-- writingTime: 217 -->
 
 _little intro here_
 
 ## Status quo
 
-I work on an 9 year old PHP project, that has two scrum teams working on it.
-We did not have much technical documentation, and what we had was scattered
-around, unstructured, unsearchable, outdated, was missing examples, context
-or contents.
-
+I work on an 9 year old PHP project with three smaller scrum teams on it.
+This is where we were at:
+We had some technical documentation, which was scattered around.
+It was incomplete, unstructured, not so easily unsearchable and outdated, by 8
+years in places 😆.
 Developers rarely created new documentation.
 If they did, they would not know where to put it (they just chose a place.)
-There was no review process.
+There was no review process and little updating of existing docs.
 
 ## Motivation
 
@@ -76,8 +76,9 @@ The ideal documentation would be:
 
 In arc42 every piece of information belong in one of the twelve sections.
 
+#### The sections in more details
 <details>
-<summary class="cursor-pointer"><h4 class="m-0 inline" id="the-sections">The sections in more detail</h4></summary>
+<summary class="cursor-pointer">Expand</summary>
 
 1. **Introduction and Goals**<br>
 Short description of the product requirements, quality goals and
@@ -209,7 +210,7 @@ irrelevant and outdated.
 #### Into sections
 
 Arc42 provides well-defined sections for structuring your documentation.
-See [the overview](#the-sections) for a list.
+See [the overview](#the-sections-in-more-details) for a list.
 Now it was the time to go through the sections one-by-one and for each:
 - write an introduction (if necessary)
 - migrate the contents of relevant notes into that section
@@ -221,6 +222,19 @@ detailed expectations instead)
 With that the new technical documentation stood.
 But simply creating it isn't all there is to it.
 
+#### Cleanup
+
+The source of the migrated data should be cleaned up.
+I marked the old confluence pages as deprecated with a big notice at the top
+and a link to the new documentation.
+Content deletion or moving it into a dedicated space would also be
+possibilities.
+
+While I marked pages a deprecated I found a few new ones!
+They had been created while I wrote the new structure 🙂.
+It happens.
+I let the team know to please use the newly merged structure from now on.
+
 ### Processes and future work
 
 Without integrating this new shiny documentation into our existing processes
@@ -228,16 +242,27 @@ it would soon just become another dump.
 The [goals](#defining-the-goal) depend on some amount of continous being
 expended to keep the docs up-to-date and relevant.
 
-Measures we put into place:
--
+#### Measures we put into place
 - New technical documentation is to be created within the newly created
 structure.
 - New components and features need to be described to some extent.
+- Architecture descision need to be described as ADRs[^adr].
 
-We are not perfect.
-There are still documents outside of the structure and occasionally the
-old Confluence pages are being updated despite the big "DEPRECATED" notice
-at the top.
+These measures were described in the contribution guidelines and
+communicated to the developers.
+I did an explaination of ADR concept and handed each developer a recent
+decision to write a record about.
+
+#### Are we done?
+
+Everything we had was or is in the process of being migrated over into the
+structure.
+There are still some big holes we need to fill.
+Mostly components.
+I wrote detailed tickets about the most important ones during the
+structuring and we are tackeling them over time.
+
+The overhaul of the API documentation is another project.
 
 ### Concrete details
 
@@ -260,5 +285,12 @@ GitLab then renders the diagrams.
 
 ## Conclusions
 
+
+
 [mermaid]: https://mermaid.js.org
 [arc42]: https://arc42.org/overview
+[^adr]: An Architecture Decision Record describes the reason behind
+important (architecture) decisions inside of the project. This is so
+that if the team in the future wants to change the something they can
+understand why in the past it was designed like that. ADRs are part of
+section 9: Architecture Decisions.
