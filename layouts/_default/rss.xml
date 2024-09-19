@@ -39,7 +39,7 @@
   {{- $pages = $pctx.Pages }}
 {{- end }}
 {{- $pages = (where $pages ".Params.excludeRss" "!=" true) }}
-{{- if eq .RelPermalink "/" }}
+{{- if or (eq .RelPermalink "/") (eq .RelPermalink "/de/") }}
   {{- $pages = (where $pages ".Section" "!=" "dev") }}
   {{- $pages = (where $pages ".Section" "!=" "newsletter") }}
 {{- end }}
