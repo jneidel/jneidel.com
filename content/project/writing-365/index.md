@@ -180,6 +180,12 @@ get my one paragraph in, as I did yesterday, but it was and would be sub par.
 11. Continue on article about what NLP is. Add to NLP Practioner review. Finish [20 Days in Mariupol review].
 12. Write page about [AI usage](ai). Finish and translate [newsletter #4].
 13. Continue on what is NLP.
+14. :slightly_frowning_face:
+15. :slightly_frowning_face:
+16. Continue on technical documentation project.
+17. :slightly_frowning_face:
+18. Start essay about barefoot shoes.
+19. Write essay about "[I don't have time](essay/no-time)".
 
 ## Learnings
 ### Progress
