@@ -1,13 +1,13 @@
 ---
-title: "Trampolinspringen"
-description: "Erfahrungsbericht zum Trampolin für Zuhause. Review des bellicon Trampolines."
+title: "Warum sollte ich Trampolinspringen?: Review des bellicon Trampolin"
+description: "Erfahrungsbericht zum Trampolin für Zuhause. Review des bellicon Trampolins."
 summary: "Erfahrungsbericht zum Trampolin für Zuhause."
 tags:
     - recommended
 date: 2024-07-07
 slug: trampolinspringen
 thumbnailAlt: "Person springt im Wohnzimmer auf einem Trampolin."
-writingTime: 157
+writingTime: 170
 ---
 
 Warum sollte sich irgendjemand Zuhause ein Trampolin hinstellen?
@@ -33,7 +33,7 @@ Er springt kurz auf dem Trampolin bevor er auf die Bühne geht[^guru].
 
 ## Einsatz
 
-Meine Frau und ich benutzen unser Trampolin täglich.
+Meine Frau und ich benutzen unser Trampolin fast täglich.
 Für Sie ist es ein Trainingsgerät, mit dem sie jeden Tag auf eine gewissen
 Anzahl an Wiederholungen kommen will.
 Für mich ist es ein Werkzeug.
@@ -72,6 +72,7 @@ Springen auf dem Boden auf.
 [^wd40]: Habe die Federn mit WD-40 eingesprüht, dann war es besser. Hörbar waren sie trotzdem.
 
 Für so ein Trampolin kann man neu mit 130€ rechnen.
+Ab und zu müssen die Federn geölt werden, sonst quietscht es sehr stark.
 
 Das Trampolin hat gute Dienste geleistet.
 Es gibt aber noch Raum nach oben.
@@ -86,16 +87,21 @@ Das Unterscheidungsmerkmal sind die Gummiseile.
 Im Vergleich zu Metallfedern:
 - sind leiser
 - haben einen gleichmäßigeren Schwung[^schwung]
-- müssen nicht geölt werden
 - leicht gegen stärkere Seile austauschbar
-
-Das bellicon entspricht meinen Anforderungen und löst die Probleme der
-Metallfedern.
-Ich kann einfach richtig schön springen.
 
 Das Ganze ist hochwertig verarbeitet.
 Durch den modularen Aufbauen lassen sich [kaputte Komponente](https://www.bellicon.com/de-eu/produkt/bungees) leicht
 austauschen.
+
+Das bellicon entspricht meinen Anforderungen und löst die Probleme der
+Metallfedern.
+Das Springen auf dem Trampolin war von Anfang an sehr angenehm.
+_Wie angenehm_ es wirklich ist, habe ich erst herausgefunden als ich, nach
+ein paar Monaten, erneut das Trampolin meiner Mutter probiert habe.
+Stahlfedern war wie auf Beton zu springen.
+Ich dachte nicht das der Unterschied so groß wäre, aber er ist wirklich
+enorm.
+Das bellicon spielt in einer anderen Liga.
 
 #### Kosten
 
@@ -121,9 +127,10 @@ möchte.)
 
 #### Wartung und zukünftige Kosten
 
-Um die Lebensdauer der Gummiringe zu erhöhen sollten diese alle paar Wochen
-weitergedreht werden.
-Damit nicht immer der selbe Teil gegen das Metal reibt.
+Alle paar Wochen sollen die Gummiringe weitergedreht werden.
+Damit wird die Lebensdauer der Gummiringe erhöht, weil nun ein anderer Teil
+gegen das Metal reibt.
+Außerdem wird die Geräuschkulisse wird wieder auf ein Minimum reduziert.
 
 Auf Dauer werden die Gummiringe ausleiern.
 Ein neuer Satz bei kostet bei meiner Trampolingröße [90€](https://www.bellicon.com/de-eu/produkt/bungees).

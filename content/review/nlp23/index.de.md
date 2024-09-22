@@ -5,10 +5,12 @@ summary: "Meine Meinung zum NLP Practitioner."
 tags:
 date: 2024-08-22
 thumbnailAlt: "Grüner Elephant der am Schreibtisch ein Buch bearbeitet."
-writingTime: 250
+writingTime: 255
 ---
 
 ## Was ist NLP23?
+
+{{<figure src="./elefant.de.jpg" class="sm:float-right h-32 w-auto" alt="NLP23 Elefant">}}
 
 [NLP23](https://www.alexanderhartmann.de/nlp-practitioner-2/) ist eine
 7-tägige Ausbildung zum NLP Practitioner, geleitet durch Alexander
@@ -37,7 +39,7 @@ Wie ist die Ausbildung aufgebaut und womit kann ich rechnen?
 
 ### Vorbereitung
 
-Vor dem Seminar gab es über 23 Tage lang gut produzierte Videos zur
+Vor dem Seminar gab es über 23 Tage lang hochwertig-produzierte Videos zur
 Vorbereitung.
 Manche mit Übungen.
 Manche beleuchten einen Aspekt der Theorie näher.
@@ -136,6 +138,9 @@ Seminarinhalten aus.
 Aber mal schauen was da noch kommt.
 Zum Wiederholen und Vertiefen sicherlich wertvoll.
 
+Außerdem haben wir Teilnehmer eine Mastermind-Gruppe organisiert.
+Die Stimmung dort ist sehr positiv und energetisierend.
+
 ## Inhalte
 
 Die Inhalte des Seminar werde ich nach und nach ergänzen wenn ich die
@@ -214,10 +219,11 @@ diese Chancen auch ergriffen.
 ### Atmosphäre
 
 Die Gruppe hat schnell zusammengefunden.
-Es wurde eine sichere, warme und herzlich Umgebung geschaffen in der ich
-mich öffnen könnte und so angenommen wurde wie ich bin.
+Es wurde eine sichere, positive, warme und herzliche Umgebung geschaffen in
+der ich mich öffnen könnte und so angenommen wurde wie ich bin.
 Ich habe jede Übung mit einem neuen Partner gemacht und fühlte mich immer
 gut aufgehoben.
+Es war wirklich sehr angenehm mit dieser Gruppe Zeit zu verbringen.
 
 ### Learnings
 
@@ -282,6 +288,9 @@ Neben den monetären Kosten sind ggf. noch andere Kostenpunkte relevant:
 Das Seminar hat mir einen Werkzeugkasten gegeben mit dem ich effektiv und
 schnell langanhaltende mentale Veränderungen bei mir und anderen bewirken
 kann.
+
+Was ich wirklich hervorheben muss, ist die extrem positive Stimmung und
+Energie die sich innerhalb der Gruppe entwickelt hat.
 
 Das Seminar hat sich für mich auf jeden Fall gelohnt.
 Meine Erwartungen wurden bei Weitem übertroffen.
