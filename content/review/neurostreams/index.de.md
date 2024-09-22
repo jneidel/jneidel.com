@@ -9,10 +9,9 @@ tags:
     - relaxation
     - motivation
     - sleep
-date: 2024-06-24
+date: 2024-09-21
 thumbnailAlt: "Ein großer abstrakter Kiefernzapfen"
-draft: true
-writingTime: 119
+writingTime: 126
 ---
 
 ## Was sind Neurostreams?
@@ -170,7 +169,7 @@ Soziale Medien, Nachrichten, YouTube, etc.)
 IQ 7000 :brain:
 {{</button>}}
 
-Mein primärer Neurostream für mehr Konzentration.
+Mein Haupt Neurostream für mehr Konzentration.
 Deep work zu leisten ist nur noch eine Frage der Zeit.
 
 {{<button href="/documents/neurostreams/katalog-de/Flow_trifft_Genie.pdf" target="_blank">}}
@@ -315,7 +314,8 @@ interessant waren.
 
 ## Zusammenfassend
 
-Ein großartiger Werkzeugkasten den ich jeden Tag benutze und nicht missen möchte.
+Ein großartiger Werkzeugkasten den ich sehr regelmäßig nutze und nicht
+missen möchte.
 
 Neurostreams gehören für mich klar zu den 20% der Optimierungen die 80% der
 Ergebnisse liefern.

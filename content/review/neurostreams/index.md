@@ -31,8 +31,8 @@ If you want to get an idea of what a Neurostream sounds like:
 
 A caveat up-front: There is not an official English version of this product.
 For the sounds that does **not** make a difference.
-For your convenience I wrote an English [quick reference guide](misc/neurostreams-quick-reference)
-that works as an overview for all the available tracks.
+For your convenience I wrote an English [quick reference guide](misc/neurostreams-quick-reference),
+which works as an overview for all the available tracks.
 It also links to the translated catalogue pages where you can find more
 details about each sound.
 With that, you should have everything you need, to get the most out of this
@@ -300,7 +300,7 @@ weren't of interest to me.
 
 ## Conclusions
 
-A great toolbox I use every day and wouldn't want to live without.
+A great toolbox I use regularly and wouldn't want to live without.
 
 To me, it's part of the 20% of optimizations that deliver 80% of the
 results.

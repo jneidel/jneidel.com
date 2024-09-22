@@ -13,7 +13,7 @@ writingTime: 290
 ---
 
 {{<lead>}}
-Übersicht aller Neurostreams mit Anwendungshinweisen.
+Übersicht aller [Neurostreams](review/neurostreams) mit Anwendungshinweisen.
 {{</lead>}}
 
 Empfehlung: Mach dich vor der ersten Verwendung dieser Übersicht kurz mit
@@ -135,7 +135,7 @@ welche keine individuellen Titel auflistet.
 | Gaia Club Radio | [Ja](https://www.neurostreams.de/portfolio/schumann-frequenz/#aff=jneidel) || ✅ || ✅ |
 | Wellness Walk | [Ja](https://www.neurostreams.de/portfolio/stress-abbauen/#aff=jneidel) | ✅ | ✅ || ✅ |
 | Delta Frischzellenkur | [Ja](https://www.neurostreams.de/portfolio/sich-erholen/#aff=jneidel) | ✅ | ✅ || ✅ |
-| Planet Relax | [Ja](https://www.neurostreams.de/portfolio/tiefe-entspannung-erreichen/#aff=jneidel) | (Gratis) || ✅ | ✅ |
+| Planet Relax | [Ja](https://www.neurostreams.de/portfolio/tiefe-entspannung-erreichen/#aff=jneidel) | ([Gratis](review/neurostreams#kosten)) || ✅ | ✅ |
 | Treffpunkt Garten Eden | [Ja](https://www.neurostreams.de/portfolio/alpha-zustand-erreichen/#aff=jneidel) | ✅ || ✅ | ✅ |
 | Das innere Kind | [Ja](https://www.neurostreams.de/portfolio/das-innere-kind/#aff=jneidel) | ✅ || ✅ | ✅ |
 | Co-Creation Galaxy | [Ja](https://www.neurostreams.de/portfolio/autosuggestion/#aff=jneidel) || ✅ || ✅ |

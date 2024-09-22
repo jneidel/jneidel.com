@@ -85,8 +85,8 @@ Project start: 23. Mai 2024
 4. Übersetzen des [coupons](essay/coupons) essays.
 5. Korrekturen und überarbeiten und erweitern des [intermittent fasting](/review/intermittent-fasting) reviews.
 6. Quellen für [intermittent fasting](/review/intermittent-fasting) review raussuchen, Maintenance für den [air purifier](/review/air-purifier) beschreiben
-7. Weiterschreiben am Neurostreams review.
-8. Weiterschreiben am Neurostreams review.
+7. Weiterschreiben am [Neurostreams review](review/neurostreams).
+8. Weiterschreiben am [Neurostreams review](review/neurostreams).
 9. :slightly_frowning_face:
 10. Mit dem Schreiben am waves essay](essay/waves) begonnen.
 
