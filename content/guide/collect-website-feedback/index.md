@@ -207,10 +207,10 @@ that page.
 
 {{<figure src="./edit-on-github-button.png" class="w-10/12" alt="A title on my website with the edit on github button highlighted">}}
 
-That buttons leads to [this page](https://github.com/jneidel/jneidel.com/blob/master/content/guide/collect-blog-feedback/index.md):
+That buttons leads to [this page](https://github.com/jneidel/jneidel.com/blob/master/content/guide/collect-website-feedback/index.md):
 
 ```txt
-https://github.com/jneidel/blog/blob/master/content/guide/collect-blog-feedback/index.md
+https://github.com/jneidel/jneidel.com/blob/master/content/guide/collect-website-feedback/index.md
 ```
 
 A technical user can edit the page and submit a pull request.

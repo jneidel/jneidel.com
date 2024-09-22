@@ -13,7 +13,7 @@ writingTime: 290
 ---
 
 {{<lead>}}
-Übersicht aller [Neurostreams](review/neurostreams) mit Anwendungshinweisen.
+Übersicht aller Neurostreams mit Anwendungshinweisen.
 {{</lead>}}
 
 Empfehlung: Mach dich vor der ersten Verwendung dieser Übersicht kurz mit

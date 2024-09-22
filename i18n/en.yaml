@@ -8,7 +8,7 @@ footer:
 article:
   edit_title: "Edit content on GitHub - Thanks for submitting a pull request!"
 
-rss_link: "/rss"
+rss_link: "/rss/"
 
 category:
   essay_name: "Essays"
