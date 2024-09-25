@@ -187,6 +187,10 @@ get my one paragraph in, as I did yesterday, but it was and would be sub par.
 18. Start essay about barefoot shoes.
 19. Write essay about "[I don't have time](essay/no-time)".
 20. :slightly_frowning_face:
+21. Start [newsletter #5].
+22. Continue [newsletter #5]. Publish translated [Neurostreams review](review/neurostreams)
+23. :slightly_frowning_face:
+24. Continue [newsletter #5].
 
 ## Learnings
 ### Progress
