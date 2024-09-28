@@ -3,6 +3,8 @@ title: "Review: Trading on Corporate Earnings News"
 description: "Review des Buches Newstrading mit Optionen Trading on Corporate Earnings News, sowie Erklärung der Strategie."
 summary: "Bündige Erklärung der Börsenstrategie zum Handel über die Earnings."
 tags:
+    - "Stock Market"
+    - "Trading"
 date: 2024-06-30
 thumbnailAlt: "Freiheitsstatue umgeben von Geld und Flaggen"
 writingTime: 261

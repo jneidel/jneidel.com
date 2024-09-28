@@ -191,6 +191,10 @@ get my one paragraph in, as I did yesterday, but it was and would be sub par.
 22. Continue [newsletter #5]. Publish translated [Neurostreams review](review/neurostreams)
 23. :slightly_frowning_face:
 24. Continue [newsletter #5].
+25. Publish [newsletter #5].
+26. :slightly_frowning_face:
+27. Start [stock market strategy]<sup>:de:</sup>.
+28. Finish [stock market strategy]<sup>:de:</sup>.
 
 ## Learnings
 ### Progress
@@ -264,3 +268,4 @@ a more [in-depth podcast episode](https://www.listennotes.com/podcasts/kill-your
 [newsletter #5]: newsletter/5
 [newsletter #6]: newsletter/6
 [newsletter #7]: newsletter/7
+[stock market strategy]: /de/project/börsenstrategie/
