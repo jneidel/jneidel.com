@@ -3,6 +3,7 @@ title: "Projekte"
 summary: "Überblick über Projekte die ich gebaut habe."
 cascade:
     showDate: true
+    showDateUpdated: true
     showReadingTime: true
 ---
 

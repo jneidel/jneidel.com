@@ -48,7 +48,7 @@ newsletter:
 project_status:
   label: "Projekt Status"
   laufend: "Laufend"
-  laufend_description: "Projekt wurde begonnen und läuft noch."
+  laufend_description: "Projekt wurde begonnen und läuft noch. Wird mit der Zeit aktualisiert."
   abgeschlossen: "Abgeschlossen"
   abgeschlossen_description: "Projekt wurde erfolgreich fertig gestellt."
   storniert: "Storniert"
