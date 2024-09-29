@@ -1,6 +1,6 @@
 ---
-title: "Entwickeln und Validieren einer verlässlichen Börsenstrategie"
-description: "Zielsetzung und Herangehensweise zur Entwicklung eine funktionierenden Strategie für regelmäßiges Einkommen an der Börse."
+title: "Entwickeln und Validieren einer passenden Börsenstrategie"
+description: "Ich werde eine verlässliche Strategie Entwickeln und Testen, um an der Börse ein regelmäßiges Einkommen zu erziehlen. Zielsetzung und Herangehensweise."
 summary: "Endlich ein regelmäßiges Einkommen an der Börse generieren."
 tags:
     - "Stock Market"

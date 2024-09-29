@@ -1,5 +1,5 @@
 ---
-title: "SUN Minimeal Review"
+title: "SUN Minimeal: Was verbirgt sich hinter dem Mahlzeitersatz?"
 description: "Ehrlicher Erfahrungsbericht zu dem Mahlzeit Ersatz. Genaue Kostenrechung und Erfahrungen mit der Firma dahinter."
 summary: "Ein toller Snack."
 tags:

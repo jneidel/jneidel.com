@@ -1,6 +1,6 @@
 ---
-title: "Person Review: Does Jim Rohn know what he's talking about?"
-description: "A review of the motivational speaker Jim Rohn and a look into his millionare status."
+title: "Does Jim Rohn know what he's talking about? - Person Review"
+description: "Jim Rohn is a author and motivational speaker who gives a lot of advice. But how did HE make HIS money? An Investigation."
 summary: "A review of the motivational speaker."
 tags:
     - "Person Review"

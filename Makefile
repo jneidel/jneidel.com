@@ -32,5 +32,8 @@ _:
 	ln -s ../content/newsletter _/newsletter
 	ln -s ../layouts _/…layout
 
-short-descriptions:
+descriptions:
 	short-descriptions .
+
+titles:
+	short-titles .

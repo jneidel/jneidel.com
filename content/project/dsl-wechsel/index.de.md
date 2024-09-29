@@ -1,6 +1,6 @@
 ---
-title: "Lohnt es sich den DSL-Anbieter zu wechseln?"
-description: "Erfahrungsbericht und Kosten/Nutzenanalyse zum Wechsel des Internetanbieters."
+title: "Lohnt es sich den DSL-Anbieter zu wechseln? Ehrliches Urteil"
+description: "Kosten/Nutzenanalyse und offener Erfahrungsbericht zum Wechsel des Internetanbieters. Durchrechnen der Alternativen und Vergleich des Aufwands."
 summary: "Kosten/Nutzenanalyse und meine Erfahrungen."
 tags:
     - "Service Review"

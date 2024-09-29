@@ -1,12 +1,12 @@
 ---
-title: "The 365 day project: Writing every day"
-description: "My 365 day project of writing every day. What I want to get out of it and how I exactly define writing."
+title: "Writing every day for 365 days - Progress and Outcomes"
+description: "The 365 day project of writing every day. A format for getting better at anything. My progress, challenges and learnings."
 summary: "The 365 day challenge about writing."
 tags:
     - challenge
 project-status: ongoing
 date: 2024-05-23
-thumbnailAlt: Painting of the sun rising over an old temple with a pocketwatch in the foreground
+thumbnailAlt: "Painting of the sun rising over an old temple with a pocketwatch in the foreground."
 showDate: true
 writingTime: 90
 ---

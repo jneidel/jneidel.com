@@ -1,6 +1,6 @@
 ---
-title: "FYRST Geschäftskonto Review"
-description: "Erfahrungsbericht und Kritik zur FYRST Bank. Der Versuch ein Konto zu Eröffnen."
+title: "Review des FYRST Geschäftskonto - Keine Empfehlung"
+description: "Erfahrungsbericht und Kritik zur FYRST Bank. Mein Versuch dort ein Konto zu Eröffnen."
 summary: "Die Deutsche Bank kommt auf die schwarze Liste."
 tags:
     - "Service Review"

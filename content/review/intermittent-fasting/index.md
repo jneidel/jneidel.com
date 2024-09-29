@@ -1,6 +1,6 @@
 ---
 title: "Intermittent Fasting: An easy addition to a working diet"
-description: "A review of Intermittent Fasting: an easy addition to a working diet for improving the immune system"
+description: "Intermittent Fasting can be easy to do. If you already have a working diet it can benefit for your immune system, mood and energy."
 summary: "Review of Intermittent Fasting"
 tags:
     - technique

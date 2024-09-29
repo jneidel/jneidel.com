@@ -1,6 +1,6 @@
 ---
-title: "Neurostreams: Review & Erklärung"
-description: "Was sind Neurostreams und wozu sind sie gut? Eine Erklärung und ein Erfahrungsbericht dazu wie ich sie nutze."
+title: "Neurostreams: Review & Erklärung des Gehirnwellenwerkzeugs"
+description: "Einfach den Gefühlszustand ändern. Was sind Neurostreams und warum sollte sie benutzen? Ein Erfahrungsbericht und eine Erklärung dazu wie ich es benutze."
 summary: "Ein großartiges Werkzeug, das ich nicht missen möchte."
 tags:
     - recommended
