@@ -195,7 +195,7 @@ get my one paragraph in, as I did yesterday, but it was and would be sub par.
 26. :slightly_frowning_face:
 27. Start [stock market strategy]<sup>:de:</sup>.
 28. Finish [stock market strategy]<sup>:de:</sup>.
-29. Update Minimeal and John Rohn review.
+29. Update Minimeal and John Rohn review. Publish [newsletter #6].
 
 ## Learnings
 ### Progress
