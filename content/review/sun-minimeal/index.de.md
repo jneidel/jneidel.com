@@ -14,8 +14,10 @@ writingTime: 202
 ## Was ist das Minimeal?
 
 Das [SUN Minimeal](https://minimeal.com/share/jneidel) ist ein vollwertiger und nährstoffreicher Snack.
-Es erfüllt die strikten EU-Voraussetzungen zum Mahlzeit Ersatz, so darf sich
-nämlich nicht alles nennen (Y-Food erfüllt diese Kriterien z.B. nicht.)
+Es erfüllt die strikten EU-Voraussetzungen zum Mahlzeitersatz, da es alle
+notwendigen Nährstoffe in mehr als ausreichender Menge enthält.
+In der EU ist das ein geschützer Begriff, so darf sich nicht alles nennen.
+So erfüllt Y-Food diese stregen Kriterien zum Beispiel nicht.
 
 ## Wie benutzen wir es?
 
@@ -45,24 +47,25 @@ weil es immer und immer wieder seinen Nutzen bewiesen hat.
 ## Kosten
 {{<katex>}}
 
-Wenn alles verrechnet wird liegen die Kosten bei **1,28€ pro Minimeal** (51,22€ pro Packung.)
+Wenn alles verrechnet wird liegen die Kosten bei **1,51€ pro Minimeal** (60,51€ pro Packung.)
 Das ist voll Ok, weil du damit auch Lebensmittel ersetzt und weniger einkaufst.
 
 <details>
 <summary>Die komplette Kostenrechnung</summary>
 
-- 40 Minimeals mit 20% Abo Rabatt: 56€ pro Packung
+- 40 Minimeals mit 20% Abo Rabatt: 59,92€ pro Packung
 - Versand (4,90€ pro zwei Packungen, wenig auf Vorrat weil ein Monat <abbr title="Mindesthaltbarkeitsdatum">MHD</abbr>): +2,45€ pro Packung
-- SUN Rewards Cashback: \\(58.45 * 5\\) (aktueller Multiplikator) \\(= 292.25 SPO * 0.02749381\\)$ ([aktueller Preis](https://www.dexview.com/pulse/0x2460328E89260dDFBa4A942a0cfa417F202C04C2)) \\(* .9\\) (Kosten zum auszahlen) \\(= ca. -7.23€\\) pro Packung
-- \\(56 + 2.45 - 7.23 = 51.22€\\) pro Packung \\(/ 40 =\\) **1,28€ pro Minimeal**
+- SUN Rewards Cashback: \\(62.37 * 1\\) (aktueller Multiplikator) \\(= 62.37 SPO * 0.033148\\)$ ([aktueller Preis](https://www.dexview.com/pulse/0x22b2f187E6EE1f9Bc8f7Fc38bB0D9357462800e4)) \\(* .9\\) (Kosten zum auszahlen) \\(= ca. -1.86€\\) pro Packung
+- \\(59.92 + 2.45 - 1.86 = 60.51€\\) pro Packung \\(/ 40 =\\) **1,51€ pro Minimeal**
+
+Stand: 29. September 2024
 
 </details>
 
 Geld sparen ist auch einer der angepriesenen Vorteile.
-Für mich kommt keine Ersparnis dabei rum.
-Im Durchschnitt komme ich monatlich auf Essenskosten von 300€, also 10€ am Tag.
-Wenn 8 Minimeals die Mahlzeiten eines gesamten Tages ersetzen sollen kommen ich mit
-\\(10.24€ \ (8*1.28)\\) bei \\(+/-\\) Null raus.
+Bei 8 Minimeals pro Tag (12,1€), komme ich auf monatliche Essenskosten von
+363€ (\\(1.51 * 8 * 30)\\).)
+Das ist liegt in meinem Fall deutlich über meinen aktuellen Kosten.
 
 ## Kritik
 

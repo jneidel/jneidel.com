@@ -14,6 +14,13 @@ Wenn du dich fragst was SUN Minimeals sind, dann findest du hier meine
 
 ---
 
+Stand 29. September 2024: Mit dem aktuellen Multiplikator von **1** kommen
+pro Packung nur SOIL coins im Wert von ca. 1.86€ bei rum (nach Abzug von
+Transferkosten.)
+Da muss man sich überlegen ob sich der Aufwand überhaupt lohnt.
+
+## Einleitung
+
 Du hast [SUN Minimeals](https://www.minimeal.com) gekauft und dabei $PO bzw.
 SOIL als Teil des Sun Rewards Programmes bekommen.
 Diese möchtest du nun gerne in Euro auszahlen oder überhaupt verstehen wie das gehen soll.

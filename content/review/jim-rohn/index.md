@@ -11,12 +11,12 @@ thumbnailAlt: "Middle-aged white man speaking in front of a crowd"
 writingTime: 115
 ---
 
-{{<lead>}}
-A fun public speaker, but tread with care, especially on the topic of money.
-{{</lead>}}
+## Who is Jim Rohn
 
-Known for: various self-help books (7 Strategies for Wealth & Happiness,
-My Philosophy For Successful Living), motivational tapes and speeches.
+An author and motivational speaker.
+He is known for his various self-help books (7 Strategies for Wealth &
+Happiness, My Philosophy For Successful Living), motivational tapes and
+speeches.
 
 ## Was he really a millionaire?
 
@@ -78,7 +78,7 @@ before.
 It's the paradox of practice:
 
 > to teach wisdom that the teacher himself hasn't successfully used in his life<br>
-> – <cite>Mj DeMarco in The Millionaire Fastlane</cite>
+> – Mj DeMarco in <cite>The Millionaire Fastlane</cite>
 
 Wouldn't you rather take advice from somebody who has achieved, what you
 want to achieve? Instead of just proclaiming it?
@@ -87,7 +87,7 @@ want to achieve? Instead of just proclaiming it?
 
 Rohn talks about all the lessons he learned from his mentor Mr. Shoaff after
 he started working at his company.
-Shoaff started multiple MLM schemes, in which Rohn contributed.
+Shoaff started multiple MLM schemes, to which Rohn contributed.
 
 MLM is a terrible business model for all, but the people at the top.
 You are basically profiting from the losses and labor of the people at the
@@ -105,3 +105,9 @@ What he really drilled home for me was taking control of my life's
 philosophy.
 The Slight Edge (the author of which had the idea from Rohn) had already
 implanted the idea in me, but with Jim Rohn I understood it more clearly.
+
+## Conclusion
+
+Fun to listen to.
+Flexible morals.
+Tread with care, especially when it comes to the topic of money.
