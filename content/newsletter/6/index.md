@@ -15,7 +15,7 @@ Hi :slightly_smiling_face:,<br>
 I had been wandering aimlessly, without a clear goal for some time now.
 This week I finally sat down to figure out what I want to focus on next.
 What my next big project would be.
-I wrote [project post](/de/project/börsenstrategie/)<sup>:de:</sup> about it.
+I wrote [project post](/de/project/börsenstrategie/){{<de>}} about it.
 
 ## Review of the last challenge
 
@@ -65,7 +65,7 @@ Before is probably better.
 
 ## New articles
 
-- Description of the [stock market strategy project](/de/project/börsenstrategie/)<sup>:de:</sup>
+- Description of the [stock market strategy project](/de/project/börsenstrategie/){{<de>}}
 
 Cheers,<br>
 Jonathan
