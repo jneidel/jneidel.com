@@ -4,7 +4,9 @@ summary: ""
 cascade:
     showDate: true
     showReadingTime: true
-    thumbnail: "img/newsletter.png"
+    thumbnail: "img/paperboy.png"
     thumbnailAlt: "Paper boy waving a newspaper"
     hideNewsletterSignup: true
 ---
+
+{{<newsletter-signup>}}
