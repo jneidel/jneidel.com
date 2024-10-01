@@ -5,7 +5,7 @@ summary: "Meine Meinung zum NLP Practitioner."
 tags:
 date: 2024-08-22
 thumbnailAlt: "Grüner Elephant der am Schreibtisch ein Buch bearbeitet."
-writingTime: 255
+writingTime: 285
 ---
 
 ## Was ist NLP23?
@@ -22,8 +22,9 @@ Hartmann, Vanessa Buchner und Christian Goebel.
 Ich kannte ihn durch sein Buch "Deep Ocean", was er zusammen mit seiner
 Partnerin Vanessa geschrieben hat.
 
-[Vanessa Buchner](https://www.vanessabuchner.de/ueber-mich) ist Unternehmerin mit Fokus auf die Coaching-Branch und hat
-auch selbst langjährige Erfahrung als Coach.
+[Vanessa Buchner](https://www.vanessabuchner.de/ueber-mich) ist
+Unternehmerin mit Fokus auf die Coaching-Branche und hat auch selbst
+langjährige Erfahrung als Coach.
 
 [Christian Goebel](https://www.christiangoebel.de/start) arbeitet seit vielen Jahren als NLP Coach und hat von den dreien
 die tiefste Praxis Erfahrung im Coaching von NLP.
@@ -196,6 +197,27 @@ unterstützen.
 Die "Hinter den Kulissen" Vlogs sahen so aus als würde ich meine Komfortzone
 an einigen Stellen erweitern können.
 
+**Vorteile gegenüber dem Selbststudium**
+
+Klar würde das Selbststudium weniger kosten und man könnte es im eigenen Tempo
+angehen.
+Für mich würde diese Art Lernens auch gut passen.
+
+Die Ausbildung vor Ort, hat aber diverse Vorteile:
+- Du kannst den Profis direkt vor dir bei der Arbeit zuschauen.
+(Ggf. wird sogar an dir gearbeitet!)
+- Du bekommst Übung darin Andere zu coachen und erfährst es selbst gecoached
+zu werden.
+- Der neuste Stand der Technik, den die Literatur nicht (unbedingt)
+wiedergibt.
+(Die orginalen Bandler-Grinder Bücher aus den 80ern sind nur noch aus
+historischer Kuriosität zu lesen.)
+- Du bekommst ein in sich stimmiges Ausbildungspaket, anstatt einer
+Puzzleteilsuche.
+- Intensive, komprimierte Trainingserfahrung. Unerwartete Lernmöglichkeiten.
+- Zertifikat :shrug:
+- Die Möglichkeit andere Menschen kennenlernen (Netzwerken.)
+
 ## Meine Erfahrung
 
 Wie ging es mir auf dem Seminar?
@@ -233,7 +255,7 @@ Eine beispielhafte Auswahl:
 - Befriedigung für erreichte Ziele fühlen
 - Lob von außen annehmen
 - Meinem verstorbenen Vater vergeben
-- Rasen im Auto eindämmen
+- Rasen im Auto praktisch eliminiert
 - Geringfügige Ängste komplett loslassen: Spinnen, Schlangen, Höhenangst
 - Von "Making money is hard and takes effort" zu "Money is easy to come by"
 - Ehrlich kommunizieren was ich wirklich will
