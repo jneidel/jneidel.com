@@ -198,6 +198,8 @@ get my one paragraph in, as I did yesterday, but it was and would be sub par.
 29. Update Minimeal and John Rohn review. Publish [newsletter #6].
 30. :slightly_frowning_face:
 1. Update [challenges](project/challenges). Update [NLP23 Review](/de/review/nlp23){{<de>}}.
+2. :slightly_frowning_face:
+3. Finish [What is NLP](misc/what-is-nlp)?
 
 ## Learnings
 ### Progress
