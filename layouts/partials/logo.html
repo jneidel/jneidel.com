@@ -2,6 +2,15 @@
   {{- if .Site.Params.header.logo }}
     {{- $logo := resources.Get .Site.Params.header.logo }}
     {{- $logo_dark := resources.Get .Site.Params.header.logoDark }}
+
+    {{- $customLogos := .Site.Params.header.customLogos | default slice }}
+    {{- range $customLogos }}
+      {{- $customLogoName := . }}
+      {{- if or (strings.HasPrefix $.RelPermalink (printf "/%s/" $customLogoName)) (strings.HasPrefix $.RelPermalink (printf "/de/%s/" $customLogoName)) }}
+        {{- $logo = resources.Get (printf "img/logo-%s.png" $customLogoName) }}
+      {{- end }}
+    {{- end }}
+
     {{- if $logo }}
         <img
           src="{{ $logo.RelPermalink }}"
