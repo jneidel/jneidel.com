@@ -17,7 +17,7 @@ fingerprintAlgorithm = "sha256"
   # logoDark = "img/logo-dark.png"
   showTitle = true
   # customLogos: given "recipe", on /recipe routes the img/logo-recipe.png is used
-  customLogos = [ "recipe" ]
+  customLogos = [ "recipe", "dev" ]
 
 [footer]
   showCopyright = true
