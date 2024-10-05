@@ -79,7 +79,7 @@ her enjoy it I have to comment on how this is going to go wrong.
 And even if I'm right, I still made it less fun for her for no good
 reason.
 
-![Le Masterpiece](le-masterpiece.jpeg)
+{{<figure src="le-masterpiece.jpeg" class="w-10/12" alt="Pizza in the oven" caption="_Le Masterpiece_">}}
 
 [^nocomplaints]: See [challenge definition](/blog/weekly-challenge-2023-43) for No complaints
 [^1]: Everybody thinks they are better than the average driver. But that's not
