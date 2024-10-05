@@ -1,5 +1,5 @@
 ---
-title: "Newsletter"
+title: "A Winding Path of Progress"
 summary: ""
 cascade:
     showDate: true
