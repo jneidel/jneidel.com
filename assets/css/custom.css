@@ -99,6 +99,15 @@ html.dark div.lead {
   color: rgb(var(--color-neutral-300));
 }
 
+/* custom scrollbar, transparent bar (same color as background) */
+html {
+  scrollbar-color: #C1C1C1 #fff;
+
+  &.dark {
+    scrollbar-color: #454A4D #262626;
+  }
+}
+
 /* newsletter-signup */
 @keyframes pulse {
   0% {
