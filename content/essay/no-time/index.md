@@ -50,7 +50,8 @@ Not in a harsh way, but by expressing how I actually feel about it.
 For example:
 - <q>No, but thank you for thinking for of me.</q>
 - <q>Going to bed, at a reasonable time, is more important for me.</q>
-- <q>I would be up for something, but I'm not interested getting a drink.</q>
+- <q>I would be up for something, but I'm not interested in getting a
+drink.</q>
 
 I propose another date that works for me, if I already have something more
 important scheduled: <q>I don't have time on Tuesday, how about Thursday
