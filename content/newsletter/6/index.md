@@ -9,7 +9,7 @@ slug: "4x4-visualizations"
 writingTime: 40
 ---
 
-{{<figure src="selfie.jpg" clearClass="true" class="w-9/12 sm:max-w-36 sm:w-auto sm:float-right sm:pl-3 my-0" alt="Selfie im Wald">}}
+{{<figure src="selfie.jpg" clearClass="true" class="w-9/12 sm:max-w-36 sm:w-auto sm:float-right sm:pl-3 my-0" alt="Me in the forest">}}
 
 Hi :slightly_smiling_face:,<br>
 I had been wandering aimlessly, without a clear goal for some time now.

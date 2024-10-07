@@ -9,7 +9,7 @@ slug: ""
 writingTime:
 ---
 
-{{<figure src="selfie.jpg" clearClass="true" class="w-9/12 sm:max-w-36 sm:w-auto sm:float-right sm:pl-3 my-0" alt="<++>">}}
+{{<figure src="selfie.jpg" clearClass="true" class="w-9/12 sm:max-w-36 sm:w-auto sm:float-right sm:pl-3 my-0" alt="Me in the forest">}}
 
 Hi :slightly_smiling_face:,<br>
 <++>

@@ -200,6 +200,10 @@ get my one paragraph in, as I did yesterday, but it was and would be sub par.
 1. Update [challenges](project/challenges). Update [NLP23 Review](/de/review/nlp23){{<de>}}.
 2. :slightly_frowning_face:
 3. Finish [What is NLP](misc/what-is-nlp)?
+4. Work on GbR project.
+5. Start [newsletter #7].
+6. Write [newsletter #7]. Write [Naming the newsletter](project/naming-the-newsletter).
+7. Publish [newsletter #7].
 
 ## Learnings
 ### Progress
@@ -273,4 +277,6 @@ a more [in-depth podcast episode](https://www.listennotes.com/podcasts/kill-your
 [newsletter #5]: newsletter/5
 [newsletter #6]: newsletter/6
 [newsletter #7]: newsletter/7
+[newsletter #8]: newsletter/8
+[newsletter #9]: newsletter/9
 [stock market strategy]: /de/project/börsenstrategie/
