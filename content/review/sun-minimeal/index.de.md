@@ -51,7 +51,7 @@ Wenn alles verrechnet wird liegen die Kosten bei **1,51€ pro Minimeal** (60,51
 Das ist voll Ok, weil du damit auch Lebensmittel ersetzt und weniger einkaufst.
 
 <details>
-<summary>Die komplette Kostenrechnung</summary>
+<summary>Komplette Kostenrechnung</summary>
 
 - 40 Minimeals mit 20% Abo Rabatt: 59,92€ pro Packung
 - Versand (4,90€ pro zwei Packungen, wenig auf Vorrat weil ein Monat <abbr title="Mindesthaltbarkeitsdatum">MHD</abbr>): +2,45€ pro Packung
@@ -59,7 +59,6 @@ Das ist voll Ok, weil du damit auch Lebensmittel ersetzt und weniger einkaufst.
 - \\(59.92 + 2.45 - 1.86 = 60.51€\\) pro Packung \\(/ 40 =\\) **1,51€ pro Minimeal**
 
 Stand: 29. September 2024
-
 </details>
 
 Geld sparen ist auch einer der angepriesenen Vorteile.

@@ -101,10 +101,10 @@ html.dark div.lead {
 
 /* custom scrollbar, transparent bar (same color as background) */
 html {
-  scrollbar-color: #C1C1C1 #fff;
+  scrollbar-color: rgb(var(--color-neutral-400)) #fff;
 
   &.dark {
-    scrollbar-color: #454A4D #262626;
+    scrollbar-color: rgb(var(--color-neutral-700)) rgb(var(--color-neutral-800));
   }
 }
 
@@ -165,4 +165,54 @@ html {
       border-bottom: 2px solid rgb(var(--color-primary-400));
     }
   }
+}
+
+/* better looking expandable details */
+#content details {
+  background-color: rgb(var(--color-neutral-100));
+  border: 1px solid rgb(var(--color-neutral-300));
+  border-radius: 8px;
+  padding: 20px;
+
+  & > :last-child {
+    margin-bottom: 0;
+  }
+
+  html.dark & {
+    background-color: rgb(var(--color-neutral-800));
+    border: 1px solid rgb(var(--color-neutral-500));
+  }
+}
+
+#content summary {
+  font-weight: bold;
+  cursor: pointer;
+  position: relative;
+
+  list-style: none;
+  &::-webkit-details-marker {
+    display: none;
+  }
+}
+
+#content summary:after {
+  content: "";
+  width: 16px;
+  height: 16px;
+  mask-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath d='M2 17 L12 7 L22 17' stroke='black' stroke-width='2' fill='none' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E");
+  mask-repeat: no-repeat;
+  mask-position: center;
+  background-color: rgb(var(--color-primary-400));
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  transition: transform 0.2s ease;
+}
+html.dark #content summary:after {
+  background-color: rgb(var(--color-primary-400));
+}
+
+#content details[open] summary:after {
+  transform: translateY(-50%) rotate(180deg);
 }
