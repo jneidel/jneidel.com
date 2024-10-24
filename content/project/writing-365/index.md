@@ -204,6 +204,10 @@ get my one paragraph in, as I did yesterday, but it was and would be sub par.
 5. Start [newsletter #7].
 6. Write [newsletter #7]. Write [Naming the newsletter](project/naming-the-newsletter).
 7. Publish [newsletter #7].
+14. Update changing internet providers project.
+17. Start time-tracking.
+23. Start rewrite and restructure of now and about pages.
+24. Write and publish digitizing papers project.
 
 ## Learnings
 ### Progress
