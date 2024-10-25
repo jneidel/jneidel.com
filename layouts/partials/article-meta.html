@@ -32,6 +32,12 @@
     {{ $meta.Add "partials" (slice (partial "meta/edit.html" .)) }}
   {{ end }}
 
+  {{ if and (eq $scope "single") site.BuildDrafts }}
+    {{ if eq .Section "newsletter" }}
+      {{ $meta.Add "partials" (slice (partial "meta/show-newsletter-id.html" .)) }}
+    {{ end }}
+  {{ end }}
+
   {{ if and (eq $scope "single") (ne (getenv "HUGO_ENV") "production") }}
     {{ $meta.Add "partials" (slice (partial "meta/env-links.html" .)) }}
   {{ end }}
