@@ -20,9 +20,10 @@ Die Angebote waren am Ende nicht so unwiderstehlich, wie sie erst erschienen.
 ## Ausgangssituation
 
 Mein zweijähriger DSL-Vertrag bei der Telekom läuft aus bzw. geht für
-55€/Monat weiter.
-
+50€/Monat weiter.
 Meine Idee: den Vertrag kündigen und durch Neukundenprämien Geld sparen.
+Zum Start des Projektes ging ich von einem weiterlaufenden Preis von 55€ im
+Monat aus, was das Projekt noch lohnenswerter gemacht hatte.
 
 ## Potentialanalyse
 
@@ -31,20 +32,21 @@ Meine Suchkriterien: Young Tarife, 250 MBit/s.
 
 Preise sind gerundet und beziehen sich immer auf eine Vertragsdauer von zwei
 Jahren.
+Den Ausgangswert für Vergleiche stellt der aktuell laufende Vertrag dar.
 
 | Anbieter | Gesamtpreis | Underschied zu aktuell | Unterschied in Prozent |
 |-|:-:|:-:|:-:|
-| Telekom: aktueller Vertrag | 1320€[^t1] | - | - |
-| Telekom: Kündigen + Angebot der Bestandsabteilung | 1110€[^t2] | -210€ | -16% |
-| 1&1: Neuabschluss | 840€[^1] | -480€ | -36% |
-| MaXXim: Neuabschluss | 720€[^t4] | -600€ | -45% |
-| ~Telekom: Neuabschluss~[^tneu] | 672€[^t3] | -648€ | -49% |
-| Vodafone: Neuabschluss | 600€[^v] | -720€ | -54% |
+| Telekom: aktueller Vertrag | 1200€[^t1] | - | - |
+| Telekom: Kündigen + Angebot der Bestandsabteilung | 1110€[^t2] | -90€ | -7.5% |
+| 1&1: Neuabschluss | 840€[^1] | -360€ | -30% |
+| MaXXim: Neuabschluss | 720€[^t4] | -480€ | -40% |
+| ~Telekom: Neuabschluss~[^tneu] | 672€[^t3] | -528€ | -44% |
+| Vodafone: Neuabschluss | 600€[^v] | -600€ | -50% |
 
 {{<katex>}}
 [^tneu]: Aufgelistet aus Vergleichszwecken. Für mich keine Option weil ich
 nach meiner Kündigung drei Monate Neukundensperre habe.
-[^t1]: \\(55€*24\\)
+[^t1]: \\(50€*24\\)
 [^t2]: \\(20€*6 + 55€ *18\\),
 Kündigung einreichen und von der Bestandsabteilung ein Angebot unterbreiten
 lassen.
@@ -176,8 +178,13 @@ Präferenzen habe ich mich für 1&1 entschieden.
 Viele nervige Anrufe später soll ich postalisch ein Formular einschicken um
 einen Fehler ihrerseits auszugleichen. Ganz sicher nicht.
 
-Ich bleibe jetzt bei der Telekom und hole mir das Angebot der
-Bestandsabteilung.
+Die Bestandsabteilung der Telekom wäre die nächste Stelle gewesen, ich
+wollte aber erst das Auslaufen des Vertrags abwarten.
+Es stellt sich heraus: Mein Vertrag läuft für 50€ im Monat weiter.
+Keine Erhöhung auf 55€.
+Damit lohnen sich in meinen Augen auch die 90€ der Bestandsabteilung nicht.
+Lieber bleibe ich im aktuellen Vertrag, ohne den Stress in zwei Jahren
+wieder kümmern zu müssen.
 
 ## Fazit
 
