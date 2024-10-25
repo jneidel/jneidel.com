@@ -8,4 +8,4 @@ windows:
         - make
         -
   - lf: lf
-  - lf: lf
+  - lf: lf $WEB_NOTES

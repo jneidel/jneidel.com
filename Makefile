@@ -37,3 +37,7 @@ descriptions:
 
 titles:
 	short-titles .
+
+clear-cache:
+	rm -r public
+	git restore public/_redirects
