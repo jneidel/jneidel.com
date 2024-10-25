@@ -167,6 +167,11 @@ html {
   }
 }
 
+/* fix markdown not bolding link text */
+p strong > a {
+  font-weight: bold !important;
+}
+
 /* better looking expandable details */
 #content details {
   background-color: rgb(var(--color-neutral-100));
