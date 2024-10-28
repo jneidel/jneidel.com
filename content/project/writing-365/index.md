@@ -204,10 +204,28 @@ get my one paragraph in, as I did yesterday, but it was and would be sub par.
 5. Start [newsletter #7].
 6. Write [newsletter #7]. Write [Naming the newsletter](project/naming-the-newsletter).
 7. Publish [newsletter #7].
+8. :slightly_frowning_face:
+9. :slightly_frowning_face:
+10. :slightly_frowning_face:
+11. :slightly_frowning_face:
+12. :slightly_frowning_face:
+13. :slightly_frowning_face:
 14. Update changing internet providers project.
-17. Start time-tracking.
+15. :slightly_frowning_face:
+16. :slightly_frowning_face:
+17. Start time-tracking guide.
+18. :slightly_frowning_face:
+19. :slightly_frowning_face:
+20. :face_with_thermometer:
+21. :face_with_thermometer:
+21. :face_with_thermometer:
+22. :slightly_frowning_face:
 23. Start rewrite and restructure of now and about pages.
 24. Write and publish digitizing papers project.
+25. :slightly_frowning_face:
+26. Continue time-tracking guide.
+27. :slightly_frowning_face:
+28. Write and publish [newsletter #8].
 
 ## Learnings
 ### Progress
