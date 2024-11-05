@@ -233,7 +233,7 @@ get my one paragraph in, as I did yesterday, but it was and would be sub par.
 2. :neutral_face:
 3. Start [newsletter #9].
 4. Continue [newsletter #9].
-5. Publish [newsletter #9].
+5. Publish [newsletter #9]. Rewrite [torrenting setup guide](dev/transmission-wireguard).
 
 ## Learnings
 ### Progress

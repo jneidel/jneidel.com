@@ -182,14 +182,15 @@ Inspired by [the Power of Now].
 
 ## Business
 
-**I work as a Software Engineer.**
+**I am employed as a Software Engineer.**
 
-Three days a week I work on a Symfony-based (PHP) project, together with my
-wife.
+Three days a week I work on a Symfony-based (PHP) project, on the same team
+as my wife.
 I work on maintenance tasks: bug fixing, code/performance improvements,
 documentation.
-The API docs are my current focus, after I completely overhauled the
-technical documentation.
+Improving our API documentation is my current focus.
+In the big previous project, I completely overhauled the technical
+documentation.
 
 <!-- Pic: screenshot api docs in nelmio config -->
 
@@ -240,7 +241,7 @@ These packages make it easier for users to install software on their system.
 
 {{<figure src="./aur-package.png" class="w-12/12" alt="PKGBUILD of an AUR package" caption="The <a href='https://aur.archlinux.org/cgit/aur.git/tree/PKGBUILD?h=phpactor'>PKGBUILD</a> file describes how a software package is to be installed by the OS.">}}
 
-**I torrent.**
+**I [torrent](dev/transmission-wireguard).**
 
 In order of frequency: audiobooks, books, music, manga, movies,
 documentaries and courses.
