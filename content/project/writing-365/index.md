@@ -220,12 +220,20 @@ get my one paragraph in, as I did yesterday, but it was and would be sub par.
 21. :face_with_thermometer:
 21. :face_with_thermometer:
 22. :slightly_frowning_face:
-23. Start rewrite and restructure of now and about pages.
+23. Start rewrite and restructure of [now] and about pages.
 24. Write and publish digitizing papers project.
-25. :slightly_frowning_face:
+25. Continue [now] rewrite.
 26. Continue time-tracking guide.
 27. :slightly_frowning_face:
-28. Write and publish [newsletter #8].
+28. Write and publish [newsletter #8]. Publish updated [now]. Start year recap.
+29. Continue year recap.
+30. :neutral_face:
+31. :neutral_face:
+1. :neutral_face:
+2. :neutral_face:
+3. Start [newsletter #9].
+4. Continue [newsletter #9].
+5. Publish [newsletter #9].
 
 ## Learnings
 ### Progress

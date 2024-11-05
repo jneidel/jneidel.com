@@ -97,7 +97,7 @@ I don't *have* to look that up right now.
 - I will make decisions in the moment, when I can actually do something
 about them. Instead of planning ahead so much.
 - Listening to the audiobook of <cite>[The Power of Now](https://amzn.to/3yVW9yt)</cite>
-reliably puts pulls into the present moment.
+reliably puts me into the present moment.
 I will use that, if I otherwise have a hard time to get into that state.
 
 
