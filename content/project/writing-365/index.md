@@ -234,6 +234,9 @@ get my one paragraph in, as I did yesterday, but it was and would be sub par.
 3. Start [newsletter #9].
 4. Continue [newsletter #9].
 5. Publish [newsletter #9]. Rewrite [torrenting setup guide](dev/transmission-wireguard).
+6. :neutral_face:
+7. :neutral_face:
+8. Edit [naming the newsletter](project/naming-the-newsletter).
 
 ## Learnings
 ### Progress

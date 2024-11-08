@@ -28,21 +28,23 @@ Brain –– For a change" about making your neurology work for you.
 _"Newsletter"_ is just a category descriptor.
 What it conveys is: generic, unoriginal, lazy, etc.
 
-Simply, a fitting name for my newsletter would improve the perception it's
-contents.
+Simply, a fitting name for my newsletter would improve the perception of is
+contained inside.
 
 ## How?
 
-I generate 10[^10ideas] ideas for a name everyday, until I have a good
+I generated 10[^10ideas] ideas everyday, until I had a good
 selection (inspired by James Altuchers [idea generation practice](newsletter/7#next-challenge).)
 
 ### My list of ideas
 
-Here is the raw list of what I came up with.
+Below you can find the raw list of what I came up with.
+Feel free to skip it.
 Some of these are awful, but I needed to get those out of my system, to get
-at the better ones that would come after.
-I'm sharing the whole list to give you a sense of the progression.
-Feel free to just skip straight to the [meta discussion](#effects).
+at the better ones that will come after.
+
+<details>
+<summary>Full list</summary>
 
 Sunday:<br>
 - weekly update
@@ -134,6 +136,8 @@ Saturday:<br>
 
 Ok, towards the finish I was going off the deep end :joy:.
 
+</details>
+
 [^10ideas]: I wasn't so fixated on the number. My target was 12, but some
     days I left it at less than that.
 
@@ -160,6 +164,20 @@ this or that direction, but the flower remains stoic.
 The flower needs to keep growing or it will wither away, it goes through
 it's own lifes journey.
 
+### Picking a winner
+
+I went through and picked a selection of contenders (bolded in the list
+above), which I weeded down to five candidates.
+
+- Flowing towards Transformation
+- A Winding Path of Progress
+- Changing for the Better
+- Winding up Better
+- Wafting Winds of Change
+
+With input from my wife, I decided on **A Winding Path of Progress**, which
+had been my favorite picture all along.
+
 ### Tools used
 
 Because I played around with alliterations, I created myself a list of nouns
@@ -182,27 +200,13 @@ noun with a similar meaning, but starting with the letter X.
 
 Also: [Merriam Webster](https://www.merriam-webster.com/) for definitions.
 
-### Picking a winner
-
-I went through and picked a selection of contenders (bolded in the list
-above), which I weeded down to five candidates.
-
-- Flowing towards Transformation
-- A Winding Path of Progress
-- Changing for the Better
-- Winding up Better
-- Wafting Winds of Change
-
-With input from my wife, I decided on **A Winding Path of Progress**, which
-had been my favorite picture all along.
-
 ### Creating a logo
 
 I had already envisioned a logo to go along with this title while I
 conceived it.
 I wanted a twisting road making its way into the horizon.
-To [image generation AI](ai) I went and with this prompt I got what I
-wanted:
+To an [image generation AI](ai) I went.
+This was my prompt:
 
 ```
 winding path into the distance drawn in fine red line #d70000 on white background, minimalistic simple, no scenery
@@ -210,7 +214,7 @@ winding path into the distance drawn in fine red line #d70000 on white backgroun
 
 {{<figure src="./original.jpeg" class="w-8/12" alt="The original version of the logo" caption="The original version image.">}}
 
-After some editing in GIMP (the linux photoshop), I had this final result:
+After some editing in [GIMP](https://www.gimp.org/) (the linux photoshop), I had this final result:
 
 {{<figure src="./result.png" class="w-7/12" alt="The final result of the logo" caption="The resulting logo on the website.">}}
 
