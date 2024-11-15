@@ -237,6 +237,13 @@ get my one paragraph in, as I did yesterday, but it was and would be sub par.
 6. :neutral_face:
 7. :neutral_face:
 8. Edit [naming the newsletter](project/naming-the-newsletter).
+9. :neutral_face:
+10. :neutral_face:
+11. :neutral_face:
+12. :neutral_face:
+13. :neutral_face:
+14. Write intro to [newsletter #10].
+15. Update [now] projects.
 
 ## Learnings
 ### Progress
@@ -312,4 +319,7 @@ a more [in-depth podcast episode](https://www.listennotes.com/podcasts/kill-your
 [newsletter #7]: newsletter/7
 [newsletter #8]: newsletter/8
 [newsletter #9]: newsletter/9
+[newsletter #10]: newsletter/10
+[newsletter #11]: newsletter/11
+[newsletter #12]: newsletter/12
 [stock market strategy]: /de/project/börsenstrategie/

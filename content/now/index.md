@@ -10,8 +10,9 @@ intent: "Don't describe preferences (barefoot, terminal), but only acts that I r
 _<sub>
 This is a [now][now-page] page.
 <span class="px-3">·</span>
+Quick update: see most [frequently changing section](#projects)
+<span class="px-3">·</span>
 See also: [about me](about)_
-<!-- For a quick update: the most frequently changed [section](#projects)_ -->
 </sub>
 
 I am not my past.
@@ -269,21 +270,45 @@ little helper functions[^apps].
 
 **I'm working on a stock market strategy.**
 
-To achieve consistent returns with the money I've put aside.
+To achieve consistent returns, with the money I've put aside.
 [Project definition](/de/project/börsenstrategie/){{<de>}}
+Right now I am:
+- Cleaning up my notes and extracting the principles of the field.
+- Doing some work on my mindset.
+- Engaging with a local community of people doing the same things.
+- Soon, I'm attending a workshop series of a guy presenting the strategies
+that he profiably employs (option selling, Stillhaltergeschäfte.)
 
 <!-- Pic: tws -->
 
-**I'm defining my purpose.**
+**Moving to Emacs**
 
-I'm in the process of defining my long-term goals.
-I want to change the world for the better, in a way that is aligned with my
-strengths and needs.
-Finding my purpose has been a journey of personal discovery.
-While I'm not there yet, I have a much clearer image of who I am and where
-I'm going.
+Last year I became aware of some problems with my [Neovim](https://github.com/jneidel/dotfiles#neovim-terminal-editor) setup.[^nvimprob]
+[Emacs](https://github.com/jneidel/dotfiles#emacs-editor) presented itself as the solution.
+All my concerns addressed.
+The migration of all of my workflows is a big project though.
+Now, I'm in the process of first moving my note-taking over, followed by
+some programming tasks.
 
-## I don't do
+[^nvimprob]: Stuff continuously broke on updates.
+I didn't have the ability to tweak things how I liked them (not down to the
+details that I wanted.)
+There were some quirks that I could simply not get rid of.
+I felt like I had with Manjaro Linux.
+Emacs, just like Arch, presented a vision which could address all
+of the problems that came about through a lack of extensibility and
+customizability.
+
+<!-- **I'm defining my purpose.** -->
+<!---->
+<!-- I'm in the process of defining my long-term goals. -->
+<!-- I want to change the world for the better, in a way that is aligned with my -->
+<!-- strengths and needs. -->
+<!-- Finding my purpose has been a journey of personal discovery. -->
+<!-- While I'm not there yet, I have a much clearer image of who I am and where -->
+<!-- I'm going. -->
+
+## What I don't do
 
 I purposefully do not do things that would have a strong negative impact on
 my life.
