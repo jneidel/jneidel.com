@@ -17,3 +17,4 @@ do something similar.
 Overview of all projects by [status](project-status):
 - [Ongoing](project-status/ongoing): {{<i18n "project_status.ongoing_description">}}
 - [Completed](project-status/completed): {{<i18n "project_status.completed_description">}}
+- [Aborted](project-status/aborted): {{<i18n "project_status.aborted_description">}}

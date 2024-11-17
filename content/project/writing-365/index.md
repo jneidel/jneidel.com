@@ -1,22 +1,45 @@
 ---
-title: "Writing every day for 365 days - Progress and Outcomes"
+title: "Writing every day for 365 days"
 description: "The 365 day project of writing every day. A format for getting better at anything. My progress, challenges and learnings."
 summary: "The 365 day challenge about writing."
 tags:
     - challenge
-project-status: ongoing
+project-status: aborted
 date: 2024-05-23
 thumbnailAlt: "Painting of the sun rising over an old temple with a pocketwatch in the foreground."
 showDate: true
-writingTime: 90
+writingTime: 162
 ---
+
+<span class="flex flex-col">
+    <span class="flex mb-2">
+        <span class="text-sm">Project start:</span>
+        {{<badge>}}
+            May23 2024
+        {{</badge>}}
+    </span>
+    <span class="flex">
+        <span class="text-sm">Offical project end:</span>
+        {{<badge>}}
+            Nov17 2024
+        {{</badge>}}
+    </span>
+</span>
+
+This project was [aborted](project-status/aborted) (i.e. the {{<i18n "project_status.aborted_description">}})
+See [my conclusion](#challenge-conclusion).
+
+## Challenge definition
 
 I have decided to commit myself and take my writing to the next level.
 The challenge is: 365 days of writing every day.
 
 No off-days. No excuses.
 
-## Intent
+This challenge was inspired by Andy: [CHALLENGE: Start a 365 Day Project](https://killyourinnerloser.com/challenge-start-a-365-day-project/) and
+a this [more in-depth podcast episode](https://www.listennotes.com/podcasts/kill-your-inner/365-day-projects-are-amazing-ZgEoY2xBrJk/).
+
+### Intent
 
 I want to get better at writing.
 Doing something every day is a very effective way of getting better at
@@ -30,7 +53,7 @@ build traction for this site.
 I thoroughly enjoyed writing my thesis in uni and have known since
 that I want to make this practice a regular part of my life.
 
-## Definition of Writing
+### Definition of Writing
 
 I am a person that needs clear rules.
 Uncertainty about what I can and can't do leads me to indecision and abusing loopholes.
@@ -47,13 +70,9 @@ A note or rough draft does not count.
 - §3 Writing needs to happen on some article that is in the pipeline, not
 just: "Oh yeah, I wrote this note that will become an article later."
 
-## Updates
+### Daily log
 
-Here I will keep a daily log of what I have written (updated weekly.)
-
-{{<badge>}}
-Project start: May23 2024
-{{</badge>}}
+This is the log, of what I wrote each day.
 
 1. Wrote this article.
 24. Finished writing [Eat the frog](essay/eat-that-frog), edit and translate it.
@@ -141,7 +160,7 @@ get my one paragraph in, as I did yesterday, but it was and would be sub par.
 3. :books: :student:
 4. Continue NLP23 review. Start writing hypnosis for coaching.
 5. Continue NLP23 review.
-6. :face_with_thermometer:
+6. :face_with_thermometer: Sick
 7. :face_with_thermometer:
 8. :face_with_thermometer:
 9. :face_with_thermometer:
@@ -204,27 +223,27 @@ get my one paragraph in, as I did yesterday, but it was and would be sub par.
 5. Start [newsletter #7].
 6. Write [newsletter #7]. Write [Naming the newsletter](project/naming-the-newsletter).
 7. Publish [newsletter #7].
-8. :slightly_frowning_face:
-9. :slightly_frowning_face:
-10. :slightly_frowning_face:
-11. :slightly_frowning_face:
-12. :slightly_frowning_face:
-13. :slightly_frowning_face:
+8. :neutral_face:
+9. :neutral_face:
+10. :neutral_face:
+11. :neutral_face:
+12. :neutral_face:
+13. :neutral_face:
 14. Update changing internet providers project.
-15. :slightly_frowning_face:
-16. :slightly_frowning_face:
+15. :neutral_face:
+16. :neutral_face:
 17. Start time-tracking guide.
-18. :slightly_frowning_face:
-19. :slightly_frowning_face:
+18. :neutral_face:
+19. :neutral_face:
 20. :face_with_thermometer:
 21. :face_with_thermometer:
 21. :face_with_thermometer:
-22. :slightly_frowning_face:
+22. :neutral_face:
 23. Start rewrite and restructure of [now] and about pages.
 24. Write and publish digitizing papers project.
 25. Continue [now] rewrite.
 26. Continue time-tracking guide.
-27. :slightly_frowning_face:
+27. :neutral_face:
 28. Write and publish [newsletter #8]. Publish updated [now]. Start year recap.
 29. Continue year recap.
 30. :neutral_face:
@@ -244,26 +263,28 @@ get my one paragraph in, as I did yesterday, but it was and would be sub par.
 13. :neutral_face:
 14. Write intro to [newsletter #10].
 15. Update [now] projects.
+16. :neutral_face:
+17. Write conclusions to this challenge.
 
 ## Learnings
 ### Progress
 
 I can feel that I'm getting better at writing.
 
-Structuring posts is becoming easier.
-First drafts are becoming better.
-Editing is becoming faster.
+Structuring posts has become easier.
+First drafts are better.
+Editing is faster.
 I have a better sense of what won't and will fit.
 The distinction between English/German has become more clear.
-I don't mix the two together as much and both sound more organic.
-I'm better at writing clear, short sentences.
-At omitting unneeded words.
-I pick up and improve little stylistic elements, like quoting a source, use
-of footnotes, parenthesis for explanations, headline interaction with the
+I don't mix the two together as much and both sound more natural.
+It's easier to write clear short sentences.
+To omit unneeded words.
+I pick up and improve little stylistic elements, like: quoting a source, the
+us of footnotes, parenthesis for explanations, headline interaction with the
 text before and after, etc.
 
 This outcome was expected, but it is still satisfying to see this happen
-organically, without conscious focus.
+organically, just by sitting down to do the work.
 
 ### Comprehension & Completion
 
@@ -301,11 +322,51 @@ Sometimes I was not in the mood.
 I still sat down to write and discovered that it was a lot of fun.
 It always is.
 
-## References
+## Challenge conclusion
 
-Andy was my inspiration for this:
-[CHALLENGE: Start a 365 Day Project](https://killyourinnerloser.com/challenge-start-a-365-day-project/) and
-a more [in-depth podcast episode](https://www.listennotes.com/podcasts/kill-your-inner/365-day-projects-are-amazing-ZgEoY2xBrJk/)
+The [last two months](#daily-log) of this challenge were on and off.
+I was not really committed to the challenge any more.
+The big reason for this was:
+In my mind I had already already the goal behind this challenge.
+Only the arbitrary time restriction kept it alive.
+
+**My writing has improved.**
+Anytime I want to write about a topic, I can pop out an article up to my
+quality standard.
+All the processes are in place, I know how to arrange the filter the
+contents and describe the topic in a compelling way.
+Certainly, there is still much room for improvement, especially when it
+comes to moving a reader to action.
+It is a topic I will focus on again in the future.
+
+**The website has a decent amount of content.**
+When I started this website, I only had ideas of how things would work.
+I didn't have the articles to fill my categories.
+I didn't know if it would make sense.
+Now I do.
+To me, the concept has been validated and realized.
+A website can always have more articles and I have more to say.
+And I will. With time.
+
+**Future grow of the website does not hinge on more content.**
+Articles are a factor, but SEO alone will not do it for me.
+Instead I would have to market the website and spend time on growing an
+audience.
+That, combined with a focus on putting out more articles is most likely a
+future priority.
+
+With these point in mind, my focus naturally shifted.
+Other topic come into focus and supplanted writing.
+It became an annoyance on my todo list.
+I still like writing and this was fun, but I now have [other things](now) I
+am focused on.
+These challenges needs to be in line with my priorities, not the other way
+around.
+
+Future writing for this website:
+- I will continue to publish the [newsletter](newsletter) every week.
+- I will try to publish one article every other week.
+- The articles will be about topics I am currently working through.
 
 [Oladance open ear review]: review/oladance-open-ear-headphones
 [AWS review]: review/aws
