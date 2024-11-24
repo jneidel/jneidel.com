@@ -35,7 +35,7 @@ could apply to solve a problem I'm facing.
 I found the principle of '_There are no stupid ideas._' useful to generate
 ideas.
 It lets the ideas flow out, without questioning each one too much.
-Beyond the stupid ideas (there were plenty of those), lie better ones.
+Beyond the stupid ideas (there were plenty of those), lay better ones.
 
 For some lists it felt like _going to failure_ lifting at the gym.
 I had to exert myself to get to that 10th idea.
@@ -52,13 +52,13 @@ I highly recommend you to try this one.
 ## Next challenge
 
 I had noticed a marked absence of presence, these last few days.
-So, this week, **I will to focus on being present**.
+So, this week, **I will focus on being present**.
 That is: my attention is in the moment, I'm not thinking about the past or
 planning for the future.
 
 Some might say, this challenge [sounds familiar](newsletter/2).
 Yes, but these challenges don't always have to be original.
-Their purpose is to focus me on some area of my life that I want to improve.
+Their purpose is to make me focus on some area of my life that I want to improve.
 If I feel the need to "repeat"[^repeat] a challenge (like presence or [no media](newsletter/4)), then maybe there
 is a lesson there that I haven't learned yet.
 Maybe the last challenge was not enough to thoroughly integrate it into my
