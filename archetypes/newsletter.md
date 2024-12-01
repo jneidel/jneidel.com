@@ -15,19 +15,19 @@ Hi :slightly_smiling_face:,<br>
 <++>
 
 ## What I'm working on
-<small>For context, see [/now](now).</small>
+<small>For context, see [/now](now#projects).</small>
 
 <++>
 
 ## Commitments
 
-My ongoing commitments:
+My ongoing commitments are:
 - Focus challenge until December 19th
 - No buying sweets and such until the end of the year
-- Publishing this newsletter every Sunday, no matter what
+- Publishing this newsletter every Sunday ({{ sub (.File.ContentBaseName | int) 9 }}x streak:sunglasses:)
 
 ## Challenges
-<small>Applying a specific learning/philosophy/trick for a week.</small>
+<small>Applying a specific learning or philosophy for a week ([see project](project/challenges).)</small>
 
 ### Last one
 
@@ -47,7 +47,7 @@ Last weeks challenge was: [<++>](newsletter/{{ sub (.File.ContentBaseName | int)
 
 <++>
 
-Alle the best,<br>
+All the best,<br>
 Jonathan
 
 <br>
