@@ -9,15 +9,15 @@ thumbnailAlt: SOIL Coin Umwandlung in Euro
 writingTime: 360
 ---
 
-Wenn du dich fragst was SUN Minimeals sind, dann findest du hier meine
-[Einschätzung zum Produkt und der Firma](review/sun-minimeal).
+Stand Dezember 2024: Mit dem aktuellen $PO Multiplikator von **1x** kommen
+pro 60€ Packungswert nur SOIL coins im Wert von ca. 1.90€ (3%) bei rum.
+<br>
+Meiner Ansicht nach **lohnt sich der Aufwand der Umwandlung aktuell nicht.**
 
 ---
 
-Stand 29. September 2024: Mit dem aktuellen Multiplikator von **1** kommen
-pro Packung nur SOIL coins im Wert von ca. 1.86€ bei rum (nach Abzug von
-Transferkosten.)
-Da muss man sich überlegen ob sich der Aufwand überhaupt lohnt.
+Wenn du dich fragst was SUN Minimeals sind, dann findest du hier meine
+[Einschätzung zum Produkt und der Firma](review/sun-minimeal).
 
 ## Einleitung
 
@@ -124,7 +124,7 @@ Nachdem die Anfrage bearbeitet wurde (was etwas dauern kann) sind sie in
 MetaMask unter "Tokens" sichtbar.
 
 Jetzt könnt ihr eure SOIL entweder behalten und auf Wertanstieg hoffen
-([siehe aktueller Kurs](https://www.dexview.com/pulse/0x22b2f187E6EE1f9Bc8f7Fc38bB0D9357462800e4))
+([siehe aktueller Kurs][aktueller kurs])
 oder euch diese in Euro auszahlen.
 
 ## Überblick Umwandlungspfad
@@ -245,3 +245,5 @@ Wenn du mir ein Trinkgeld da lassen willst kannst du mir gern ein paar SOIL oder
 zukommen lassen. Meine PulseChain Adresse ist: `0x4612Bd3FDc0471fF81D94595246777436c22DAF1`
 
 Anmerkungen gerne an: [sun@jneidel.com](mailto:sun@jneidel.com)
+
+[aktueller kurs]: https://www.dexview.com/pulse/0x22b2f187E6EE1f9Bc8f7Fc38bB0D9357462800e4
