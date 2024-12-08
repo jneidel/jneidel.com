@@ -31,6 +31,7 @@ _:
 	ln -s ../content/essay _/essay
 	ln -s ../content/newsletter _/newsletter
 	ln -s ../layouts _/…layout
+	ln -s ../layouts/shortcodes/glossary _/glossary
 
 descriptions:
 	short-descriptions .

@@ -14,17 +14,23 @@ writingTime: <++>
 Hi :slightly_smiling_face:,<br>
 <++>
 
-## What I'm working on
-<small>For context, see [/now](now#projects).</small>
-
-<++>
-
 ## Commitments
 
 My ongoing commitments are:
-- Focus challenge until December 19th
-- No buying sweets and such until the end of the year
+- To [become profitable at day trading](project/day-trading)
+- Focus challenge[^focus-challenge] on trading, until Dec19
+- Don't buy sweets and such, until the end of the year
+- Generate [10 ideas](newsletter/7#next-challenge) every day
+  <br>Favorite from last week: <++>
 - Publishing this newsletter every Sunday ({{ sub (.File.ContentBaseName | int) 9 }}x streak:sunglasses:)
+
+## What I'm working on
+<small>For context, see [/now](now#projects).</small>
+
+Due to my focus challenge[^focus-challenge], everything I'm working on is
+about trading.
+
+<++>
 
 ## Challenges
 <small>Applying a specific learning or philosophy for a week ([see project](project/challenges).)</small>
@@ -53,3 +59,5 @@ Jonathan
 <br>
 
 PS: Please [let me know](mailto:newsletter-feedback@jneidel.com) if you have any comments, feedback or criticism.
+
+[^focus-challenge]: {{<glossary/focus-challenge>}}
