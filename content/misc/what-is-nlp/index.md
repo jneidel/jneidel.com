@@ -100,6 +100,7 @@ been plaguing me?
 - How do I get into a desired state[^desired-state]?
 - How do I get rid of a fear/phobia[^phobia] or a limiting
 belief[^limiting-belief]?
+- How do I change my subconcious, automatic reactions[^six-step]?
 
 I'm sure, the way that I see NLP will expand, as continue on my NLP journey.
 
@@ -120,3 +121,6 @@ you'd like.
 A swish or 6-step reframe can work better, if the fear is more general.
 [^limiting-belief]: To get rid of limiting beliefs I usually use the 6-step
 reframe or a parts negotiation.
+[^six-step]: With a 6-step refame I go in an negotiate or convince a
+subconscious part of mine to adjust it's behavior to be (more) in line
+with what I want.
