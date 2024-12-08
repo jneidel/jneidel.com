@@ -112,9 +112,14 @@ monatliche Rendite und Kosten geschätzte Steuern berechnen zu können.
 - Ab wann lohnt sich eine Trading-GmbH? Ab welchem Punkt gleichen die
 Steuerersparnisse die erhöhten Kosten aus?
 
-### Dokumentation
+### Update
 
-Die Projektinhalte werden natürlich schriftlich auf dieser Website
-verarbeitet.
-Konkrete Fortschritte und Lektionen werden diesem Artikel mit der Zeit
-hinzugefügt.
+Ich wende werde gerade im Papertrading mit einer profitables
+Optionsstrategie vertraut (Stillhaltergeschäfte.)
+Durchgeleitet werde ich von jemandem der genau diese Strategie seit Jahren
+schon anwendet.
+
+Im Zuge dessen, dass ich mich mit meinem Mindset auseinander gesetzt habe
+bin ich auch zu dem Entschluss gekommen mich zusätzlich zu dieser
+Optionsstrategie noch mit Day Trading außeinander zu stetzen.
+Siehe das [zugehörige Projekt](/project/day-trading).

@@ -268,16 +268,15 @@ little helper functions[^apps].
 
 ## Projects
 
-**I'm working on a stock market strategy.**
+<small>This is the big picture. More detailed updates can be found in the
+[latest edition of my newsletter].</small>
+
+**Becoming profitable in the stock market.**
 
 To achieve consistent returns, with the money I've put aside.
-[Project definition](/de/project/börsenstrategie/){{<de>}}
-Right now I am:
-- Cleaning up my notes and extracting the principles of the field.
-- Doing some work on my mindset.
-- Engaging with a local community of people doing the same things.
-- Soon, I'm attending a workshop series of a guy presenting the strategies
-that he profiably employs (option selling, Stillhaltergeschäfte.)
+See the relevant projects:
+- [day trading](project/day-trading)
+- developing an [options strategy](/de/project/börsenstrategie/){{<de>}}
 
 <!-- Pic: tws -->
 
@@ -333,3 +332,4 @@ my life.
 [now-page]: https://nownownow.com/about
 [ee]: https://www.openstreetmap.org/relation/1322952
 [The Power of Now]: https://amzn.to/4fWh9pA
+[latest edition of my newsletter]: newsletter/12#what-im-working-on
