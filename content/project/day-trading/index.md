@@ -23,7 +23,7 @@ Positions are only held for the duration of the trading session.
 
 1. Be profitable.
 2. Continuously increase the stake size (risk per point of movement in the
-underlying) up to 100€[^stake-size].
+underlying) up to 50€[^stake-size].
 
 ## Why?
 
@@ -187,7 +187,7 @@ build up a great level of confidence and capital to swing this big.
 I would rather aim way high and only get half-way there than setting a more
 realistic 10€.
 If you don't comprehend why this is a large stake size: with a stop loss 20
-points away, one has 2.000€ at risk.
+points away, one has 1.000€ at risk.
 [^dennis]: Richard Dennis in <cite>[Market Wizards – Jack D Schwager](https://amzn.to/3VvdxCh)</cite>.
 [^honesty]: Another quote about honesty in trading I found insightful:<blockquote>
 The fruits of your success will be in direct ratio to the honesty and
