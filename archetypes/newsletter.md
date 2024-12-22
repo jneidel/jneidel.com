@@ -17,7 +17,7 @@ Hi :slightly_smiling_face:,<br>
 ## Commitments
 
 My ongoing commitments are:
-- To [become profitable at day trading](project/day-trading)
+- To [become profitable at trading](project/day-trading)
 - Focus challenge[^focus-challenge] on trading, until Dec19
 - Don't buy sweets and such, until the end of the year
 - Generate [10 ideas](newsletter/7#next-challenge) every day
