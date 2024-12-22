@@ -47,7 +47,7 @@ I will work on that in the mornings (which I have to myself.)
 For next week I will do **No Arguing**.
 
 I will not engage in argument, combatitive discussion or negotation.
-I won't fight for my viewpoint or against the somebody elses.
+I won't fight for my viewpoint or against somebody elses.
 
 The aim is to be less identified with what "I believe."
 "My opinions" are a tool of the ego to disconnect me from other people and I

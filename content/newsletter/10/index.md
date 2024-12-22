@@ -44,8 +44,8 @@ This was my _declared priority_ before, I just didn't work on it.
 
 I commit to work on a topic (a subject) for a period of time.
 The leading principle is: Stay _on-topic_ at all times.
-That means any task, project, action, media shall pertain pertain to the
-selected topic.
+That means any task, project, action, media shall pertain to the selected
+topic.
 Anything _off-topic_ is to be noted for later without receiving much
 attention.
 
