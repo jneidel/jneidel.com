@@ -18,8 +18,8 @@ Hi :slightly_smiling_face:,<br>
 
 My ongoing commitments are:
 - To [become profitable at trading](project/day-trading)
-- Focus challenge[^focus-challenge] on trading, until Dec19
-- Don't buy sweets and such, until the end of the year
+- No media challenge until Jan10
+- Focus challenge[^focus-challenge] on trading, until
 - Generate [10 ideas](newsletter/7#next-challenge) every day
   <br>Favorite from last week: <++>
 - Publishing this newsletter every Sunday ({{ sub (.File.ContentBaseName | int) 9 }}x streak:sunglasses:)
