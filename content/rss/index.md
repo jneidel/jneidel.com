@@ -20,19 +20,15 @@ right for most people.
 
 ## Option 1: Newsletter
 
-I have a weekly newsletter.
-This is the prompt for signing up with email:
-
-{{<newsletter-signup>}}
-
-As an alternative to email, you can subscribe via [rss](/newsletter/rss.xml).
+I have a [weekly newsletter](newsletter).
+You can subscribe via [rss](/newsletter/rss.xml).
 
 ## Option 2: Main feed
 
 There is a [main feed](/rss.xml), which includes all the main categories.
 A few categories are excluded to keep it focused (see list below.)
 
-## Option 3: Pick categories
+## Option 3: Individual categories
 
 You can also mix together the feeds for the individual categories you are
 interested in.

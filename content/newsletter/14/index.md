@@ -37,7 +37,7 @@ For some reason or another I would fall way behind what was planned.
 
 Before the end of the year I want to publish all the half-done articles and a
 few other ones.
-I will work on that in the mornings (which I have to myself.)
+I will work on that in the mornings (which I have for myself.)
 
 ## Challenges
 <small>Applying a specific learning or philosophy for a week ([see project](project/challenges).)</small>
@@ -50,8 +50,8 @@ I will not engage in argument, combatitive discussion or negotation.
 I won't fight for my viewpoint or against somebody elses.
 
 The aim is to be less identified with what "I believe."
-"My opinions" are a tool of the ego to disconnect me from other people and I
-want to foster that connection instead.
+"My opinions" are a tool of the ego to disconnect me from other people.
+I want to foster that connection instead.
 
 <details>
 <summary>Details</summary>

@@ -27,10 +27,10 @@ category:
   offer_name: "Offers"
   offer_description: "The services I am offering."
   newsletter_name: "Newsletters"
-  newsletter_description: "Get Weekly Insights & Updates."
+  newsletter_description: "Get weekly insights & updates."
 
 newsletter:
-  headline: "Get Weekly Insights & Updates"
+  headline: "Get weekly insights & updates"
   value_proposition: "Get a weekly peek into my life.
   Updates on the challenges I'm doing, the projects I'm working on, and
   the latest articles I released.

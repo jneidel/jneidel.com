@@ -14,31 +14,26 @@ Werde über neue Artikel benachrichtigt.
 {{</lead>}}
 
 {{<alert "book">}}
-TL;DR: Die [Newsletter](/de/newsletter/rss.xml) oder
-[Haupt](/de/rss.xml)-Feeds sind für die meisten die Richtigen.
+TL;DR: Du willst wahrscheinlich den [Newsletter](/de/newsletter/rss.xml)- oder
+[Haupt](/de/rss.xml)-Feed.
 {{</alert>}}
 
 ## Option 1: Newsletter
 
-Ich habe einen wöchentlichen Newsletter.
-Das ist das Formular zur Anmeldung per Email:
+Ich habe einen [wöchentlichen Newsletter](newsletter).
+Hier ist der dazugehörige [RSS Feed](/de/newsletter/rss.xml).
 
-{{<newsletter-signup>}}
+## Option 2: Haupt-Feed
 
-Als Alternative zur Email kannst du den Newsletter auch via
-[RSS Feed](/de/newsletter/rss.xml) bekommen.
+Es gibt einen [Haupt](/de/rss.xml)-Feed, der alle primären Kategorien
+enthält (siehe List im nächsten Abschnitt.)
 
-## Option 2: Hauptfeed
-
-Es gibt einen [Hauptfeed](/de/rss.xml), der alle primären Kategorien
-enthält.
-
-## Option 3: Nach Kategorien auswählen
+## Option 3: Individuelle Kategorien
 
 Du kannst auch individuell eine Auswahl an Kategorien zusammenstellen die
 dich interessieren.
 
-**Die Hauptkategorien:**
+**Primäre Kategorien:**
 
 - [{{<i18n "category.essay_name">}}](/de/essay/rss.xml) - {{<i18n "category.essay_description">}}
 - [{{<i18n "category.guide_name">}}](/de/guide/rss.xml) - {{<i18n "category.guide_description">}}
@@ -46,6 +41,6 @@ dich interessieren.
 - [{{<i18n "category.project_name">}}](/de/project/rss.xml) - {{<i18n "category.project_description">}}
 - [{{<i18n "category.misc_name">}}](/de/misc/rss.xml) - {{<i18n "category.misc_description">}}
 
-**Nicht Teil des Hauptfeeds:**
+**Nicht Teil des Haupt-Feeds:**
 - [{{<i18n "category.newsletter_name">}}](/de/newsletter/rss.xml) - {{<i18n "category.newsletter_description">}}
-- [{{<i18n "category.dev_name">}}](/dev/rss.xml) - {{<i18n "category.dev_description">}} (Nur in Englisch verfügbar.)
+- Nur in Englisch verfügbar: [{{<i18n "category.dev_name">}}](/dev/rss.xml) - {{<i18n "category.dev_description">}} 
