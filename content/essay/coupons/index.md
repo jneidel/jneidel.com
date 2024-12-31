@@ -27,7 +27,7 @@ So I just save a little on the side.
 
 ## Wait, where is the problem?
 
-Just the other day got a coupon for "10% of comestics and cleaning
+Just the other day got a coupon for "10% of cosmetics and cleaning
 supplies", so I stockpiled a bit.
 Only things I am actually going to use.
 My savings: 2.63€.
@@ -67,7 +67,7 @@ can't become rich.
 Only less poor.
 
 You need to create value and increase your income.
-In most cases that will be the much more effective leaver.
+In most cases that will be the much more effective lever.
 
 If we assume you aren't living lavishly, then reducing your costs by 300€
 is much harder than earning another 300€ extra.
@@ -75,7 +75,7 @@ At a certain point cutting costs will lead to (harsh) reductions in quality
 of life.
 
 Back to the coupons.
-What are the programming you on?
+What are they programming you on?
 Poor people mindset.
 
 You are posing to your brain the question:
@@ -105,6 +105,6 @@ saving with them?
 - How are coupons related to the Pareto-principle?
 - Can you find examples from your own life, where you are engaging in
 activities that on the surface look like a good deal, but that are secretly
-costing your?
+costing you?
 - Come to a decision about how you are going to approach coupons and
 similar deals in the future.
