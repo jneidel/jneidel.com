@@ -1,80 +1,107 @@
 ---
-title: "Migrating a legacy projects technical documentation to Arc42"
-description: "Creating technical documentation for a legacy project with Arc42"
-summary: ""
-tags:
-date: 2024-08-27
+title: "Migrating the technical documentation of a legacy project to Arc42"
+description: "What is arc42 and how did we use it to improve the technical documentation for our project? This is how we implemented it."
+summary: "Overhaul of our project technical documentation."
+date: 2024-12-31
 thumbnailAlt: "Blue-gray PHP Elefant (ElePHPant) surrounded by pages of documentation"
 slug: "technical-documentation-with-arc42"
-draft: true
 ---
-<!-- writingTime: 217 -->
 
-_little intro here_
+This article will give a rough overview of how I introduced structured
+technical documentation to our project as a regular developer.
+You should walk away with a good understanding of how to pitch your
+stakeholders and how to see the implementation through.
 
-## Status quo
+This is not meant as a step-by-step guide, but as a description of what we
+went through, so that it might serve as an example for you.
+It might give you a better idea of the work that would be involved to
+implement something similar in your own project.
 
-I work on an 9 year old PHP project with three smaller scrum teams on it.
-This is where we were at:
-We had some technical documentation, which was scattered around.
-It was incomplete, unstructured, not so easily unsearchable and outdated, by 8
-years in places 😆.
+## More on the project
+
+I work on a 9 year old PHP project.
+It has three smaller scrum teams on it.
+The project used to be on a fixed-price contract, but is not anymore.
+We actively work on maintenance: refactorings to increase the PHP version,
+performance improvements, increasing test coverage and much more.
+
+**Status quo**
+
+This is where we were at in terms of documentation:
+We had some technical documentation, which was scattered around in multiple
+locations (in git, confluence, meeting recordings.)
+It was incomplete, unstructured, not so easily unsearchable and outdated
+(by up-to 8 years in some places.)
 Developers rarely created new documentation.
-If they did, they would not know where to put it (they just chose a place.)
-There was no review process and little updating of existing docs.
+If they did, they would not know where to put it (they just chose what
+seemed like the right place.)
+There were no processes for reviewing new and updating existing
+documentation.
 
 ## Motivation
 
-Why did we want to invest in improving documentation?
+After that description of the status quo, it should be pretty clear why we,
+the developers, want a proper system for our documentation.
+But why should the company invest into it?
+Here are the main arguments that applied to our case.
 
-The problem descriptions above should have given you some idea to the value
-of having a structured approach to documentation.
+### ROI for the company
 
-### ROI
-
-As a consequence the company would:
-
-You save money on onboardings.
+**Save money onboarding new developers.**
+<br>
 Before: You have hours and hours of meetings, where you pay for the time of
 everybody involved.
+<br>
 After: The person being onboarded reads the technical documentation and
 gains an overview and a detailed understanding of the system.
 
-You protect yourself from catastrophic losses of business and domain
-knowledge when a key person leaves.
+**Protect yourself from a catastrophic loss of business and domain knowledge
+when a key person leaves.**
+<br>
 Any time only one person has deep knowledge of something you're at a risk of
-losing that knowledge one of many reasons: has an accident, quits, becomes
-unwilling to share it, etc.
+losing that knowledge for one of many conceivable reasons: The person has an
+accident, quits, becomes unwilling to share it, etc.
 Can you afford that loss?
 
-You save money by speeding up development time.
-In large systems or with new people there will be areas a developer is
-unfamiliar with.
-Being able to familiarize yourself quickly with the part you're supposed to
-work on and having all your questions answered that would otherwise need
-digging can save a lot of time and frustration.
-Especially as the problems become more complicated and the system grows
-larger.
+**Save money by speeding up development.**
+<br>
+In large systems or with new people there will always be areas a developer
+is unfamiliar with.
+Being able to familiarize yourself quickly with the part of the system
+you're supposed to work on and having all your questions answered, which would
+otherwise need digging, can save a lot of time and frustration.
+This become more complicated as the system grows larger.
 
-(Git, Confluence, Meeting recordings)
+## Requirements
 
-## Defining the goal
+Ok, so we want better technical documentation.
+What would it look like in a perfect world?
 
 The ideal documentation would be:
+- all in one place
 - easily searchable
-- structured and clear in what belongs where
+- structured in a way that makes sense
+- everything has a clear place (can be deducted by reason)
 - up-to-date
 - complete to the degree of detail needed
 - reviewed by the team
 - integrated into other processes
-- all in one place
 - everybody has access
 
-## Solution approach: arc42
+## arc42
+
+Part of the requirements just laid out necessitate a structure to the
+information.
+One can come up with their own, but I looked into [arc42] and was convinced
+that this would be better and quicker than rolling my own.
 
 ### What is arc42?
 
-In arc42 every piece of information belong in one of the twelve sections.
+[arc42] is a way to structure technical documentation.
+It provides you twelve logical buckets (sections) for your documentation.
+Every piece of information you have goes into one of the twelve sections.
+Thus, arc42 makes it clear where to read some information and where to add
+information.
 
 #### The sections in more details
 <details>
@@ -88,7 +115,7 @@ Anything that constraints decisions about design, implementation and
 processes.
 3. **Context and Scope**<br>
 Delimits your system from its (external) communication partners
-(neighboring systems and users). From a bussiness/domain perspective.
+(neighboring systems and users). From a business/domain perspective.
 4. **Solution Strategy**<br>
 Summary of the fundamental decisions and solution strategies that shape
 the architecture.
@@ -120,58 +147,67 @@ look like.
 
 ### Why we chose arc42
 
+Arc42 elegantly solves a part of the puzzle.
+It provides a structural foundation that is a complex as you need it to be
+and flexible enough for our customization.
+It is also not bound to any specific platform.
+
 ## Implementation
 
-The previous sections described how I thought about our requirements for
-documentation and arrived at the decision to use arc42.
-Of course my thinking at the time was not as fully realized as the above.
-The proposal grew over time, through discussion and negotiation with
-relevant stakeholders.
+Above we defined a proposal ([requirements](#requirements), [ROI](#roi-for-the-company), [some details](#arc42)).
+How did I take this proposal and made it a reality inside of the project?
 
-This next section will describe how I took this proposal and made it a
-reality inside of the project.
-It's not meant as a step-by-step guide for you to follow, but as a
-description of what we went through that might serve as an example for you.
-It might give you a better idea of the work that this project could involve.
+While this whole article is very structured and linear, the real
+implementation was messy.
+My thinking evolved over time as the proposal grew, through discussion and
+negotiation with relevant stakeholders.
+What you read is the clearest version, written with the benefit of
+hindsight.
 
 ### Talking to stakeholders
 
 The first step was to gather more information and get the buy-in from the
-stakeholders who would effected by this change.
+stakeholders, who would effected by the change.
 
 Below are the people I brought the proposal to.
 Throughout, I continuously improved the proposal, adjusted it to newly
-discovered requirements and made it more concrete.
+discovered [requirements](#requirements) and made it more concrete.
 
-- Tech Lead<br>
+- **Tech Lead**<br>
 In our 1-on-1 we discussed the feasibility (timing, scope, ROI) of the
-project and the solution itself.
-- Developers<br>
+proposal and the solution itself.
+- **Developers**<br>
 In one of our bi-weekly meetings I presented the proposal to the whole
-group, collected feedback and held votes on contentious design decisions.
-I gave them an update after I incorporated their comments and got their
-OK.
-- PM/PO/Client<br>
-With the developers behind me I brought this to my PO/PM, who welcomed the
-maintenance initiative and brought it to the client.
+group, collected feedback and held a vote on contentious design decisions.
+I incorporated their suggestions and got their OK.
+- **PM/PO** (Client stand-in)<br>
+With the developers behind me, I brought this to my PO/PM.
+They welcomed the (at this point) well thought-out maintenance initiative
+and brought it to the client for approval.
 
-After getting approval and writing the Jira tickets, it was up to the PMs to
-schedule the epic.
+After getting approval and me writing the Jira tickets, it was up to the PMs
+to schedule the epic.
 It would be a few months before I could continue.
 
 #### Agreed upon implementation
 
 We landed on:
-- arc42 as the model for the structure
+- arc42 as the structural framework
 - GitLab as the place for the documentation
 
-#### GitLab vs. Confluence
+<details>
+<summary>Finding a place for the documentation</summary>
 
-Among the developers we had a debate about the platform to use.
-Besides providing search, the individuals pros were:
+Among the developers we had a debate about where and how the documentation
+would be stored.
+The options we considered were:
+1. Confluence
+2. GitLab (in monorepo or in separate repo?)
+
+Besides providing search, the individual pros for the platforms were:
 
 **Conflunence pros:**
-- PO/QA documentation is already there. The project documentation would be
+- PO/QA documentation is already there. The projects documentation would be
 all in one place.
 - Everybody (including externals) already has access.
 - A few diagrams can be created in Confluence.
@@ -182,23 +218,29 @@ all in one place.
 adjustable.
 - Easily integrates into the existing review process.
 - Developers don't have to leave their dev environment to write
-documentation. It's not such a separate process.
-- Documentation can be submitted alongside code.
-- Written in the ubiquitous markdown format.
-- Urls are static and reliable, based on filenames not titles.
+documentation. It's not a separate process.
+- Documentation can be submitted alongside relevant code changes.
+- Written in the ubiquitous markdown format (not whatever Confluence uses.)
+- URLs are static and reliable, based on filenames not titles (Confluence
+URLs are based on the title of the page, i.e. they will change dynamically.)
 - Can be browsed locally and offline.
+
+To simplify code review we decided to include the technical documentation in
+the monorepo.
+
+</details>
 
 ### Structuring and migration
 
 This part made up the main body of work.
 Applying the structure of arc42 to our project and migrating in anything and
-everything that already exists in terms of technical documentation.
+everything that already existed in terms of technical documentation.
 
 #### Gathering existing documentation
 
 We had documentation spread around a few different places:
-- multiple sections across our Confluence
-- markdown files in the GitLab
+- multiple sections, with many pages across our Confluence
+- markdown files in the git
 - sections in the main README.md
 - onboarding videos in Sharepoint
 
@@ -207,22 +249,21 @@ Skimming the notes, I grouped them into rough buckets (e.g. architecture,
 deployment, by feature/component, etc.), while also filtering out the
 irrelevant and outdated.
 
-#### Into sections
+#### Grouping into sections
 
-Arc42 provides well-defined sections for structuring your documentation.
-See [the overview](#the-sections-in-more-details) for a list.
+[Arc42](#arc42) provides well-defined sections for structuring your documentation.
+(See [the overview](#the-sections-in-more-details) for a list.)
 Now it was the time to go through the sections one-by-one and for each:
 - write an introduction (if necessary)
 - migrate the contents of relevant notes into that section
 - gather information to complete or update parts (where necessary)
-- describe missing aspects (if too large a task, create a ticket with
-detailed expectations instead)
+- describe missing aspects (if too large a task, I created a ticket with
+detailed expectations and questions I expected to be answered)
 - have it reviewed by colleagues and revise where necessary
 
 With that the new technical documentation stood.
-But simply creating it isn't all there is to it.
 
-#### Cleanup
+#### Cleanup and post-processing
 
 The source of the migrated data should be cleaned up.
 I marked the old confluence pages as deprecated with a big notice at the top
@@ -230,62 +271,69 @@ and a link to the new documentation.
 Content deletion or moving it into a dedicated space would also be
 possibilities.
 
-While I marked pages a deprecated I found a few new ones!
-They had been created while I wrote the new structure 🙂.
-It happens.
-I let the team know to please use the newly merged structure from now on.
+I presented the technical documentation to the team and directed them toward
+creating new documentation inside of the new structure.
+Any new documentation that was created in the meantime I migrated or wrote a
+ticket for.
 
 ### Processes and future work
 
-Without integrating this new shiny documentation into our existing processes
-it would soon just become another dump.
-The [goals](#defining-the-goal) depend on some amount of continous being
-expended to keep the docs up-to-date and relevant.
+Part of the [requirements](#requirements) is to keep the docs up-to-date and
+this can only be achieved through integration into our processes.
+Without that it would soon become just another outdated dump.
 
 #### Measures we put into place
+
 - New technical documentation is to be created within the newly created
 structure.
-- New components and features need to be described to some extent.
-- Architecture descision need to be described as ADRs[^adr].
+- New components and features need to be described (to some extent.)
+- Architecture decisions need to be described as ADRs[^adr].
+- Changes to existing component need to be reflected in the existing
+documentation.
 
-These measures were described in the contribution guidelines and
+These expectations were described in the contribution guidelines and
 communicated to the developers.
-I did an explaination of ADR concept and handed each developer a recent
-decision to write a record about.
-
-#### Are we done?
-
-Everything we had was or is in the process of being migrated over into the
-structure.
-There are still some big holes we need to fill.
-Mostly components.
-I wrote detailed tickets about the most important ones during the
-structuring and we are tackeling them over time.
-
-The overhaul of the API documentation is another project.
 
 ### Concrete details
 
-Here are all the concrete implementation details collected in one place:
+The above was intentionally light on concrete, technical details of our
+implementation.
+I have them collected here in one place for those who are interested.
+
+<details>
+<summary>Show details</summary>
 
 - All files related to technical documentation live inside of the main
-GitLab mono-repo under `docs/`.
+GitLab monorepo under `docs/`.
 - As part of the main repo: Any change to the documentation follows the
 normal review process (looked into by at least two other devs.)
 - Each arc42 section is it's own markdown file.
     + `docs/1. Introduction and Goals.md`, etc.
 - `docs/README.md` contains a list of links to all sections.
-GitLab renders this list as a convenient overview when browsing the
-directory.
-- All diagrams are preferably included as [mermaid].
-source code inside of markdown in a mermaid code block.
-GitLab then renders the diagrams.
+GitLab directly renders this list as a convenient overview if you click into
+the `docs` directory on the web.
+- Diagrams are preferably included as [mermaid] source code inside of
+a `mermaid` code block, which GitLab (and GitHub) renders as an inline diagram.
 - Source code is directly linked to, instead of being verbosely quoted:
 `[Abc](../src/Abc.php)`.
+- You can make the GitLab docs searchable through a custom [bang](https://duckduckgo.com/bangs):
+In your browser settings you add it here:
+{{<figure src="./bang-setup.png" class="w-12/12" alt="Configuring a custom bang for tech documentation">}}
+The URL with %s looks something like this: `GITLAB_HOST/search?group_id=379&nav_source=navbar&project_id=236&repository_ref=docu&scope=blobs&search=+path%3Adocs+%s&search_code=true`<br><br>
+Then you can search for e.g. `!docs block`:
+{{<figure src="./bang-1.png" class="w-10/12" alt="!docs">}}
+This turns into:
+{{<figure src="./bang-2.png" class="w-10/12" alt="!docs block">}}
+It will direct you to the result in GitLab:
+{{<figure src="./bang-result.png" class="w-11/12" alt="GitLab showing results for search">}}
+
+</details>
 
 ## Conclusions
 
-
+For our project it was well worth investing in proper technical
+documentation.
+[Arc42](#arc42) was a major help in this endeavor.
 
 [mermaid]: https://mermaid.js.org
 [arc42]: https://arc42.org/overview
