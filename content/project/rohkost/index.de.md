@@ -163,3 +163,17 @@ Erst mit dem Reflektieren meiner eigenen Erfahrungen und zusammen mit dem
 theoretischen Hintergrund war es mir möglich die ausdrückliche Warnung vor
 denaturiertem wirklich Annehmen zu können.
 Siehe auch: [Instinktive Ernährung](misc/rohkost-definition#instinktive-ernährung).
+
+## Referenzen
+
+Einige Links für den Einstieg in die Rohkost:
+- [Einen Monat nur rohes Gemüse essen 🥦 Selbstexperiment](https://www.youtube.com/watch?v=Cac8dGDLHPA)
+- [Beginning a Year of Raw Foods](https://stevepavlina.com/blog/2021/01/beginning-a-year-of-raw-foods/){{<en>}}
+- [Erste Schritte für Anfänger](https://www.rohkostwiki.de/wiki/Erste_Schritte_f%C3%BCr_Anf%C3%A4nger)
+- [Vom Schüler zum Meister der Rohkost](https://www.rohkostwiki.de/wiki/Vom_Sch%C3%BCler_zum_Meister_der_Rohkost)
+- [Die ersten Schritte zur Wiederentdeckung Ihres Instinktes](https://www.rohkostwiki.de/wiki/Die_ersten_Schritte_zur_Wiederentdeckung_Ihres_Instinktes)
+
+Wenn man weiter gehen möchte:
+- [<cite>The Sunfood Diet Success System - David Wolfe</cite>](https://amzn.to/426ejtz){{<en>}}
+- [Rohkost Wiki](https://www.rohkostwiki.de/wiki/Hauptseite) erkunden
+- <cite>Menschennahrung - Arjuna</cite>
