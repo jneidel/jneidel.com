@@ -37,7 +37,7 @@ more done each day, like 20-30% more action.<br><br>
 My mind is so much calmer and clearer. It’s way easier to focus and to make aligned decisions.
 I experience less internal friction when making decisions, especially less doubt.[^pal]
 - langfristige gesundheitliche Vorteile<br>
-    - erhöhte Aufnahme an Vitalstoffen durch größeren Anteil an [unverarbeiteten Lebensmitteln](misc/rohkost-definition#unverarbeitete-lebensmittel)
+    - erhöhte Aufnahme an Vitalstoffen durch größeren Anteil an [unverarbeiteten Lebensmitteln](misc/rohkost-definition#verarbeitungsgrad)
     - Übereinstimmung mit [genetischer Anpassung](misc/rohkost-definition#genetische-anpassung), sprich angepasste (=ideale) Ernährung
     - bessere Immunabwehr durch Abbau von [Immuntoleranzen](https://www.rohkostwiki.de/wiki/Immuntoleranz_und_Toleranzabbruch)
 - mehr Präsenz<br>
@@ -51,12 +51,14 @@ out swimmingly.[^pal]
 - Erweiterung meiner Komfortzone
     - neue, unvertraute und teils ekelige[^ekel] Lebensmittel kennen lernen
     - tiefere Auseinandersetzung mit dem was ich zu mir nehme
-    - den eigenen [Ernährungsinstinkt](misc/rohkost-definition#instinktive-ernährung) kennen lernen
+    - den eigenen Ernährungsinstinkt kennen lernen
+    <!-- - den eigenen [Ernährungsinstinkt](misc/rohkost-definition#instinktive-ernährung) kennen lernen -->
     - damit umzugehen, dass diese Präferenz sehr weit außerhalb
     gesellschaftlicher Normen liegt
 
 [^pal]: [Beginning a Year of Raw Foods](https://stevepavlina.com/blog/2021/01/beginning-a-year-of-raw-foods/)
-[^himmlisch]: Bei [instinktiver Rohkost](misc/rohkost-definition#instinktive-ernährung) isst das wofür der Körper Bedarf hat.
+<!-- [^himmlisch]: Bei [instinktiver Rohkost](misc/rohkost-definition#instinktive-ernährung) isst das wofür der Körper Bedarf hat. -->
+[^himmlisch]: Bei instinktiver Rohkost isst das wofür der Körper Bedarf hat.
 Das sind auch die Dinge die einem am besten schmecken werden.
 Außerdem gibt es sogenannte [himmlische Phasen](https://www.rohkostwiki.de/wiki/Die_himmlische_Phase).
 [^ekel]: Ekel ist ein natürlicher Teil der [Ernährungsintuition](https://www.rohkostwiki.de/wiki/Gespr%C3%A4che_%C3%BCber_die_Ursachen_von_Ausnahmen_und_R%C3%BCckf%C3%A4llen#Unge%C3%BCbte_Ern%C3%A4hrungsintuition) den
@@ -130,7 +132,8 @@ auch die Mühelosigkeit mit der das einherging waren mir aber neu.
 
 ### Physalis Binge
 
-Teil der [instinktiven Rohkost](misc/rohkost-definition#instinktive-ernährung)
+<!-- Teil der [instinktiven Rohkost](misc/rohkost-definition#instinktive-ernährung) -->
+Teil der instinktiven Rohkost
 ist es so viel von einem Lebensmittel zu essen bis der eigene Bedarf
 gestillt ist.
 Das erste Mal, dass ich das beim mir so stark ausgeprägt wahrgenommen habe
@@ -146,7 +149,7 @@ geschmeckt.
 
 ### Alles voll denaturiert
 
-Denaturiert heißt das Lebensmittel wurde in [irgendeiner Form](misc/rohkost-definition#unverarbeitete-lebensmittel) verarbeitet.
+Denaturiert heißt das Lebensmittel wurde in [irgendeiner Form](misc/rohkost-definition#verarbeitungsgrad) verarbeitet.
 
 Sehr vieles von dem was ich zum Start dieses Experiments auf Vorrat hatte
 war denaturiert und damit nicht für die Rohkost geeignet:
@@ -162,7 +165,7 @@ Einfach um anzufangen und meine eigenen Erfahrungen damit zu machen.
 Erst mit dem Reflektieren meiner eigenen Erfahrungen und zusammen mit dem
 theoretischen Hintergrund war es mir möglich die ausdrückliche Warnung vor
 denaturiertem wirklich Annehmen zu können.
-Siehe auch: [Instinktive Ernährung](misc/rohkost-definition#instinktive-ernährung).
+<!-- Siehe auch: [Instinktive Ernährung](misc/rohkost-definition#instinktive-ernährung). -->
 
 ## Referenzen
 
