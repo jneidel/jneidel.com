@@ -34,6 +34,8 @@ sprechen.
 Das Zertifikant, was du bekommst, stammt auch von Richard Bandler's Society
 of NLP.
 
+{{<figure src="./abschlussfoto.de.jpg" class="w-12/12" alt="Unsere Gruppe mit den Coaches" caption="Abschlussfoto unserer Grupper mit den Coaches">}}
+
 ## Aufbau
 
 Wie ist die Ausbildung aufgebaut und womit kann ich rechnen?
@@ -276,6 +278,8 @@ hilfreich.
 
 Meine Frau meint sogar, ich sei romantischer geworden
 :slightly_smiling_face:
+
+{{<figure src="./me-with-certificate.de.jpg" class="w-11/12" alt="Ich mit meinem Zertifikat" caption="Ich mit meinem Zertifikat von Richard Bandler">}}
 
 ## Kosten
 {{<katex>}}
