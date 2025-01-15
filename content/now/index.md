@@ -62,22 +62,27 @@ to warm up my body (see: [challenge](newsletter/5#next-challenge) & [conclusions
 {{</center>}}
 <!-- Additional Pics: downward dog form, me swinging kettlebell -->
 
-**I prepare fresh meals daily.**
+**I eat raw.**
 
-Theses are some principles I eat by:
-- prefer unprocessed :left_right_arrow: avoid sugar and bad seed oils
-- prefer uncooked
-- aim for: min. 50% of a plates calories come from vegetables :arrow_right:
-salad with every meal
-- savory breakfast
-- order matters[^right-order]
-- keep blood sugar level in mind
-- 16-8 [intermittent fasting](review/intermittent-fasting)
+It is an ongoing challenge of mine.
+My motivations and details of the diet are described in the [project article](/de/project/rohkost/){{<de>}}.
 
-{{<center>}}
-    {{<figure src="./salad.jpg" class="w-12/12" alt="Big mixed salad">}}
-    {{<figure src="./groundnut-stew.jpg" class="w-12/12" alt="Groundnut Stew in Wok">}}
-{{</center>}}
+<!-- **I prepare fresh meals daily.** -->
+
+<!-- Theses are some principles I eat by: -->
+<!-- - prefer unprocessed :left_right_arrow: avoid sugar and bad seed oils -->
+<!-- - prefer uncooked -->
+<!-- - aim for: min. 50% of a plates calories come from vegetables :arrow_right: -->
+<!-- salad with every meal -->
+<!-- - savory breakfast -->
+<!-- - order matters[^right-order] -->
+<!-- - keep blood sugar level in mind -->
+<!-- - 16-8 [intermittent fasting](review/intermittent-fasting) -->
+<!---->
+<!-- {{<center>}} -->
+<!--     {{<figure src="./salad.jpg" class="w-12/12" alt="Big mixed salad">}} -->
+<!--     {{<figure src="./groundnut-stew.jpg" class="w-12/12" alt="Groundnut Stew in Wok">}} -->
+<!-- {{</center>}} -->
 
 <!--TODO: uncooked ref Brucker-->
 [^right-order]: The optimal order to consistent low blood sugar is: fiber, protein, carbs.
@@ -143,26 +148,26 @@ It's great for a quick overview and subsequent analysis.
 That is just an unavoidable outcome of transacting with cash a lot.
 [^ledger]: I use [hledger](https://hledger.org/) as my accounting tool.
 
-**I contribute to OpenStreetMap**
-
-OSM is an open-sourced map of the world.
-I add missing paths, amenities, details and fix speed limits.
-
-{{<center>}}
-    {{<figure src="./street-complete.jpg" class="w-11/12" alt="Street Complete with a few roads" caption="Mapping speed limits">}}
-    {{<figure src="./vespucci.jpg" class="w-11/12" alt="View of a in Vespucci" caption="Mapping a playground">}}
-{{</center>}}
-
-**I track my time.**
-
-Every minute is accounted for.
-This makes me more conscious of what I am doing and a few other benefits.
-A guide (why and how) will follow.
-
-{{<center>}}
-    {{<figure src="./time-tracking.jpg" class="w-11/12" alt="Simple Time Tracker overview screen">}}
-    {{<figure src="./exercise-over-time.jpg" class="w-11/12" alt="Time track analysis of exercise category">}}
-{{</center>}}
+<!-- **I contribute to OpenStreetMap** -->
+<!---->
+<!-- OSM is an open-sourced map of the world. -->
+<!-- I add missing paths, amenities, details and fix speed limits. -->
+<!---->
+<!-- {{<center>}} -->
+<!--     {{<figure src="./street-complete.jpg" class="w-11/12" alt="Street Complete with a few roads" caption="Mapping speed limits">}} -->
+<!--     {{<figure src="./vespucci.jpg" class="w-11/12" alt="View of a in Vespucci" caption="Mapping a playground">}} -->
+<!-- {{</center>}} -->
+<!---->
+<!-- **I track my time.** -->
+<!---->
+<!-- Every minute is accounted for. -->
+<!-- This makes me more conscious of what I am doing and a few other benefits. -->
+<!-- A guide (why and how) will follow. -->
+<!---->
+<!-- {{<center>}} -->
+<!--     {{<figure src="./time-tracking.jpg" class="w-11/12" alt="Simple Time Tracker overview screen">}} -->
+<!--     {{<figure src="./exercise-over-time.jpg" class="w-11/12" alt="Time track analysis of exercise category">}} -->
+<!-- {{</center>}} -->
 
 **I spend time with my wife, friends and family.**
 
@@ -274,9 +279,7 @@ little helper functions[^apps].
 **Becoming profitable in the stock market.**
 
 To achieve consistent returns, with the money I've put aside.
-See the relevant projects:
-- [day trading](project/day-trading)
-- developing an [options strategy](/de/project/börsenstrategie/){{<de>}}
+See the relevant [project definition](project/day-trading).
 
 <!-- Pic: tws -->
 
@@ -313,10 +316,9 @@ I purposefully do not do things that would have a strong negative impact on
 my life.
 
 - alcohol
-- video games
+- entertainment: video games, TV/YouTube
 - social media
 - the news
-- TV/YouTube
 - worrying
 - complaining
 - negative discouraging people
