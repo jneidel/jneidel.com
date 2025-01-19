@@ -280,12 +280,13 @@ of the Panorama tracks, then you can think about an upgrade.
 
 **Don't think about upgrading until you have intensely tested the Panorama.**
 
-Here are all the [upgrade options](https://www.neurostreams.de/produkte/#aff=jneidel).
-I went for the Kompendium bundle, which provides all the classics that I
-mentioned in this post.
+In [my overview](misc/neurostreams-quick-reference#buying-guide) you can
+find what track are included in what bundles.
+I bought the now retired Kompendium bundle (today: Panorama + Speicals + Klassiker.)
+It provides all tracks I mentioned in this post.
 For me it was ca. 110€, because I bought it through the Grand Slam (a bundle
 with some other products.)
-Otherwise it can be up-to 200€.
+Otherwise it will cost you 225€.
 But, you can also buy tracks individually and get them accredited if you
 decide you want a bundle later on.
 

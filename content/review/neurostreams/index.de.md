@@ -291,17 +291,17 @@ Wenn dir ein spezieller Titel oder etwas Abwechslung fehlt dann kannst du
 **Ein Upgrade ist aber erst relevant nachdem du das Panorama intensiv
 getestet hast.**
 
-Hier sind alle [Upgrade Optionen](https://www.neurostreams.de/produkte/#aff=jneidel).
-Ich habe mir das Kompendium zugelegt.
-Das enthält alle Klassiker und Titel die ich in diesem Artikel erwähnt
-habe.
+In [meiner Übersicht](misc/neurostreams-quick-reference#kaufübersicht)
+findest heraus in welchen Paketen welche Titel enthalten sind.
+Ich habe mir das damalige Kompendium zugelegt (heute: Panorama + Specials + Klassiker.)
+Darin enthalten sind Titel alle ich in diesem Artikel erwähnt habe.
 Mich hat das Paket ca. 110€ gekostet, weil ich es durch den Grand Slam (ein
 Bündel mit anderen von Tims Produkten) zusammengekauft habe.
-Sonst kostet es bis zu 200€.
+Sonst kostet es 225€.
 Es ist aber auch möglich Titel einzeln zu kaufen und diese dann später
 gutgeschrieben zu kommen wenn du doch ein größeres Paket möchtest.
 
-Im Labor finden sich noch experimentellere Titel die für mich nicht so
+Im Labor finden sich noch experimentellere Titel, welche für mich nicht so
 interessant waren.
 
 **Gratis ausprobieren**

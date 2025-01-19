@@ -127,52 +127,52 @@ Just search for the tracks you want to get.
 It is meant as a companion to the [product overview page](https://www.neurostreams.de/produkte/#aff=jneidel),
 which does not list individual tracks.
 
-| Track | Individual | [Panorama](https://www.neurostreams.de/portfolio/panorama/#aff=jneidel) | [Kompendium](https://www.neurostreams.de/portfolio/kompendium/#aff=jneidel) | [Labor](https://www.neurostreams.de/portfolio/labor/#aff=jneidel) | [Alles](https://www.neurostreams.de/produkte/alles-dvd/#aff=jneidel) |
-|-|:-:|:-:|:-:|:-:|:-:|
-| Flow meets genius (Flow trifft Genie) | [Yes](https://www.neurostreams.de/portfolio/im-flow/#aff=jneidel) | ✅ | ✅ || ✅ |
-| Mini Alpha Breaks | [Yes](https://www.neurostreams.de/portfolio/alpha-zustand-reset/#aff=jneidel) | ✅ ||✅ | ✅ |
-| Gaia Club Radio | [Yes](https://www.neurostreams.de/portfolio/schumann-frequenz/#aff=jneidel) || ✅ || ✅ |
-| Wellness Walk | [Yes](https://www.neurostreams.de/portfolio/stress-abbauen/#aff=jneidel) | ✅ | ✅ || ✅ |
-| Delta fresh cell treatment<br>(Delta Frischzellenkur) | [Yes](https://www.neurostreams.de/portfolio/sich-erholen/#aff=jneidel) | ✅ | ✅ || ✅ |
-| Planet Relax | [Yes](https://www.neurostreams.de/portfolio/tiefe-entspannung-erreichen/#aff=jneidel) | ([Free](review/neurostreams/#costs)) || ✅ | ✅ |
-| Meeting place Garden of Eden<br>(Treffpunkt Garten Eden) | [Yes](https://www.neurostreams.de/portfolio/alpha-zustand-erreichen/#aff=jneidel) | ✅ || ✅ | ✅ |
-| The inner child (Das innere Kind) | [Yes](https://www.neurostreams.de/portfolio/das-innere-kind/#aff=jneidel) | ✅ || ✅ | ✅ |
-| Co-Creation Galaxy | [Yes](https://www.neurostreams.de/portfolio/autosuggestion/#aff=jneidel) || ✅ || ✅ |
-| Looking to the future<br>(Die Zukunft schauen) | [Yes](https://www.neurostreams.de/portfolio/visualisieren-manifestieren/#aff=jneidel) || ✅ || ✅ |
-| Blood presure lock opener<br>(Blutdruck-Schleusenöffner) | [Yes](https://www.neurostreams.de/produkte/blutdruck-senken-ohne-medikamente/#aff=jneidel) | ✅ || ✅ | ✅ |
+| Track | Individual | [Panorama](https://www.neurostreams.de/portfolio/panorama/#aff=jneidel) | [Klassiker](https://www.digistore24.com/product/588998?aff=jneidel) | [Specials](https://www.digistore24.com/product/588981?aff=jneidel) | [Labor](https://www.neurostreams.de/portfolio/labor/#aff=jneidel) | [Alles](https://www.neurostreams.de/produkte/neurostreams-alles/#aff=jneidel) |
+|-|:-:|:-:|:-:|:-:|:-:|:-:|
+| Flow meets genius (Flow trifft Genie) | [Yes](https://www.neurostreams.de/portfolio/im-flow/#aff=jneidel) | ✅ | ✅ ||| ✅ |
+| Mini Alpha Breaks | [Yes](https://www.neurostreams.de/portfolio/alpha-zustand-reset/#aff=jneidel) | ✅ ||| ✅ | ✅ |
+| Gaia Club Radio | [Yes](https://www.neurostreams.de/portfolio/schumann-frequenz/#aff=jneidel) || ✅ ||| ✅ |
+| Wellness Walk | [Yes](https://www.neurostreams.de/portfolio/stress-abbauen/#aff=jneidel) | ✅ | ✅ ||| ✅ |
+| Delta fresh cell treatment<br>(Delta Frischzellenkur) | [Yes](https://www.neurostreams.de/portfolio/sich-erholen/#aff=jneidel) | ✅ | ✅ ||| ✅ |
+| Planet Relax | [Yes](https://www.neurostreams.de/portfolio/tiefe-entspannung-erreichen/#aff=jneidel) | ([Free](review/neurostreams/#costs)) ||| ✅ | ✅ |
+| Meeting place Garden of Eden<br>(Treffpunkt Garten Eden) | [Yes](https://www.neurostreams.de/portfolio/alpha-zustand-erreichen/#aff=jneidel) | ✅ ||| ✅ | ✅ |
+| The inner child (Das innere Kind) | [Yes](https://www.neurostreams.de/portfolio/das-innere-kind/#aff=jneidel) | ✅ ||| ✅ | ✅ |
+| Co-Creation Galaxy | [Yes](https://www.neurostreams.de/portfolio/autosuggestion/#aff=jneidel) || ✅ ||| ✅ |
+| Looking to the future<br>(Die Zukunft schauen) | [Yes](https://www.neurostreams.de/portfolio/visualisieren-manifestieren/#aff=jneidel) || ✅ ||| ✅ |
+| Blood presure lock opener<br>(Blutdruck-Schleusenöffner) | [Yes](https://www.neurostreams.de/produkte/blutdruck-senken-ohne-medikamente/#aff=jneidel) | ✅ ||| ✅ | ✅ |
 
 **ZenBox**
 
-| Track | Individual | [Panorama](https://www.neurostreams.de/portfolio/panorama/#aff=jneidel) | [**ZenBox**](https://www.neurostreams.de/portfolio/zenbox/#aff=jneidel) | [Kompendium](https://www.neurostreams.de/portfolio/kompendium/#aff=jneidel) | [Labor](https://www.neurostreams.de/portfolio/labor/#aff=jneidel) | [Alles](https://www.neurostreams.de/produkte/alles-dvd/#aff=jneidel) |
-|-|:-:|:-:|:-:|:-:|:-:|:-:|
-| DNA Talk | [Yes](https://www.neurostreams.de/portfolio/meditieren/#aff=jneidel) | ✅ | ✅ | ✅ || ✅ |
-| Zen Quasar ||| ✅ | ✅ || ✅ |
-| Kyoto Dimension ||| ✅ | ✅ || ✅ |
-| Silver thread (Silberfaden) ||| ✅ | ✅ || ✅ |
+| Track | Individual | [Panorama](https://www.neurostreams.de/portfolio/panorama/#aff=jneidel) | [**ZenBox**](https://www.neurostreams.de/portfolio/zenbox/#aff=jneidel) | [Klassiker](https://www.digistore24.com/product/588998?aff=jneidel) | [Specials](https://www.digistore24.com/product/588981?aff=jneidel) | [Labor](https://www.neurostreams.de/portfolio/labor/#aff=jneidel) | [Alles](https://www.neurostreams.de/produkte/neurostreams-alles/#aff=jneidel) |
+|-|:-:|:-:|:-:|:-:|:-:|:-:|:-:|
+| DNA Talk | [Yes](https://www.neurostreams.de/portfolio/meditieren/#aff=jneidel) | ✅ | ✅ | ✅ | ✅ || ✅ |
+| Zen Quasar ||| ✅ || ✅ || ✅ |
+| Kyoto Dimension ||| ✅ || ✅ || ✅ |
+| Silver thread (Silberfaden) ||| ✅ || ✅ || ✅ |
 
 **Megabrain Suite**
 
-| Track | [Panorama](https://www.neurostreams.de/portfolio/panorama/#aff=jneidel) | [**Megabrain Suite**](https://www.neurostreams.de/portfolio/megabrain-suite/#aff=jneidel) | [Kompendium](https://www.neurostreams.de/portfolio/kompendium/#aff=jneidel) | [Labor](https://www.neurostreams.de/portfolio/labor/#aff=jneidel) | [Alles](https://www.neurostreams.de/produkte/alles-dvd/#aff=jneidel) |
-|-|:-:|:-:|:-:|:-:|:-:|
-| IQ 7000 | ✅ | ✅ | ✅ || ✅ |
-| Hyperbrainpower || ✅ | ✅ || ✅ |
-| Brainstorms || ✅ | ✅ || ✅ |
-| Cognition Ammunition<br>(Kognition Munition) || ✅ | ✅ || ✅ |
+| Track | [Panorama](https://www.neurostreams.de/portfolio/panorama/#aff=jneidel) | [**Megabrain Suite**](https://www.neurostreams.de/portfolio/megabrain-suite/#aff=jneidel) | [Klassiker](https://www.digistore24.com/product/588998?aff=jneidel) | [Specials](https://www.digistore24.com/product/588981?aff=jneidel) |  [Labor](https://www.neurostreams.de/portfolio/labor/#aff=jneidel) | [Alles](https://www.neurostreams.de/produkte/neurostreams-alles/#aff=jneidel) |
+|-|:-:|:-:|:-:|:-:|:-:|:-:|
+| IQ 7000 | ✅ | ✅ || ✅ || ✅ |
+| Hyperbrainpower || ✅ || ✅ || ✅ |
+| Brainstorms || ✅ || ✅ || ✅ |
+| Cognition Ammunition<br>(Kognition Munition) || ✅ || ✅ || ✅ |
 
 **Antriebswellen** (Waves that drive you forward)
 
-| Track | [Panorama](https://www.neurostreams.de/portfolio/panorama/#aff=jneidel) | [**Antriebswellen**](https://www.neurostreams.de/portfolio/antriebswellen/#aff=jneidel) | [Kompendium](https://www.neurostreams.de/portfolio/kompendium/#aff=jneidel) | [Labor](https://www.neurostreams.de/portfolio/labor/#aff=jneidel) | [Alles](https://www.neurostreams.de/produkte/alles-dvd/#aff=jneidel) |
-|-|:-:|:-:|:-:|:-:|:-:|
-| Sturm und Drang || ✅ | ✅ || ✅ |
-| Pure liveliness<br>(Pure Lebensfreude) || ✅ | ✅ || ✅ |
-| Early riser reward<br>(Frühaufsteherbelohung) || ✅ | ✅ || ✅ |
-| Gamma Hammer | ✅ | ✅ | ✅ || ✅ |
+| Track | [Panorama](https://www.neurostreams.de/portfolio/panorama/#aff=jneidel) | [**Antriebswellen**](https://www.neurostreams.de/portfolio/antriebswellen/#aff=jneidel) | [Klassiker](https://www.digistore24.com/product/588998?aff=jneidel) | [Specials](https://www.digistore24.com/product/588981?aff=jneidel) | [Labor](https://www.neurostreams.de/portfolio/labor/#aff=jneidel) | [Alles](https://www.neurostreams.de/produkte/neurostreams-alles/#aff=jneidel) |
+|-|:-:|:-:|:-:|:-:|:-:|:-:|
+| Sturm und Drang || ✅ || ✅ || ✅ |
+| Pure liveliness<br>(Pure Lebensfreude) || ✅ || ✅ || ✅ |
+| Early riser reward<br>(Frühaufsteherbelohung) || ✅ || ✅ || ✅ |
+| Gamma Hammer | ✅ | ✅ || ✅ || ✅ |
 
 **Schlafgold** (Sleeping gold)
 
-| Track | [Panorama](https://www.neurostreams.de/portfolio/panorama/#aff=jneidel) | [**Schlafgold**](https://www.neurostreams.de/portfolio/schlafhilfe/#aff=jneidel) | [Kompendium](https://www.neurostreams.de/portfolio/kompendium/#aff=jneidel) | [Labor](https://www.neurostreams.de/portfolio/labor/#aff=jneidel) | [Alles](https://www.neurostreams.de/produkte/alles-dvd/#aff=jneidel) |
-|-|:-:|:-:|:-:|:-:|:-:|
-| The rest is silence<br>(Der Rest ist Schweigen) | ✅ | ✅ | ✅ || ✅ |
-| Sleeping aids<br>(Einschlaf-Hilfen) || ✅ | ✅ || ✅ |
-| Sleep forcing<br>(Schlaf-Erzwingung) || ✅ | ✅ || ✅ |
-| Night sleep training<br>(Nachschlaf-Training) || ✅ | ✅ || ✅ |
+| Track | [Panorama](https://www.neurostreams.de/portfolio/panorama/#aff=jneidel) | [**Schlafgold**](https://www.neurostreams.de/portfolio/schlafhilfe/#aff=jneidel) | [Klassiker](https://www.digistore24.com/product/588998?aff=jneidel) | [Specials](https://www.digistore24.com/product/588981?aff=jneidel) | [Labor](https://www.neurostreams.de/portfolio/labor/#aff=jneidel) | [Alles](https://www.neurostreams.de/produkte/neurostreams-alles/#aff=jneidel) |
+|-|:-:|:-:|:-:|:-:|:-:|:-:|
+| The rest is silence<br>(Der Rest ist Schweigen) | ✅ | ✅ || ✅ || ✅ |
+| Sleeping aids<br>(Einschlaf-Hilfen) || ✅ || ✅ || ✅ |
+| Sleep forcing<br>(Schlaf-Erzwingung) || ✅ || ✅ || ✅ |
+| Night sleep training<br>(Nachschlaf-Training) || ✅ || ✅ || ✅ |
