@@ -23,6 +23,7 @@ My ongoing commitments are:
 - Generate [10 ideas](newsletter/7#next-challenge) every day
   <br>Favorite from last week: <++>
 - Publishing this newsletter every Sunday ({{ sub (.File.ContentBaseName | int) 9 }}x streak:sunglasses:)
+- [Read one book at a time](newsletter/one-book#next-one) until Mar19
 
 ## What I'm working on
 <small>For context, see [/now](now#projects).</small>
@@ -59,5 +60,7 @@ Jonathan
 <br>
 
 PS: Please [let me know](mailto:newsletter-feedback@jneidel.com) if you have any comments, feedback or criticism.
+
+<sub>You can sign up for this newsletter [here](newsletter), if you aren't already.</sub>
 
 [^focus-challenge]: {{<glossary/focus-challenge>}}

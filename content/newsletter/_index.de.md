@@ -10,9 +10,14 @@ cascade:
 ---
 
 Aktuell verzichte ich darauf den Newsletter zu Übersetzen.
-Mit einer Anmeldung bekommst du die englische Version, bis die deutsche
-wieder verfügbar ist.
-Wechsle einfach oben rechts die Sprache zu Englisch, um die englischen
-Ausgaben zu sehen.
+Du findest letzten Ausgaben in der [englischen Version dieser Website](https://www.jneidel.com/newsletter/).
+(Oben rechts kannst du die Sprache zu Englisch und zurück zu Deutsch
+wecheln..)
 
 {{<newsletter-signup>}}
+
+Mit der Anmeldung zum Newsletter bekommst du aktuell noch die englische
+Version.
+Sollte ich wieder mit dem Übersetzen anfangen bekommst du automatisch die
+deutsche Version.
+
