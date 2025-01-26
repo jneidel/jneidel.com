@@ -8,14 +8,12 @@ thumbnailAlt: "Grobkörniges Salz zwischen anderen Gewürzen"
 ---
 
 - Kombinationsgruppe 1: Anorganisch
-<details>
-<summary>Preise</summary>
-
+{{<details summary="Preise">}}
 Steinsalz:
 - 4.19€/kg bei [METRO](https://www.metro.de/marktplatz/product/9d6e363d-a8c5-4984-ba4f-54cb41e745b3)
 - 5.90€/kg bei [Fruchtbote](https://fruchtbote.com/shop/salz-himalaya-rosa/)
 - 8.50€/kg bei [Amazon](https://amzn.to/4a3ECTg)
-</details>
+{{</details>}}
 
 ## Meersalz vs. Steinsalz
 

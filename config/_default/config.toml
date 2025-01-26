@@ -6,8 +6,10 @@ theme = "congo"
 defaultContentLanguage = "en"
 
 enableRobotsTXT = true
-paginate = 100
 summaryLength = 0
+
+[pagination]
+  pagerSize = 100
 
 [outputs]
   home = ["HTML", "RSS", "JSON"]
