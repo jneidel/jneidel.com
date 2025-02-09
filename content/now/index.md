@@ -334,4 +334,4 @@ my life.
 [now-page]: https://nownownow.com/about
 [ee]: https://www.openstreetmap.org/relation/1322952
 [The Power of Now]: https://amzn.to/4fWh9pA
-[latest edition of my newsletter]: newsletter/20#what-im-working-on
+[latest edition of my newsletter]: newsletter/21#what-im-working-on

@@ -19,7 +19,7 @@ Hi :slightly_smiling_face:,<br>
 My ongoing commitments are:
 - Focus challenge[^focus-challenge] on trading, until
 - To [become profitable at trading](project/day-trading)
-- [Eat raw](/de/project/rohkost){{<de>}} at least until Mar01
+- [Eat raw](/de/project/rohkost){{<de>}} until Mar01
 - [Read one book at a time](newsletter/18#next-one) until Mar19
 - Generate [10 ideas](newsletter/7#next-challenge) every day
   <br>Favorite from last week: <++>
