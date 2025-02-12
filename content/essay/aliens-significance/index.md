@@ -51,7 +51,13 @@ A [primer](https://www.youtube.com/watch?v=L9SJUowifik).
 His work [<cite>Abductions</cite>](https://amzn.to/40F2YQ1) details the raw experiences of Abductees.
 In [<cite>Passport to the Cosmos</cite>](https://amzn.to/3Chw9PS) he describes the themes that continously come up in abductions.
 
-The study of UFOs is not of interest to me.
-It lacks the transformative potential for the individual and is dominated by
-the distracting narrative that "the goverment is lying to us."
-If you want to go there, I'd start with the documentary [<cite>The Phenomenon</cite>](https://www.imdb.com/title/tt13095604).
+There is also UFOlogy, the study of the UFO Phenomenon.
+In comparison I see these insights to be gained:
+- **UFOlogy**: _they_ are here
+- **Alien abductions**: _they_ are here and this is what _they_ want
+
+UFOlogy lacks the transformative potential for the individual and is
+dominated by the distracting narrative that "the goverment is lying to us."
+What it is good for, is to give you some evidence to the point that "_they_
+are here."
+Start with the documentary [<cite>The Phenomenon</cite>](https://www.imdb.com/title/tt13095604).
