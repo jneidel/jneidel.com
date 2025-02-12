@@ -1,6 +1,6 @@
 ---
-title: "SUN Minimeal: Was verbirgt sich hinter dem Mahlzeitersatz?"
-description: "Ehrlicher Erfahrungsbericht zu dem Mahlzeit Ersatz. Genaue Kostenrechung und Erfahrungen mit der Firma dahinter."
+title: "SUN Minimeal: Kritik am Mahlzeitersatz"
+description: "Ehrlicher Erfahrungsbericht zu dem Mahlzeitersatz. Kritik, Kostenrechung und wie wir das Produkt verwenden."
 summary: "Ein toller Snack."
 tags:
     - recommended
@@ -8,7 +8,7 @@ tags:
     - food
 date: 2024-05-30
 thumbnailAlt: "Astronautin die in ein SUN Minimeal beißt"
-writingTime: 202
+writingTime: 262
 ---
 
 ## Was ist das Minimeal?
@@ -16,39 +16,38 @@ writingTime: 202
 Das [SUN Minimeal](https://minimeal.com/share/jneidel) ist ein vollwertiger und nährstoffreicher Snack.
 Es erfüllt die strikten EU-Voraussetzungen zum Mahlzeitersatz, da es alle
 notwendigen Nährstoffe in mehr als ausreichender Menge enthält.
-In der EU ist das ein geschützer Begriff, so darf sich nicht alles nennen.
-So erfüllt Y-Food diese stregen Kriterien zum Beispiel nicht.
-
-## Wie benutzen wir es?
-
-1. Als schnelle Ergänzung zu einer Mahlzeit, wenn uns die Zeit oder Lust
-   fehlt etwas richtiges zuzubereiten.
-2. Als Mahlzeit für unterwegs.
-3. Um etwas dabei zu haben falls man hungrig wird.
-
-In beiden Anwendungsfällen ist es sehr hilfreich.
-Es ersetzt perfekt das Herstellen einer richtigen Mahlzeit in Situation wo
-dies erschwert ist.
-
-Für alle diese Anwendungsfälle habe wir nichts anderes gefunden was gesund
-ist und satt macht, keine 3€ kostet und keinen Zucker hat.
-
-Es ersetzt für uns keine Snacks oder Fast Food weil das nicht unser Problem
-war. Dafür kann es aber effektiv als Ersatz dienen.
-
-Da es alle nötigen Nährstoff enthält ist auch ein leichter Weg um eine
-bessere Nährstoffbalance zu sorgen.
+In der EU ist "Mahlzeitersatz" ein geschützter Begriff und so darf sich nicht
+alles nennen.
+Y-Food etwa, erfüllt diese strengen Kriterien nicht.
 
 Der Geschmack ist dominiert von Sonnenblumenkernen und ganz angenehm.
 
-Alles in allem ist es ein Produkt, welches Teil unseres Alltags geworden ist
-weil es immer und immer wieder seinen Nutzen bewiesen hat.
+## Wofür ist es gut
+
+Wir verwenden es in diesen Szenarien:
+
+**Als Mahlzeit für unterwegs.**
+
+Minimeals nehmen so gut wie keinen Platz weg.
+Der Verzehr ist unkompliziert und man braucht nur genug Wasser.
+
+**Als schnelle Mahlzeit, wenn die Zeit oder Lust fehlt etwas richtiges zuzubereiten.**
+
+Wenn man Hunger hat, aber seine Tätigkeit nicht unterbrechen kann oder will,
+dann können Minimeals Abhilfe schaffen.
+
+**Bei sensiblem Magen.**
+
+Nach starker Belastung durch eine Antibiotika-Kur waren Minimeals eines der
+am besten verträglichsten Lebensmittel.
 
 ## Kosten
 {{<katex>}}
 
-Wenn alles verrechnet wird liegen die Kosten bei **1,51€ pro Minimeal** (60,51€ pro Packung.)
-Das ist voll Ok, weil du damit auch Lebensmittel ersetzt und weniger einkaufst.
+Die Kosten liegen bei **1,51€ pro Minimeal** (60,51€ pro Packung), wenn
+alles verrechnet wird.
+Minimeals ersetzen Lebensmittel und man wird an anderer Stelle weniger
+einkaufen.
 
 <details>
 <summary>Komplette Kostenrechnung</summary>
@@ -61,106 +60,122 @@ Das ist voll Ok, weil du damit auch Lebensmittel ersetzt und weniger einkaufst.
 Stand: 29. September 2024
 </details>
 
-Geld sparen ist auch einer der angepriesenen Vorteile.
-Bei 8 Minimeals pro Tag (12,1€), komme ich auf monatliche Essenskosten von
-363€ (\\(1.51 * 8 * 30)\\).)
-Das ist liegt in meinem Fall deutlich über meinen aktuellen Kosten.
+Ob man durch Minimeal Geld spart hängt von der eigenen Situation ab.
+In meiner Situation war das nicht der Fall.
 
 ## Kritik
 
-Meine Kritik bezieht sich mehr auf die Firma dahinter.
-Gegen das Produkt habe ich eigentlich nichts.
+### Nicht Bio
 
-**Ihre Mission und ihr Handeln**
+Das Produkt hat kein Biosiegel.
+Sie sagen aber:
+
+> Wir verwenden ausschließlich organische Zutaten und prüfen jeden Rohstoff
+laufend auf jegliche Schadstoffe, Pestizide und Herbizide wie sie für BIO
+Qualität gefordert werden.
+
+Löblich, dass das Produkt unbelastet sein soll, aber es werden ja trotzdem
+konventionelle Inhaltsstoffe verarbeitet.
+Bio ist aber mehr als nur die Schadstoffbelastung.
+Es bezieht auch Nachhaltigkeitsaspekte in die Produktion mit ein.
+
+Sich als nachhaltiges Produkt zu präsentieren, aber dann nicht auf
+nachhaltige Landwirtschaft zu setzen scheint mir ein Widerspruch.
+
+### Hoch verarbeitetes Produkt
+
+Das Produkt ist ein hoch verarbeitetes Industrieprodukt.
+Wenn es nach [Verarbeitungsgrad](misc/rohkost-definition#verarbeitungsgrad)
+einordnet fällt es in die am meisten verarbeitete, naturfernste Kategorie.
+Das wird vor allem relevant wenn dieses Produkt einen großen Anteil der
+Ernährung ausmacht.
+
+Inwiefern es aber ein Problem ist, hängt sicherlich von der eigenen
+Situation ab.
+Mit seinem Fokus auf Nährstoffvollständigkeit ist es sicherlich besser als
+alle anderen Fabrikprodukte, aber es bleibt trotzdem ein Fabrikprodukt.
+
+### Die Mission ist zweitrangig
 
 Die erklärte Mission, so wie ich sie verstanden habe ist: Einen bezahlbaren,
-ökofreundlichen und nährstoffkompletten Mahlzeit Ersatz zu bieten.
+nachhaltigen und nährstoffkompletten Mahlzeitersatz anzubieten.
+Wenn man eine Mission kommuniziert muss man sein Handeln daran messen
+lassen.
 
-Daran muss sich jetzt das Handeln messen.
-Meiner Einschätzung nach gehen Handeln und Mission hier weit
-auseinander und das Ziel muss sich Technologietrends und den Vorlieben des
-Gründers unterordnen. Weiterentwicklung und Erschwinglichkeit scheinen
-nebensächlich.
+Die Firma scheint mir eher ein Vehikel zum Ausleben der Fantasien des
+Gründers zu sein.
+Vorreiter in cooler Technologie sein und sich auf Rennsport-Pisten als
+Hauptsponsor abfeiern lassen scheint mir mehr eine Befriedigung seines Egos,
+als der beste Weg die selbst-erklärte Mission auszuleben.
 
-**Rewardsprogram als Crypowährung**
+### Die Cryptowährung
 
-In meinen Augen wird durch den Cryptocoin nur unnötig Geld aus dem Fenster
-geworfen.
-Die Kunden werden verwirrt und die Produktvision unnötig
-durcheinandergebracht.
-Was hat Mahlzeit Ersatz mit der PulseChain zu tun? Nichts, aber wenn du dein
-Cashback willst, musst du es herausfinden :slightly_frowning_face:.
-Und jetzt versuch das mal deiner Mutter zu erklären!
+Für jeden ausgegeben Euro gibt es eine gewisse Menge an SOIL Coins.
+Diese funktionieren wie ein Rewardsprogramm.
+Die Coins lassen sich auch [in Euro umwandeln](misc/soil-verkaufen).
+Darüber wie das geht wird geschwiegen.
+Das ist nicht im Interesse der Firma, also haben sie dafür natürlich keine
+[Anleitung](misc/soil-verkaufen) geschrieben.
+Es leidet die Vertrauenswürdigkeit.
 
-SUN Rewards werden überall angepriesen (vor allem) in den Prepay Aktionen.
-Darüber wie man diese Rewards in Euro auszahlen kann wird geschwiegen.
-Ich weiß schon. Das ist nicht in eurem Interesse, weil ihr wollt das die
-Leute euren Coin halten.
-Ich halte es einfach für unehrlich die Kunden nicht darüber zu aufzuklären
-wie sie an ihr Geld kommen (wenn sie denn möchten.)
-Weil sie die Anleitung nicht schreiben wollen, habe ich diesen
-[fehlenden Guide zum Verkaufen des SOIL Coins](misc/soil-verkaufen) eben selbst geschrieben.
+Mein Problem mit diesem Coin ist wieviel Raum er einnimmt.
+Alle Kommunikation die ich vom Unternehmen per Email bekommen haben drehte
+sich (mit ein paar wenigen Ausnahmen) um diese Cryptowährung.
+Es fließt extrem viel Entwicklungszeit und Aufmerksamkeit in dieses Projekt.
+Es verwirrt die Kunden unnötig und macht die Produktvision übermäßig
+kompliziert.
 
-**Marketing und Sponsorings**
+### Das Marketing
 
-Dann die Promotion.
-
-{{<figure src="./e-prix-name-sponsor.de.png" class="w-8/12" alt="Wikipedia page of 2024 Berlin E-Prix" caption="Namesgebender Sponsor bei der Formula E :man-facepalming:">}}
+{{<figure src="./e-prix-name-sponsor.de.png" class="w-8/12" alt="Wikipedia page of 2024 Berlin E-Prix" caption="Namesgebender Sponsor bei der Formula E">}}
 
 Ich kenne keine Daten, aber ich denke nicht, dass das der effektivste Weg
 ist so ein Produkt zu bewerben.
 Ich würde sogar so weit gehen zu sagen, dass du ein so geiles Produkt
-nicht bewerben musst, weil die Kunden mit der Zeit über Mund-zu-Mund-Propaganda zu dir kommen.
+nicht bewerben musst, weil die Kunden mit der Zeit über
+Mund-zu-Mund-Propaganda zu dir kommen werden.
 
-Diese Promo und die Entwicklung für den Coin sind Kosten, die wenn man sie
-einspart, an den Kunden weitergegeben werden könnten. Meiner Meinung nach
-wäre das viel effektiver darin den Mahlzeit Ersatz bezahlbar zu machen, als
-was auch immer das mit dem Crypto Coin mal werden soll.
+Rennsport und Nachhaltigkeit sehe ich auch als inkompatibel.
+Obwohl das die Elektrovariante ist, unterstützt man doch ein Geschäft was
+auf dem Verbrennen von fossilen Brennstoffen beruht.
 
-Aber ich weiß schon warum das so gemacht wird. Der Founder hat da einfach mega
-Bock drauf. Soll er machen. Halte ich für nicht so zielführend. Aber die
-Mission scheint eher sekundär zu sein.
+### Kundensupport und Umgang mit Grenzfällen
 
-**MLM Gemauschel**
-
-Alles so einen <abbr title="Multi-Level-Marketing (Pyramidenvermarktung)">MLM</abbr> Vibe (etwas das mitschwingt.)
-Ich weiß persönlich nicht wie es um die Vorteile aussieht wenn man Personen
-wirbt, aber diese Beschreibung gibt mir nicht das beste Gefühl: "[Wenn du Personen wirbst]
-profitierst du von deren Bestellung mit Sunpoints in Höhe des Bestellwerts."
-
-**Abweisende Kommunikation**
-
-Zuletzt habe ich noch persönliches Problem mit dem Produkt selbst.
-Bei mir löst es einen Rückgang im Sex Drive aus, wenn ich davon mehr als ca.
-3 die Woche esse (was ich gerne tun würde!)
+Bei mir hat sich ein gesundheitliches Problem eingestellt, welche ich
+eindeutig auf Minimeals zurückführen konnte.
 Ich habe keinen Grund zu vermuten, dass dies bei anderen Menschen auch
-auftritt (soviel hat der Support vermuten lassen.)
-Das ist auch so Ok, muss ich halt mit leben.
-Mein Problem war eher, wie sie mit diesem Feedback umgegangen sind.
+auftritt (soviel hat auch der Support vermuten lassen.)
 
-Ich schrieb das ich die Reaktion 100%ig auf Minimeals zurückführen kann.
-Ich habe die Experimente veranstaltet und die Reaktion ist für mich stark
-und eindeutig zuordbar.
+**Mein Problem ist, wie sie mit diesem Fakt umgegangen sind.**
+
+Ich schrieb, dass ich eine Reaktion 100%ig auf Minimeals zurückführen kann.
+Ich habe Experimente veranstaltet und die Reaktion ist für mich stark und
+eindeutig zuordbar.
 Alles was der Support mir dazu anzubieten hatte war Gaslighting
-(Manipulation: das infrage zu stellen, was ich weiß).
+(Manipulation: infrage stellen dessen was ich weiß).
 Bezüglich des Problems sagen sie:
 "Eine Verbindung mit Minimeals ist hier sehr unwahrscheinlich."
 
-Nur, weil euch das "sehr unwahrscheinlich" scheint, passiert das trotzdem.
-Ich habe mich natürlich dafür bereitgestellt das
-Problem weiter zu erforschen, daran war ihnen aber nicht gelegen.
+Nur, weil euch das "sehr unwahrscheinlich" erscheint, passiert das trotzdem.
+So ist das mit Ernährung und Medizinprodukten.
+Wenn ihr das 100.000 Menschen vorsetzt, dann wird es Effekte geben diese bei
+dieser Menge nur bei 1-2 Menschen betreffen.
+Diese Effekte zu ignorieren wenn sie an euch herangetragen werden und dem
+Kunden einzureden das er keine Ahnung halte ich für den falschen Weg das
+Produkt wirklich massentauglich zu machen.
+
+Ich habe mich natürlich dafür bereitgestellt das Problem weiter zu
+erforschen, daran war ihnen aber nicht gelegen.
 Ich merk schon wie die Prioritäten liegen: Lieber große Promo fahren als die
-Grenzfälle zu verfolgen.
+das Produkt auch in den Grenzfällen zu verbessern.
 
 ## Abschließend
 
-Trotz aller Kritik an der Firma ist das Produkt immer noch Top.
-Wir nehmen die Minimeals regelmäßig zu uns und haben auch keine Pläne damit
-aufzuhören.
+Die Firma hat für mich alle Glaubwürdigkeit verspielt.
+An sich ist das Produkt gut, der Firma dahinter würde ich aber nicht
+vertrauen.
 
-Du kannst dich [hier anmelden](https://minimeal.com/share/jneidel) und es
-einfach mal mit einer Packung probieren.
+Meine Frau benutzt es weiterhin sehr regelmäßig.
 
-Das Risiko zum Ausprobieren ist meines Ermessen ziemlich niedrig. Es sind ja
-keine extra Kosten, weil Lebensmittel ersetzt werden.
-So habe ich mir das jedenfalls damals gerechtfertigt :slightly_smiling_face:.
+Du kannst dich [hier anmelden](https://minimeal.com/share/jneidel) um das
+Packung auszuprobieren.
