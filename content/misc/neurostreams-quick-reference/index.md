@@ -6,7 +6,7 @@ tags:
     - reference
 date: 2024-05-27
 thumbnailAlt: "Abstract pine cone simliar to the Neurostreams logo"
-showDateUpdated: false
+showDateUpdated: true
 showReadingTime: false
 writingTime: 148
 ---
@@ -132,6 +132,7 @@ which does not list individual tracks.
 | Flow meets genius (Flow trifft Genie) | [Yes](https://www.neurostreams.de/portfolio/im-flow/#aff=jneidel) | ✅ | ✅ ||| ✅ |
 | Mini Alpha Breaks | [Yes](https://www.neurostreams.de/portfolio/alpha-zustand-reset/#aff=jneidel) | ✅ ||| ✅ | ✅ |
 | Gaia Club Radio | [Yes](https://www.neurostreams.de/portfolio/schumann-frequenz/#aff=jneidel) || ✅ ||| ✅ |
+| DNA Talk | [Yes](https://www.neurostreams.de/portfolio/meditieren/#aff=jneidel) | ✅ | ✅ ||| ✅ |
 | Wellness Walk | [Yes](https://www.neurostreams.de/portfolio/stress-abbauen/#aff=jneidel) | ✅ | ✅ ||| ✅ |
 | Delta fresh cell treatment<br>(Delta Frischzellenkur) | [Yes](https://www.neurostreams.de/portfolio/sich-erholen/#aff=jneidel) | ✅ | ✅ ||| ✅ |
 | Planet Relax | [Yes](https://www.neurostreams.de/portfolio/tiefe-entspannung-erreichen/#aff=jneidel) | ([Free](review/neurostreams/#costs)) ||| ✅ | ✅ |
@@ -143,12 +144,11 @@ which does not list individual tracks.
 
 **ZenBox**
 
-| Track | Individual | [Panorama](https://www.neurostreams.de/portfolio/panorama/#aff=jneidel) | [**ZenBox**](https://www.neurostreams.de/portfolio/zenbox/#aff=jneidel) | [Klassiker](https://www.digistore24.com/product/588998?aff=jneidel) | [Specials](https://www.digistore24.com/product/588981?aff=jneidel) | [Labor](https://www.neurostreams.de/portfolio/labor/#aff=jneidel) | [Alles](https://www.neurostreams.de/produkte/neurostreams-alles/#aff=jneidel) |
-|-|:-:|:-:|:-:|:-:|:-:|:-:|:-:|
-| DNA Talk | [Yes](https://www.neurostreams.de/portfolio/meditieren/#aff=jneidel) | ✅ | ✅ | ✅ | ✅ || ✅ |
-| Zen Quasar ||| ✅ || ✅ || ✅ |
-| Kyoto Dimension ||| ✅ || ✅ || ✅ |
-| Silver thread (Silberfaden) ||| ✅ || ✅ || ✅ |
+| Track | [Panorama](https://www.neurostreams.de/portfolio/panorama/#aff=jneidel) | [**ZenBox**](https://www.neurostreams.de/portfolio/zenbox/#aff=jneidel) | [Klassiker](https://www.digistore24.com/product/588998?aff=jneidel) | [Specials](https://www.digistore24.com/product/588981?aff=jneidel) | [Labor](https://www.neurostreams.de/portfolio/labor/#aff=jneidel) | [Alles](https://www.neurostreams.de/produkte/neurostreams-alles/#aff=jneidel) |
+|-|:-:|:-:|:-:|:-:|:-:|:-:|
+| Zen Quasar || ✅ || ✅ || ✅ |
+| Kyoto Dimension || ✅ || ✅ || ✅ |
+| Silver thread (Silberfaden) || ✅ || ✅ || ✅ |
 
 **Megabrain Suite**
 
