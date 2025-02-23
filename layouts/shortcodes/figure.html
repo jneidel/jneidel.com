@@ -35,16 +35,18 @@
   {{- /* Get image resource. */}}
   {{- $r := "" }}
   {{- if $u.IsAbs }}
-    {{- with resources.GetRemote $u.String }}
+    {{- with try (resources.GetRemote $u.String) }}
       {{- with .Err }}
         {{- if eq $errorLevel "warning" }}
           {{- warnf "%s. See %s" . $contentPath }}
         {{- else if eq $errorLevel "error" }}
           {{- errorf "%s. See %s" . $contentPath }}
         {{- end }}
-      {{- else }}
+      {{- else with .Value }}
         {{- /* Destination is a remote resource. */}}
         {{- $r = . }}
+      {{ else }}
+          {{ errorf "Unable to get remote resource %q" $url }}
       {{- end }}
     {{- else }}
       {{- if eq $errorLevel "warning" }}
