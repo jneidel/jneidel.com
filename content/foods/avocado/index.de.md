@@ -12,43 +12,63 @@ thumbnailAlt: "Haufen von Avocados"
 - Saison in Spanien: November-April, bzw. Oktober-Mai[^mai]
 [^mai]: [Saison Oktober-Mai Quelle](https://www.youtube.com/watch?v=UvUq4UzOL6k&t=829s)
 
-{{<details summary="Preise">}}
+{{<figure src="./pile-of-avocados.de.jpg" class="w-9/12" alt="Haufen von Avocados" caption="Avocados werde ich einfach nicht überdrüssig.">}}
+
+## Preise
 
 Gegliedert nach Sorte/Art.
 
-Zu bevorzugen: Bio vom Kleinbauer aus europäischem Anbau.
+Ich bevorzuge: Bio ({{<food/bio>}}) vom Kleinbauer ({{<food/kb>}}) aus europäischem Anbau ({{<food/eu>}}).
 
 **Hass:**
 - 0.65-1.49€/Stück bei Aldi {{<food/kv>}} (mittel)
-- 2-4€/kg Netz bei Edeka {{<food/kv>}} (klein, höchste Ausfallrate)
+- 2-4€/kg Netz bei Edeka {{<food/kv>}} (klein, hohe Ausfallrate)
 - 0.99-1.39€/Stück bei Edeka {{<food/kv>}} (mittel)
-- 1.49-1.99€/Stück bei Netto {{<food/kv>}} (mittel bis groß)
+- 1.49-1.99€/Stück bei Netto ohne Hund {{<food/kv>}} (mittel bis groß)
 - 1.69€+/Stück beim Bioladen (LPG Berlin) {{<food/bio>}} (mittel)
-- 10.90€/kg bei [Fruchtbote](https://fruchtbote.com/shop/avocado-hass/) {{<food/kb>}}
+- 8.80€/kg bei [CrowdFarming](https://www.crowdfarming.com/de/suchergebnisse?q=avocados) {{<food/kb>}} {{<food/bio>}} {{<food/eu>}} (klein, Ausfallrate 0%) <!--0/8-->
+- 10.90€/kg bei [Fruchtbote](https://fruchtbote.com/shop/avocado-hass/) {{<food/kb>}} {{<food/bio>}} {{<food/eu>}}
 
 **Bacon:**
-- 8.90€/kg bei [Fruchtbote](https://fruchtbote.com/shop/avocado-bacon/) {{<food/kb>}}{{<food/bio>}} (Ausfallrate 0%)
+- 8.90€/kg bei [Fruchtbote](https://fruchtbote.com/shop/avocado-bacon/) {{<food/kb>}} {{<food/bio>}} {{<food/eu>}} (mittel, Ausfallrate 7%) <!-- 1/15 -->
 
 **Fuerte:**
-- 8.90€/kg bei [Fruchtbote](https://fruchtbote.com/shop/avocado-fuerte/) {{<food/kb>}}{{<food/bio>}} (Ausfallrate 0%)
-- 8.90€/kg bei [Fruchtbote](https://fruchtbote.com/shop/avocado-fuerte-cocktail/) {{<food/kb>}}{{<food/bio>}} (Cocktail)
+- 8.90€/kg bei [Fruchtbote](https://fruchtbote.com/shop/avocado-fuerte/) {{<food/kb>}} {{<food/bio>}} {{<food/eu>}} (mittel, Ausfallrate 0%) <!-- 0/10 -->
+- 8.90€/kg bei [Fruchtbote](https://fruchtbote.com/shop/avocado-fuerte-cocktail/) {{<food/kb>}} {{<food/bio>}} {{<food/eu>}} (Cocktail)
 
 **Californiano:**
-- 8.90€/kg bei [Fruchtbote](https://fruchtbote.com/shop/avocado-californiano/) {{<food/kb>}}{{<food/bio>}}
+- 8.90€/kg bei [Fruchtbote](https://fruchtbote.com/shop/avocado-californiano/) {{<food/kb>}} {{<food/bio>}} {{<food/eu>}}
 
 **Ettinger:**
-- 8.90€/kg bei [Fruchtbote](https://fruchtbote.com/shop/avocado-ettinger/) {{<food/kb>}}{{<food/bio>}}
+- 8.90€/kg bei [Fruchtbote](https://fruchtbote.com/shop/avocado-ettinger/) {{<food/kb>}} {{<food/bio>}} {{<food/eu>}}
+
+**Zutano:**
+- 8.90€/kg bei [Fruchtbote](https://fruchtbote.com/shop/avocado-zutano/) {{<food/kb>}} {{<food/bio>}} {{<food/eu>}} (groß, Ausfallrate 0%) <!-- 0/3 -->
 
 **Wild:**
-- 8.90€/kg bei Fruchtbote {{<food/kb>}}{{<food/bio>}} (Ausfallrate 100%)
+- 8.90€/kg bei [Fruchtbote](https://fruchtbote.com/shop/avocado-wild/) {{<food/kb>}} {{<food/bio>}} {{<food/eu>}} (Ausfallrate 100%) <!-- 5/5 -->
+
+**Reed:**
+- 8.90€/kg bei [Fruchtbote](https://fruchtbote.com/shop/avocado-reed/) {{<food/kb>}} {{<food/bio>}} {{<food/eu>}}
+
+**Früchte pro Kilo nach Größe:**
+- klein: 6-8 Früchte pro Kilo
+- mittel: 5-6 Früchte pro Kilo
+- groß: 3-4 Früchte pro Kilo
 
 **Einzelhandel vs. Fruchtbote:**<br>
-Bei mittlerer Größe machen 5-6 Avocados ein Kilo.
-Bei einem Preis von 1.49€ pro Avocado kommt ein Kilopreis von 7.40-8.90€ bei
-raus.
+Im Einzelhandel werden Avocados einzeln verkauft, nicht über Kilopreise.
+Das erschwert den Vergleich und verschleiert schlechte Preise.
+Basierend auf der Fruchtgröße kann man den Stückpreis in einen Kilopreis
+umrechnen.
+Bei einem Stückpreis von 1.49€ kommt etwa ein Kilopreis von 7.40-8.90€ bei
+mittlerer Größe zustande.
 Die qualitativ viel besseren Avocados von [Fruchtbote](https://fruchtbote.com/produkt-kategorie/avocados/) kosten ähnlich viel.
 Deswegen kaufe ich konventionelle Avocados im Einzelhandel nur wenn diese
 stark reduziert sind (2-4€/kg.)
+
+Avocados aus dem Einzelhandel haben meiner Erfahrung nach auch eine viel
+höhrere Ausfallrate als die von Fruchtbote.
 
 **Ausfallrate (Verderblichkeitsstatistik):**<br>
 Die Ausfallrate meint wieviele der gekaufen Avocados Weise schlecht werden
@@ -58,10 +78,6 @@ Manche Anbieter sind anfälliger als andere, haben also eine höhere
 (schlechtere) Ausfallrate.
 Bei Fruchtbote habe ich die beste Ausfallrate (0%, außer bei den wilden
 Avocados, würde ich dementsprechend nicht empfehlen.)
-{{</details>}}
-<br>
-
-{{<figure src="./pile-of-avocados.de.jpg" class="w-9/12" alt="Haufen von Avocados" caption="Avocados werde ich einfach nicht überdrüssig.">}}
 
 ## Beim Kauf beachten
 

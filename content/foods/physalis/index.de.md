@@ -9,12 +9,13 @@ thumbnailAlt: "Physalis am Strauch"
 
 - Kombinationsgruppe 3: Zucker
 - Himmlische Phase: saftig süß
-{{<details summary="Preise">}}
-- 1-1.49€/100g bei Aldi
-- 1.49€/100g bei Edeka
-{{</details>}}
+- Saison: ganzjährig aus Kolumbien ({{<food/neu>}})
 
 {{<figure src="./packung.de.jpg" class="w-8/12" alt="100g Physalis Packung" caption="100g Packung">}}
+
+## Preise
+- 10-15€/kg bei Aldi {{<food/kv>}} {{<food/neu>}}
+- 15€/kg bei Edeka {{<food/kv>}} {{<food/neu>}} {{<food/fairtrade>}} 
 
 ## Referenzen
 
