@@ -7,9 +7,8 @@
     <title>{{ .Site.Title | emojify }}</title>
     <meta name="title" content="{{ .Site.Title | emojify }}" />
   {{- else -}}
-    <title>{{ .Title | emojify }}</title>
-    {{/* To include sitname <title>{{ .Title | emojify }} - {{ .Site.Title | emojify }}</title> */}}
-    <meta name="title" content="{{ .Title | emojify }}" />
+    <title>{{ .Title | emojify }} &middot; {{ .Site.Title | emojify }}</title>
+    <meta name="title" content="{{ .Title | emojify }} &middot; {{ .Site.Title | emojify }}" />
   {{- end }}
   {{/* Asset bundles */}}
   {{ $assets := newScratch }}
