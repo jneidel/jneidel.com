@@ -6,6 +6,7 @@ slug: "transmission-behind-wireguard"
 date: 2023-10-02
 tags:
     - homeserver
+thumbnailAlt: "Pirate with a spyglass looking at whaleshapped ship with shipping containers on it (the docker whale)"
 writingTime: 72
 ---
 

@@ -4,7 +4,7 @@ summary: "Alles zu Fisch in der Rohkost Ernährung."
 tags:
     - "Tierisches Protein"
 date: 2025-01-11
-thumbnailAlt: ""
+thumbnailAlt: "Fisch am Haken"
 writingTime: 30
 ---
 
