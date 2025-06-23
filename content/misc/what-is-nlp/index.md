@@ -1,5 +1,5 @@
 ---
-title: "What Is NLP (Neuro Linguistic Programming)"
+title: "What Is NLP? (Neuro Linguistic Programming)"
 description: "An explaination of the essence of NLP through various quotes."
 summary: "An attempted explaination."
 tags:
