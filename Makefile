@@ -1,7 +1,7 @@
 all: tww serve
 
 serve:
-	${BROWSER} http://localhost:1313 >/dev/null 2>&1 &
+	firefox http://localhost:1313 >/dev/null 2>&1 &
 	hugo server -D -p 1313 --navigateToChanged
 
 tw: themes/congo/node_modules  # tailwind
