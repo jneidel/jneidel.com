@@ -49,11 +49,15 @@ Extraction from the note-taking system and providing the data as json happens in
 The script below:
 - gets project names by listing subdirectories of my projects dir
 - excludes projects with the file `.now-ignore`
-- uses a projects `#+status:` if the `index.org` file contains it
+- uses a projects `#+status:` keyword, if the `index.org` file contains it
+- a paragraph between the keywords and the first outline (`*`) is urlencoded
+as the project description
 - uploads the json as a publicly accessible static file to some server
 
 ```sh
 #! /bin/sh
+
+. $HOME/.zsh/org.env
 
 if [ "$1" = "--help" ] || [ "$1" = "-h" ] || [ "$1" = "help" ] || [ -z "$ORG_PROJECTS" ]; then
   cat <<EOF
@@ -62,6 +66,8 @@ Transform org project directories into a json for jneidel.com/now
 EOF
   exit
 fi
+
+hash jq urlencode || exit 127
 
 get_project_list() {
   potential_projects=$(mktemp)
@@ -73,6 +79,18 @@ get_project_list() {
   diff $potential_projects $ignored_projects --old-line-format='%L'
 }
 
+get_description() {
+  index_file="$1"
+
+  description_without_headers="$(head -n30 "$index_file" 2>/dev/null | grep -ve '^#+')"
+  description_without_sections="$description_without_headers"
+  if grep '^\*' -m1 "$index_file" >/dev/null 2>&1; then
+    description_without_sections="$(echo "$description_without_headers" | grep -m1 '^\*' -B30 | head -n-1)"
+  fi
+  trimmed_oneline_description="$(echo "$description_without_sections" | sed 's/^[[:space:]]*//; s/[[:space:]]*$//')"
+  echo $description_without_sections | urlencode | sed 's/^%0A$//'
+}
+
 assemble_json() {
   json=$(mktemp)
   cat <<EOF >$json
@@ -82,11 +100,15 @@ assemble_json() {
 EOF
 
   get_project_list | while read -r project; do
-    title="$(echo $project | rev | cut -d/ -f1 | rev)"
+    index_file="${project}/$ORG_INDEX_FILE_NAME"
+    title="$(basename "$project")"
     status=""
-    status="$(grep -Po '#\+(status|STATUS): \K.*' "${project}/index.org" 2>/dev/null)"
+    if echo $project | grep -ve "🟨" >/dev/null; then
+      status="$(grep -Po '#\+(status|STATUS): \K.*' "$index_file" 2>/dev/null)"
+    fi
+    description="$(get_description "$index_file")"
 
-    printf '  { "title": "%s", "status": "%s" },\n' "$title" "$status" >>$json
+    printf '  { "title": "%s", "status": "%s", "description": "%s" },\n' "$title" "$status" "$description" >>$json
   done
 
   sed '$s/},/}/' -i $json # valid json: last line in array has no trailing ,
@@ -105,7 +127,7 @@ upload_json() {
   assemble_json >$json
 
   echo "Uploading to neidel.xyz/now.json" >&2
-  scp $json k:~/websites/neidel.xyz/now.json
+  ~/scripts/cron/waitforinternet && scp -q $json k:~/websites/neidel.xyz/now.json
 }
 upload_json
 ```
@@ -135,8 +157,8 @@ for (const { title, status } of json.projects) {
   html += `
     <p>
       <strong>${title}</strong>
-      <br>
-      ${status && "Status: " + status}
+      ${description && "<br>" + decodeURIComponent(description)}
+      ${status && "<br><strong>Status</strong>: " + status}
     </p>
   `;
 }
