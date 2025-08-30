@@ -46,9 +46,6 @@
       </div>
     </section>
     <footer class="max-w-prose pt-8 print:hidden">
-      {{ if not (.Params.hideNewsletterSignup | default false) }}
-        {{ partial "newsletter-signup.html" (dict "allow_to_be_moved" true) }}
-      {{ end }}
       {{ partial "author.html" . }}
       {{ partial "sharing-links.html" . }}
       {{ partial "article-pagination.html" . }}

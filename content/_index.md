@@ -40,5 +40,3 @@ Or check out [what I am currently up-to](now).
 {{<hovericon "/rss/">}}
     {{<icon "rss">}}
 {{</hovericon>}}
-
-{{<newsletter-signup>}}
