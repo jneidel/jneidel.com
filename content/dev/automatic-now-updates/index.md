@@ -55,6 +55,8 @@ The script below:
 ```sh
 #! /bin/sh
 
+. $HOME/.zsh/org.env
+
 if [ "$1" = "--help" ] || [ "$1" = "-h" ] || [ "$1" = "help" ] || [ -z "$ORG_PROJECTS" ]; then
   cat <<EOF
 $ org-projects-to-now-json
@@ -62,6 +64,8 @@ Transform org project directories into a json for jneidel.com/now
 EOF
   exit
 fi
+
+hash jq || exit 127
 
 get_project_list() {
   potential_projects=$(mktemp)
@@ -82,9 +86,11 @@ assemble_json() {
 EOF
 
   get_project_list | while read -r project; do
-    title="$(echo $project | rev | cut -d/ -f1 | rev)"
+    title="$(basename "$project")"
     status=""
-    status="$(grep -Po '#\+(status|STATUS): \K.*' "${project}/index.org" 2>/dev/null)"
+    if echo $project | grep -ve "🟨"; then
+      status="$(grep -Po '#\+(status|STATUS): \K.*' "${project}/index.org" 2>/dev/null)"
+    fi
 
     printf '  { "title": "%s", "status": "%s" },\n' "$title" "$status" >>$json
   done
@@ -105,7 +111,7 @@ upload_json() {
   assemble_json >$json
 
   echo "Uploading to neidel.xyz/now.json" >&2
-  scp $json k:~/websites/neidel.xyz/now.json
+  ~/scripts/cron/waitforinternet && scp -q $json k:~/websites/neidel.xyz/now.json
 }
 upload_json
 ```
