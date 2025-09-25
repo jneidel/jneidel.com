@@ -159,7 +159,7 @@ is activated.
 
 Here is a short demo to see my setup in action:
 
-{{<youtube "uTHTzEbnLPs">}}
+{{<yt id="uTHTzEbnLPs">}}
 
 ## References
 

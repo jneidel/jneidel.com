@@ -1,0 +1,11 @@
+<!-- Privacy friendly embedding of youtube videos using https://github.com/justinribeiro/lite-youtube -->
+
+{{- $videoId := .Get "id"  -}}
+
+<lite-youtube videoid="{{$videoId}}"></lite-youtube>
+
+<noscript>
+  There would be an embedded
+  <a src="https://www.youtube.com/watch?v={{$videoId}}">youtube video</a>
+  here :)
+</noscript>

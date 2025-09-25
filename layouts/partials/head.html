@@ -150,4 +150,5 @@
   {{ if templates.Exists "partials/extend-head.html" }}
     {{ partial "extend-head.html" . }}
   {{ end }}
+  {{ if .HasShortcode "yt"}}<script type="module" src="/js/lite-youtube.min.js"></script>{{ end }}
 </head>

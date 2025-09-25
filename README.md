@@ -28,6 +28,7 @@ These are the things I'm utilizing.
 
 This is the stuff I added that improves functionality.
 
+- Privacy-friendly YouTube shortcode using lite-youtube
 - Validate that internal links and image links exist
 - Use githubs dark and light themes for code highlighting
 - Renamed RSS feeds to `rss.xml`
