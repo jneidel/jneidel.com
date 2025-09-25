@@ -3,6 +3,8 @@ languageName = "English"
 languageDirection = "ltr"
 weight = 1
 
+baseURL = "https://jneidel.com"
+
 [params]
   dateFormat = "Jan 2. 2006"
   mainSections = ["essay", "guide", "review", "project", "misc"]

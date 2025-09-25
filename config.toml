@@ -4,11 +4,6 @@ description = "Jonathans Website"
 title = "jneidel"
 copyright = "&copy; Jonathan Neidel"
 
-homepage = "https://github.com/jpanther/congo/"
-demosite = "https://jpanther.github.io/congo/"
-
 enableGitInfo = true # required for lastmod to get date from git
-
-baseURL="http://localhost"
 
 timeout = "45s"
