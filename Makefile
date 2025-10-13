@@ -42,3 +42,6 @@ titles:
 clear-cache:
 	rm -r public
 	git restore public/_redirects
+
+bin:
+	CGO_ENABLED=1 go install -tags extended github.com/gohugoio/hugo@v0.151.0

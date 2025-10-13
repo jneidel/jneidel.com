@@ -39,6 +39,12 @@ This is the stuff I added that improves functionality.
 
 Plus shortcodes and such.
 
+## Install
+
+```sh
+git clone --recurse-submodules https://github.com/jneidel/jneidel.com.git
+```
+
 ## Run
 
 ```sh
