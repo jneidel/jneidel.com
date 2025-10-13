@@ -18,7 +18,7 @@ assets/css/compiled/main.css: themes/congo/node_modules
 	./themes/congo/node_modules/tailwindcss/lib/cli.js -c ./themes/congo/tailwind.config.js -i ./themes/congo/assets/css/main.css -o ./assets/css/compiled/main.css ---minify
 
 build: assets/css/compiled/main.css
-	HUGO_ENV=production hugo --gc --minify -b ${URL}
+	HUGO_ENV=production hugo --gc --minify
 
 buildDrafts: assets/css/compiled/main.css
 	HUGO_ENV=production hugo --gc --minify --buildDrafts -b ${DEPLOY_PRIME_URL}
@@ -45,3 +45,19 @@ clear-cache:
 
 bin:
 	CGO_ENABLED=1 go install -tags extended github.com/gohugoio/hugo@v0.151.0
+
+copy:
+	cp -r public/en/* ~/html/jneidel.com
+	cp -r public/de/* ~/html/jneidel.de
+
+pull:
+	git fetch origin master
+	git reset --hard origin/master
+
+push:
+	git push origin master
+
+deploy: pull build copy
+
+update: push
+	ssh u 'zsh -lc "cd git/web; make deploy"'
