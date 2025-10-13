@@ -6,4 +6,4 @@ copyright = "&copy; Jonathan Neidel"
 
 enableGitInfo = true # required for lastmod to get date from git
 
-timeout = "45s"
+timeout = "5m"
