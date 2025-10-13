@@ -115,8 +115,9 @@ Diese funktionieren wie ein Rewardsprogramm.
 Die Coins lassen sich auch [in Euro umwandeln](misc/soil-verkaufen).
 Darüber wie das geht wird geschwiegen.
 Das ist nicht im Interesse der Firma, also haben sie dafür natürlich keine
-[Anleitung](misc/soil-verkaufen) geschrieben.
+Anleitung geschrieben.
 Es leidet die Vertrauenswürdigkeit.
+(Das habe ich [hier](misc/soil-verkaufen) nachgeholt.)
 
 Mein Problem mit diesem Coin ist wieviel Raum er einnimmt.
 Alle Kommunikation die ich vom Unternehmen per Email bekommen haben drehte
@@ -141,7 +142,7 @@ auf dem Verbrennen von fossilen Brennstoffen beruht.
 
 ### Kundensupport und Umgang mit Grenzfällen
 
-Bei mir hat sich ein gesundheitliches Problem eingestellt, welche ich
+Bei mir hat sich ein gesundheitliches Problem[^problem] eingestellt, welche ich
 eindeutig auf Minimeals zurückführen konnte.
 Ich habe keinen Grund zu vermuten, dass dies bei anderen Menschen auch
 auftritt (soviel hat auch der Support vermuten lassen.)
@@ -178,4 +179,10 @@ vertrauen.
 Meine Frau benutzt es weiterhin sehr regelmäßig.
 
 Du kannst dich [hier anmelden](https://minimeal.com/share/jneidel) um das
-Packung auszuprobieren.
+Produkt auszuprobieren.
+
+[^problem]: Das Problem was bei mir aufgetreten ist waren Errektionsstörungen.
+Es gibt keinen Grund zu vermuten das viele von diesem konkreten Problem betroffen sein werden.
+Nichtsdestotrotz ist das ein extrem krasses Symptom welchem man sich als Firma seriös annehmen muss.
+Sexualorgane stehen am Ende einer langen Wirkkette.
+Wenn diese betroffen sind läuft im Körper einiges schief, da Reproduktion etwas ist auf das der Körper sehr viel wert legt.
