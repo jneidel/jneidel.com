@@ -276,3 +276,4 @@ Kochen und führen Gewebeschäden, schnelleres Altern und Entzündungen herbei.
 - [<cite>Unsere Nahrung - unser Schicksal - Max Otto Bruker</cite>](https://amzn.to/405KmY3)
 - [<cite>The Sunfood Diet Success System - David Wolfe</cite>](https://amzn.to/3PsQwN6)
 - <cite>Menschennahrung - Arjuna</cite>
+- <cite>Der Murks mit der Milch - Max Otto Bruker, Mathias Jung</cite>

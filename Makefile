@@ -53,6 +53,7 @@ copy:
 pull:
 	git fetch origin master
 	git reset --hard origin/master
+	git submodule update
 
 push:
 	git push origin master

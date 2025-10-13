@@ -5,8 +5,7 @@ summary: "Privacy policy for my websites"
 tags:
 date: 2025-09-25
 thumbnailAlt:
-draft: true
-writingTime:
+excludeRss: true
 ---
 
 <!-- Inspiration: https://uberspace.de/en/about/privacy/ -->
@@ -16,10 +15,10 @@ The topic of data protection is comprehensively regulated by the EU General Data
 ## Person responsible and scope
 The person responsible according to the GDPR is:
 
-Jonathan Neidel
-Bahnhofstr. 55
-03238 Rückersdorf
-E-mail: privacy@jneidel.com
+Jonathan Neidel<br>
+Bahnhofstr. 55<br>
+03238 Rückersdorf<br>
+E-mail: privacy@jneidel.com<br>
 Website: https://jneidel.com
 
 This privacy policy applies to my websites jneidel.de und jneidel.com.

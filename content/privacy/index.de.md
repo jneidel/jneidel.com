@@ -5,7 +5,7 @@ summary: "Datenschutzverordnung meiner Websites"
 tags:
 date: 2025-09-25
 thumbnailAlt:
-writingTime:
+excludeRss: true
 ---
 
 <!-- Inspiration: https://uberspace.de/de/about/privacy/ -->
@@ -16,10 +16,10 @@ Damit du erfährst, welche Daten erhoben, wie jene verarbeitet werden, was zum S
 ## Verantwortlicher und Geltungsbereich
 Der Verantwortliche im Sinne der EU-Datenschutzgrundverordnung (DSGVO) ist:
 
-Jonathan Neidel
-Bahnhofstr. 55
-03238 Rückersdorf
-E-mail: datenschutz@jneidel.de
+Jonathan Neidel<br>
+Bahnhofstr. 55<br>
+03238 Rückersdorf<br>
+E-mail: datenschutz@jneidel.de<br>
 Website: https://jneidel.de
 
 Diese Datenschutzerklärung gilt für meine Websiten jneidel.de und jneidel.com.
