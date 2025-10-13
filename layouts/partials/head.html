@@ -81,8 +81,10 @@
       data-copy="{{ i18n "code.copy" }}"
       data-copied="{{ i18n "code.copied" }}"
     ></script>
-    {{ if eq .Site.BaseURL "https://www.jneidel.com/" }}
+    {{ if eq .Site.BaseURL "https://jneidel.com/" }}
       <script defer data-domain="jneidel.com" src="https://plausible.jneidel.click/js/script.js"></script>
+    {{ else if eq .Site.BaseURL "https://jneidel.de/" }}
+      <script defer data-domain="jneidel.de" src="https://plausible.jneidel.click/js/script.js"></script>
     {{ end }}
   {{ end }}
   {{/* Metadata */}}
