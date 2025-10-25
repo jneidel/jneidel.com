@@ -4,6 +4,7 @@ date: 2024-01-05
 thumbnailAlt: Open hard drive in front of rack
 tags:
     - homeserver
+    - backups
 ---
 
 Everyone is responsible for backing up their own data.
