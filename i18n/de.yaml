@@ -4,13 +4,11 @@ shortcode:
   recent_articles: "Neue Artikel"
 article:
   date_updated: "Aktualisiert am {{ .Date }}"
+  edit_title: "Seite auf GitHub bearbeiten - Danke für das Einreichen einer Pull Request!"
 
 footer:
   light_appearance: "Wecheln in den hellen Modus"
   dark_appearance: "Wecheln in den dunklen Modus"
-
-article:
-  edit_title: "Seite auf GitHub bearbeiten - Danke für das Einreichen einer Pull Request!"
 
 rss_link: "/de/rss/"
 
