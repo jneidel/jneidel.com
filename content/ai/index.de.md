@@ -9,16 +9,17 @@ writingTime: 17
 ---
 
 Jegliche Inhalte auf dieser Website wurden von mir selbst verfasst.
-AI/LLM Werkzeuge wurden nicht und werden auch niemals dazu eingesetzt
+AI/LLM Werkzeuge wurden nicht und werden auch nicht in Zukunft dazu eingesetzt
 werden um Artikel teilweise oder auch ganz zu generieren.
-Alle Übersetzungen sind auch von Hand geschrieben.
+Auch alle Übersetzungen sind auch von Hand geschrieben.
 
-[Claude.ai] wird für Researchzwecke benutzt und manchmal, zusammen mit
-[DeepL Write], zum Editieren.
+Für Rechere benutze ich ggf. [Claude.ai] oder ChatGPT.
+Als Input beim Editieren benutze ich manchmal die gennanten LLMs und
+[DeepL Write].
 Die meisten Vorschaubilder wurden mit dem [Microsoft Designer] generiert.
 Beim Code wird AI zum debuggen genutzt.
 
-Das [Schreiben] gibt mir ein tieferes Verständnis des Themas und zwingt
+Das Schreiben gibt mir ein tieferes Verständnis des Themas und zwingt
 mich meinen Gedanken Struktur zu geben.
 Es ist organisiertes Denken.
 Warum würde ich das nicht selbst tun wollen?
