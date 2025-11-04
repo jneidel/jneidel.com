@@ -36,6 +36,8 @@ They got great docs and a flexible pricing model that, though a model of solidar
 those who would be otherwise unable to afford it.
 I have been with them for many years.
 
+{{<figure src="/img/uberspace-logo.svg" class="w-6/12" alt="Uberspace logo">}}
+
 With the command `uberspace mail domain add neidel.xyz` I can add a mail domain:
 
     The mailservers configuration has been adapted.
