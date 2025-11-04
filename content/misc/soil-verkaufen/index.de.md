@@ -160,10 +160,10 @@ die Umsetzung geht, weil es an bestimmten Stellen kein zurück gibt.
 Wir bleiben im PulseChain Netzwerk und tauschen SOIL gegen etwas das wir im
 nächsten Schritt in USDT umwandeln können.
 
-Dazu nutzen wir die Platform [PulseX](https://pulsex.pulsechainapp.com),
+Dazu nutzen wir die Platform [PulseX](https://app.pulsex.com/),
 welche es erlaubt Coins auf der PulseChain zu tauschen.
 
-1. Gehe auf [PulseX](https://pulsex.pulsechainapp.com) und verbinde deine Wallet
+1. Gehe auf [PulseX](https://pulsex.pulsechainapp.com), öffne die App und verbinde deine Wallet
 2. Gib beim Eingangstoken die Adresse des SOIL Tokens ein:
    `0x22b2f187E6EE1f9Bc8f7Fc38bB0D9357462800e4` und dann "Import" und "I understand"
 3. Gib als Ausgangstoken `PLS` ein
@@ -193,16 +193,14 @@ die Platform [PortalX](https://portalxswap.io).
 Zu beachten gilt hier, dass wir Transfergebühren (gas fees) in beiden
 Netzwerken entrichtet werden müssen (zum Senden und in Empfang nehmen.)
 Gas fees werden immer in der Hauptwährung des Netzwerkes fällig.
-In der PulseChain sind das PLS (haben wir bereits) und im Polygon Netzwerk MANTIC.
+In der PulseChain sind das PLS (haben wir bereits) und im Polygon Netzwerk POL.
 
-Wir müssen uns nun also eine kleine Menge MANTIC besorgen, sonst können wir
+Wir müssen uns nun also eine kleine Menge POL besorgen, sonst können wir
 unsere USDT nicht entgegen nehmen.
-Das geht auch in [PortalX](https://portalxswap.io) über den Button "Gas":
+Zum Beispiel bei [Kraken](https://www.kraken.com/c/assets/crypto/POL) und dann in das eigene Wallet auszahlen.
 
-{{<figure src="./portal-x-gas-fees.de.png" class="w-10/12" alt="Gas fees über PortalX beziehen">}}
-
-Sobald wir unsere MANTIC und PLS haben um gas fees bezahlen zu können kann es
-auf [PortalX](https://portalxswap.io) losgehen:
+Sobald wir unsere POL und PLS haben um gas fees bezahlen zu können kann es
+auf [PortalX](https://portalxswap.io/?fromChain=PULSECHAIN&toChain=POLYGON&from=PLS&to=USDT) losgehen:
 1. Wallet verbinden
 2. Von Währung auswählen: PulseChain und dann PLS
 3. Nach Währung auswählen: Polygon Netzwerk und dann USDT
