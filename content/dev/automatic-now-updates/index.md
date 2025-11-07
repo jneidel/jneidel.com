@@ -126,13 +126,14 @@ upload_json() {
   json=$(mktemp)
   assemble_json >$json
 
-  echo "Uploading to neidel.xyz/now.json" >&2
-  ~/scripts/cron/waitforinternet && scp -q $json k:~/websites/neidel.xyz/now.json
+  echo "Uploading to jneidel.*/now/now.json" >&2
+  ~/scripts/cron/waitforinternet && scp -q $json u:~/html/jneidel.com/now/now.json
+  ~/scripts/cron/waitforinternet && scp -q $json u:~/html/jneidel.de/now/now.json
 }
 upload_json
 ```
 
-After running the script my json is available at [`neidel.xyz/now.json`](https://neidel.xyz/now.json).
+After running the script my json is available on `/now/now.json`.
 
 ### Include data in /now
 
@@ -149,7 +150,7 @@ This is the relevant section ([full source](https://github.com/jneidel/jneidel.c
 
 <script>
 (async () => {
-const json = await fetch("https://neidel.xyz/now.json").then(res => res.json());
+const json = await fetch("now.json").then(res => res.json());
 document.querySelector("time").innerText = "Updated: " + json.date_updated;
 
 let html = "";
