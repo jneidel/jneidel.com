@@ -13,6 +13,7 @@ Siehe auch: [Über mich](about)_
 
 Ich lebe immer noch glücklich mit meiner Frau im [südlichen Brandenburger][ee] Hinterland.
 Drei Tage die Woche arbeite ich als Backend Entwickler bei einer [Software Agency](https://www.endava.com).
+Ich bin offen für ein neues Angestellten- oder Freelancingverhältniss.
 
 ## Aktive Projekte
 

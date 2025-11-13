@@ -14,6 +14,7 @@ See also: [about me](about)_
 
 I'm still happily living in rural [south Brandenburg][ee] with my wife.
 Three days a week I work as a backend developer at a [software agency](https://www.endava.com).
+I'm open to new employment or freelancing options.
 
 ## Active Projects
 
