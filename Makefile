@@ -5,7 +5,7 @@ serve:
 	hugo server -D -p 1313 --navigateToChanged --baseURL="http://localhost"
 
 tw: themes/congo/node_modules  # tailwind
-	./themes/congo/node_modules/tailwindcss/lib/cli.js -c ./themes/congo/tailwind.config.js -i ./themes/congo/assets/css/main.css -o ./assets/css/compiled/main.css --jit >/dev/null
+	./themes/congo/node_modules/tailwindcss/lib/cli.js -c ./themes/congo/tailwind.config.js -i ./themes/congo/assets/css/main.css -o ./assets/css/compiled/main.css --minify
 tww: themes/congo/node_modules # tailwind watch
 	./themes/congo/node_modules/tailwindcss/lib/cli.js -c ./themes/congo/tailwind.config.js -i ./themes/congo/assets/css/main.css -o ./assets/css/compiled/main.css --jit --watch >/dev/null
 
@@ -58,7 +58,7 @@ pull:
 push:
 	git push origin master
 
-deploy: pull build copy
+deploy: pull tw build copy
 
 update: push
 	ssh u 'zsh -lc "cd git/web; make deploy"'
