@@ -141,10 +141,16 @@ Nicht nur erhält der Verbraucher vitalstoffreichere Lebensmittel, sondern wird 
 Mit den Produkten bin ich sehr zufrieden.
 Kritik habe ich eigentlich nur am drumherum.
 
-### Lieferzeitpunkt
+### Sorten nicht beschrieben
 
-Kein Kontrolle über den Lieferzeitpunkt zu haben war ein früherer Kritikpunkt.
-Man kann jetzt in der Bestellung auswählen wann geliefert wird:
+Der Kisteninhalt wird nur als Art (z.B. Avocado), aber nicht in seiner Sorte (z.B. Hass, Fuerte, Bacon), beschrieben.
+Das finde ich schade, da ich gern wissen würde welche Birnensorte mir da so gut geschmeckt hat damit ich diese speziell nachbestellen kann.
+Zwischen den Sorten gibt es teils große geschmackliche Unterschiede.
+
+### ~Lieferzeitpunkt~
+
+Früher konnte man den Lieferzeitpunkt nicht wählen.
+Jetzt geht das in der Bestellung:
 
 {{<figure src="./liefertermin.png" class="w-6/12" alt="Auswahl eines Liefertermins">}}
 
@@ -155,10 +161,10 @@ Auch weil sich die Lieferdaten ggf. über den Monat hinweg verändern können.
 
 {{<figure src="./lieferliste.png" class="w-9/12" alt="Liste mit Lieferdaten">}}
 
-### Fehlende Auswahl
+### ~Fehlende Auswahl~
 
-Früher konnte man nicht auswählen was in der Kiste auf einen zu kommt.
-Jetzt kann man am Anfang des Monats im Abo auswählen was Teil der Kiste sein wird.
+Früher gab es nur eine Kiste und keine Variation.
+Jetzt kann man am Anfang des Monats im Abo auswählen was in der Kiste sein wird:
 
 {{<figure src="./kisteninhalt-wählen.png" class="w-9/12" alt="Auswahl zwischen drei Varianten für die nächste Kiste">}}
 
