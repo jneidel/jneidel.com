@@ -221,3 +221,16 @@ html.dark #content summary:after {
 #content details[open] summary:after {
   transform: translateY(-50%) rotate(180deg);
 }
+
+/* End of article signifier
+   source: https://karthinks.com */
+.qed {
+    color: rgb(var(--color-primary-500));
+    display: block;
+    text-align: center;
+    font-size: 1.2rem;
+    margin-top: 30px;
+}
+.qed:before {
+    content: "∼ ⬙ ∼"
+}
