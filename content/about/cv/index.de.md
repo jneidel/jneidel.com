@@ -16,28 +16,27 @@ Englisches CV
 {{</button>}}
 
 Ich bin ein Senior Backend Software Engineer der
-strukturiert denkt, ehrlich kommuniziert, Probleme
-löst und seine eigenen Ideen einbringen will.
+strukturiert denkt, ehrlich kommuniziert, seine eigenen Ideen einbringt und diese auch in die Umsetzung
+bringt.
 
-Ich habe aus Neugier mit dem Programmieren begonnen. Was mich wirklich überzeugt hat, mich
-diesem Feld zu widmen, war das Potenzial eine
-Vielzahl von Problemen für mich und andere zu lösen.
-Für mich geht es beim Programmieren vor allem um
-das Lösen von technischen Problemen.
+Ich habe aus Neugier mit dem Programmieren begonnen. Was mich wirklich überzeugte, mich diesem
+Feld zu widmen, war das Potenzial eine Vielzahl von
+Problemen für mich und andere zu lösen. Für mich
+geht es beim Software Engineering darum für Menschen einen Mehrwert zu erschaffen.
 
-Meine Programmier-Expertise kann in zwei sich
-ergänzende Teile aufgespalten werden.
-Da ist
-das autodidaktische experimentierende Hacking,
-angetrieben von dem Drang kreative Lösungen zu
-finden. Bestärkt wird dies durch die ausgebildete professionelle Handwerkskunst, welche von dem Wunsch
-getrieben wird sauberen Code in einer strukturierten
-kooperativen Weise zu schaffen.
-Vom Anfang an habe ich immer an meinen eigenen
-Projekten gearbeitet. Ich habe alles mögliche gebaut:
-APIs, ganze Webapps, kleine Scripte und vollumfängliche Kommandozeilen Apps. Die Kommandozeilen Umgebung liegt mir besonders am Herzen,
-denn die meiste meiner Arbeit findet im Terminal und
-Text Editor statt.
+Meine Expertise lässt sich in zwei ergänzende Teile
+aufgespalten. Da ist das autodidaktische experimentierende Hacking, angetrieben von dem Drang
+kreative Lösungen zu finden. Bestärkt wird dies
+durch die ausgebildete professionelle Handwerkskunst, welche von dem Wunsch getrieben wird
+sauberen Code in einer strukturierten und kooperativen Weise zu schaffen.
+
+Vom Anfang an have ich immer an echten Projekten
+gearbeitet. Je nachdem was benötigt wurde habe ich
+APIs, ganze Webapps und vollumfängliche Kommandozeilen Apps gebaut. Besonders greife ich dabei auf
+Scripting zurück. Ich automatisiere alle Prozesse die
+mir sowohl im Privatleben als auch auf der Arbeit
+über den Weg laufen und bei denen es Sinn ergibt.
+Das spart Zeit und sorgt dafür das Vorgänge einheitlich gestaltet sind.
 
 In der professionellen Software Entwicklung habe
 ich mehrjährige Erfahrung mit dem im integrierten
