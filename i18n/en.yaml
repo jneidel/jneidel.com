@@ -1,5 +1,6 @@
 shortcode:
   recent_articles: "Recent posts"
+  in_season: "Season in"
 
 footer:
   light_appearance: "Switch to light mode"

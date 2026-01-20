@@ -234,3 +234,47 @@ html.dark #content summary:after {
 .qed:before {
     content: "∼ ⬙ ∼"
 }
+
+.seasonality{
+    display: flex;
+    align-items: center;
+    margin: 0.75rem 0;
+}
+.seasonality__label{
+    margin-right: 0.5rem;
+    font-size: 0.85rem;
+    color: #444;
+    white-space: nowrap;
+}
+html.dark .seasonality__label{
+    color: #e5e7eb;
+}
+.seasonality__month{
+    width: 2.5rem;
+    height: 2.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #ddd;
+    background: #f9f9f9;
+    font-size: 0.8rem;
+}
+html.dark .seasonality__month{
+    border-color: #4b5563;
+    background: #111827;
+    color: #e5e7eb;
+}
+.seasonality__month--active{
+    font-weight: 600;
+    color: #fff;
+    background: #047857;
+    border: 1px solid #1c1c1c;
+}
+html.dark .seasonality__month--active{
+    background: #047857;
+    border-color: #10b981;
+}
+.seasonality__month--current{
+    text-decoration: underline;
+    text-underline-offset: 3px;
+}

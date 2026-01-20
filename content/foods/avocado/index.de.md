@@ -14,6 +14,8 @@ thumbnailAlt: "Haufen von Avocados"
 
 {{<figure src="./pile-of-avocados.de.jpg" class="w-9/12" alt="Haufen von Avocados" caption="Avocados werde ich einfach nicht überdrüssig.">}}
 
+{{<in-season "es" "oct" "may">}}
+
 ## Preise
 
 Gegliedert nach Sorte/Art.

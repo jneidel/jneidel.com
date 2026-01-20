@@ -1,0 +1,25 @@
+<div class="seasonality">
+  {{- $flag := .Get 0 -}}
+  {{- $from := lower (.Get 1) -}}
+  {{- $to := lower (.Get 2) -}}
+
+  {{- $monthIndex := dict
+    "jan" 1 "feb" 2 "mar" 3 "apr" 4 "may" 5 "jun" 6
+    "jul" 7 "aug" 8 "sep" 9 "oct" 10 "nov" 11 "dec" 12
+  -}}
+
+  {{- $months := slice "jan" "feb" "mar" "apr" "mai" "jun" "jul" "aug" "sep" "okt" "nov" "dez" -}}
+
+  {{- $current := now.Month -}}
+  {{- $start := index $monthIndex $from -}}
+  {{- $end := index $monthIndex $to -}}
+  {{- $wrap := gt $start $end -}}
+
+  <span class="seasonality__label">{{ i18n "shortcode.in_season" }} :{{ $flag }}:</span>
+
+  {{- range $m := $months -}}
+  {{- $idx := index $monthIndex $m -}}
+  {{- $active := cond (not $wrap) (and (ge $idx $start) (le $idx $end)) (or (ge $idx $start) (le $idx $end)) -}}
+  <span class="seasonality__month{{ if $active }} seasonality__month--active{{ end }}{{ if eq $idx $current }} seasonality__month--current{{ end }}">{{ title $m }}</span>
+  {{- end -}}
+</div>
