@@ -24,7 +24,7 @@ My ongoing commitments are:
 - Publishing this newsletter every Sunday (7x streak:sunglasses:)
 
 ## What I'm working on
-<small>For context, see [/now](now#projects).</small>
+<small>For context, see [/now](now).</small>
 
 Last week I started a short focus challenge[^focus-challenge] to get into
 the raw diet.

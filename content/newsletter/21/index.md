@@ -51,7 +51,7 @@ My ongoing commitments are:
 - Publishing this newsletter every Sunday (12x streak:sunglasses:)
 
 ## What I'm working on
-<small>For context, see [/now](now#projects).</small>
+<small>For context, see [/now](now).</small>
 
 This week my internal drive dropped to a new low.
 I'm suspecting my diet, as it went along with an insatiable hunger

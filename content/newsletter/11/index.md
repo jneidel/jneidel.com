@@ -49,7 +49,7 @@ My intention going in would be to grow as a person.
 Profits would be nice, but secondary.
 
 ## What I'm working on
-<small>For context, see [/now](now#projects).</small>
+<small>For context, see [/now](now).</small>
 
 - **apply internal analysis**<br>
   Spend a certain amount of trading time on analysing my emotional reactions

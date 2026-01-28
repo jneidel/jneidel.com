@@ -40,7 +40,7 @@ My ongoing commitments are:
 - Publishing this newsletter every Sunday (13x streak:sunglasses:)
 
 ## What I'm working on
-<small>For context, see [/now](now#projects).</small>
+<small>For context, see [/now](now).</small>
 
 This week I did [jhanas](https://asteriskmag.com/issues/06/manufacturing-bliss).
 After a minimal amount of research I just tried it, with immediate success.

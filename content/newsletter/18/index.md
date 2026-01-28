@@ -27,7 +27,7 @@ My ongoing commitments are:
 - Read one book at a time, until Mar19 (see next challenge below)
 
 ## What I'm working on
-<small>For context, see [/now](now#projects).</small>
+<small>For context, see [/now](now).</small>
 
 I was meaning to start my next focus challenge on trading this week, but I
 didn't.

@@ -48,7 +48,7 @@ My ongoing commitments are:
 - Publishing this newsletter every Sunday (6x streak:sunglasses:)
 
 ## What I'm working on
-<small>For context, see [/now](now#projects).</small>
+<small>For context, see [/now](now).</small>
 
 Over Christmas I spent most of my time with family and friends.
 Even after I was back home it was hard to dive into the writing, like I had

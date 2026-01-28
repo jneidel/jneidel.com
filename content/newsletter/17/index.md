@@ -53,7 +53,7 @@ My ongoing commitments are:
 - Publishing this newsletter every Sunday (8x streak:sunglasses:)
 
 ## What I'm working on
-<small>For context, see [/now](now#projects).</small>
+<small>For context, see [/now](now).</small>
 
 - Eating raw is no problem at all.
 Even in a social occasion I was not tempted by the non-raw food and bringing

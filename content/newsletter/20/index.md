@@ -61,7 +61,7 @@ My ongoing commitments are:
 - Publishing this newsletter every Sunday (11x streak:sunglasses:)
 
 ## What I'm working on
-<small>For context, see [/now](now#projects).</small>
+<small>For context, see [/now](now).</small>
 
 - To improve our water quality we got a water filtration system (based on [activated charcoal](https://wasserkontor.de/shop/wasseraufbereitung/aktivkohlefilter/filtereinsaetze/670/alvito-abf-duplex-sd?c=471).)
 There is plenty in the tap water to be concerned about.

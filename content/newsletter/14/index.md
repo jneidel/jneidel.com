@@ -27,7 +27,7 @@ My ongoing commitments are:
 - Publishing this newsletter every Sunday (5x streak:sunglasses:)
 
 ## What I'm working on
-<small>For context, see [/now](now#projects).</small>
+<small>For context, see [/now](now).</small>
 
 Nothing much over the Christmas holidays.
 In the past I used to plan a bunch of stuff to work on while I was with my

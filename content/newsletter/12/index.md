@@ -44,7 +44,7 @@ My ongoing commitments are:
 - Publish this newsletter every Sunday (3x streak:sunglasses:)
 
 ## What I'm working on
-<small>For context, see [/now](now#projects).</small>
+<small>For context, see [/now](now).</small>
 
 Due to my focus challenge[^focus-challenge], everything I'm working on is
 about trading.

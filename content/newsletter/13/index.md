@@ -34,7 +34,7 @@ My ongoing commitments are:
 - Publishing this newsletter every Sunday (4x streak:sunglasses:)
 
 ## What I'm working on
-<small>For context, see [/now](now#projects).</small>
+<small>For context, see [/now](now).</small>
 
 My focus challenge[^focus-challenge] is coming to it's end.
 With Christmas coming up and the markets slowing, I will mostly turn my
