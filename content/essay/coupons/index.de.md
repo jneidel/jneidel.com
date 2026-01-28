@@ -38,7 +38,7 @@ einhergingen:
 1. Ich habe mir Zuhause überlegt welche Produkte und Mengen ungefähr Sinn
    ergeben.
 2. Ich habe geschaut, dass ich vor Ablauf des Coupon diese Filiale
-   anzusteuere.
+   an steuere.
 3. Ich musste mich daran erinnern den Coupon aus seinem Fach im Auto zu
    fischen.
 4. Ich habe mich im Laden noch weitere passende Produkte gesucht und

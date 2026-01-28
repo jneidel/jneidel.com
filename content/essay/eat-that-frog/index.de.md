@@ -1,6 +1,6 @@
 ---
 title: "Eat the Frog first"
-description: "Vorstellung des Prinzipes mit der herausforderndsten und wichtigsten Aufgabe in den Tag zu starten. Kiss the frog first!"
+description: "Vorstellung des Prinzips mit der herausforderndsten und wichtigsten Aufgabe in den Tag zu starten. Kiss the frog first!"
 summary: "Starte mit der wichtigsten Aufgabe in den Tag"
 tags:
 date: 2024-05-24
@@ -10,7 +10,7 @@ writingTime: 85
 
 Das Prinzip ist simpel.
 Starte jeden Tag mit der herausforderndsten und wichtigsten Aufgabe (dem
-glibbrigen Frosch).
+glibberigen Frosch).
 Die konsequente Umsetzung des Prinzips ist es nicht.
 Es erfordert Aufmerksamkeit, diese wichtigste Aufgabe herauszuarbeiten.
 Es erfordert die Disziplin, nicht kurzerhand mit etwas Unwichtigem zu beginnen.

@@ -30,7 +30,7 @@ had started to take into account all the little things I would be doing.
 I summed up the benefits of all the things I'd do and weighed them against the
 cost (money, stress, time) of taking the trip.
 
-This made me resentful toward all the individual activites, because on their own
+This made me resentful toward all the individual activities, because on their own
 they were not worth the whole cost of the trip.
 While doing an activity I wouldn't think "Yeah, this was worth 20% of the trips
 costs", because even if that were true, that's not how your brain works.

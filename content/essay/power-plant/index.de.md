@@ -35,7 +35,7 @@ Generiere die Energie, wenn es dir an ihr mangelt.
 Du bist das Kraftwerk.
 Du musst dir die Energie nur "nehmen."
 
-Aber du hast ja deine Glaubensätze nicht ohne Grund.
+Aber du hast ja deine Glaubenssätze nicht ohne Grund.
 Was sind deine Gründe dafür zu glauben das du nicht die Energie aufbringen
 kannst?
 Wofür hast du die Energie nicht?
@@ -45,7 +45,7 @@ Wofür gibt es dir eine Ausrede?
 _aber_ ich bin immer so fertig nach der Arbeit.
 
 Der Gedanken, dass du gerade nicht die Kraft dafür hast, gibt dir eine
-Ausrede dich auf's Sofa zu setzen und Netflix zu schauen.
+Ausrede dich aufs Sofa zu setzen und Netflix zu schauen.
 
 ---
 

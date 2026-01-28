@@ -168,7 +168,7 @@ helpful to her.
 I used to interrupt my brother because I was looking down on him.
 I didn't need the whole story because I _knew all about_ what he was going
 through.
-I would dissmis what he said and launch straight into the the great wisdom I
+I would dismiss what he said and launch straight into the the great wisdom I
 had to share on the topic.
 Our relationship improved after I meet him on equal terms and let him speak.
 He opened up more and I listened better.

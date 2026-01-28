@@ -88,7 +88,7 @@ Beating yourself up over not delivering will only make things worse.
 - What do your Recessions have in common with each other?
   Where are you? Who are you with? What are you eating? What are you doing?
 
-### Anaylze Expansion/Boom
+### Analyze Expansion/Boom
 
 - What makes them worse?
 - What keeps you there?

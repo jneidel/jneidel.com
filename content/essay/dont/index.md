@@ -10,9 +10,9 @@ writingTime: 70
 ---
 
 When I was 16 the most curious thing happened.
-My friend from kindergarden and I were in the backyard of his parents house
+My friend from kindergarten and I were in the backyard of his parents house
 in the countryside, mowing the grass with scythes.
-Halfway through we're taking a break to sharpen our scythes with handsized
+Halfway through we're taking a break to sharpen our scythes with hand-sized
 grindstones.
 He cuts himself in the finger while grinding.
 Then I cut myself in the finger, much in the same way.
@@ -57,4 +57,4 @@ When communicating with others, and in your self-talk.
 
 ## References
 
-I got this idea from Richard Bandler in his programm <cite>Persuasion Engineering</cite>.
+I got this idea from Richard Bandler in his program <cite>Persuasion Engineering</cite>.
