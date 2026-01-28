@@ -13,11 +13,11 @@ AI/LLM Werkzeuge wurden nicht und werden auch nicht in Zukunft dazu eingesetzt
 werden um Artikel teilweise oder auch ganz zu generieren.
 Auch alle Übersetzungen sind auch von Hand geschrieben.
 
-Für Rechere benutze ich ggf. [Claude.ai] oder ChatGPT.
-Als Input beim Editieren benutze ich manchmal die gennanten LLMs und
+Für Recherche benutze ich [Claude.ai] oder ChatGPT.
+Als Input beim Editieren benutze ich manchmal die genannten LLMs und
 [DeepL Write].
-Die meisten Vorschaubilder wurden mit dem [Microsoft Designer] generiert.
-Beim Code wird AI zum debuggen genutzt.
+Die meisten Vorschaubilder wurden mit [Microsoft Designer] oder ChatGPT generiert.
+OpenAI Codex schreibt Code und hilft beim debuggen.
 
 Das Schreiben gibt mir ein tieferes Verständnis des Themas und zwingt
 mich meinen Gedanken Struktur zu geben.
