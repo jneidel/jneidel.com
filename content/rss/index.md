@@ -10,30 +10,18 @@ writingTime: 45
 ---
 
 {{<lead>}}
-Be notified of new posts.
+Get notified of new articles.
 {{</lead>}}
 
-{{<alert "book">}}
-TL;DR: The [newsletter](/newsletter/rss.xml) or [main](/rss.xml) feed are
-right for most people.
-{{</alert>}}
+RSS feeds are a customizable way to get new articles delivered.
+For most people the [main feed](/rss.xml) is right.
+But feel free to mix and match from the below as you like.
 
-## Option 1: Newsletter
-
-I have a [weekly newsletter](newsletter).
-You can subscribe via [rss](/newsletter/rss.xml).
-
-## Option 2: Main feed
+## Main feed
 
 There is a [main feed](/rss.xml), which includes all the main categories.
-A few categories are excluded to keep it focused (see list below.)
 
-## Option 3: Individual categories
-
-You can also mix together the feeds for the individual categories you are
-interested in.
-
-**The main categories:**
+## Individual categories
 
 - [{{<i18n "category.essay_name">}}](/essay/rss.xml) - {{<i18n "category.essay_description">}}
 - [{{<i18n "category.guide_name">}}](/guide/rss.xml) - {{<i18n "category.guide_description">}}
@@ -43,4 +31,11 @@ interested in.
 
 **Not included in the main feed:**
 - [{{<i18n "category.dev_name">}}](/dev/rss.xml) - {{<i18n "category.dev_description">}}
-- [{{<i18n "category.newsletter_name">}}](/newsletter/rss.xml) - {{<i18n "category.newsletter_description">}}
+
+## Tags
+
+You can also subscribe to specific tags.
+E.g. any new post tagged "Emacs" will show up in [/tags/emacs/rss.xml](/tags/emacs/rss.xml).
+
+Relevant tags:
+- [Emacs](/tags/emacs/rss.xml)
