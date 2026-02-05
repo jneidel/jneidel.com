@@ -20,6 +20,9 @@ assets/css/compiled/main.css: themes/congo/node_modules
 build: assets/css/compiled/main.css
 	HUGO_ENV=production hugo --gc --minify
 
+test: assets/css/compiled/main.css
+	HUGO_ENV=production hugo --gc --minify --templateMetrics --templateMetricsHints --printPathWarnings
+
 _:
 	mkdir -p _
 	ln -s ../content/review _/review
