@@ -1,0 +1,4 @@
+RewriteEngine On
+
+Redirect 301 /misc/sun-minimeal-coin-zu-euro /misc/soil-verkaufen
+Redirect 301 /misc/sun-minimeal-coin-verkaufen /misc/soil-verkaufen

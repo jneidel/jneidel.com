@@ -3,7 +3,7 @@ tmp
 _/
 
 # generated
-public/*
-!public/_redirects
 resources/_gen
 assets/css/compiled
+
+public/

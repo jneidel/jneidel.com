@@ -1,0 +1,13 @@
+RewriteEngine On
+
+RewriteRule ^de/(.*)$ https://jneidel.de/$1 [R=301,L]
+
+# Redirect dotfiles
+Redirect 301 /dot https://github.com/jneidel/dotfiles#readme
+RewriteRule ^dot/(.*)$ https://github.com/jneidel/dotfiles/tree/master/$1 [L]
+
+# Redirect to github repos
+Redirect 301 /gh https://github.com/jneidel
+Redirect 301 /github https://github.com/jneidel
+RewriteRule ^gh/(.*)$ https://github.com/jneidel/$1 [L]
+
