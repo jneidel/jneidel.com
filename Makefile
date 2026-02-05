@@ -1,3 +1,5 @@
+export BROWSERSLIST_IGNORE_OLD_DATA=1
+
 all: tww serve
 
 serve:
