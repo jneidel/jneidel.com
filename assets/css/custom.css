@@ -218,6 +218,10 @@ html.dark #content summary:after {
     background-color: rgb(var(--color-primary-400));
 }
 
+html.dark .toc a:hover {
+    color: rgb(var(--color-neutral-100));
+}
+
 #content details[open] summary:after {
     transform: translateY(-50%) rotate(180deg);
 }
