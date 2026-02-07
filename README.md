@@ -55,6 +55,15 @@ make
 make build
 ```
 
+### Deploy
+To deploy to my server at [uberspace](https://uberspace.de) via ssh:
+```sh
+git push
+make publish
+```
+
+I have these two command wrapped up in a single command (`git publish`) accessible via the terminal and as a magit suffix.
+
 ## Custom frontmatter
 
 On top of what is provided by hugo and congo.

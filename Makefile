@@ -57,10 +57,7 @@ pull:
 	git reset --hard origin/master
 	git submodule update
 
-push:
-	git push origin master
-
 deploy: pull tw build copy
 
-update: push
+publish: # run via a custom git publish
 	ssh u 'zsh -lc "cd git/web; make deploy"'
