@@ -280,6 +280,7 @@ Separate and not equal.
       '("\\*Messages\\*"
         ("\\*Warnings\\*" . hide)
         "\\*Man.*"
+        "\\*Help.*"
         "\\*helpful.*"
         ("\\*Compile.*" . hide)
         ("\\*Org-Babel Error Output\\*" . hide)
@@ -291,10 +292,28 @@ Separate and not equal.
         "\\*org-search\\*"
         "\\* Merriam-Webster"
         "\\*Flymake diagnostics"))
-
+        
 (use-package popper
   :custom
-  (popper-reference-buffers jn/secondary-buffer-regexes))
+  (popper-reference-buffers jn/secondary-buffer-regexes)
+  (popper-mode-line '(:eval ""))
+  (popper-window-height 12) ; default function maxes out at 33%, which seems too small to me
+  :defer nil
+  :config
+  (popper-mode +1)
+  
+  (defhydra popper-hydra (:hint nil)
+    "
+_n_ext    _p_revious    promo_t_e/demo_t_e    show/_u_nshow"
+    ("n" popper-cycle)
+    ("p" popper-cycle-backwards)
+    ("t" popper-toggle-type)
+    ("u" popper-toggle)
+    ("q"   nil nil)
+    ("C-g" nil nil)
+    ("ESC" nil nil))
+  :bind (("H-u"   . popper-toggle) ; quick show/hide popups
+         ("H-U"   . popper-hydra/body)))
   
 (defun jn/strip-alists (buffers)
   (mapcar
