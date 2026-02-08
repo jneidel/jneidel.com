@@ -74,8 +74,13 @@ default included in the footer on this post
 - `writingTime: int` - number of minutes spent writing this post over it's
 lifespan (just analytics for me, not used anywhere)
 
-## Copyright
+## Copyright and License
 
-The contents of this repository are **NOT** to be used under any cirumstances
-without the explicit approval of the author.
-All copyrights belong to Jonathan Neidel.
+The site name, the name "Jonathan Neidel" (including "jneidel"), the logo, and associated personal branding may not be used to imply endorsement, affiliation, or identity.
+
+All website content, including text, images, and personal likeness, is © Jonathan Neidel, 2017–present. All rights reserved.
+Reproduction, redistribution, mirroring, or creation of derivative works, in whole or in part, is prohibited without prior written permission.
+
+Source code is licensed under the GNU General Public License v3.0, unless otherwise noted.
+
+Each top-level directory in this repository contains its own LICENSE or COPYRIGHT file describing the terms that apply to its contents.

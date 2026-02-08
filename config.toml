@@ -2,8 +2,13 @@ name = "jneidel"
 description = "Jonathans Website"
 
 title = "jneidel"
-copyright = "&copy; Jonathan Neidel"
+copyright = "[&copy; Jonathan Neidel. All rights reserved.](copyright)"
 
 enableGitInfo = true # required for lastmod to get date from git
 
 timeout = "5m"
+
+ignoreFiles = [
+  '.*\.org$', # ox-hugo org sources
+  "LICENCE", "COPYRIGHT"
+]

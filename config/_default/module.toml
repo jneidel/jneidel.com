@@ -1,3 +1,8 @@
 [hugoVersion]
   extended = true
   min = "0.87.0"
+
+[[mounts]]
+  source = "layouts"
+  target = "layouts"
+  excludeFiles = "LICENSE"
