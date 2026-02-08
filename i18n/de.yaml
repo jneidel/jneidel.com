@@ -7,7 +7,7 @@ shortcode:
 
 article:
   date_updated: "Aktualisiert am {{ .Date }}"
-  edit_title: "Seite auf GitHub bearbeiten - Danke für das Einreichen einer Pull Request!"
+  edit_title: "Quelle der Seite auf GitHub anzeigen"
   edit: "Quellcode"
 
 footer:

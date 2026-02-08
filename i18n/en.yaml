@@ -7,7 +7,7 @@ footer:
   dark_appearance: "Switch to dark mode"
 
 article:
-  edit_title: "Edit content on GitHub - Thanks for submitting a pull request!"
+  edit_title: "View page source on GitHub"
   edit: "Source"
 
 rss_link: "/rss/"
