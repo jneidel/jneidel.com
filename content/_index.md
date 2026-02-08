@@ -21,10 +21,10 @@ For a consistent experience, I've structured the articles based on their focus
 and style.
 You can explore the categories below:
 
-- {{<button href="essay">}}{{<i18n "category.essay_name">}}{{</button>}} {{<i18n "category.essay_description">}}
-- {{<button href="guide">}}{{<i18n "category.guide_name">}}{{</button>}} {{<i18n "category.guide_description">}}
-- {{<button href="project">}}{{<i18n "category.project_name">}}{{</button>}} {{<i18n "category.project_description">}}
-- {{<button href="review">}}{{<i18n "category.review_name">}}{{</button>}} {{<i18n "category.review_description">}}
+- {{<button href="essay">}}{{<i18n "category.essay_name">}}{{</button>}}<span class="ml-1">{{<i18n "category.essay_description">}}</span>
+- {{<button href="guide">}}{{<i18n "category.guide_name">}}{{</button>}}<span class="ml-1">{{<i18n "category.guide_description">}}</span>
+- {{<button href="project">}}{{<i18n "category.project_name">}}{{</button>}}<span class="ml-1">{{<i18n "category.project_description">}}</span>
+- {{<button href="review">}}{{<i18n "category.review_name">}}{{</button>}}<span class="ml-1">{{<i18n "category.review_description">}}</span>
 
 Find out more [about the author, the purpose of this website](about) and
 it's usage of [AI](ai).
