@@ -1,7 +1,11 @@
 # Repository Guidelines
 
+If the user tell you to "edit" a file in their initial message, stop reading this and read `EDITOR.md` instead.
+
 ## Project Structure & Module Organization
+This is a personal website built with hugo.
 - `content/` holds site pages and posts in Markdown, organized by section (e.g., `guide/`, `essay/`, `newsletter/`).
+- `src/` holds site pages and posts in org-mode, organized by section. If a file exists here is the origin of the equivalent markdown file, which was exported from it with ox-hugo.
 - `layouts/` contains Hugo templates and shortcodes
 - `themes/congo/` is the theme submodule, `themes/congo/layouts/` provides fallbacks for everything not in `layouts/`
 - `assets/` is for source assets (Tailwind input, images); compiled CSS lives in `assets/css/compiled/`.

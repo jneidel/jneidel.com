@@ -385,3 +385,9 @@ html.dark .image-lightbox__close:hover {
     outline: 2px solid rgba(255, 255, 255, 0.9);
     outline-offset: 2px;
 }
+
+/* Hide "Figure N" count on org exported figures */
+figcaption>span.figure-number {
+    display: none;
+}
+
