@@ -1,16 +1,16 @@
 ---
-title: "Consistent Keybindings Across Linux and MacOS"
+title: "Consistent Keybindings Across Linux and macOS"
 description: "MacOS and Linux have different keybindings in many places. This article provides an elegant solution to provide consistent keybindings across both operating systems."
 summary: "And how to them set up"
 tags:
-- "MacOS"
+- "macOS"
 date: 2025-09-26
-thumbnailAlt: "Consistent Keybindings Across Linux and MacOS"
+thumbnailAlt: "Consistent Keybindings Across Linux and macOS"
 ---
 
-This article describes how I set up consistent keybindings between my Linux and MacOS devices using [Karabiner Elements](https://karabiner-elements.pqrs.org/).
+This article describes how I set up consistent keybindings between my Linux and macOS devices.
+Basically, I adjust the macOS bindings with [Karabiner Elements](https://karabiner-elements.pqrs.org/) to mirror the Linux bindings.
 I detail the approach and include my configs so you can replicate it.
-(While I have don't use Windows, the same solution approach applies.)
 
 {{<yt id="0jLmaq97zns">}}
 
@@ -21,50 +21,46 @@ Linux on my personal computer and MacOS on my work machine.
 
 {{<figure src="machines.jpg" class="w-10/12" alt="My hardware">}}
 
-For copy-paste and browser navigation there are many differences in the bindings not addressible at an OS/application level.
-Getting used to the different keybindings on MacOS was a huge pain, which could have been avoided had I set this up earlier.
-But I didn't and now I already got the muscle memory for both sets of bindings using the laptop keyboards.
-What prompted me to look into this was the new keyboard I built (seen in pic above.)
-
-This external keyboard should work the same with both computers.
-I should be able use the same keybindings to do the same things (copy-paste, window management, browser navigation).
-Otherwise I would have another painful transition period in front of me.
+For copy-paste and browser navigation there are many differences in the bindings not addressable at an OS/application level.
+Even if you develop individual muscle memory for both sets of keybindings, a switch will always trip you up or slow you down.
+Especially so if you connect the same external keyboard to both devices.
+Ideally an external keyboard should work the same with both computers.
+Copy-paste on the same key.
+Open new browser tab on the same key.
 
 ## Solution concepts
-I knew it would be a software solution.
-Utilizing either the keyboards firmware ([QMK](https://docs.qmk.fm/)/[Vial](https://get.vial.today/manual/)), keycode translation software on the host ([Xmodmap](https://wiki.archlinux.org/title/Xmodmap), [Karabiner-Elements](https://karabiner-elements.pqrs.org/)) or a combination of the two.
+A software solution is the clean way.
+Options were 1) keyboard specific firmware ([QMK](https://docs.qmk.fm/)/[Vial](https://get.vial.today/manual/)) or 2) keycode translation software like [Xmodmap](https://wiki.archlinux.org/title/Xmodmap) and [Karabiner-Elements](https://karabiner-elements.pqrs.org/)) or a combination of 1) and 2).
 
 The problem at hand is not just a "turn caps lock into control" kind of situation.
-Specifically the MacOS command key needs to be split up by capability.
-To demontrate: to copy you have MacOSs "cmd-c" as "ctrl-c" on Linux, but to navigate to the first browser tab you use "cmd-1" and "alt-1" respectively.
-On top of that I want to populate the now empty "cmd-1" to act like "super-1" on Linux and bring me to the first window management workspace.
+Specifically the macOS command key needs to be split up by capability.
 
-### Separate keyboard by OS
+An example: to copy you have macOSs <kbd>cmd-c</kbd> as <kbd>ctrl-c</kbd> on Linux, but to navigate to the first browser tab you use <kbd>cmd-1</kbd> and <kbd>alt-1</kbd> respectively.
+On top of that I want to populate the now empty <kbd>cmd-1</kbd> to bring me to the first workspace of my [window manager](https://en.wikipedia.org/wiki/Window_manager).
+
+### 1) Firmware: separate keyboard by OS
 Reddit had some ideas about how to do this, namely building different layers for each OS into the keyboards firmware and [changing the default layer (`DF()`) depending on the environment](https://mafaried.wordpress.com/2021/12/29/qmk-support-for-mac-windows/).
 
 It would work, but the downsides of the solution would be:
 - mental overhead ("Am I in the right layer for this OS?")
 - keyboard modification need to be (manually) synchronized between the layers
-- can't apply it to the laptop-internal keyboard
+- does not apply to the laptop-internal keyboard
 - capabilities might need their own keys, think OS-agnostic copy and paste buttons
 
-Another thing I came up with was programming the left/right microcontroller differently and using one for Linux and the other for MacOS.
+Another thing I came up with was programming the left/right microcontroller differently and using one for Linux and the other for macOS.
 This would have similar consequences as the approach above.
 
-### Translate on the Mac
+### 2) Translate keys on the Mac
 [Karabiner Elements](https://karabiner-elements.pqrs.org/) is capable of doing the translations described above, e.g.:
 - "alt-1" triggers "cmd-1"
 - "cmd-1" triggers something to go to workspace 1
 
-Doing it with Karabiner Elements elegantly solves the problem at hand, without any of the downsides presented by the keyboard firmware solution.
+Karabiner Elements elegantly solves the problem at hand, without any of the downsides presented by the keyboard firmware solution.
 
 The Linux machine stays the same and acts as the source to truth to be replicated.
 
 ## Solution implementation
-I don't have to change anything about my keyboard layout.
-The MacOS command key will be invoked by the GUI keycode that registers as super on linux.
-
-With [Karabiner Elements](https://karabiner-elements.pqrs.org/) installed on the Mac, head to "Complex Modifications".
+With [Karabiner Elements](https://karabiner-elements.pqrs.org/) installed on the Mac, let's head to "Complex Modifications".
 
 ### Copy-paste
 Most obviously I want copy, paste and cut to work (ctrl-c, ctrl-v, ctrl-x.)
@@ -602,15 +598,12 @@ I translate:
 </details>
 
 ### Window management
-I recently discovered [Aerospace](https://nikitabobko.github.io/AeroSpace/guide) for window management on MacOS.
-It's much worse than [i3](https://i3wm.org/) on Linux, but better than MacOS spaces, so I use it :shrug:.
-I have it mirror [my i3 config](https://github.com/jneidel/dotfiles/blob/master/.config/i3/config) as closely as possible (command = super):
-- Switch to n-th workspace ("cmd-1,2,3,…")
-- Move window to n-th workspace ("cmd-shift-1,2,3,…")
-- more to come
+I use [aerospace for window management](guide/aerospace-window-management) on MacOS.
+I wanted to mirror [my i3 config](https://github.com/jneidel/dotfiles/blob/master/.config/i3/config) as closely as possible.
+The keycode sent by the macOS <kbd>command</kbd> key is the same as super on Linux.
+After remapping the many of the macOS key combinations that utilize <kbd>command</kbd>, we can now add window management commands.
 
-
-I'm translating these to "cmd-alt-ctrl", which I then use in my [`~/.config/aerospace/aerospace.toml`](https://github.com/jneidel/dotfiles/tree/master/.config/aerospace/aerospace.toml) to define the actions:
+<kbd>command</kbd> is first converted to "meh" (<kbd>cmd-alt-ctrl</kbd>"), which I then use in my [`~/.config/aerospace/aerospace.toml`](https://github.com/jneidel/dotfiles/tree/master/.config/aerospace/aerospace.toml) to bind to actions:
 
 ```toml
 cmd-ctrl-alt-1 = 'workspace 1'
@@ -627,17 +620,25 @@ cmd-ctrl-alt-shift-2 = 'move-node-to-workspace 2'
 
 ```json
 {
-    "description": "Map aerospace bindings to cmd",
+    "description": "Map aerospace bindings to cmd (via meh)",
     "manipulators": [
         {
             "from": {
                 "key_code": "1",
-                "modifiers": { "mandatory": ["left_command"] }
+                "modifiers": {
+                    "mandatory": [
+                        "command"
+                    ]
+                }
             },
             "to": [
                 {
                     "key_code": "1",
-                    "modifiers": ["left_command", "left_option", "left_control"]
+                    "modifiers": [
+                        "left_command",
+                        "left_option",
+                        "left_control"
+                    ]
                 }
             ],
             "type": "basic"
@@ -645,25 +646,22 @@ cmd-ctrl-alt-shift-2 = 'move-node-to-workspace 2'
         {
             "from": {
                 "key_code": "1",
-                "modifiers": { "mandatory": ["left_command", "right_shift"] }
+                "modifiers": {
+                    "mandatory": [
+                        "command",
+                        "shift"
+                    ]
+                }
             },
             "to": [
                 {
                     "key_code": "1",
-                    "modifiers": ["left_command", "left_option", "left_control", "left_shift"]
-                }
-            ],
-            "type": "basic"
-        },
-        {
-            "from": {
-                "key_code": "1",
-                "modifiers": { "mandatory": ["left_command", "left_shift"] }
-            },
-            "to": [
-                {
-                    "key_code": "1",
-                    "modifiers": ["left_command", "left_option", "left_control", "left_shift"]
+                    "modifiers": [
+                        "left_command",
+                        "left_option",
+                        "left_control",
+                        "left_shift"
+                    ]
                 }
             ],
             "type": "basic"
@@ -671,12 +669,20 @@ cmd-ctrl-alt-shift-2 = 'move-node-to-workspace 2'
         {
             "from": {
                 "key_code": "2",
-                "modifiers": { "mandatory": ["left_command"] }
+                "modifiers": {
+                    "mandatory": [
+                        "command"
+                    ]
+                }
             },
             "to": [
                 {
                     "key_code": "2",
-                    "modifiers": ["left_command", "left_option", "left_control"]
+                    "modifiers": [
+                        "left_command",
+                        "left_option",
+                        "left_control"
+                    ]
                 }
             ],
             "type": "basic"
@@ -684,25 +690,22 @@ cmd-ctrl-alt-shift-2 = 'move-node-to-workspace 2'
         {
             "from": {
                 "key_code": "2",
-                "modifiers": { "mandatory": ["left_command", "right_shift"] }
+                "modifiers": {
+                    "mandatory": [
+                        "command",
+                        "shift"
+                    ]
+                }
             },
             "to": [
                 {
                     "key_code": "2",
-                    "modifiers": ["left_command", "left_option", "left_control", "left_shift"]
-                }
-            ],
-            "type": "basic"
-        },
-        {
-            "from": {
-                "key_code": "2",
-                "modifiers": { "mandatory": ["left_command", "left_shift"] }
-            },
-            "to": [
-                {
-                    "key_code": "2",
-                    "modifiers": ["left_command", "left_option", "left_control", "left_shift"]
+                    "modifiers": [
+                        "left_command",
+                        "left_option",
+                        "left_control",
+                        "left_shift"
+                    ]
                 }
             ],
             "type": "basic"
@@ -710,12 +713,20 @@ cmd-ctrl-alt-shift-2 = 'move-node-to-workspace 2'
         {
             "from": {
                 "key_code": "3",
-                "modifiers": { "mandatory": ["left_command"] }
+                "modifiers": {
+                    "mandatory": [
+                        "command"
+                    ]
+                }
             },
             "to": [
                 {
                     "key_code": "3",
-                    "modifiers": ["left_command", "left_option", "left_control"]
+                    "modifiers": [
+                        "left_command",
+                        "left_option",
+                        "left_control"
+                    ]
                 }
             ],
             "type": "basic"
@@ -723,25 +734,22 @@ cmd-ctrl-alt-shift-2 = 'move-node-to-workspace 2'
         {
             "from": {
                 "key_code": "3",
-                "modifiers": { "mandatory": ["left_command", "right_shift"] }
-            },
-            "to": [
-                {
-                    "key_code": "3",
-                    "modifiers": ["left_command", "left_option", "left_control", "left_shift"]
+                "modifiers": {
+                    "mandatory": [
+                        "command",
+                        "shift"
+                    ]
                 }
-            ],
-            "type": "basic"
-        },
-        {
-            "from": {
-                "key_code": "3",
-                "modifiers": { "mandatory": ["left_command", "left_shift"] }
             },
             "to": [
                 {
                     "key_code": "3",
-                    "modifiers": ["left_command", "left_option", "left_control", "left_shift"]
+                    "modifiers": [
+                        "left_command",
+                        "left_option",
+                        "left_control",
+                        "left_shift"
+                    ]
                 }
             ],
             "type": "basic"
@@ -749,12 +757,20 @@ cmd-ctrl-alt-shift-2 = 'move-node-to-workspace 2'
         {
             "from": {
                 "key_code": "4",
-                "modifiers": { "mandatory": ["left_command"] }
+                "modifiers": {
+                    "mandatory": [
+                        "command"
+                    ]
+                }
             },
             "to": [
                 {
                     "key_code": "4",
-                    "modifiers": ["left_command", "left_option", "left_control"]
+                    "modifiers": [
+                        "left_command",
+                        "left_option",
+                        "left_control"
+                    ]
                 }
             ],
             "type": "basic"
@@ -762,25 +778,22 @@ cmd-ctrl-alt-shift-2 = 'move-node-to-workspace 2'
         {
             "from": {
                 "key_code": "4",
-                "modifiers": { "mandatory": ["left_command", "right_shift"] }
+                "modifiers": {
+                    "mandatory": [
+                        "command",
+                        "shift"
+                    ]
+                }
             },
             "to": [
                 {
                     "key_code": "4",
-                    "modifiers": ["left_command", "left_option", "left_control", "left_shift"]
-                }
-            ],
-            "type": "basic"
-        },
-        {
-            "from": {
-                "key_code": "4",
-                "modifiers": { "mandatory": ["left_command", "left_shift"] }
-            },
-            "to": [
-                {
-                    "key_code": "4",
-                    "modifiers": ["left_command", "left_option", "left_control", "left_shift"]
+                    "modifiers": [
+                        "left_command",
+                        "left_option",
+                        "left_control",
+                        "left_shift"
+                    ]
                 }
             ],
             "type": "basic"
@@ -788,12 +801,20 @@ cmd-ctrl-alt-shift-2 = 'move-node-to-workspace 2'
         {
             "from": {
                 "key_code": "5",
-                "modifiers": { "mandatory": ["left_command"] }
+                "modifiers": {
+                    "mandatory": [
+                        "command"
+                    ]
+                }
             },
             "to": [
                 {
                     "key_code": "5",
-                    "modifiers": ["left_command", "left_option", "left_control"]
+                    "modifiers": [
+                        "left_command",
+                        "left_option",
+                        "left_control"
+                    ]
                 }
             ],
             "type": "basic"
@@ -801,25 +822,22 @@ cmd-ctrl-alt-shift-2 = 'move-node-to-workspace 2'
         {
             "from": {
                 "key_code": "5",
-                "modifiers": { "mandatory": ["left_command", "right_shift"] }
+                "modifiers": {
+                    "mandatory": [
+                        "command",
+                        "shift"
+                    ]
+                }
             },
             "to": [
                 {
                     "key_code": "5",
-                    "modifiers": ["left_command", "left_option", "left_control", "left_shift"]
-                }
-            ],
-            "type": "basic"
-        },
-        {
-            "from": {
-                "key_code": "5",
-                "modifiers": { "mandatory": ["left_command", "left_shift"] }
-            },
-            "to": [
-                {
-                    "key_code": "5",
-                    "modifiers": ["left_command", "left_option", "left_control", "left_shift"]
+                    "modifiers": [
+                        "left_command",
+                        "left_option",
+                        "left_control",
+                        "left_shift"
+                    ]
                 }
             ],
             "type": "basic"
@@ -827,12 +845,20 @@ cmd-ctrl-alt-shift-2 = 'move-node-to-workspace 2'
         {
             "from": {
                 "key_code": "6",
-                "modifiers": { "mandatory": ["left_command"] }
+                "modifiers": {
+                    "mandatory": [
+                        "command"
+                    ]
+                }
             },
             "to": [
                 {
                     "key_code": "6",
-                    "modifiers": ["left_command", "left_option", "left_control"]
+                    "modifiers": [
+                        "left_command",
+                        "left_option",
+                        "left_control"
+                    ]
                 }
             ],
             "type": "basic"
@@ -840,25 +866,22 @@ cmd-ctrl-alt-shift-2 = 'move-node-to-workspace 2'
         {
             "from": {
                 "key_code": "6",
-                "modifiers": { "mandatory": ["left_command", "right_shift"] }
+                "modifiers": {
+                    "mandatory": [
+                        "command",
+                        "shift"
+                    ]
+                }
             },
             "to": [
                 {
                     "key_code": "6",
-                    "modifiers": ["left_command", "left_option", "left_control", "left_shift"]
-                }
-            ],
-            "type": "basic"
-        },
-        {
-            "from": {
-                "key_code": "6",
-                "modifiers": { "mandatory": ["left_command", "left_shift"] }
-            },
-            "to": [
-                {
-                    "key_code": "6",
-                    "modifiers": ["left_command", "left_option", "left_control", "left_shift"]
+                    "modifiers": [
+                        "left_command",
+                        "left_option",
+                        "left_control",
+                        "left_shift"
+                    ]
                 }
             ],
             "type": "basic"
@@ -866,12 +889,20 @@ cmd-ctrl-alt-shift-2 = 'move-node-to-workspace 2'
         {
             "from": {
                 "key_code": "7",
-                "modifiers": { "mandatory": ["left_command"] }
+                "modifiers": {
+                    "mandatory": [
+                        "command"
+                    ]
+                }
             },
             "to": [
                 {
                     "key_code": "7",
-                    "modifiers": ["left_command", "left_option", "left_control"]
+                    "modifiers": [
+                        "left_command",
+                        "left_option",
+                        "left_control"
+                    ]
                 }
             ],
             "type": "basic"
@@ -879,25 +910,22 @@ cmd-ctrl-alt-shift-2 = 'move-node-to-workspace 2'
         {
             "from": {
                 "key_code": "7",
-                "modifiers": { "mandatory": ["left_command", "right_shift"] }
+                "modifiers": {
+                    "mandatory": [
+                        "command",
+                        "shift"
+                    ]
+                }
             },
             "to": [
                 {
                     "key_code": "7",
-                    "modifiers": ["left_command", "left_option", "left_control", "left_shift"]
-                }
-            ],
-            "type": "basic"
-        },
-        {
-            "from": {
-                "key_code": "7",
-                "modifiers": { "mandatory": ["left_command", "left_shift"] }
-            },
-            "to": [
-                {
-                    "key_code": "7",
-                    "modifiers": ["left_command", "left_option", "left_control", "left_shift"]
+                    "modifiers": [
+                        "left_command",
+                        "left_option",
+                        "left_control",
+                        "left_shift"
+                    ]
                 }
             ],
             "type": "basic"
@@ -905,25 +933,20 @@ cmd-ctrl-alt-shift-2 = 'move-node-to-workspace 2'
         {
             "from": {
                 "key_code": "8",
-                "modifiers": { "mandatory": ["left_command"] }
-            },
-            "to": [
-                {
-                    "key_code": "8",
-                    "modifiers": ["left_command", "left_option", "left_control"]
+                "modifiers": {
+                    "mandatory": [
+                        "command"
+                    ]
                 }
-            ],
-            "type": "basic"
-        },
-         {
-            "from": {
-                "key_code": "8",
-                "modifiers": { "mandatory": ["left_command", "right_shift"] }
             },
             "to": [
                 {
                     "key_code": "8",
-                    "modifiers": ["left_command", "left_option", "left_control", "left_shift"]
+                    "modifiers": [
+                        "left_command",
+                        "left_option",
+                        "left_control"
+                    ]
                 }
             ],
             "type": "basic"
@@ -931,39 +954,22 @@ cmd-ctrl-alt-shift-2 = 'move-node-to-workspace 2'
         {
             "from": {
                 "key_code": "8",
-                "modifiers": { "mandatory": ["left_command", "left_shift"] }
+                "modifiers": {
+                    "mandatory": [
+                        "command",
+                        "shift"
+                    ]
+                }
             },
             "to": [
                 {
                     "key_code": "8",
-                    "modifiers": ["left_command", "left_option", "left_control", "left_shift"]
-                }
-            ],
-            "type": "basic"
-        },
-
-        {
-            "from": {
-                "key_code": "9",
-                "modifiers": { "mandatory": ["left_command"] }
-            },
-            "to": [
-                {
-                    "key_code": "9",
-                    "modifiers": ["left_command", "left_option", "left_control"]
-                }
-            ],
-            "type": "basic"
-        },
-         {
-            "from": {
-                "key_code": "9",
-                "modifiers": { "mandatory": ["left_command", "right_shift"] }
-            },
-            "to": [
-                {
-                    "key_code": "9",
-                    "modifiers": ["left_command", "left_option", "left_control", "left_shift"]
+                    "modifiers": [
+                        "left_command",
+                        "left_option",
+                        "left_control",
+                        "left_shift"
+                    ]
                 }
             ],
             "type": "basic"
@@ -971,52 +977,87 @@ cmd-ctrl-alt-shift-2 = 'move-node-to-workspace 2'
         {
             "from": {
                 "key_code": "9",
-                "modifiers": { "mandatory": ["left_command", "left_shift"] }
+                "modifiers": {
+                    "mandatory": [
+                        "command"
+                    ]
+                }
             },
             "to": [
                 {
                     "key_code": "9",
-                    "modifiers": ["left_command", "left_option", "left_control", "left_shift"]
-                }
-            ],
-            "type": "basic"
-        },
-
-        {
-            "from": {
-                "key_code": "0",
-                "modifiers": { "mandatory": ["left_command"] }
-            },
-            "to": [
-                {
-                    "key_code": "0",
-                    "modifiers": ["left_command", "left_option", "left_control"]
-                }
-            ],
-            "type": "basic"
-        },
-               {
-            "from": {
-                "key_code": "0",
-                "modifiers": { "mandatory": ["left_command", "right_shift"] }
-            },
-            "to": [
-                {
-                    "key_code": "0",
-                    "modifiers": ["left_command", "left_option", "left_control", "left_shift"]
+                    "modifiers": [
+                        "left_command",
+                        "left_option",
+                        "left_control"
+                    ]
                 }
             ],
             "type": "basic"
         },
         {
             "from": {
+                "key_code": "9",
+                "modifiers": {
+                    "mandatory": [
+                        "command",
+                        "shift"
+                    ]
+                }
+            },
+            "to": [
+                {
+                    "key_code": "9",
+                    "modifiers": [
+                        "left_command",
+                        "left_option",
+                        "left_control",
+                        "left_shift"
+                    ]
+                }
+            ],
+            "type": "basic"
+        },
+        {
+            "from": {
                 "key_code": "0",
-                "modifiers": { "mandatory": ["left_command", "left_shift"] }
+                "modifiers": {
+                    "mandatory": [
+                        "command"
+                    ]
+                }
             },
             "to": [
                 {
                     "key_code": "0",
-                    "modifiers": ["left_command", "left_option", "left_control", "left_shift"]
+                    "modifiers": [
+                        "left_command",
+                        "left_option",
+                        "left_control"
+                    ]
+                }
+            ],
+            "type": "basic"
+        },
+        {
+            "from": {
+                "key_code": "0",
+                "modifiers": {
+                    "mandatory": [
+                        "command",
+                        "shift"
+                    ]
+                }
+            },
+            "to": [
+                {
+                    "key_code": "0",
+                    "modifiers": [
+                        "left_command",
+                        "left_option",
+                        "left_control",
+                        "left_shift"
+                    ]
                 }
             ],
             "type": "basic"
@@ -1024,12 +1065,19 @@ cmd-ctrl-alt-shift-2 = 'move-node-to-workspace 2'
         {
             "from": {
                 "key_code": "p",
-                "modifiers": { "mandatory": ["left_command"] }
+                "modifiers": {
+                    "mandatory": [
+                        "command"
+                    ]
+                }
             },
             "to": [
                 {
                     "key_code": "3",
-                    "modifiers": ["left_command", "left_shift"]
+                    "modifiers": [
+                        "left_command",
+                        "left_shift"
+                    ]
                 }
             ],
             "type": "basic"
@@ -1037,12 +1085,20 @@ cmd-ctrl-alt-shift-2 = 'move-node-to-workspace 2'
         {
             "from": {
                 "key_code": "p",
-                "modifiers": { "mandatory": ["left_command", "left_shift"] }
+                "modifiers": {
+                    "mandatory": [
+                        "command",
+                        "shift"
+                    ]
+                }
             },
             "to": [
                 {
                     "key_code": "4",
-                    "modifiers": ["left_command", "left_shift"]
+                    "modifiers": [
+                        "left_command",
+                        "left_shift"
+                    ]
                 }
             ],
             "type": "basic"
@@ -1050,25 +1106,301 @@ cmd-ctrl-alt-shift-2 = 'move-node-to-workspace 2'
         {
             "from": {
                 "key_code": "p",
-                "modifiers": { "mandatory": ["left_command", "right_shift"] }
-            },
-            "to": [
-                {
-                    "key_code": "4",
-                    "modifiers": ["left_command", "left_shift"]
+                "modifiers": {
+                    "mandatory": [
+                        "command",
+                        "control"
+                    ]
                 }
-            ],
-            "type": "basic"
-        },
-        {
-            "from": {
-                "key_code": "p",
-                "modifiers": { "mandatory": ["left_command", "right_control"] }
             },
             "to": [
                 {
                     "key_code": "5",
-                    "modifiers": ["left_command", "left_shift"]
+                    "modifiers": [
+                        "left_command",
+                        "left_shift"
+                    ]
+                }
+            ],
+            "type": "basic"
+        },
+        {
+            "from": {
+                "key_code": "h",
+                "modifiers": {
+                    "mandatory": [
+                        "command"
+                    ]
+                }
+            },
+            "to": [
+                {
+                    "key_code": "h",
+                    "modifiers": [
+                        "left_command",
+                        "left_option",
+                        "left_control"
+                    ]
+                }
+            ],
+            "type": "basic"
+        },
+        {
+            "from": {
+                "key_code": "j",
+                "modifiers": {
+                    "mandatory": [
+                        "command"
+                    ]
+                }
+            },
+            "to": [
+                {
+                    "key_code": "j",
+                    "modifiers": [
+                        "left_command",
+                        "left_option",
+                        "left_control"
+                    ]
+                }
+            ],
+            "type": "basic"
+        },
+        {
+            "from": {
+                "key_code": "k",
+                "modifiers": {
+                    "mandatory": [
+                        "command"
+                    ]
+                }
+            },
+            "to": [
+                {
+                    "key_code": "k",
+                    "modifiers": [
+                        "left_command",
+                        "left_option",
+                        "left_control"
+                    ]
+                }
+            ],
+            "type": "basic"
+        },
+        {
+            "from": {
+                "key_code": "l",
+                "modifiers": {
+                    "mandatory": [
+                        "command"
+                    ]
+                }
+            },
+            "to": [
+                {
+                    "key_code": "l",
+                    "modifiers": [
+                        "left_command",
+                        "left_option",
+                        "left_control"
+                    ]
+                }
+            ],
+            "type": "basic"
+        },
+        {
+            "from": {
+                "key_code": "h",
+                "modifiers": {
+                    "mandatory": [
+                        "command",
+                        "shift"
+                    ]
+                }
+            },
+            "to": [
+                {
+                    "key_code": "h",
+                    "modifiers": [
+                        "left_command",
+                        "left_option",
+                        "left_control",
+                        "left_shift"
+                    ]
+                }
+            ],
+            "type": "basic"
+        },
+        {
+            "from": {
+                "key_code": "j",
+                "modifiers": {
+                    "mandatory": [
+                        "command",
+                        "shift"
+                    ]
+                }
+            },
+            "to": [
+                {
+                    "key_code": "j",
+                    "modifiers": [
+                        "left_command",
+                        "left_option",
+                        "left_control",
+                        "left_shift"
+                    ]
+                }
+            ],
+            "type": "basic"
+        },
+        {
+            "from": {
+                "key_code": "k",
+                "modifiers": {
+                    "mandatory": [
+                        "command",
+                        "shift"
+                    ]
+                }
+            },
+            "to": [
+                {
+                    "key_code": "k",
+                    "modifiers": [
+                        "left_command",
+                        "left_option",
+                        "left_control",
+                        "left_shift"
+                    ]
+                }
+            ],
+            "type": "basic"
+        },
+        {
+            "from": {
+                "key_code": "l",
+                "modifiers": {
+                    "mandatory": [
+                        "command",
+                        "shift"
+                    ]
+                }
+            },
+            "to": [
+                {
+                    "key_code": "l",
+                    "modifiers": [
+                        "left_command",
+                        "left_option",
+                        "left_control",
+                        "left_shift"
+                    ]
+                }
+            ],
+            "type": "basic"
+        },
+        {
+            "from": {
+                "key_code": "f",
+                "modifiers": {
+                    "mandatory": [
+                        "command"
+                    ]
+                }
+            },
+            "to": [
+                {
+                    "key_code": "f",
+                    "modifiers": [
+                        "left_command",
+                        "left_option",
+                        "left_control"
+                    ]
+                }
+            ],
+            "type": "basic"
+        },
+        {
+            "from": {
+                "key_code": "s",
+                "modifiers": {
+                    "mandatory": [
+                        "command"
+                    ]
+                }
+            },
+            "to": [
+                {
+                    "key_code": "s",
+                    "modifiers": [
+                        "left_command",
+                        "left_option",
+                        "left_control"
+                    ]
+                }
+            ],
+            "type": "basic"
+        },
+        {
+            "from": {
+                "key_code": "w",
+                "modifiers": {
+                    "mandatory": [
+                        "command"
+                    ]
+                }
+            },
+            "to": [
+                {
+                    "key_code": "w",
+                    "modifiers": [
+                        "left_command",
+                        "left_option",
+                        "left_control"
+                    ]
+                }
+            ],
+            "type": "basic"
+        },
+        {
+            "from": {
+                "key_code": "e",
+                "modifiers": {
+                    "mandatory": [
+                        "command"
+                    ]
+                }
+            },
+            "to": [
+                {
+                    "key_code": "e",
+                    "modifiers": [
+                        "left_command",
+                        "left_option",
+                        "left_control"
+                    ]
+                }
+            ],
+            "type": "basic"
+        },
+        {
+            "from": {
+                "key_code": "r",
+                "modifiers": {
+                    "mandatory": [
+                        "command"
+                    ]
+                }
+            },
+            "to": [
+                {
+                    "key_code": "r",
+                    "modifiers": [
+                        "left_command",
+                        "left_option",
+                        "left_control"
+                    ]
                 }
             ],
             "type": "basic"
@@ -1085,22 +1417,1441 @@ The configurations I supplied above apply the translation not only to any extern
 If you only want it to affect external ones, you can add this restrictive condition to every rule:
 
 ```json
-            "conditions": [
-                {
-                    "identifiers": [
-                        { "is_built_in_keyboard": true },
-                        { "vendor_id": 76 }
-                    ],
-                    "type": "device_unless"
-                }
-            ],
+"conditions": [
+    {
+        "identifiers": [
+            { "is_built_in_keyboard": true },
+            { "vendor_id": 76 }
+        ],
+        "type": "device_unless"
+    }
+]
 ```
+
+## The next step
+One does not have to stop there.
+I use Emacs, which has keybindings like <kbd>ctrl-y</kbd> to paste that predate the convention of <kbd>ctrl-v</kbd>.
+That creates another mental switch.
+Emacs and other apps.
+This difference can be eliminated with the same solution.
+Using Emacs bindings everywhere.
+
+This is [my karabiner config](https://github.com/jneidel/dotfiles/tree/master/.config/karabiner) for that on macOS (though it can be [much better](https://github.com/justintanner/universal-emacs-keybindings)):
+<details>
+<summary>Karabiner config for Emacs bindings everywhere</summary>
+
+```json
+{
+    "global": { "check_for_updates_on_startup": false },
+    "profiles": [
+        {
+            "complex_modifications": {
+                "rules": [
+                    {
+                        "description": "Emacs bindings: Browser only",
+                        "manipulators": [
+                            {
+                                "conditions": [
+                                    {
+                                        "bundle_identifiers": [
+                                            "^org\\.chromium\\.Chromium$"
+                                        ],
+                                        "type": "frontmost_application_if"
+                                    }
+                                ],
+                                "from": {
+                                    "key_code": "q",
+                                    "modifiers": {
+                                        "mandatory": ["control"],
+                                        "optional": ["any"]
+                                    }
+                                },
+                                "to": [
+                                    {
+                                        "key_code": "w",
+                                        "modifiers": ["command"]
+                                    }
+                                ],
+                                "type": "basic"
+                            }
+                        ]
+                    },
+                    {
+                      "description": "Emacs bindings: common (cmd+f, c, v, x; not in Emacs/Terminal)",
+                      "manipulators": [
+                        {
+                          "conditions": [
+                            {
+                              "bundle_identifiers": [
+                                "^net\\.kovidgoyal\\.kitty$",
+                                "^com\\.apple\\.Terminal$",
+                                "^com\\.googlecode\\.iterm2$",
+                                "^org\\.gnu\\.Emacs$"
+                              ],
+                              "type": "frontmost_application_unless"
+                            }
+                          ],
+                          "from": {
+                            "key_code": "b",
+                            "modifiers": {
+                              "mandatory": ["control"],
+                              "optional": ["any"]
+                            }
+                          },
+                          "to": [{ "key_code": "left_arrow" }],
+                          "type": "basic"
+                        },
+                        {
+                          "conditions": [
+                            {
+                              "bundle_identifiers": [
+                                "^net\\.kovidgoyal\\.kitty$",
+                                "^com\\.apple\\.Terminal$",
+                                "^com\\.googlecode\\.iterm2$",
+                                "^org\\.gnu\\.Emacs$"
+                              ],
+                              "type": "frontmost_application_unless"
+                            }
+                          ],
+                          "from": {
+                            "key_code": "f",
+                            "modifiers": {
+                              "mandatory": ["control"],
+                              "optional": ["any"]
+                            }
+                          },
+                          "to": [{ "key_code": "right_arrow" }],
+                          "type": "basic"
+                        },
+                        {
+                          "conditions": [
+                            {
+                              "bundle_identifiers": [
+                                "^net\\.kovidgoyal\\.kitty$",
+                                "^com\\.apple\\.Terminal$",
+                                "^com\\.googlecode\\.iterm2$",
+                                "^org\\.gnu\\.Emacs$"
+                              ],
+                              "type": "frontmost_application_unless"
+                            }
+                          ],
+                          "from": {
+                            "key_code": "p",
+                            "modifiers": {
+                              "mandatory": ["control"],
+                              "optional": ["any"]
+                            }
+                          },
+                          "to": [{ "key_code": "up_arrow" }],
+                          "type": "basic"
+                        },
+                        {
+                          "conditions": [
+                            {
+                              "bundle_identifiers": [
+                                "^net\\.kovidgoyal\\.kitty$",
+                                "^com\\.apple\\.Terminal$",
+                                "^com\\.googlecode\\.iterm2$",
+                                "^org\\.gnu\\.Emacs$"
+                              ],
+                              "type": "frontmost_application_unless"
+                            }
+                          ],
+                          "from": {
+                            "key_code": "n",
+                            "modifiers": {
+                              "mandatory": ["control"],
+                              "optional": ["any"]
+                            }
+                          },
+                          "to": [{ "key_code": "down_arrow" }],
+                          "type": "basic"
+                        },
+                        {
+                          "conditions": [
+                            {
+                              "bundle_identifiers": [
+                                "^net\\.kovidgoyal\\.kitty$",
+                                "^com\\.apple\\.Terminal$",
+                                "^com\\.googlecode\\.iterm2$",
+                                "^org\\.gnu\\.Emacs$"
+                              ],
+                              "type": "frontmost_application_unless"
+                            }
+                          ],
+                          "from": {
+                            "key_code": "e",
+                            "modifiers": {
+                              "mandatory": ["control"],
+                              "optional": ["any"]
+                            }
+                          },
+                          "to": [
+                            {
+                              "key_code": "right_arrow",
+                              "modifiers": ["command"]
+                            }
+                          ],
+                          "type": "basic"
+                        },
+                        {
+                          "conditions": [
+                            {
+                              "bundle_identifiers": [
+                                "^net\\.kovidgoyal\\.kitty$",
+                                "^com\\.apple\\.Terminal$",
+                                "^com\\.googlecode\\.iterm2$",
+                                "^org\\.gnu\\.Emacs$"
+                              ],
+                              "type": "frontmost_application_unless"
+                            }
+                          ],
+                          "from": {
+                            "key_code": "v",
+                            "modifiers": {
+                              "mandatory": ["option"],
+                              "optional": ["any"]
+                            }
+                          },
+                          "to": [{ "key_code": "page_up" }],
+                          "type": "basic"
+                        },
+                        {
+                          "conditions": [
+                            {
+                              "bundle_identifiers": [
+                                "^net\\.kovidgoyal\\.kitty$",
+                                "^com\\.apple\\.Terminal$",
+                                "^com\\.googlecode\\.iterm2$",
+                                "^org\\.gnu\\.Emacs$"
+                              ],
+                              "type": "frontmost_application_unless"
+                            }
+                          ],
+                          "from": {
+                            "key_code": "v",
+                            "modifiers": {
+                              "mandatory": ["control"],
+                              "optional": ["any"]
+                            }
+                          },
+                          "to": [{ "key_code": "page_down" }],
+                          "type": "basic"
+                        },
+                        {
+                          "conditions": [
+                            {
+                              "bundle_identifiers": [
+                                "^net\\.kovidgoyal\\.kitty$",
+                                "^com\\.apple\\.Terminal$",
+                                "^com\\.googlecode\\.iterm2$",
+                                "^org\\.gnu\\.Emacs$"
+                              ],
+                              "type": "frontmost_application_unless"
+                            }
+                          ],
+                          "from": {
+                            "key_code": "w",
+                            "modifiers": {
+                              "mandatory": ["control"],
+                              "optional": ["any"]
+                            }
+                          },
+                          "to": [
+                            {
+                              "key_code": "x",
+                              "modifiers": ["command"]
+                            }
+                          ],
+                          "type": "basic"
+                        },
+                        {
+                          "conditions": [
+                            {
+                              "bundle_identifiers": [
+                                "^net\\.kovidgoyal\\.kitty$",
+                                "^com\\.apple\\.Terminal$",
+                                "^com\\.googlecode\\.iterm2$",
+                                "^org\\.gnu\\.Emacs$"
+                              ],
+                              "type": "frontmost_application_unless"
+                            }
+                          ],
+                          "from": {
+                            "key_code": "w",
+                            "modifiers": {
+                              "mandatory": ["option"],
+                              "optional": ["any"]
+                            }
+                          },
+                          "to": [
+                            {
+                              "key_code": "c",
+                              "modifiers": ["command"]
+                            }
+                          ],
+                          "type": "basic"
+                        },
+                        {
+                          "conditions": [
+                            {
+                              "bundle_identifiers": [
+                                "^net\\.kovidgoyal\\.kitty$",
+                                "^com\\.apple\\.Terminal$",
+                                "^com\\.googlecode\\.iterm2$",
+                                "^org\\.gnu\\.Emacs$"
+                              ],
+                              "type": "frontmost_application_unless"
+                            }
+                          ],
+                          "from": {
+                            "key_code": "z",
+                            "modifiers": {
+                              "mandatory": ["control"],
+                              "optional": ["any"]
+                            }
+                          },
+                          "to": [
+                            {
+                              "key_code": "v",
+                              "modifiers": ["command"]
+                            }
+                          ],
+                          "type": "basic"
+                        },
+                        {
+                          "conditions": [
+                            {
+                              "bundle_identifiers": [
+                                "^net\\.kovidgoyal\\.kitty$",
+                                "^com\\.apple\\.Terminal$",
+                                "^com\\.googlecode\\.iterm2$",
+                                "^org\\.gnu\\.Emacs$"
+                              ],
+                              "type": "frontmost_application_unless"
+                            }
+                          ],
+                          "from": {
+                            "key_code": "d",
+                            "modifiers": {
+                              "mandatory": ["control"],
+                              "optional": ["any"]
+                            }
+                          },
+                          "to": [{ "key_code": "delete_forward" }],
+                          "type": "basic"
+                        },
+                        {
+                          "conditions": [
+                            {
+                              "bundle_identifiers": [
+                                "^net\\.kovidgoyal\\.kitty$",
+                                "^com\\.apple\\.Terminal$",
+                                "^com\\.googlecode\\.iterm2$",
+                                "^org\\.gnu\\.Emacs$"
+                              ],
+                              "type": "frontmost_application_unless"
+                            }
+                          ],
+                          "from": {
+                            "key_code": "k",
+                            "modifiers": {
+                              "mandatory": ["control"],
+                              "optional": ["any"]
+                            }
+                          },
+                          "to": [
+                            {
+                              "key_code": "right_arrow",
+                              "modifiers": ["command", "shift"]
+                            },
+                            {
+                              "key_code": "x",
+                              "modifiers": ["command"]
+                            }
+                          ],
+                          "type": "basic"
+                        },
+                        {
+                          "conditions": [
+                            {
+                              "bundle_identifiers": [
+                                "^net\\.kovidgoyal\\.kitty$",
+                                "^com\\.apple\\.Terminal$",
+                                "^com\\.googlecode\\.iterm2$",
+                                "^org\\.gnu\\.Emacs$"
+                              ],
+                              "type": "frontmost_application_unless"
+                            }
+                          ],
+                          "from": {
+                            "key_code": "s",
+                            "modifiers": {
+                              "mandatory": ["control"],
+                              "optional": ["any"]
+                            }
+                          },
+                          "to": [
+                            {
+                              "key_code": "f",
+                              "modifiers": ["command"]
+                            }
+                          ],
+                          "type": "basic"
+                        },
+                        {
+                          "conditions": [
+                            {
+                              "bundle_identifiers": [
+                                "^net\\.kovidgoyal\\.kitty$",
+                                "^com\\.apple\\.Terminal$",
+                                "^com\\.googlecode\\.iterm2$",
+                                "^org\\.gnu\\.Emacs$"
+                              ],
+                              "type": "frontmost_application_unless"
+                            }
+                          ],
+                          "from": {
+                            "key_code": "g",
+                            "modifiers": {
+                              "mandatory": ["control"],
+                              "optional": ["any"]
+                            }
+                          },
+                          "to": [{ "key_code": "escape" }],
+                          "type": "basic"
+                        }
+                      ]
+                    },
+                    {
+                        "description": "Emacs Bindings: Terminal only",
+                        "manipulators": [
+                            {
+                                "conditions": [
+                                    {
+                                        "bundle_identifiers": [
+                                            "^net\\.kovidgoyal\\.kitty$",
+                                            "^com\\.apple\\.Terminal$",
+                                            "^com\\.googlecode\\.iterm2$"
+                                        ],
+                                        "type": "frontmost_application_if"
+                                    }
+                                ],
+                                "from": {
+                                    "key_code": "v",
+                                    "modifiers": {
+                                        "mandatory": ["option"],
+                                        "optional": ["any"]
+                                    }
+                                },
+                                "to": [{ "key_code": "page_up" }],
+                                "type": "basic"
+                            },
+                            {
+                                "conditions": [
+                                    {
+                                        "bundle_identifiers": [
+                                            "^net\\.kovidgoyal\\.kitty$",
+                                            "^com\\.apple\\.Terminal$",
+                                            "^com\\.googlecode\\.iterm2$"
+                                        ],
+                                        "type": "frontmost_application_if"
+                                    }
+                                ],
+                                "from": {
+                                    "key_code": "v",
+                                    "modifiers": {
+                                        "mandatory": ["control"],
+                                        "optional": ["any"]
+                                    }
+                                },
+                                "to": [{ "key_code": "page_down" }],
+                                "type": "basic"
+                            },
+                            {
+                                "conditions": [
+                                    {
+                                        "bundle_identifiers": [
+                                            "^net\\.kovidgoyal\\.kitty$",
+                                            "^com\\.apple\\.Terminal$",
+                                            "^com\\.googlecode\\.iterm2$"
+                                        ],
+                                        "type": "frontmost_application_if"
+                                    }
+                                ],
+                                "from": {
+                                    "key_code": "g",
+                                    "modifiers": {
+                                        "mandatory": ["control"],
+                                        "optional": ["any"]
+                                    }
+                                },
+                                "to": [{ "key_code": "escape" }],
+                                "type": "basic"
+                            }
+                        ]
+                    },
+                    {
+                      "description": "Map aerospace bindings to cmd (via meh)",
+                      "manipulators": [
+                        {
+                          "from": {
+                            "key_code": "1",
+                            "modifiers": { "mandatory": ["command"] }
+                          },
+                          "to": [
+                            {
+                              "key_code": "1",
+                              "modifiers": ["left_command", "left_option", "left_control"]
+                            }
+                          ],
+                          "type": "basic"
+                        },
+                        {
+                          "from": {
+                            "key_code": "1",
+                            "modifiers": { "mandatory": ["command", "shift"] }
+                          },
+                          "to": [
+                            {
+                              "key_code": "1",
+                              "modifiers": ["left_command", "left_option", "left_control", "left_shift"]
+                            }
+                          ],
+                          "type": "basic"
+                        },
+                        {
+                          "from": {
+                            "key_code": "2",
+                            "modifiers": { "mandatory": ["command"] }
+                          },
+                          "to": [
+                            {
+                              "key_code": "2",
+                              "modifiers": ["left_command", "left_option", "left_control"]
+                            }
+                          ],
+                          "type": "basic"
+                        },
+                        {
+                          "from": {
+                            "key_code": "2",
+                            "modifiers": { "mandatory": ["command", "shift"] }
+                          },
+                          "to": [
+                            {
+                              "key_code": "2",
+                              "modifiers": ["left_command", "left_option", "left_control", "left_shift"]
+                            }
+                          ],
+                          "type": "basic"
+                        },
+                        {
+                          "from": {
+                            "key_code": "3",
+                            "modifiers": { "mandatory": ["command"] }
+                          },
+                          "to": [
+                            {
+                              "key_code": "3",
+                              "modifiers": ["left_command", "left_option", "left_control"]
+                            }
+                          ],
+                          "type": "basic"
+                        },
+                        {
+                          "from": {
+                            "key_code": "3",
+                            "modifiers": { "mandatory": ["command", "shift"] }
+                          },
+                          "to": [
+                            {
+                              "key_code": "3",
+                              "modifiers": ["left_command", "left_option", "left_control", "left_shift"]
+                            }
+                          ],
+                          "type": "basic"
+                        },
+                        {
+                          "from": {
+                            "key_code": "4",
+                            "modifiers": { "mandatory": ["command"] }
+                          },
+                          "to": [
+                            {
+                              "key_code": "4",
+                              "modifiers": ["left_command", "left_option", "left_control"]
+                            }
+                          ],
+                          "type": "basic"
+                        },
+                        {
+                          "from": {
+                            "key_code": "4",
+                            "modifiers": { "mandatory": ["command", "shift"] }
+                          },
+                          "to": [
+                            {
+                              "key_code": "4",
+                              "modifiers": ["left_command", "left_option", "left_control", "left_shift"]
+                            }
+                          ],
+                          "type": "basic"
+                        },
+                        {
+                          "from": {
+                            "key_code": "5",
+                            "modifiers": { "mandatory": ["command"] }
+                          },
+                          "to": [
+                            {
+                              "key_code": "5",
+                              "modifiers": ["left_command", "left_option", "left_control"]
+                            }
+                          ],
+                          "type": "basic"
+                        },
+                        {
+                          "from": {
+                            "key_code": "5",
+                            "modifiers": { "mandatory": ["command", "shift"] }
+                          },
+                          "to": [
+                            {
+                              "key_code": "5",
+                              "modifiers": ["left_command", "left_option", "left_control", "left_shift"]
+                            }
+                          ],
+                          "type": "basic"
+                        },
+                        {
+                          "from": {
+                            "key_code": "6",
+                            "modifiers": { "mandatory": ["command"] }
+                          },
+                          "to": [
+                            {
+                              "key_code": "6",
+                              "modifiers": ["left_command", "left_option", "left_control"]
+                            }
+                          ],
+                          "type": "basic"
+                        },
+                        {
+                          "from": {
+                            "key_code": "6",
+                            "modifiers": { "mandatory": ["command", "shift"] }
+                          },
+                          "to": [
+                            {
+                              "key_code": "6",
+                              "modifiers": ["left_command", "left_option", "left_control", "left_shift"]
+                            }
+                          ],
+                          "type": "basic"
+                        },
+                        {
+                          "from": {
+                            "key_code": "7",
+                            "modifiers": { "mandatory": ["command"] }
+                          },
+                          "to": [
+                            {
+                              "key_code": "7",
+                              "modifiers": ["left_command", "left_option", "left_control"]
+                            }
+                          ],
+                          "type": "basic"
+                        },
+                        {
+                          "from": {
+                            "key_code": "7",
+                            "modifiers": { "mandatory": ["command", "shift"] }
+                          },
+                          "to": [
+                            {
+                              "key_code": "7",
+                              "modifiers": ["left_command", "left_option", "left_control", "left_shift"]
+                            }
+                          ],
+                          "type": "basic"
+                        },
+                        {
+                          "from": {
+                            "key_code": "8",
+                            "modifiers": { "mandatory": ["command"] }
+                          },
+                          "to": [
+                            {
+                              "key_code": "8",
+                              "modifiers": ["left_command", "left_option", "left_control"]
+                            }
+                          ],
+                          "type": "basic"
+                        },
+                        {
+                          "from": {
+                            "key_code": "8",
+                            "modifiers": { "mandatory": ["command", "shift"] }
+                          },
+                          "to": [
+                            {
+                              "key_code": "8",
+                              "modifiers": ["left_command", "left_option", "left_control", "left_shift"]
+                            }
+                          ],
+                          "type": "basic"
+                        },
+                        {
+                          "from": {
+                            "key_code": "9",
+                            "modifiers": { "mandatory": ["command"] }
+                          },
+                          "to": [
+                            {
+                              "key_code": "9",
+                              "modifiers": ["left_command", "left_option", "left_control"]
+                            }
+                          ],
+                          "type": "basic"
+                        },
+                        {
+                          "from": {
+                            "key_code": "9",
+                            "modifiers": { "mandatory": ["command", "shift"] }
+                          },
+                          "to": [
+                            {
+                              "key_code": "9",
+                              "modifiers": ["left_command", "left_option", "left_control", "left_shift"]
+                            }
+                          ],
+                          "type": "basic"
+                        },
+                        {
+                          "from": {
+                            "key_code": "0",
+                            "modifiers": { "mandatory": ["command"] }
+                          },
+                          "to": [
+                            {
+                              "key_code": "0",
+                              "modifiers": ["left_command", "left_option", "left_control"]
+                            }
+                          ],
+                          "type": "basic"
+                        },
+                        {
+                          "from": {
+                            "key_code": "0",
+                            "modifiers": { "mandatory": ["command", "shift"] }
+                          },
+                          "to": [
+                            {
+                              "key_code": "0",
+                              "modifiers": ["left_command", "left_option", "left_control", "left_shift"]
+                            }
+                          ],
+                          "type": "basic"
+                        },
+                        {
+                          "from": {
+                            "key_code": "p",
+                            "modifiers": { "mandatory": ["command"] }
+                          },
+                          "to": [
+                            {
+                              "key_code": "3",
+                              "modifiers": ["left_command", "left_shift"]
+                            }
+                          ],
+                          "type": "basic"
+                        },
+                        {
+                          "from": {
+                            "key_code": "p",
+                            "modifiers": { "mandatory": ["command", "shift"] }
+                          },
+                          "to": [
+                            {
+                              "key_code": "4",
+                              "modifiers": ["left_command", "left_shift"]
+                            }
+                          ],
+                          "type": "basic"
+                        },
+                        {
+                          "from": {
+                            "key_code": "p",
+                            "modifiers": { "mandatory": ["command", "control"] }
+                          },
+                          "to": [
+                            {
+                              "key_code": "5",
+                              "modifiers": ["left_command", "left_shift"]
+                            }
+                          ],
+                          "type": "basic"
+                        },
+                        {
+                          "from": {
+                            "key_code": "h",
+                            "modifiers": { "mandatory": ["command"] }
+                          },
+                          "to": [
+                            {
+                              "key_code": "h",
+                              "modifiers": ["left_command", "left_option", "left_control"]
+                            }
+                          ],
+                          "type": "basic"
+                        },
+                        {
+                          "from": {
+                            "key_code": "j",
+                            "modifiers": { "mandatory": ["command"] }
+                          },
+                          "to": [
+                            {
+                              "key_code": "j",
+                              "modifiers": ["left_command", "left_option", "left_control"]
+                            }
+                          ],
+                          "type": "basic"
+                        },
+                        {
+                          "from": {
+                            "key_code": "k",
+                            "modifiers": { "mandatory": ["command"] }
+                          },
+                          "to": [
+                            {
+                              "key_code": "k",
+                              "modifiers": ["left_command", "left_option", "left_control"]
+                            }
+                          ],
+                          "type": "basic"
+                        },
+                        {
+                          "from": {
+                            "key_code": "l",
+                            "modifiers": { "mandatory": ["command"] }
+                          },
+                          "to": [
+                            {
+                              "key_code": "l",
+                              "modifiers": ["left_command", "left_option", "left_control"]
+                            }
+                          ],
+                          "type": "basic"
+                        },
+                        {
+                          "from": {
+                            "key_code": "h",
+                            "modifiers": { "mandatory": ["command", "shift"] }
+                          },
+                          "to": [
+                            {
+                              "key_code": "h",
+                              "modifiers": ["left_command", "left_option", "left_control", "left_shift"]
+                            }
+                          ],
+                          "type": "basic"
+                        },
+                        {
+                          "from": {
+                            "key_code": "j",
+                            "modifiers": { "mandatory": ["command", "shift"] }
+                          },
+                          "to": [
+                            {
+                              "key_code": "j",
+                              "modifiers": ["left_command", "left_option", "left_control", "left_shift"]
+                            }
+                          ],
+                          "type": "basic"
+                        },
+                        {
+                          "from": {
+                            "key_code": "k",
+                            "modifiers": { "mandatory": ["command", "shift"] }
+                          },
+                          "to": [
+                            {
+                              "key_code": "k",
+                              "modifiers": ["left_command", "left_option", "left_control", "left_shift"]
+                            }
+                          ],
+                          "type": "basic"
+                        },
+                        {
+                          "from": {
+                            "key_code": "l",
+                            "modifiers": { "mandatory": ["command", "shift"] }
+                          },
+                          "to": [
+                            {
+                              "key_code": "l",
+                              "modifiers": ["left_command", "left_option", "left_control", "left_shift"]
+                            }
+                          ],
+                          "type": "basic"
+                        },
+                        {
+                          "from": {
+                            "key_code": "f",
+                            "modifiers": { "mandatory": ["command"] }
+                          },
+                          "to": [
+                            {
+                              "key_code": "f",
+                              "modifiers": ["left_command", "left_option", "left_control"]
+                            }
+                          ],
+                          "type": "basic"
+                        },
+                        {
+                          "from": {
+                            "key_code": "s",
+                            "modifiers": { "mandatory": ["command"] }
+                          },
+                          "to": [
+                            {
+                              "key_code": "s",
+                              "modifiers": ["left_command", "left_option", "left_control"]
+                            }
+                          ],
+                          "type": "basic"
+                        },
+                        {
+                          "from": {
+                            "key_code": "w",
+                            "modifiers": { "mandatory": ["command"] }
+                          },
+                          "to": [
+                            {
+                              "key_code": "w",
+                              "modifiers": ["left_command", "left_option", "left_control"]
+                            }
+                          ],
+                          "type": "basic"
+                        },
+                        {
+                          "from": {
+                            "key_code": "e",
+                            "modifiers": { "mandatory": ["command"] }
+                          },
+                          "to": [
+                            {
+                              "key_code": "e",
+                              "modifiers": ["left_command", "left_option", "left_control"]
+                            }
+                          ],
+                          "type": "basic"
+                        },
+                        {
+                          "from": {
+                            "key_code": "r",
+                            "modifiers": { "mandatory": ["command"] }
+                          },
+                          "to": [
+                            {
+                              "key_code": "r",
+                              "modifiers": ["left_command", "left_option", "left_control"]
+                            }
+                          ],
+                          "type": "basic"
+                        }
+                      ]
+                    },
+                    {
+                        "description": "Move common bindings from cmd to ctrl (r, t, z, T, l)",
+                        "manipulators": [
+                            {
+                                "conditions": [
+                                    {
+                                        "bundle_identifiers": [
+                                            "^net\\.kovidgoyal\\.kitty$",
+                                            "^com\\.apple\\.Terminal$",
+                                            "^com\\.googlecode\\.iterm2$",
+                                            "^org\\.gnu\\.Emacs$"
+                                        ],
+                                        "type": "frontmost_application_unless"
+                                    }
+                                ],
+                                "from": {
+                                    "key_code": "t",
+                                    "modifiers": { "mandatory": ["control"] }
+                                },
+                                "to": [
+                                    {
+                                        "key_code": "t",
+                                        "modifiers": ["left_command"]
+                                    }
+                                ],
+                                "type": "basic"
+                            },
+                            {
+                                "conditions": [
+                                    {
+                                        "bundle_identifiers": [
+                                            "^net\\.kovidgoyal\\.kitty$",
+                                            "^com\\.apple\\.Terminal$",
+                                            "^com\\.googlecode\\.iterm2$",
+                                            "^org\\.gnu\\.Emacs$"
+                                        ],
+                                        "type": "frontmost_application_unless"
+                                    }
+                                ],
+                                "from": {
+                                    "key_code": "t",
+                                    "modifiers": { "mandatory": ["control", "shift"] }
+                                },
+                                "to": [
+                                    {
+                                        "key_code": "t",
+                                        "modifiers": ["left_command", "left_shift"]
+                                    }
+                                ],
+                                "type": "basic"
+                            },
+                            {
+                                "conditions": [
+                                    {
+                                        "bundle_identifiers": [
+                                            "^net\\.kovidgoyal\\.kitty$",
+                                            "^com\\.apple\\.Terminal$",
+                                            "^com\\.googlecode\\.iterm2$",
+                                            "^org\\.gnu\\.Emacs$"
+                                        ],
+                                        "type": "frontmost_application_unless"
+                                    }
+                                ],
+                                "from": {
+                                    "key_code": "l",
+                                    "modifiers": { "mandatory": ["control"] }
+                                },
+                                "to": [
+                                    {
+                                        "key_code": "l",
+                                        "modifiers": ["left_command"]
+                                    }
+                                ],
+                                "type": "basic"
+                            },
+                            {
+                                "conditions": [
+                                    {
+                                        "bundle_identifiers": [
+                                            "^net\\.kovidgoyal\\.kitty$",
+                                            "^com\\.apple\\.Terminal$",
+                                            "^com\\.googlecode\\.iterm2$",
+                                            "^org\\.gnu\\.Emacs$"
+                                        ],
+                                        "type": "frontmost_application_unless"
+                                    }
+                                ],
+                                "from": {
+                                    "key_code": "r",
+                                    "modifiers": { "mandatory": ["control"] }
+                                },
+                                "to": [
+                                    {
+                                        "key_code": "r",
+                                        "modifiers": ["left_command"]
+                                    }
+                                ],
+                                "type": "basic"
+                            },
+                            {
+                                "conditions": [
+                                    {
+                                        "bundle_identifiers": [
+                                            "^net\\.kovidgoyal\\.kitty$",
+                                            "^com\\.apple\\.Terminal$",
+                                            "^com\\.googlecode\\.iterm2$",
+                                            "^org\\.gnu\\.Emacs$"
+                                        ],
+                                        "type": "frontmost_application_unless"
+                                    }
+                                ],
+                                "from": {
+                                    "key_code": "a",
+                                    "modifiers": { "mandatory": ["control"] }
+                                },
+                                "to": [
+                                    {
+                                        "key_code": "a",
+                                        "modifiers": ["left_command"]
+                                    }
+                                ],
+                                "type": "basic"
+                            },
+                            {
+                                "conditions": [
+                                    {
+                                        "bundle_identifiers": [
+                                            "^net\\.kovidgoyal\\.kitty$",
+                                            "^com\\.apple\\.Terminal$",
+                                            "^com\\.googlecode\\.iterm2$",
+                                            "^org\\.gnu\\.Emacs$"
+                                        ],
+                                        "type": "frontmost_application_unless"
+                                    }
+                                ],
+                                "from": {
+                                    "key_code": "z",
+                                    "modifiers": { "mandatory": ["control"] }
+                                },
+                                "to": [
+                                    {
+                                        "key_code": "z",
+                                        "modifiers": ["left_command"]
+                                    }
+                                ],
+                                "type": "basic"
+                            }
+                        ]
+                    },
+                    {
+                        "description": "Browser only: option+number -> cmd+number",
+                        "manipulators": [
+                            {
+                                "conditions": [
+                                    {
+                                        "bundle_identifiers": [
+                                            "^org\\.chromium\\.Chromium$"
+                                        ],
+                                        "type": "frontmost_application_if"
+                                    }
+                                ],
+                                "from": {
+                                    "key_code": "1",
+                                    "modifiers": { "mandatory": ["option"] }
+                                },
+                                "to": [
+                                    {
+                                        "key_code": "1",
+                                        "modifiers": ["left_command"]
+                                    }
+                                ],
+                                "type": "basic"
+                            },
+                            {
+                                "conditions": [
+                                    {
+                                        "bundle_identifiers": [
+                                            "^org\\.chromium\\.Chromium$"
+                                        ],
+                                        "type": "frontmost_application_if"
+                                    }
+                                ],
+                                "from": {
+                                    "key_code": "2",
+                                    "modifiers": { "mandatory": ["option"] }
+                                },
+                                "to": [
+                                    {
+                                        "key_code": "2",
+                                        "modifiers": ["left_command"]
+                                    }
+                                ],
+                                "type": "basic"
+                            },
+                            {
+                                "conditions": [
+                                    {
+                                        "bundle_identifiers": [
+                                            "^org\\.chromium\\.Chromium$"
+                                        ],
+                                        "type": "frontmost_application_if"
+                                    }
+                                ],
+                                "from": {
+                                    "key_code": "3",
+                                    "modifiers": { "mandatory": ["option"] }
+                                },
+                                "to": [
+                                    {
+                                        "key_code": "3",
+                                        "modifiers": ["left_command"]
+                                    }
+                                ],
+                                "type": "basic"
+                            },
+                            {
+                                "conditions": [
+                                    {
+                                        "bundle_identifiers": [
+                                            "^org\\.chromium\\.Chromium$"
+                                        ],
+                                        "type": "frontmost_application_if"
+                                    }
+                                ],
+                                "from": {
+                                    "key_code": "4",
+                                    "modifiers": { "mandatory": ["option"] }
+                                },
+                                "to": [
+                                    {
+                                        "key_code": "4",
+                                        "modifiers": ["left_command"]
+                                    }
+                                ],
+                                "type": "basic"
+                            },
+                            {
+                                "conditions": [
+                                    {
+                                        "bundle_identifiers": [
+                                            "^org\\.chromium\\.Chromium$"
+                                        ],
+                                        "type": "frontmost_application_if"
+                                    }
+                                ],
+                                "from": {
+                                    "key_code": "5",
+                                    "modifiers": { "mandatory": ["option"] }
+                                },
+                                "to": [
+                                    {
+                                        "key_code": "5",
+                                        "modifiers": ["left_command"]
+                                    }
+                                ],
+                                "type": "basic"
+                            },
+                            {
+                                "conditions": [
+                                    {
+                                        "bundle_identifiers": [
+                                            "^org\\.chromium\\.Chromium$"
+                                        ],
+                                        "type": "frontmost_application_if"
+                                    }
+                                ],
+                                "from": {
+                                    "key_code": "6",
+                                    "modifiers": { "mandatory": ["option"] }
+                                },
+                                "to": [
+                                    {
+                                        "key_code": "6",
+                                        "modifiers": ["left_command"]
+                                    }
+                                ],
+                                "type": "basic"
+                            },
+                            {
+                                "conditions": [
+                                    {
+                                        "bundle_identifiers": [
+                                            "^org\\.chromium\\.Chromium$"
+                                        ],
+                                        "type": "frontmost_application_if"
+                                    }
+                                ],
+                                "from": {
+                                    "key_code": "7",
+                                    "modifiers": { "mandatory": ["option"] }
+                                },
+                                "to": [
+                                    {
+                                        "key_code": "7",
+                                        "modifiers": ["left_command"]
+                                    }
+                                ],
+                                "type": "basic"
+                            },
+                            {
+                                "conditions": [
+                                    {
+                                        "bundle_identifiers": [
+                                            "^org\\.chromium\\.Chromium$"
+                                        ],
+                                        "type": "frontmost_application_if"
+                                    }
+                                ],
+                                "from": {
+                                    "key_code": "8",
+                                    "modifiers": { "mandatory": ["option"] }
+                                },
+                                "to": [
+                                    {
+                                        "key_code": "8",
+                                        "modifiers": ["left_command"]
+                                    }
+                                ],
+                                "type": "basic"
+                            },
+                            {
+                                "conditions": [
+                                    {
+                                        "bundle_identifiers": [
+                                            "^org\\.chromium\\.Chromium$"
+                                        ],
+                                        "type": "frontmost_application_if"
+                                    }
+                                ],
+                                "from": {
+                                    "key_code": "9",
+                                    "modifiers": { "mandatory": ["option"] }
+                                },
+                                "to": [
+                                    {
+                                        "key_code": "9",
+                                        "modifiers": ["left_command"]
+                                    }
+                                ],
+                                "type": "basic"
+                            },
+                            {
+                                "conditions": [
+                                    {
+                                        "bundle_identifiers": [
+                                            "^org\\.chromium\\.Chromium$"
+                                        ],
+                                        "type": "frontmost_application_if"
+                                    }
+                                ],
+                                "from": {
+                                    "key_code": "0",
+                                    "modifiers": { "mandatory": ["option"] }
+                                },
+                                "to": [
+                                    {
+                                        "key_code": "0",
+                                        "modifiers": ["left_command"]
+                                    }
+                                ],
+                                "type": "basic"
+                            }
+                        ]
+                    },
+                    {
+                        "description": "ö mod-tap hyper (via right_command)",
+                        "manipulators": [
+                            {
+                                "from": {
+                                    "key_code": "semicolon",
+                                    "modifiers": { "optional": ["any"] }
+                                },
+                                "to": [
+                                    {
+                                        "key_code": "right_command",
+                                        "modifiers": []
+                                    }
+                                ],
+                                "to_if_alone": [{ "key_code": "semicolon" }],
+                                "type": "basic"
+                            }
+                        ]
+                    },
+                    {
+                        "description": "caps_lock -> control/return mod-tap",
+                        "manipulators": [
+                            {
+                                "from": {
+                                    "key_code": "caps_lock",
+                                    "modifiers": { "optional": ["any"] }
+                                },
+                                "to": [{ "key_code": "left_control" }],
+                                "to_if_alone": [{ "key_code": "return_or_enter" }],
+                                "type": "basic"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "name": "Default profile",
+            "selected": true,
+            "virtual_hid_keyboard": { "keyboard_type_v2": "iso" }
+        }
+    ]
+}
+```
+</details>
+
+On Linux I use [xremap](https://github.com/xremap/xremap) to achieve the same thing.
+<details>
+<summary>xremap config for Emacs bindings everywhere</summary>
+
+
+[My `~/.config/xremap.yml`](https://github.com/jneidel/dotfiles/blob/master/.config/xremap.yml):
+```yml
+keymap:
+  - name: Emacs
+    application:
+      not: [Emacs, Nyxt, kitty]
+    remap:
+      # Cursor
+      C-b: { with_mark: left }
+      C-f: { with_mark: right }
+      C-p: { with_mark: up }
+      C-n: { with_mark: down }
+      # Forward/Backward word
+      M-b: { with_mark: C-left }
+      M-f: { with_mark: C-right }
+      # Beginning/End of line or page
+      # C-a: { with_mark: home }, C-x h does not work in input fields as a replacement
+      C-e: { with_mark: end }
+      Alt-KEY_102ND: { with_mark: home } # M-<
+      Alt-Shift-KEY_102ND: { with_mark: end } # M->
+      # Page up/down
+      M-v: { with_mark: pageup }
+      C-v: { with_mark: pagedown }
+      # Copy & paste
+      C-w: [C-x, { set_mark: false }]
+      M-w: [C-c, { set_mark: false }]
+      C-z: [C-v, { set_mark: false }]
+      Super-z: [C-v, { set_mark: false }] # I use this accidentally all the time
+      # Delete
+      C-d: [delete, { set_mark: false }]
+      M-d: [C-delete, { set_mark: false }]
+      # Kill line
+      C-k: [Shift-end, C-x, { set_mark: false }]
+      # Kill word backward
+      Alt-backspace: [C-backspace, {set_mark: false}]
+      # Undo
+      Alt-u: [C-y, { set_mark: false }] # not working
+      # Mark
+      C-space: { set_mark: true }
+      C-x:
+        remap:
+          h: C-a # C-x h
+      # Search
+      C-s: C-f
+      # Cancel
+      C-g: [esc, { set_mark: false }]
+
+  - name: Browser only
+    application:
+      only: [firefox, Brave-browser]
+    remap:
+      # Kill tab
+      C-q: C-w
+      C-x:
+        remap:
+          k: C-w # C-x k
+
+  - name: Terminal
+    application:
+      only: [kitty]
+    remap:
+      # Page up/down
+      M-v: { with_mark: pageup }
+      C-v: { with_mark: pagedown }
+      # Cancel
+      C-g: [esc, { set_mark: false }]
+      # Copy & paste are directly configured in kitty.conf
+```
+</details>
+
 
 ## Conclusions
 
-I feel that using Karabiner Elements for turning MacOS keybindings into their Linux counterparts represents the most elegant solution for providing consistent keybinding accross both platforms.
-
-Above I described my use-cases, but the technique can be applied to any other keybinding you might run into.
+I showed how I use Karabiner Elements for turning macOS keybindings into their Linux counterparts.
+This is the most elegant solution for providing consistent keybinding across both platforms and can be adapted to your needs.
 
 Enjoy :)
 
