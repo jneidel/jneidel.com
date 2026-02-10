@@ -49,6 +49,7 @@ bin:
 	CGO_ENABLED=1 go install -tags extended github.com/gohugoio/hugo@v0.151.0
 
 copy:
+	rm -rf public/de/de public/de/en public/en/de public/en/en
 	cp -r public/en/* ~/html/jneidel.com
 	cp -r public/de/* ~/html/jneidel.de
 
