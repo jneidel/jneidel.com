@@ -136,7 +136,7 @@ Choose what fits you.
 ### Getting started
 
 Install the app as per [official install
-instructions](https://nikitabobko.github.io/aerospace/guide#installation).
+instructions](https://nikitabobko.github.io/AeroSpace/guide#installation).
 If you have brew, do:
 ```sh
 brew install --cask nikitabobko/tap/aerospace
@@ -153,7 +153,7 @@ If you don't know how:
 - Move the file `.aerospace.toml` into your home/user directory, in my case "jneidel".
 
 ```toml
-# See help and documentation at: https://nikitabobko.github.io/aerospace/guide
+# See help and documentation at: https://nikitabobko.github.io/AeroSpace/guide
 # Note that the modifier "alt" is invoked by the "option" key.
 
 ### Configuration
