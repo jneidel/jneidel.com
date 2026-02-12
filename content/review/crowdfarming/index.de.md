@@ -1,5 +1,5 @@
 ---
-title: "CrowdFarming Review: Die saisonale Obstkiste im Detail"
+title: "CrowdFarming Review: Kostenvergleich und Kritik"
 description: "Erfahrungsbericht und Preisvergleich der Abo Obstkiste von CrowdFarming von jemandem der monatlich >100€ an Kisten kauft."
 summary: "Warum CrowdFarming eine tolle Platform für Lebensmittel ist."
 tags:
@@ -128,7 +128,7 @@ Der Bauer wird so nicht von einem Mittelmann ausgequetscht und hat durch Vorbest
 
 CrowdFarming unterstützt Bauern bei der Umstellung zu Bio.
 In dieser Umstellung muss bereits nach Biostandards gehandelt werden, es darf aber noch nicht als Bio vermarktet werden.
-Normalerweise bedeutet dies ein hohes finanzielle Risiko für den Bauern, welches aber durch CrowdFarming (so gut wie möglich) mitigiert wird.
+Normalerweise bedeutet dies ein hohes finanzielle Risiko für den Bauern, welches aber durch CrowdFarming (so gut wie möglich) ausgeglichen wird.
 
 Auch die [regenerative](https://www.crowdfarming.com/de/product/regenerative) Landwirtschaft wird stark gefördert.
 
@@ -147,19 +147,26 @@ Der Kisteninhalt wird nur als Art (z.B. Avocado), aber nicht in seiner Sorte (z.
 Das finde ich schade, da ich gern wissen würde welche Birnensorte mir da so gut geschmeckt hat damit ich diese speziell nachbestellen kann.
 Zwischen den Sorten gibt es teils große geschmackliche Unterschiede.
 
-### ~Lieferzeitpunkt~
+### Lieferzeitpunkt
 
 Früher konnte man den Lieferzeitpunkt nicht wählen.
-Jetzt geht das in der Bestellung:
+Jetzt geht das theoretisch in der Bestellung:
 
 {{<figure src="./liefertermin.png" class="w-6/12" alt="Auswahl eines Liefertermins">}}
 
-Mit DHL als Lieferboten kann man darüber hinaus noch den Liefertag oder ähnliches anpassen.
+Ich sage theoretisch, weil man praktisch nicht immer diese Option hat.
+Oft waren frühere Termine nicht möglich, oder in anderen Fällen, hatte ich gar nicht die Option einen späteren Zeitpunkt zu wählen.
+In der DHL App kann man Liefertag anpassen.
+Lange will man das Obst aber auch nicht bei DHL rum stehen haben.
 
-Ich führe trotzdem weiterhin eine Liste mit den Lieferdaten um den Überblick zu behalten.
-Auch weil sich die Lieferdaten ggf. über den Monat hinweg verändern können.
+Ich führe eine Liste mit den Lieferdaten um den Überblick zu behalten.
+(Da liste ich generell alle meine Pakete.)
 
 {{<figure src="./lieferliste.png" class="w-9/12" alt="Liste mit Lieferdaten">}}
+
+Das tue ich weil sich die Lieferdaten über den Monat hinweg verändern können.
+Über Änderungen im Lieferzeitpunkt wird man **nicht** informiert.
+Aus einer notierten Lieferung am 12. wird schnell mal der 17.
 
 ### ~Fehlende Auswahl~
 
@@ -167,6 +174,9 @@ Früher gab es nur eine Kiste und keine Variation.
 Jetzt kann man am Anfang des Monats im Abo auswählen was in der Kiste sein wird:
 
 {{<figure src="./kisteninhalt-wählen.png" class="w-9/12" alt="Auswahl zwischen drei Varianten für die nächste Kiste">}}
+
+Aber Achtung: es muss am Anfang des Monats oder Ende des Vormonats gewählt werden.
+Später ist diese Option nicht mehr verfügbar, spätestens nicht nachdem eine Bestellung ausgelöst wurde.
 
 ### Zu kleine Kisten
 
@@ -181,4 +191,8 @@ Wenn du dich über [meinen Link](https://cfarm.co/mgm?lc=LCMPVZSQ) anmeldest bek
 ## Zusammenfassung
 
 Ich bin sehr zufrieden mit dem was ich bei CrowdFarming geboten bekomme.
-Für Menschen die bereits alle Lebensmittel in mindestens Bioqualität zu sich nehmen können CrowdFarming Boxen ein günstiger Weg sein die Qualität nochmals zu erhöhen bzw.. Geld zu sparen.
+Für Menschen die bereits alle Lebensmittel in mindestens Bioqualität zu sich nehmen können CrowdFarming Boxen ein günstiger Weg sein die Qualität nochmals zu erhöhen bzw. Geld zu sparen.
+
+<!-- Local Variables: -->
+<!-- jinx-local-words: "CrowdFarming FruchtBote" -->
+<!-- End: -->
