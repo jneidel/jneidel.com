@@ -3,7 +3,7 @@
   {{- $cover := $images.GetMatch (.Params.cover | default "*cover*") }}
   {{- $feature := $images.GetMatch (.Params.feature | default "*feature*") | default $cover }}
   <article>
-    <header class="max-w-prose">
+    <header class="max-w-prose {{ if eq .Section "essay" }}serif{{ end }}">
       {{ if .Params.showBreadcrumbs | default (.Site.Params.article.showBreadcrumbs | default false) }}
         {{ partial "breadcrumbs.html" . }}
       {{ end }}
@@ -41,7 +41,7 @@
           </div>
         </div>
       {{ end }}
-      <div id="content" class="min-h-0 min-w-0 max-w-prose grow">
+      <div id="content" class="min-h-0 min-w-0 max-w-prose grow {{ if eq .Section "essay" }}serif{{ end }}">
         {{ .Content | emojify }}
         <div class="qed"></div>
       </div>

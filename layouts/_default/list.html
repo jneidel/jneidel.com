@@ -1,6 +1,6 @@
 {{ define "main" }}
   {{ $toc := and (.Params.showTableOfContents | default (.Site.Params.list.showTableOfContents | default false)) (in .TableOfContents "<ul") }}
-  <header>
+  <header class="{{ if eq .Section "essay" }}serif{{ end }}">
     {{ if .Params.showBreadcrumbs | default (.Site.Params.list.showBreadcrumbs | default false) }}
       {{ partial "breadcrumbs.html" . }}
     {{ end }}
@@ -20,13 +20,13 @@
         </div>
       </div>
     {{ end }}
-    <div id="content" class="min-h-0 min-w-0 max-w-prose grow">
+    <div id="content" class="min-h-0 min-w-0 max-w-prose grow {{ if eq .Section "essay" }}serif{{ end }}">
       {{ .Content | emojify }}
       <hr id="list-page-divider">
     </div>
   </section>
   {{ if .Data.Pages }}
-    <section>
+    <section class="{{ if eq .Section "essay" }}serif{{ end }}">
       {{ if $.Params.groupByYear | default ($.Site.Params.list.groupByYear | default true) }}
         {{ range (.Paginate (.Pages.GroupByDate "2006")).PageGroups }}
           <h2 class="mt-12 text-2xl font-bold text-neutral-700 first:mt-8 dark:text-neutral-300">

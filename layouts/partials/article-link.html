@@ -11,7 +11,7 @@
         {{ partial "thumbnail.html" . }}
       </a>
     </div>
-  <div>
+  <div class="{{ if eq .Section "essay" }}serif{{ end }}">
     <h3 class="flex items-center text-xl font-semibold">
       {{ with .Params.externalUrl }}
         <div>
