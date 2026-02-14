@@ -7,7 +7,7 @@ cascade:
     showDateUpdated: false
 ---
 
-{{<figure caption="_Ich._" clearClass="true" class="sm:h-3/6 sm:max-w-72 sm:float-right sm:pl-6 my-0" alt="Profilbild von Jonathan Neidel" src="img/profile-picture.jpg">}}
+{{<figure caption="_Ich._" clearClass="true" lcp="true" class="sm:h-3/6 sm:max-w-72 sm:float-right sm:pl-6 my-0" alt="Profilbild von Jonathan Neidel" src="img/profile-picture.jpg">}}
 
 {{<lead>}}
 Moin, ich bin Jonathan.

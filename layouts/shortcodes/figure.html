@@ -44,6 +44,7 @@
   {{ $href := .Get "href" }}
   {{ $class := default "" (.Get "class") }}
   {{ $clearClass := .Get "clearClass" }}
+  {{ $lcp := .Get "lcp" | default false }}
 
   {{ if not $clearClass }}
     {{ $class = (printf "%s %s" $class "mx-auto my-0 rounded-sm") }}
@@ -128,9 +129,11 @@
     {{ with $href }}<a href="{{ . }}" target="_blank">{{ end }}
 
     {{- with $img -}}
-      {{ $lazy := $.Page.Site.Params.enableImageLazyLoading | default true }}
+      {{ $lazy := cond
+                    $lcp false
+                    ($.Page.Site.Params.enableImageLazyLoading | default true) }}
       {{ $webp := $.Page.Site.Params.enableImageWebp | default true }}
-      {{ partial "picture.html" (dict "img" . "alt" $altText "class" $class "lazy" $lazy "webp" $webp) }}
+      {{ partial "picture.html" (dict "img" . "alt" $altText "class" $class "lazy" $lazy "webp" $webp "lcp" $lcp) }}
     {{- else -}}
       <img src="{{ $url.String }}" alt="{{ $altText }}" class="{{ $class }}"/>
     {{- end -}}

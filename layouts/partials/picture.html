@@ -3,6 +3,7 @@
 {{ $class := .class }}
 {{ $lazy := .lazy }}
 {{ $webp := .webp }}
+{{ $lcp := .lcp | default false }}
 {{ $lqip := .lqip | default false }}
 {{ $x2 := .x2 | default false }}
 
@@ -37,6 +38,7 @@
         {{ with $class }}class="{{ . }}"{{ end }}
         {{ with $alt }}alt="{{ . }}"{{ end }}
         {{ with $lazy }}loading="lazy" decoding="async"{{ end }}
+        {{ with $lcp }}fetchpriority="high"{{ end }}
       />
     </picture>
   {{ else }}
@@ -88,6 +90,7 @@
         {{ with $class }}class="{{ . }}"{{ end }}
         {{ with $alt }}alt="{{ . }}"{{ end }}
         {{ with $lazy }}loading="lazy" decoding="async"{{ end }}
+        {{ with $lcp }}fetchpriority="high"{{ end }}
         {{ if lt .Width 660 }}
           src="{{ .RelPermalink }}"
         {{ else }}
