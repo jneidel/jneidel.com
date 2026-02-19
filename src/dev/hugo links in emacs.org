@@ -1,0 +1,122 @@
+#+title: Completion of hugo links in Emacs
+#+date: 2026-02-13
+#+hugo_bundle: hugo-links
+#+export_file_name: index.md
+#+hugo_tags: emacs hugo
+#+hugo_custom_front_matter: :summary ""
+#+description: How to get completion of hugo links in Emacs for either markdown or org-mode.
+
+When writing an article in hugo I want to link to previous articles I published.
+In markdown I can use:
+
+#+begin_src markdown
+[Hugo link completions](dev/hugo-links)
+#+end_src
+
+Which will resolve to either:
+- =content/dev/hugo-links.md= or
+- =content/dev/hugo-links/index.md=.
+
+As my site grew, so did I grow tired of trying to remember or copy-pasting these
+links.
+Completion to the rescue.
+Fully integrated in your favorite editor: Emacs.
+
+Hugo provides the completion candidates; the content files it knows about:
+#+begin_src shell :results output
+#! /bin/sh
+
+# matches NAME/index.md files, excludes _index.md and NAME.md
+cd $WEB_HOME
+hugo list all --noBuildLock | tail -n+2 | cut -d, -f1 | grep -v "_index" | cut -d/ -f2- |
+  rev | cut -d/ -f2- | rev
+#+end_src
+
+#+html: <details>
+#+begin_summary
+Multi-language script
+#+end_summary
+
+This script supports both English (=.md=) and German (=.de.md=) content files.
+#+begin_src shell :results output
+#! /bin/sh
+
+lang=$1
+
+list_files() {
+  # excludes _index.md and NAME.md files
+  cd $WEB_HOME
+  case $lang in
+    en)
+      hugo list all --noBuildLock | tail -n+2 | cut -d, -f1 | grep -v "_index" | cut -d/ -f2- |
+        grep -v ".de.md" | rev | cut -d/ -f2- | rev
+      break;;
+    de)
+      hugo list all --noBuildLock | tail -n+2 | cut -d, -f1 | grep -v "_index" | cut -d/ -f2- |
+        grep ".de.md" | rev | cut -d/ -f2- | rev
+      break;;
+    -|both)
+      hugo list all --noBuildLock | tail -n+2 | cut -d, -f1 | grep -v "_index" | cut -d/ -f2- |
+        rev | cut -d/ -f2- | rev | sort | uniq
+      break;;
+    *)
+      echo "Invalid language"
+      exit 1
+  esac
+}
+#+end_src
+
+You can find an [[https://github.com/jneidel/dotfiles/blob/master/scripts/writing/pick-hugo-article][expanded version of the script in my dotfiles]].
+#+html: </details>
+
+The elisp function for this completion can be as simple as:
+#+begin_src emacs-lisp
+(defun hugo-md-web-complete ()
+  "Completion for links to my website."
+  (interactive)
+  (let* ((articles (shell-command-to-string "pick-hugo-article")) ; the shell script from above
+         (link (completing-read "link: " (split-string articles "\n" t) nil t)))
+    (insert (format "[%s](%s)" (read-string "link text: ") link))))
+;;   inserts: [link text](link)
+#+end_src
+
+Now, I use multiple languages and [[https://ox-hugo.scripter.co/][ox-hugo]] (hugo org-mode content files), so my
+solution needed to account for that.
+
+Local hugo links are not very useful outside of the hugo directory.
+Instead the script should output a complete website link: "https://jneidel.com/..."
+#+begin_src emacs-lisp
+(defun jn/org-web-complete (lang)
+  "Completion for links to my website."
+  (let* ((articles (shell-command-to-string (format "pick-hugo-article %s" lang)))
+         (link (completing-read "web: " (split-string articles "\n" t) nil t))
+         (current-file (when buffer-file-name
+                         (file-truename buffer-file-name)))
+         (is-editing-website (and
+                              current-file
+                              (string-prefix-p (substitute-in-file-name "$WEB_HOME") current-file)))
+         (website-root (if (equal lang "de")
+                           "https://jneidel.de/"
+                         "https://jneidel.com/")))
+    (if is-editing-website
+        link
+      (concat website-root link))))
+
+(defun jn/org-web-de-complete ()
+  (jn/org-web-complete "de"))
+(defun jn/org-web-en-complete ()
+  (jn/org-web-complete "en"))
+
+(with-eval-after-load 'org
+  (org-link-set-parameters "de" :complete #'jn/org-web-de-complete)
+  (org-link-set-parameters "en" :complete #'jn/org-web-en-complete))
+#+end_src
+([[https://github.com/jneidel/dotfiles/blob/master/.emacs.d/dotemacs.org#hugo][Latest version in my dotemacs]].)
+
+At the end I am registering the completions to be called through
+=org-insert-link= using =de:= or =en:=.
+This integration is great.
+No new keybinding are needed and I can use it through my full-featured [[https://github.com/jneidel/dotfiles/blob/master/.emacs.d/dotemacs.org#insert-link-dwim][org-insert-link-dwim]].
+
+That's it :)
+Have a great day!
