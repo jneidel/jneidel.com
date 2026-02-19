@@ -58,7 +58,16 @@ pull:
 	git reset --hard origin/master
 	git submodule update
 
-deploy: pull tw build copy
+sync-generated-md:
+	rsync -avrp --delete content u:git/web
+
+reset:
+	git reset --hard
+	git clean -df
+
+deploy: reset tw build copy
 
 publish: # run via a custom git publish
+	ssh u 'zsh -lc "cd git/web; make pull"'
+	$(MAKE) sync-generated-md
 	ssh u 'zsh -lc "cd git/web; make deploy"'
