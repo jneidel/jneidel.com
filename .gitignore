@@ -10,3 +10,4 @@ public/
 
 # contents generated from src (org files)
 content/dev/hugo-links/index.md
+content/ai/*.md

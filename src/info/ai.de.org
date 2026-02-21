@@ -1,0 +1,49 @@
+:PROPERTIES:
+:ID: e939023e-0990-404d-9b23-ddc91dd22f1d
+:END:
+#+title: Transparente KI Nutzung
+#+date: 2024-09-12
+#+hugo_section:
+#+hugo_bundle: ai
+#+export_file_name: index.de.md
+#+hugo_tags: ai
+#+hugo_custom_front_matter: :excludeRss true :showDateUpdated true :thumbnailAlt "Süßer lächelnder Roboter der dir winkt." :summary "Nutzung von KI bei Erschaffen dieser Website."
+#+description: Wie nutze ich KI zum Erschaffen dieser Website? Eine ehrliche Übersicht für dein Verständnis."
+
+Das hier ist eine [[https://www.bydamo.la/p/ai-manifesto][/ai Seite]].
+Sie bietet dir einen ehrlichen Überblick darüber wie ich KI
+und LLMs beim Erschaffen dieser Website nutze.
+
+*Mein Versprechen:
+Alles was du hier liest wurde von mir geschrieben.*
+Text werden niemals vollständig oder teilweise durch eine KI verfasst werden.
+
+** 2026 to present
+| Bereich                       | LLM Nutzung                                    | Modelle      |
+| Schreiben                     | Nein                                           |              |
+| Editieren (des geschriebenen) | Nein                                           |              |
+| Ideengebung von Artikeln      | Nein                                           |              |
+| Übersetzungen                 | Nein                                           |              |
+| Titelbilder                   | Von der KI generiert, durch mich editiert      | ChatGPT      |
+| Bilder im Artikel             | Nein                                           |              |
+| Programmierung                | Entworfen von und verfeinert mit einem Agenten | OpenAI Codex |
+
+Ich habe [[https://github.com/jneidel/jneidel.com/commit/cacbb20cee94018bfe4975a0effb165edba51dd1][ein Experiment vor]] mit dem Agenten Fehler beim Editieren zu finden.
+
+** 2024 to 2025
+| Bereich                       | LLM Nutzung                               | Modelle            |
+| Schreiben                     | Nein                                      |                    |
+| Editieren (des geschriebenen) | Nein                                      |                    |
+| Ideengebung von Artikeln      | Nein                                      |                    |
+| Übersetzungen                 | Nein                                      |                    |
+| Titelbilder                   | Von der KI generiert, durch mich editiert | Microsoft Designer |
+| Bilder im Artikel             | Nein                                      |                    |
+| Programmierung                | Input bei der Fehlerbehebung              | ChatGPT            |
+
+Ich habe Claude, ChatGPT und [[https://www.deepl.com/write][DeepL Write]] ausprobiert um mir Vorschläge beim
+Editieren zu geben und bei den Übersetzungen zu helfen.
+Ich habe sie am Ende nicht in meinen Schreibprozess übernommen und die Beiträge
+waren minimal.
+
+** 2017 to 2024
+Keine KI Nutzung 🙂

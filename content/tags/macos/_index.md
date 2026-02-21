@@ -1,3 +1,3 @@
 ---
-title: "MacOS"
+title: "macOS"
 ---
