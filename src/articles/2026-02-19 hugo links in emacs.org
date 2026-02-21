@@ -1,5 +1,6 @@
 #+title: Completion of hugo links in Emacs
 #+date: 2026-02-13
+#+hugo_section: dev
 #+hugo_bundle: hugo-links
 #+export_file_name: index.md
 #+hugo_tags: emacs hugo
