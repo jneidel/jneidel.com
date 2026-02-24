@@ -8,7 +8,7 @@
 #+export_file_name: index.de.md
 #+hugo_tags: ai
 #+hugo_custom_front_matter: :excludeRss true :showDateUpdated true :thumbnailAlt "Süßer lächelnder Roboter der dir winkt." :summary "Nutzung von KI bei Erschaffen dieser Website."
-#+description: Wie nutze ich KI zum Erschaffen dieser Website? Eine ehrliche Übersicht für dein Verständnis."
+#+description: Wie nutze ich KI zum Erschaffen dieser Website? Eine ehrliche Übersicht für dein Verständnis.
 
 Das hier ist eine [[https://www.bydamo.la/p/ai-manifesto][/ai Seite]].
 Sie bietet dir einen ehrlichen Überblick darüber wie ich KI
