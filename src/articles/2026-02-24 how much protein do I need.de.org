@@ -1,0 +1,199 @@
+:PROPERTIES:
+:ID: 82b3b5eb-5594-4123-b99f-0ff7b2b81495
+:END:
+#+title: How much protein do I need
+#+date: 2025-02-21
+#+hugo_section: misc
+#+hugo_bundle: protein
+#+export_file_name: index.de.md
+#+hugo_tags: 
+#+hugo_custom_front_matter: :type "hidden" :excludeRss true :summary "Wieviel Protein brauche ich?"
+#+description: Meine Rechere dazu wie viel Protein ich brauche.
+
+Most optima are not a single number, but a spectrum.
+
+** Minimum intake
+Mothers milk contains 2-2.5%.[fn:b1]
+For a fast growing child.
+
+Apes are closely related to humans and thrive on 0.2-2.2% protein, living a frugivores.
+
+[fn:b1]: [[file:Die Deckung des Eiweißbedarfs.pdf][Die Deckung des Eiweißbedarfs]] p6f, Bruker
+
+** Maximum intake
+#+begin_quote
+My conclusion from these many observations is that animal protein, when added to
+diets already containing 10% protein, has the potential to promote the
+development of a wide variety of serious and oftentimes fatal diseases[fn:cc]
+#+end_quote
+
+#+begin_quote
+Nur von Proteinen können Sie nicht leben. Ihre Leber hat eine maximale
+Kapazität, um Proteine zu verarbeiten.
+Die Wissenschaftler nennen diese Obergrenze „protein ceiling“.
+Konkret: Sie können je nach Konstitution etwa 200–300 g Eiweiß am Tag
+verarbeiten.
+Danach wird’s giftig.[fn:o1]
+#+end_quote
+
+#+begin_quote
+Promoting 35% protein as an acceptable level for the school lunch and WIC
+programs, for example, is a disaster.[fn:ns2015]
+#+end_quote
+[fn:ns2015]: [[https://nutritionstudies.org/2015-dietary-guidelines-commentary/][Dr. T. Colin Campbell's recommendations for Dietary Guidelines]]
+[fn:cc]: [[https://www.catalystathletics.com/article/50/The-Protein-Debate-Dr-Loren-Cordain-T-Colin-Campbell/][The Protein Debate: Dr. Loren Cordain & T. Colin Campbell]]
+[fn:o1]: Gesundheit optimieren - Leistungsfähigkeit steigern p33
+
+** Protein recommendations
+- WHO: 10% (0.8g per kg weight), min 5%
+- Campbell (quoted below): 8-12%
+- [[https://www.youtube.com/channel/UCvUZWamkEuPEA9c5O2_BfIw][Timo G.]]: 7-13% (0.5-1g Protein pro kg Körpergewicht)
+- Conventional wisdom for athletes: 14%+ (1g per 2lbs weight)
+- Loren Cordain[fn:cord]: 19-35% (2-3g pro kg Körpergewicht)
+  
+
+#+begin_quote
+My recommendation is about 8-12% total protein, with all or virtually all of it
+being plant-based. With whole plant-based foods, it is not easy to go above this
+range without adding animal based foods or over consuming high protein
+plant-based foods like legumes.[fn:cc]
+#+end_quote
+
+[fn:cord]: Gesundheit optimieren - Leistungsfähigkeit steigern p185 and The
+Paleolithic Prescription (7 Kap. 4):
+"Loren Cordain und sein Team kalkulierten bereits im Jahr 2000, dass die über 200 untersuchten Jäger-und-Sammler-Populationen etwa 19–35 % Protein [..] verzehren. [..] (vgl. Cordain et al. 2000)."
+Und: Gesundheit optimieren - Leistungsfähigkeit steigern p174
+  
+** Protein percentages of relevant food groups
+- Sweet fruit: ~3-6% (mango, orange, apple)
+- Non-sweet fruit: ~10-16% (tomato, zucchini, cucumber, bell pepper)
+- Leafy greens: ~25-50% (spinach, kale, cellery)
+- Root vegetables: ~5-10% (carrot, beets)
+- Legumes: ~20-30% (beans, lentils)
+- Nuts: ~8-15%
+- Seeds: ~12-25%
+- (Grain: ~10-15%)
+
+
+Even with a 100% fruit diet one easily hits the minimums from above.
+Balance that with the other categories and you achieve 10% daily protein without
+thinking about it.
+
+** Conclusions
+My personal conclusion is that I don't need to worry about protein.
+Especially if I eat instinctively: I will seek out legumes, greens and more when
+I need more protein.
+
+** Background
+*** Importance of protein
+#+begin_quote
+[..] alle Prozesse in Ihrem Körper nur mithilfe von Proteinen ablaufen [..]
+
+Die Proteinsynthese ist ein Marker für Ihr Lebensgefühl.
+[..]
+Bis hierhin können wir festhalten, dass eine Steigerung der Proteinsynthese und der
+Energieproduktion maßgeblich dafür verantwortlich sein könnten, uns ein besseres
+Lebensgefühl entstehen zu lassen.[fn:o2]
+#+end_quote
+
+#+begin_quote
+Proteine sind ohne Zweifel der für Sie wichtigste Makronährstoff.
+Doch nicht nur für Sie, sondern für jedes Lebewesen dieser Erde.[fn:o3]
+#+end_quote
+
+[fn:o2]: Gesundheit optimieren - Leistungsfähigkeit steigern p19
+[fn:o3]: Gesundheit optimieren - Leistungsfähigkeit steigern p32
+
+*** Irrational fears of insufficient protein
+The facts don't matter if the individual is afraid and indoctrinated about the
+amount of protein they supposedly need.
+Brucker beschreibt: "Jede Ernährungsberatung ist durch diese tiefsitzende Angst
+sehr erschwert."
+
+#+begin_quote
+hoher Verzehr von Milcheiweiß und Käse entspringt nicht dem natürlichen
+Bedürfnis, sondern ist angelernt und entspricht der Doktrin der klassischen
+Ernährungslehre, die besagt dass der Mensch ohne tierisches Eiweiß nicht leben
+könne.
+#+end_quote
+
+#+begin_quote
+I am convinced that many of the most cherished assumptions of nutritional
+science can trace their origin to our long and unquestioned reverence for
+protein, especially for animal-based protein.[fn:cc]
+#+end_quote
+
+*** Protein quality as a hidden factor
+#+begin_quote
+Wenn die Proteine roh konsumiert werden, brauchen wir sogar noch weniger.[fn:ganz]
+#+end_quote
+
+#+begin_quote
+Die Akzente des Einweißproblems haben sich nun verschoben.
+Die zentrale Frage ist nicht mehr, ob das Eiweiß tierischer oder pflanzlicher
+Herkunft ist, sondern ob es nativ [unerhitzt] ist oder nicht.
+
+[..]
+
+Was jedoch das Eiweiß betrifft, so gilt auch für jedes Lebewesen, das von
+pflanzlicher Nahrung lebt, das Prinzip "roh und ganz".
+*Dann allerdings ist der Bedarf an Eiweiß wesentlich geringer als üblich
+angegeben.*
+Es ist eben nicht möglich, den Nachteil des denaturierten Eiweißes durch Verzehr
+größerer Mengen auszugleichen.
+*Demnach ist das Eiweißproblem viel mehr ein qualitatives als ein
+quantitatives.*
+Für die überragende Heilwirkung reiner Frischkost spielt sicher das native
+Eiweiß eine wesentliche Rolle und erklärt, weshalb bei dieser Kostform relativ
+wenig Eiweiß nötig ist, ohne dass Eiweißmandelschäden auftreten.[fn:b1]
+#+end_quote
+
+With proteins consumed raw, a percentage as low as 1.4% is needed.
+
+[fn:ganz]: Ganzheitliche Ernährung p181
+
+*** Protein and longevity
+#+begin_quote
+Ein niedriger Proteingehalt kann die Autophagie starten.[fn:g1]
+#+end_quote
+
+#+begin_quote
+dass sich dort lebende Menschen [in blue zones] hauptsächlich von pflanzlichen
+Lebensmitteln ernähren.
+Und das bedeutet: Der Proteinanteil der Ernährung fällt klein aus.[fn:g2]
+#+end_quote
+
+People living in the blue zones have higher longevity then elsewhere.
+
+#+begin_quote
+Je nach Lebenssituation brauchen Sie möglicherweise einen hohen Proteingehalt in
+der Nahrung. Sie brauchen allerdings auch Phasen, in denen Sie die Proteinzufuhr
+bewusst drosseln. Dann leben Sie für einige Tage so wie Menschen der blauen
+Zonen. Sie könnten es aber auch anders halten. Ein Muskel, der wachsen will,
+wirkt wie ein Sog für Aminosäuren, also Proteine. Krafttraining wird also den
+Verbrauch erhöhen und dafür sorgen, dass die Proteine im Muskel landen.
+
+Nichts chronisch, alles gelegentlich: Sie brauchen Zyklen!
+[..]
+Niemand kann Ihnen sagen, dass eine sehr proteinreiche Kost pauschal
+sehr gesund für Sie ist. Es darf auch stark bezweifelt werden, dass eine proteinarme
+Kost besonders zielführend ist. Denn Langlebigkeit bedeutet nicht automatisch,
+dass Sie sich auch gut, fit und gesund fühlen.
+[..]
+Sie sind allerdings auf der sicheren Seite, wenn Sie zyklisch leben.
+Nichts chronisch, alles gelegentlich.[fn:g1]
+#+end_quote
+
+See [[file:Wenig Protein im System = längeres Leben.pdf][excerpt]] for the argument: little protein im the system meant that the system
+run longevity and anti-stress programs more often, which extends your lifespan.
+
+[fn:g1]: Gesundheit optimieren - Leistungsfähigkeit steigern p71
+[fn:g2]: Gesundheit optimieren - Leistungsfähigkeit steigern p70
+
+** References
+- [[file:Die Deckung des Eiweißbedarfs.pdf][Die Deckung des Eiweißbedarfs]]
+- [[https://www.catalystathletics.com/article/50/The-Protein-Debate-Dr-Loren-Cordain-T-Colin-Campbell/][The Protein Debate: Dr. Loren Cordain & T. Colin Campbell]]
+- Gesundheit optimieren - Leistungsfähigkeit steigern
+- Food Choices (2016) from 8:15 mins
+- Ganzheitliche Ernährung p177ff
+- [[https://www.youtube.com/watch?v=a2OsUsnHeJM][Protein-Hype wissenschaftlich geprüft - YouTube]]
