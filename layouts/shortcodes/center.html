@@ -1,3 +1,4 @@
-<div style="display: flex; justify-content: center; gap: 10px" {{ with .Get "class" }} class="{{ . }}" {{ end }}>
+<div class="flex flex-row justify-center items-start gap-2 [&>*]:min-w-0
+            {{ with .Get "class" }}{{ . }}{{ end }}">
   {{ .Inner }}
 </div>

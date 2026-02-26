@@ -1,0 +1,11 @@
+<!-- Display multiple images in portrait format next to each other. -->
+<!-- Portrait specific variant of <center> that allows to configure columns "cols". -->
+
+{{ $cols := .Get "cols" | default "3" }}
+
+<div class="grid justify-center gap-2
+            {{ if eq $cols "2" }}grid-cols-2{{ else }}grid-cols-3{{ end }}
+            md:auto-cols-max md:grid-flow-col md:grid-cols-none
+            {{ with .Get "class" }}{{ . }}{{ end }}">
+  {{ .Inner }}
+</div>
