@@ -1,0 +1,522 @@
+:PROPERTIES:
+:ID: 12499d8e-1a99-4986-8a05-290734399781
+:END:
+#+title: Building a Split Keyboard for myself
+#+date: 2026-02-22
+#+hugo_section: project
+#+hugo_bundle: split-keyboard
+#+export_file_name: index.md
+#+hugo_tags:
+#+hugo_custom_front_matter: :project-status completed :thumbnailAlt "Split keyboard in black and red" :summary "My journey of building, configuring and getting used to a split keyboard."
+#+description: My journey of building, configuring and getting used to an ergonomic split keyboard.
+
+I have only ever used a laptop.
+To sit with a laptop at a desk is to sit hunched over.
+Fine for a time, but ideally you'd want to sit up, with your back straight and
+look straight ahead.
+
+This is a solved problem.
+Get a monitor or laptop stand and an external mouse and keyboard.
+
+#+caption: A monitor and a [[https://nexstand.eu][laptop stand]].
+#+attr_html: :class md:w-11/12 :alt A monitor next to a laptop stand.
+[[file:monitor-laptop-stand.jpg]]
+
+As you see I already had the monitor setup, but not the keyboard.
+Since I would use this keyboard all the time, it better be a great one.
+I chose my laptop, a Thinkpad, for that exact reason: it probably has the best
+laptop keyboard around.
+For my external keyboard I also wanted one of the best around.
+
+
+This article tells the story of how I built an ergonomic split keyboard
+for myself.
+How I configured it and got good enough with it to be able to actually use it on
+a daily basis.
+
+Let's start with what makes a great external keyboard.
+
+** Great keyboard design
+  :PROPERTIES:
+  :CUSTOM_ID: what-is-the-best-external-keyboard
+  :END:
+Classic keyboards layouts emulate the typewriter through a sideways stagger that
+misaligns the keys.
+This stagger was necessary in typewriters their metal hammers would not get stuck.
+A constraint modern computers don't share. 🙂
+
+#+caption: A classic keyboard layout with a sideway stagger.
+#+attr_html: :class md:w-10/12 :alt The row staggered keyboad design
+[[file:design-row-staggered.png]]
+
+With the removal of the stagger most finger movement become vertical rather than
+diagonal, finger paths are more consistent and strain is reduced.
+
+#+caption: After the removal of the sideway stagger.
+#+attr_html: :class md:w-10/12 :alt The ortholinear keyboad design
+[[file:design-ortho.png]]
+
+To have the keyboard as one glued-together brick means that your arms are not
+aligned with your shoulders, but point inward.
+
+#+caption: With the layout split in two.
+#+attr_html: :class md:w-10/12 :alt The split ortholinear keyboad design
+[[file:design-split.png]]
+
+The ideal hand position is also not flat on the desk, but inclined to the side.
+Split keyboards make it possible to incline both hands independently of each
+other and in opposing directions, which is not possible if the keyboard is one large brick.
+
+#+caption: Demo of an inclined "tenting" setup.
+#+attr_html: :class md:w-11/12 :alt Tentend split keyboard with hands
+[[file:tented-keyboard-with-hands.jpg]]
+
+Finger are not the same length so a horizontal stagger can add comfort.
+
+#+caption: With a horizontal stagger. [[https://svalboard.com/pages/the-layout][Image credit]]
+#+attr_html: :class md:w-10/12 :alt The column staggered keyboad design
+[[file:design-column-staggered.png]]
+
+The [[https://svalboard.com/pages/the-layout][best keyboard out there]] goes even further than that, but also comes with a
+much higher price point, less portability and a significant learning curve.
+I think the split keyboard will be the sweet spot for most people who want to
+have a great external keyboard.
+
+** Building process
+What is not for most people, though, is soldering together their keyboard
+themselves.
+More on that later.
+Let's first choose a split keyboard design.
+
+*** Picking a design
+The keyboard design should fit your needs.
+
+The first thing to wrap your head around is how a keyboard can even be as small
+as this:
+
+#+caption: There are only 34 keys on the Ferris. [[https://splitkb.com/collections/keyboard-kits/products/halcyon-ferris][Image credit]]
+#+attr_html: :class md:w-10/12 :alt The ferris keyboard design
+[[file:design-ferris.webp]]
+
+You can and have to program these keyboards.
+The Ferris can function because while you hold one of the arrow keys (in the bottom
+right) with your thumb, the rest of the keyboard get redefined, the keys now
+output something arbitrary you defined.
+This is called a [[#layer-it-on][layer]].
+If you don't have a number row, you can add a number layer.
+For example: usually you press ~E~ and get ~E~, but if you hold the arrow key
+and press ~E~, you can now get ~3~.
+
+Layering is powerful and really can't (and shouldn't) be avoided when building a
+split keyboard.
+There are also combos, mod-tap and more.
+The fewer physical keys you have on the keyboard, the more reliant are you
+on these techniques.
+I knew, that as a beginner, I wanted a number row and many thumb keys.
+That already significantly reduced my options, which is a good
+thing.[fn:analysis-paralysis]
+
+I chose the [[https://github.com/josefadamcik/SofleKeyboard][Sofle]] design.
+It has amount of keys I wanted, a comfortable stagger, plenty of thumb keys and
+two encoders.
+
+#+caption: The Sofle design. [[https://splitkb.com/collections/keyboard-kits/products/aurora-sofle-v2][Image credit]]
+#+attr_html: :class md:w-11/12 :alt The sofle keyboard design
+[[file:design-sofle.webp]]
+
+I chose [[https://splitkb.com/collections/keyboard-kits][splitkb.com]] as an EU-based vendor.
+There I could buy everything I needed at once with guaranteed compatibility, a [[https://canary.composer.splitkb.com/][guided part-picker]],
+great documentation and no excessive shipping costs or import tax.
+
+The [[https://splitkb.com/collections/keyboard-kits/products/aurora-sofle-v2][Sofle kit]] requires me to solder the board myself.
+If you don't want to solder:
+- Splitkb also [[https://splitkb.com/collections/keyboard-kits][offers already soldered kits]] that you can just plug together.\\
+  You still get all of the choice (switches, keycaps, display, encoder, trackpad),
+  but without the manual labor. The price difference to self-soldering is a
+  no-brainer if you consider the labor and tools.
+- Other vendors sell completely assembled keyboards at higher prices.
+  You get the working product, but none of the fun or choice of building.
+- If you want to go dirt cheap you can go with AliExpress.
+  Search for your design and get a preassembled keyboard or hunt down all the
+  the parts you need.
+
+
+Now to get my hands dirty.
+
+[fn:analysis-paralysis] See [[https://en.wikipedia.org/wiki/Analysis_paralysis][Decision paralysis aka. Analysis paralysis]].
+
+*** Soldering and assembly
+The [[https://docs.splitkb.com/product-guides/aurora-series/build-guide/what-is-what][orientation guide]] helped me understand what all the parts were that I was
+looking at and how they would play together to (hopefully) become a functioning
+keyboard.
+
+#+caption: The parts upon arrival.
+#+attr_html: :class md:w-12/12 :alt Desk with keyboard parts on it
+[[file:parts.jpg]]
+
+**** Choose the firmware
+Before anything gets soldered, test that the microcontrollers work by [[https://docs.splitkb.com/product-guides/aurora-series/build-guide/flashing-firmware][flashing
+their firmware]].[fn:flash]
+My options were:
+1. QMK: a text-based configuration language
+2. Vial: a GUI where you don't need to mess with key-codes
+
+   
+As much as I like configuring stuff, QMK looked like overkill.
+Vial was very easy to get into and is feature-complete for a beginners needs.
+
+#+caption: Testing that the microcontroller outputs a "keypress."
+#+attr_html: :class w-10/12 md:w-9/12 :alt Microcontroller in front of laptop screen
+[[file:microcontroller-testing.jpg]]
+
+[fn:flash] Quick notes for flashing the firmware: Plug in the keyboard, mount it
+as a drive, move the vial .uf2 file onto the drive and test that it works as an
+input (as seen in the picture.)
+
+**** Soldering
+#+caption: My workstation.
+#+attr_html: :class md:w-11/12 :alt Desk with soldering equipment
+[[file:soldering-setup.jpg]]
+
+My soldering experience was limited to one 2h session, years ago.
+I was basically a beginner.
+Great that the first task is to [[https://docs.splitkb.com/product-guides/aurora-series/build-guide/diodes#smd-diodes][solder some tiny SMD diodes]].
+A task not recommended for beginners, but I knew it was gonna be fine and went fine.
+Sure, the first 30 looked terrible, but I got better.
+The second PCB went really smoothly (4x faster than first one.)
+
+#+caption: A diode soldered to the PCB.
+#+attr_html: :class w-12/12 :alt SMD diode on PCB
+[[file:diodes.jpg]]
+
+Next were the [[https://docs.splitkb.com/product-guides/aurora-series/build-guide/resistors#smd-resistors][resistors]].[fn:resist]
+These were even smaller than the diodes. 🙂
+
+#+caption: Resitors soldered to the PCB.
+#+attr_html: :class w-12/12 :alt SMD resistors on PCB
+[[file:resistors.jpg]]
+
+With that I was done for day one after ~3h of soldering.
+
+For 8€ one can add [[https://docs.splitkb.com/product-guides/aurora-series/build-guide/switch-sockets][hotswap switch sockets]].
+Without them you'd solder the switches directly onto the board.
+I chose what felt like the safer way, so that if I make a mistake or any switch
+breaks I don't have to do a big desoldering effort.
+Which would be terrible (forshadowing.)
+
+#+caption: Sockets for easy switch replacement.
+#+attr_html: :class w-12/12 :alt Hotswap switch sockets on PCB
+[[file:switch-sockets.jpg]]
+
+Through-out the first half of the first board I'm thinking "Why is this so hard
+to solder??? I thought I was good now!?".
+By the second board it had become routine.
+
+#+begin_export hugo
+{{<center>}}
+#+end_export
+#+attr_html: :class w-12/12 :alt Pin to socket microcontroller
+[[file:microcontroller3.jpg]]
+
+#+caption: Preparing pins to [[https://docs.splitkb.com/product-guides/aurora-series/build-guide/microcontrollers#using-sockets][socket microcontroller]].
+#+attr_html: :class w-12/12 :alt Placing microcontroller socket pin
+[[file:microcontroller1.jpg]]
+
+#+attr_html: :class w-12/12 :alt Placed microcontroller pins in socket
+[[file:microcontroller2.jpg]]
+#+begin_export hugo
+{{</center>}}
+<br>
+{{<center>}}
+#+end_export
+#+attr_html: :class w-12/12 :alt Empty socket
+[[file:microcontroller5.jpg]]
+
+#+caption: A microcontroller with pins soldered in can be easily removed from the socket.
+#+attr_html: :class w-12/12 :alt Microcontroller with pins
+[[file:microcontroller4.jpg]]
+#+begin_export hugo
+{{</center>}}
+<br>
+{{<center>}}
+#+end_export
+#+attr_html: :class md:w-10/12 :alt Pin to socket microcontroller
+[[file:microcontroller6.jpg]]
+
+#+attr_html: :class md:w-10/12 :alt Placed microcontroller pins in socket
+[[file:microcontroller7.jpg]]
+#+begin_export hugo
+{{</center>}}
+#+end_export
+
+As the last job for the day I wanted to do the [[https://docs.splitkb.com/product-guides/aurora-series/build-guide/rotary-encoders][rotary encoders]]:
+
+#+begin_export hugo
+{{<center>}}
+#+end_export
+#+caption: The installed encoder.
+#+attr_html: :class w-12/12 :alt Installed encoder on PCB
+[[file:encoder2.jpg]]
+
+#+caption: Finished encoder with it's hat on.
+#+attr_html: :class w-12/12 :alt PCB with encoder and switches
+[[file:encoder3.jpg]]
+#+begin_export hugo
+{{</center>}}
+#+end_export
+
+At the end of a 5h session I fuck up by soldering then encoder onto the wrong side of the
+board.
+Ouch.
+It only take one moment of inattention to mess up terribly.
+
+#+caption: Yes, that is the wrong way around.
+#+attr_html: :class w-12/12 :alt PCB with encoder on the wrong side
+[[file:encoder4.jpg]]
+
+I tried to desolder the encoder but it was not possible with my current tool.
+So, I went to the store and bought a new 30W iron.
+That also did not work.
+(Afterwards I found out that I needed the soldering iron with >30W that was marked as
+"unsafe for PCBs."
+It is safe if you know what you are doing, which I wasn't --- so
+maybe it's for the best. 😄) \\
+Either way.
+I found [[https://www.kleinanzeigen.de/s-anzeige/-loetarbeiten-platinen-reparaturen-express-service-loeten/3165576566-226-3447][a place in Berlin]] that does walk-in soldering work.
+After a two-hour train ride and 5-minute visit my board was fixed.
+
+I put everything together, fixed some connections and tested the keys through
+Vials "Matrix Tester".
+Everything worked, except for one row of keys.\\
+I checked my soldering, redid connections, but ... nothing.
+At some point I switch the microcontrollers and the dead row switches with along
+with it.
+A microcontroller problem it is.
+
+#+caption: Vial shows a dead row of keys.
+#+attr_html: :class w-12/12 :alt Vial matrix tester showing a dead row of keys
+[[file:vial-dead-row.png]]
+
+After the newly ordered microcontroller arrived, was soldered up and put in,
+everything finally worked!
+
+#+caption: The final result.
+#+attr_html: :class w-12/12 :alt Vial matrix tester showing a dead row of keys
+[[file:end-result.jpg]]
+
+From initial research to completion the build took around 20 days and ca. 13h of soldering and
+hardware debugging.
+
+[fn:resist] The resistors were optional for me, since I didn't plan to add screens.
+I just put them on the board to be future-proof.
+
+*** Cost overview
+Here's what I paid for my kit, plus the unexpected costs:
+- [[https://splitkb.com/collections/keyboard-kits/products/aurora-sofle-v2][Aurora Sofle Kit]], switches, keycaps, microcontrollers, case, encoders and more: 226€
+- 2m USB-C cable: 5€
+- Reordered a microcontroller: 31€
+- Bought a new soldering iron, which turned out to be only marginally better than old one: 43€
+- Had a professional fix the encoder soldering mistake of mine: 20€
+
+
+*Total: 325€* plus ~13 hours of my time.
+
+** Configuration
+My keyboard is smaller than a full-keyboard.
+Some of the standard keys are missing for lack of space.
+Through configuration they will be made available.
+
+For Vial configuration is done through the local app.[fn:whyapp]
+Vial needs the devices =/dev/hidraw*= to be writable.
+This can be done with:
+#+begin_src shell :results output
+ls -tc /dev/hidraw* | head -n3 | tr "\n" " " | xargs sudo chmod a+rw
+#+end_src
+I run this through an [[/dev/linux-usb-c-dock-udev][udev rule on device connect]] that calls [[https://github.com/jneidel/dotfiles/blob/master/scripts/hardware/split-keyboard][this script]].
+
+[fn:whyapp] Why not [[https://vial.rocks/][vial.rocks]]? It works, but the local app is faster and
+remembers what device was last used and that I selected the german layout.
+
+*** Thumb keys for modifiers
+First up are the ten thumb keys.
+The requirement for my keyboard (configuration) was that it works well with Emacs.
+There is a lot of holding down ~Control~ in Emacs.
+Since the thumb is our strongest finger I wanted have it hold down that (and other)
+modifiers.
+
+With one on each hand (2/10):
+- 2x ~Control~
+
+
+Then I have (4/10):
+- ~Super~: window management
+- [[/dev/hyper-modifier][Hyper]][fn:hyper]: Emacs bindings
+
+
+Emacs also has bindings with two modifiers plus shift
+(~control+meta+shift+something~), so I needed a shift outside of the thumb keys.
+The other goes shift goes onto the thumbs (5/10):
+- ~Shift~
+
+
+With usage I quickly realized that the outermost keys were very hard to hit
+consistently and that the travel between the innermost to the outmost was
+slowing me down.
+I basically don't use them now (7/10).
+
+
+I only have 3 spaces left now and it needs to be these three (10/10):
+- ~Alt~
+- ~Spacebar~
+- Layer change: see next section
+
+#+caption: Base layer with my arrangement of thumbkeys (=MO(n)= is a layer change.)
+#+attr_html: :class md:w-12/12 :alt Vial configuration for layer 0
+[[file:layer0.png]]
+
+I tried enter on a thumb key, but multiple Emacs org-mode bindings use two
+modifiers (two thumbs) plus enter.
+
+[fn:hyper] What is the hyper key and why would I want one?
+[[/dev/hyper-modifier][See this article]].
+Why not use the hyper key [[https://docs.qmk.fm/feature_advanced_keycodes#modifier-keys][built-in to QMK/Vial]] (=HYPR(kc)=)?
+It does not produce a real hyper output in Emacs.
+I don't want ~ctrl+alt+shift+gui~ I want a real hyper.
+
+*** Layer it on!
+  :PROPERTIES:
+  :CUSTOM_ID: layer-it-on
+  :END:
+A layer allows you to transform all keys on the keyboard.
+Here is what I get when I go into layer one:
+
+#+caption: Special characters layer.
+#+attr_html: :class md:w-11/12 :alt Vial configuration for layer 1
+[[file:layer1.png]]
+
+You can see that I make keys accessible that are missing (~#~, ~*~, ~ß~, etc.) or so common that I
+want them more easily available (~"~, ~?~, ~()~, etc.)
+
+Other people make much heavier use of layers than me.
+They have layers for numbers, special characters, movement, media, etc.
+I chose a keyboard with a number row, so I wouldn't need to do this.
+After trying more layers I decided against it.
+
+#+html: <details>
+#+begin_summary
+Why not use layers more heavily?
+#+end_summary
+
+If I had more layers I would need more modifiers to activate them.
+I'm all out of thumb keys, so I would need to do mod-tap outside of my thumbs.
+Holding a layer modifier with the left hand, makes it hard/uncomfortable to hit a keybinding with the same.
+So if I had a numbers layer and numbers on both hands I would need a mod-tap on
+both hand to activate the layer.
+
+Mod-tap introduces a configurable delay (200ms) for regular key-presses.
+In typing tests the mod-tap on an infrequent key like ~ö~ (~;~ on US-querty) was
+both noticeable and bothersome.
+I would not want to have any more, especially not on frequently used keys like
+those on the home row.
+#+html: </details>
+
+*** Knobs (Encoders)
+Those rotary encoders are actually quite flexible.
+For their functions I have settled on volume control and left/right (for video
+control.)
+And on press down it runs the sequence ~C-x 1~ -- Emacs' =delete-other-windows= -- which is very
+convenient.
+
+I experimented with them as page up/down for webpage and document scroll, but I
+did not use it much.
+What I did use was Emacs' =other-window= in the direction that I was turning the
+knob.
+That was quite cool and I used it plenty, but to have the volume and
+forward/backward available outside of a layer was more important.
+
+** Adjustment period
+To get back to your usual typing speed and muscle memory on a new keyword will
+take time and conscious effort.
+For me these were the points where I felt the pain:
+
+1. Orthogonal[fn:ortho] key placement and related bad habits.
+2. Special characters in new places.
+3. Keyboard shortcuts are completely different.
+
+
+The orthogonal layout meant that keys were in slightly different places (e.g. straight
+up from the home row, instead of up and sideways.)
+Though this was the least of my trouble.
+My touch typing mistakes were much worse.
+
+#+caption: The touch typing rules show that ~B~ belongs to the left index finger.
+#+attr_html: :class w-12/12 :alt The touch typing rules
+[[file:touch-typing-rules.png]]
+
+On a staggered keyboard ~B~ is equally close to both index fingers on the home row
+and I used them interchangeably.
+On a split orthogonal keyboard ~B~ is on the left hand.
+For me that meant that my right index finger needed to unlearn that it could hit
+a ~B~ by going down and left.
+
+#+caption: On a split orthogonal keyboard ~B~ can only be reached by the left index.
+#+attr_html: :class w-10/12 :alt The ortholinear keyboad design
+[[file:design-split.png]]
+
+Many special characters moved to layers as I already said.
+This too, took some getting used to.
+And while most letter keys were in the same place, the few that weren't (the
+German ~ä~ & ~ß~) threw off my writing speed.
+
+But the hardest part were the keyboard shortcut that I had deeply etched into my
+muscle memory.
+Modifiers were now in different places.
+Key combinations used a different set of fingers.
+I had to look up some binding again and again because I just did not know them.
+They had been committed to muscle memory years ago and I had long forgotten what
+keys I needed to press.
+
+[fn:ortho] What is an orthogonal layout? [[#what-is-the-best-external-keyboard][See the beginning of the article]].
+  
+*** Typing practice
+Typing tests are a great way to reduce typing friction and improve speed through
+deliberate practice.
+I used the full-featured website [[https://monkeytype.com/][monkeytype]].[fn:why-monkeytype]
+
+On my laptop keyboard I was at a comfortable 60wpm in English.
+I started out at an abysmal 10wpm on the new keyboard.
+I practiced regularly and added multiple increases in difficulty.
+I switched to German (more
+capitalization, harder combined words and ö, ä, ü, ß), added numbers and
+punctuation.
+It took me about 14h of deliberate practice [[https://monkeytype.com/profile/jneidel][to get up to 60wpm]] on the new keyboard too.
+
+I saw the best progress when I drilled the "missed words" after a test, focused
+on accuracy over speed and stopped for the day when I hit a plateau.
+
+[fn:why-monkeytype] I decided on monkeytype because it was 1) well recommended by
+relevant reddit communities, 2) full-featured and heavily configurable, 3)
+open-source. I'm very happy with my choice.
+
+** Conclusions
+With that we have arrived in the present.
+A lot of work went into this project in building, configuring and adjusting to
+this new keyboard.
+I am left with a nicer computer setup for years to come.
+To me that was time well invested.
+And I enjoyed myself in the process.
+
+I hope you feel inspired to do something like this for yourself (if you're into
+this kind of thing.) 🙂
+
+Much love,\\
+Jonathan
+
+** References
+- [[/dev/consistent-keybindings-across-os][Consistent keybindings across macOS and linux]] (same copy-paste and more.)
+  This is especially useful with a shared external keyboard.
+- The ultimate keyboard still awaits: the [[https://svalboard.com/][Svalboard]]. 3d printing and building this is someday
+  project for me.
+- [[https://gist.github.com/henfiber/a17c7b2a7053473fe37b1a6f80e58efd][List of EU vendors for keyboards and keyboard components]]
+- Video: [[https://www.youtube.com/watch?v=DUa1q_XpTEw][How to solder keyboards]]
+

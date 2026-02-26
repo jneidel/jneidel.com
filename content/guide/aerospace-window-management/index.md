@@ -292,7 +292,7 @@ Doing this will require significant tinkering.
 
 What makes it worth the effort to me is:
 1. Super is my i3 window management prefix under Linux.
-   Super and command are the same key on my external split keyboard.
+   Super and command are the same key on my [external split keyboard](/project/split-keyboard).
    By using the exact same keybindings between MacOS and Linux I reduce the
    cognitive load of switching between them.
    (I also [remap <kbd>cmd+c</kbd> to <kbd>ctrl+c</kbd>](dev/consistent-keybindings-across-os) for the same reason.)
