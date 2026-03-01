@@ -53,8 +53,15 @@ clear-cache:
 	rm -r public
 	git restore public/_redirects
 
-bin:
-	CGO_ENABLED=1 go install -tags extended github.com/gohugoio/hugo@v0.151.0
+write-hugo-version:
+	hugo version | grep -Po "\d+\.\d+\.\d+" >.hugo-version
+
+install-hugo:
+	required_version="$$(cat .hugo-version)"; \
+	local_version="$$(hugo version | grep -Po "\d+\.\d+\.\d+")"; \
+	if [ "$$local_version" != "$$required_version" ]; then \
+		CGO_ENABLED=1 go install -tags extended github.com/gohugoio/hugo@v$$required_version; \
+	fi
 
 copy:
 	rm -rf public/de/de public/de/en public/en/de public/en/en
@@ -76,6 +83,6 @@ reset:
 deploy: reset tw build copy
 
 publish: # run via a custom git publish
-	ssh u 'zsh -lc "cd git/web; make pull"'
+	ssh u 'zsh -lc "cd git/web; make pull; make install-hugo"'
 	$(MAKE) sync-generated-md
 	ssh u 'zsh -lc "cd git/web; make deploy"'
