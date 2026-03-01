@@ -121,3 +121,6 @@ No new keybinding are needed and I can use it through my full-featured [[https:/
 
 That's it :)
 Have a great day!
+
+** References
+- [[https://weblog.masukomi.org/2024/07/19/using-org-mode-with-hugo/#relative-link-helpers][See this post]] for an alternative approach using =read-file-name=

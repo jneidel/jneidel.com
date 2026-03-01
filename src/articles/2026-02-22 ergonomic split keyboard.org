@@ -7,7 +7,9 @@
 #+hugo_bundle: split-keyboard
 #+export_file_name: index.md
 #+hugo_tags:
-#+hugo_custom_front_matter: :project-status completed :thumbnailAlt "Split keyboard in black and red" :summary "My journey of building, configuring and getting used to a split keyboard."
+#+hugo_custom_front_matter: :project-status completed
+#+hugo_custom_front_matter: :thumbnailAlt "Split keyboard in black and red"
+#+hugo_custom_front_matter: :summary "My journey of building, configuring and getting used to a split keyboard."
 #+description: My journey of building, configuring and getting used to an ergonomic split keyboard.
 
 I have only ever used a laptop.
