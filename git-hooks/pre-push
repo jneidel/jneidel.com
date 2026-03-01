@@ -1,0 +1,24 @@
+#! /bin/sh
+
+if [ "$1" = "--help" ] || [ "$1" = "-h" ] || [ "$1" = "help" ]; then
+  cat <<EOF
+$ pre-push
+Check that ox-hugo exported markdown files contain the same title as their org sources.
+This prevents silent overwriting.
+EOF
+  exit
+fi
+
+hash hugo-src-mapping || exit 127
+
+hugo-src-mapping 2>/dev/null | while read line; do
+  src="$(echo $line | cut -d: -f1)"
+  content="$(echo $line | cut -d: -f2)"
+  src_title=$(grep -m1 -Po '^#\+title:\s*\K.*' "$src")
+  content_title="$(grep -m1 -Po '^title = "\K.*' "$content" | cut -d'"' -f1)"
+
+  if [ "$src_title" != "$content_title" ]; then
+    echo "Title for '$src' does not match with exported counterpart."
+    exit 1
+  fi
+done
