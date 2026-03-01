@@ -5,4 +5,4 @@
 [[mounts]]
   source = "layouts"
   target = "layouts"
-  excludeFiles = "LICENSE"
+  files  = ["! LICENSE"]
