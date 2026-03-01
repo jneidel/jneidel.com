@@ -1,0 +1,24 @@
+#!/bin/sh
+
+if [ "$1" = "--help" ] || [ "$1" = "-h" ] || [ "$1" = "help" ]; then
+  cat <<EOF
+$ pre-commit
+Check if new images where added.
+If yes, run optimize-images on them.
+EOF
+  exit
+fi
+
+IMAGES=$(git diff --cached --name-only --diff-filter=A | grep -E '\.(png|jpg|jpeg|webp|svg)$')
+# only newly added images
+
+if [ -z "$IMAGES" ]; then
+  exit 0
+fi
+
+if optimize-images $IMAGES; then
+  echo "$IMAGES" | xargs git add
+  true
+else
+  false
+fi
