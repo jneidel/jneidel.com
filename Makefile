@@ -1,6 +1,6 @@
 export BROWSERSLIST_IGNORE_OLD_DATA=1
 
-all: tww serve
+all: tww serve install-hooks
 
 serve:
 	firefox http://localhost:1313 >/dev/null 2>&1 &
@@ -34,6 +34,14 @@ _:
 	ln -s ../content/newsletter _/newsletter
 	ln -s ../layouts _/…layout
 	ln -s ../layouts/shortcodes/glossary _/glossary
+
+install-hooks: .git/hooks/pre-commit .git/hooks/pre-push
+
+.git/hooks/pre-commit: git-hooks/pre-commit .git/hooks
+	cp $< $@
+
+.git/hooks/pre-push: git-hooks/pre-push .git/hooks
+	cp $< $@
 
 descriptions:
 	short-descriptions .
