@@ -67,19 +67,6 @@ Wenn es mehrere Aufgaben über einen gewissen Zeitraum enthält ist es ein Proje
 </details>
 <br>
 <details>
-<summary>Was hat es mit den Emoji auf sich (🟢🟨🪀)?</summary>
-
-Die Emoji repräsentieren grob den Status des Projektes:
-- 🟢 habe ich in den letzten paar Tagen angefasst
-- 🟨 wurde in den letzten Tagen nicht angefasst, werde ich aber zeitnah fortführen
-- 🪀 wird durch etwas Externes blockiert (personell oder zeitlich)
-
-
-Die spezifischen Emoji wurden nach ihren Unicode Symbolen gewählt, sodass sie mit natürlicher Sortierung in obiger Reihenfolge aufgelistet werden.
-Farblich wurde ich durch die Ampel inspiriert.
-</details>
-<br>
-<details>
 <summary>Wie funktioniert das automatische Aktualisieren?</summary>
 
 Ich habe einen [Artikel](https://jneidel.com/dev/automatic-now-updates){{<en>}} darüber geschrieben wie ich es aufgesetzt habe.
@@ -113,7 +100,7 @@ Die Einfachheit stellt sicher das ich es auch mache.
 Diese Aktivitäten mache ich jeden Tag:
 - Ein Spaziergang in der Natur (60+ min)
 - Wim Hof breathing
-- Ernährung mit 95% [Rohkost](project/rohkost)anteil, [Vegan](https://jneidel.com/project/going-vegan){{<en>}} und [IF](https://jneidel.com/review/intermittent-fasting){{<en>}}
+- Ernährung aus größtenteils [Rohkost](project/rohkost), [Vegan](https://jneidel.com/project/going-vegan){{<en>}} und mit [IF](https://jneidel.com/review/intermittent-fasting){{<en>}}
 - Sport
 
 {{<figure src="./forest-walk.jpg" class="w-12/12" caption="Den örtlichen Wald habe ich praktisch für mich allein :slightly_smiling_face:" alt="Path in a forest">}}

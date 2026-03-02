@@ -60,18 +60,6 @@ If some work includes multiple todos over a certain time period it is a project.
 </details>
 <br>
 <details>
-<summary>What do the emoji mean (🟢🟨🪀)?</summary>
-
-The emoji represent the state of a project:
-- 🟢 had some work put into it in the last few days
-- 🟨 has not been touched in a few days, but will resume shortly
-- 🪀 is blocked by something external (person or time)
-
-The particular emoji were chosen based on their unicode symbols so they would sort in the above order using natural sorting.
-For the colors I wanted was inspired by the traffic light.
-</details>
-<br>
-<details>
 <summary>How does the automatic updating work?</summary>
 
 Here is the [article](dev/automatic-now-updates) I wrote about my setup.
@@ -112,7 +100,7 @@ The simplicity means I will actually do it.
 These activites are part of my every day routine.
 - Walk in nature (60+ mins)
 - Wim Hof breathing
-- Eat a 95% [raw](https://jneidel.de/project/rohkost/){{<de>}}, [vegan](project/going-vegan) diet with [IF](review/intermittent-fasting)
+- Eat a majority [raw](https://jneidel.de/project/rohkost/){{<de>}}, [vegan](project/going-vegan) diet with [IF](review/intermittent-fasting)
 - Exercise
 
 {{<figure src="./forest-walk.jpg" class="w-12/12" caption="I practically have the local forest to myself :slightly_smiling_face:" alt="Path in a forest">}}
