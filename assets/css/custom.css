@@ -417,3 +417,24 @@ figcaption>span.figure-number {
 .serif {
     font-family: "Libre Caslon Text", serif;
 }
+
+/* Hero letter: first letter of h1 in cursive behind it */
+h1 {
+    position: relative;
+    padding: 1.25rem 0 0 0;
+}
+h1::before {
+    content: attr(data-letter); /* set via js, first letter of h1 */
+    position: absolute;
+    left: 1.75rem;
+    top: -0.05em;
+    line-height: 1;
+    font-family: "Times New Roman", serif;
+    font-style: italic;
+    font-size: 5.5rem;
+    color: rgba(0,0,0,0.12);
+    z-index: -1;
+}
+html.dark h1::before {
+    color: rgba(255,255,255,0.17);
+}

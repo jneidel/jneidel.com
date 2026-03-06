@@ -141,3 +141,8 @@
         }
     });
 })();
+
+// Hero letter
+document.querySelectorAll("h1").forEach(h => {
+    h.dataset.letter = h.textContent.trim()[0];
+});
