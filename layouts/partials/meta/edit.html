@@ -4,8 +4,13 @@
   {{ if ne (substr $url -1 1) "/" }}
     {{ $slash = "/" }}
   {{ end }}
-  {{ $url = printf "%s%s%s" $url $slash (path.Join .File.Path) }}
+  {{ if .Params.nonOrgSource }}
+    {{ $url = printf "%s%s%s" $url $slash (path.Join .File.Path) }}
+  {{ else }}
+    {{ $url = printf "https://github.com/jneidel/jneidel.com/tree/master/src/" }}
+  {{ end }}
 {{ end }}
+
 <span class="mb-[2px]">
   <a
     href="{{ $url }}"

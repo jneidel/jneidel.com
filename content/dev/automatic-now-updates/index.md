@@ -7,6 +7,7 @@ tags:
 date: 2025-08-30
 thumbnailAlt:
 writingTime: 45
+nonOrgSource: true
 ---
 
 I have a [now](now) page.

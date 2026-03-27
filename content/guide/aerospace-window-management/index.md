@@ -6,6 +6,7 @@ tags:
 - macos
 date: 2026-01-15
 thumbnailAlt: "Virtual windows above a laptop with a rock in front of it"
+nonOrgSource: true
 ---
 
 On Linux I've had a nice way to manage my windows for a long time now.

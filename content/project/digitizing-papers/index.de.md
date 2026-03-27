@@ -9,6 +9,7 @@ project-status: completed
 date: 2024-10-24
 thumbnailAlt: "Stapel voller zu digitalisierender Dokumente"
 writingTime: 125
+nonOrgSource: true
 ---
 
 ## Was?

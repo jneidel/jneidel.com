@@ -7,6 +7,7 @@ tags:
 date: 2025-08-24
 thumbnailAlt:
 writingTime:
+nonOrgSource: true
 ---
 
 I have a USB-C dock with my monitor, speakers, ethernet, etc.

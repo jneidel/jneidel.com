@@ -7,6 +7,7 @@ date: 2025-10-25
 thumbnailAlt:
 excludeRss: false
 writingTime:
+nonOrgSource: true
 ---
 
 I have all of my code on GitHub.

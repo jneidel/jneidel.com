@@ -9,6 +9,7 @@ tags:
 date: 2024-05-28
 thumbnailAlt: "Vilfredo Pareto in a Bar with a coupon in hand"
 writingTime: 37
+nonOrgSource: true
 ---
 
 ## 10% off!!1!

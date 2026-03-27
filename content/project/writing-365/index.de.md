@@ -10,6 +10,7 @@ date: 2024-05-23
 thumbnailAlt: Gemälde von einem alten Tempel über dem die Sonne aufgeht mit einer Taschenuhr im Vordergrund
 showDate: true
 writingTime: 15
+nonOrgSource: true
 ---
 
 Ich habe mich entschlossen mein Schreiben auf das nächste Level zu heben.

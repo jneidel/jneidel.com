@@ -9,6 +9,7 @@ tags:
 date: 2025-08-16
 thumbnailAlt:
 writingTime:
+nonOrgSource: true
 ---
 
 Modern keyboards don't include a [hyper key](https://en.wikipedia.org/w/index.php?title=Hyper_key) anymore.

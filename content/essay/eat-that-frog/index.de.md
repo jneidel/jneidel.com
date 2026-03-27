@@ -6,6 +6,7 @@ tags:
 date: 2024-05-24
 thumbnailAlt: "Ein Frosch auf einem Teller"
 writingTime: 85
+nonOrgSource: true
 ---
 
 Das Prinzip ist simpel.

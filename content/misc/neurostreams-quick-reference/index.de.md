@@ -10,6 +10,7 @@ slug: neurostreams-kurzanleitung
 showDateUpdated: true
 showReadingTime: false
 writingTime: 290
+nonOrgSource: true
 ---
 
 {{<lead>}}

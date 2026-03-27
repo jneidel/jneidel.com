@@ -7,6 +7,7 @@ showDate: false
 showDateUpdated: false
 showReadingTime: false
 thumbnailAlt: "Various different multi-colored items"
+nonOrgSource: true
 ---
 
 {{<lead>}}

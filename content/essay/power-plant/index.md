@@ -7,6 +7,7 @@ tags:
 thumbnailAlt: Person omitting power
 date: 2024-05-11
 writingTime: 25
+nonOrgSource: true
 ---
 
 > The power plant doesn't have power, it generates power.

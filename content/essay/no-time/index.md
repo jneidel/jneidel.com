@@ -6,6 +6,7 @@ tags:
 date: 2024-09-19
 thumbnailAlt: "Man holding a clock and holding his hand toward you in rejection."
 writingTime: 94
+nonOrgSource: true
 ---
 
 When somebody tells me <q>I don't have time for that.</q>, my response, or

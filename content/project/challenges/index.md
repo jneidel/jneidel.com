@@ -10,6 +10,7 @@ thumbnailAlt: "Two people in the gym challenging themselves"
 showDate: false
 showDateUpdated: true
 writingTime: 62
+nonOrgSource: true
 ---
 
 {{<lead>}}

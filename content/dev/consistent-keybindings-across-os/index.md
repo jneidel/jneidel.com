@@ -6,6 +6,7 @@ tags:
 - "macOS"
 date: 2025-09-26
 thumbnailAlt: "Consistent Keybindings Across Linux and macOS"
+nonOrgSource: true
 ---
 
 This article describes how I set up consistent keybindings between my Linux and macOS devices.

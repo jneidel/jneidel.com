@@ -4,6 +4,7 @@ summary: "My Software Developer CV."
 tags:
 date: 2025-12-01
 excludeRss: true
+nonOrgSource: true
 ---
 
 Below you can find my CV as a Software Engineer.

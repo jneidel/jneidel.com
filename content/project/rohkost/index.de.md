@@ -8,6 +8,7 @@ project-status: ongoing
 date: 2025-01-05
 thumbnailAlt: "Büffet an rohem Obst und Gemüse"
 writingTime: 137
+nonOrgSource: true
 ---
 
 Ich bin über die Rohkost gestolpert und weil es so vielversprechend aussah

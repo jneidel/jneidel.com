@@ -8,6 +8,7 @@ project-status: completed
 date: 2024-07-16
 thumbnailAlt: "Internet Router mit vielen bunten Kabeln"
 writingTime: 210
+nonOrgSource: true
 ---
 
 Der Wechsel des DSL-Anbieters kann sich lohnen.

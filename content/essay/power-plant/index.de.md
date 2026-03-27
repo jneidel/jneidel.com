@@ -8,6 +8,7 @@ thumbnailAlt: Eine Person die Energie ausstrahlt
 date: 2024-05-11
 writingTime: 22
 ref: Reality loop, Article on energizing yourself
+nonOrgSource: true
 ---
 
 > Das Kraftwerk hat keine Energie, es generiert Energie.

@@ -7,6 +7,7 @@ tags:
 date: 2025-04-18
 thumbnailAlt: "Figure named git standing on a messy desk in front of a monitor"
 writingTime: 205
+nonOrgSource: true
 ---
 
 This article describes how I do use git rebase to maintain a clean commit

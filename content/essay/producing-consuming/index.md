@@ -6,6 +6,7 @@ tags:
 date: 2024-05-11
 draft: true
 writingTime:
+nonOrgSource: true
 ---
 
 Do you know what's the single best metric I've found to predict how I'm doing at

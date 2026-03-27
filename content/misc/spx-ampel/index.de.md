@@ -7,6 +7,7 @@ date: 2025-01-13
 thumbnail: "end-result*"
 thumbnailAlt: "SPX Ampel"
 writingTime: 40
+nonOrgSource: true
 ---
 
 Ein einfaches Ampelsystem zur Bestimmung der Marktphase.

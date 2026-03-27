@@ -7,6 +7,7 @@ tags:
 date: 2026-02-04
 thumbnail: basic-vertico.png
 thumbnailAlt: Minibuffer search with vertico
+nonOrgSource: true
 ---
 
 A good completion system can make navigating an app like walking over clouds.

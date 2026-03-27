@@ -8,6 +8,7 @@ tags:
 date: 2024-07-07
 thumbnailAlt: "A monk being pushed off a forest path by another monk."
 writingTime: 207
+nonOrgSource: true
 ---
 
 > Yeah, like I was saying…

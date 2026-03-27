@@ -7,6 +7,7 @@ tags:
 date: 2024-07-24
 thumbnailAlt: "Milk in glass"
 writingTime: 70
+nonOrgSource: true
 ---
 
 When I was 16 the most curious thing happened.

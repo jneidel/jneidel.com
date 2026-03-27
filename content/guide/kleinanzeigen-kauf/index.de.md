@@ -5,6 +5,7 @@ date: 2023-10-18
 thumbnailAlt: Woman and man trading appliance for money at the door
 tags:
     - Kleinanzeigen
+nonOrgSource: true
 ---
 
 > Kleinanzeigen kann ein sehr gutes Werkzeug sein um günstig an Dinge – vor allem Möbel – zu kommen.

@@ -7,6 +7,7 @@ tags:
 date: 2024-10-03
 thumbnailAlt: "Person meditating on a cloud imagining a brain in front of him"
 writingTime: 103
+nonOrgSource: true
 ---
 
 NLP means a lot of things to a lot of people.

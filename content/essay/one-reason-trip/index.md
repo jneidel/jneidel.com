@@ -7,6 +7,7 @@ slug: "trip-one-reason"
 thumb: Golf driving in traffic at sundown
 tags:
     - philosophy
+nonOrgSource: true
 ---
 
 > Each trip must have a singular reason for why you're taking it.

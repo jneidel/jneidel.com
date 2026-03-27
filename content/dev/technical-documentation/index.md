@@ -5,6 +5,7 @@ summary: "Overhaul of our project technical documentation."
 date: 2024-12-31
 thumbnailAlt: "Blue-gray PHP Elefant (ElePHPant) surrounded by pages of documentation"
 slug: "technical-documentation-with-arc42"
+nonOrgSource: true
 ---
 
 This article will give a rough overview of how I introduced structured

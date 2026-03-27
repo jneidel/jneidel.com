@@ -8,6 +8,7 @@ date: 2024-10-28
 thumbnailAlt:
 draft: true
 writingTime: 108
+nonOrgSource: true
 ---
 
 I wrote this for myself to to reflect on my successes over the course of the

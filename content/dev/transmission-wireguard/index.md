@@ -8,6 +8,7 @@ tags:
     - homeserver
 thumbnailAlt: "Pirate with a spyglass looking at whaleshapped ship with shipping containers on it (the docker whale)"
 writingTime: 192
+nonOrgSource: true
 ---
 
 A thorough guide of my torrenting setup.

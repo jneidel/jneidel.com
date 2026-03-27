@@ -8,6 +8,7 @@ date: 2025-04-05
 thumbnailAlt: "Command Line Heroes logo"
 writingTime: 93
 excludeRss: true
+nonOrgSource: true
 ---
 
 The technology podcast [_Command Line Heroes_](https://www.redhat.com/en/command-line-heroes) has covered a diverse range of

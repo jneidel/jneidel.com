@@ -7,6 +7,7 @@ tags:
 date: 2025-11-03
 thumbnail: notmuch-hello.png
 thumbnailAlt: Notmuch hello screen in Emacs after configuration
+nonOrgSource: true
 ---
 
 This is a complete guide to my email setup.

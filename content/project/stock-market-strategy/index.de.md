@@ -10,6 +10,7 @@ project-status: completed
 date: 2024-09-28
 thumbnailAlt: "Offener Laptop mit nach oben gehendem Chart"
 writingTime: 185
+nonOrgSource: true
 ---
 
 Was ist mein nächster großer Fokus?

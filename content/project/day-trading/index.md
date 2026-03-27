@@ -9,6 +9,7 @@ project-status: ongoing
 date: 2024-12-08
 thumbnailAlt: "Man sitting in front of multiple monitors with charts on them."
 writingTime: 152
+nonOrgSource: true
 ---
 
 > Becoming a better human being will make you a better trader.[^ideal-mindset]

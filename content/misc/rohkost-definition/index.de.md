@@ -7,6 +7,7 @@ tags:
 date: 2025-01-05
 thumbnailAlt: "Book with raw foods on the cover"
 writingTime: 370
+nonOrgSource: true
 ---
 
 Was ist die ideale Ernährung des Menschen?

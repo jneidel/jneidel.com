@@ -7,6 +7,7 @@ tags:
     - crypto
 thumbnailAlt: SOIL Coin Umwandlung in Euro
 writingTime: 360
+nonOrgSource: true
 ---
 
 Stand Dezember 2024: Mit dem aktuellen $PO Multiplikator von **1x** kommen

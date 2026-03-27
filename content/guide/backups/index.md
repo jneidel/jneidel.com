@@ -5,6 +5,7 @@ thumbnailAlt: Open hard drive in front of rack
 tags:
     - homeserver
     - backups
+nonOrgSource: true
 ---
 
 Everyone is responsible for backing up their own data.
