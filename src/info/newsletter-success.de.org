@@ -1,0 +1,13 @@
+:PROPERTIES:
+:ID: e939023e-0990-404d-9b23-ddc91dd22f1d
+:END:
+#+title: Das hat geklappt
+#+date: 2024-09-12
+#+hugo_section:
+#+hugo_bundle: newsletter-success
+#+export_file_name: index.de.md
+#+hugo_custom_front_matter: :excludeRss true :showDateUpdated false
+
+Danke für deine Anmeldung!
+
+Du wirst vielleicht schon bald von mir hören🙂

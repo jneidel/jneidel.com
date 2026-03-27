@@ -14,3 +14,4 @@ content/dev/hugo-links/index.md
 content/ai/*.md
 content/misc/protein/*.md
 content/project/split-keyboard/*.md
+content/newsletter-*/*.md

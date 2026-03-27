@@ -1,14 +1,9 @@
 <div class="newsletter-signup flex justify-center{{ if .allow_to_be_moved | default false }} allow-to-be-moved{{ end }}">
-  <form class="email-form form-lang-en w-full max-w-prose pt-4" name="newsletter" action="{{ i18n "newsletter.form_url" }}" method="post" target="_blank">
-    <div class="flex justify-center text-center text-xl">
-      {{ i18n "newsletter.headline" }}
+  <form class="email-form form-lang-de w-full max-w-prose pt-4" name="newsletter" action="{{ i18n "newsletter.form_url" }}" method="post" target="_blank">
+    <div class="flex justify-center text-center text-lg">
+        {{ i18n "newsletter.headline" }}
     </div>
-    <div class="flex justify-center">
-      <div class="text-sm text-center pt-2 max-w-xl">
-        {{ i18n "newsletter.value_proposition" }}
-      </div>
-    </div>
-    <div class="flex flex-col sm:flex-row flex-wrap gap-y-4 gap-x-4 justify-center items-center lg:items-end my-5">
+    <div class="flex flex-col sm:flex-row flex-wrap gap-y-4 gap-x-4 justify-center items-center lg:items-end mb-4">
       <span class="input-container inline-block">
         <input type="text" name="contact[first_name]" required/>
         <label for="contact_first_name">{{ i18n "newsletter.input_name" }}</label>
@@ -21,9 +16,5 @@
         class="rounded-md grow w-9/12 sm:w-fit px-4 py-1 text-neutral no-underline bg-primary-400 hover:bg-primary-500 dark:bg-primary-700 dark:hover:bg-primary-500"
         type="submit">{{ i18n "newsletter.call_to_action" }}</button>
     </div>
-    <p class="text-sm text-center pb-10 lg:pb-5">
-      {{ i18n "newsletter.last_word_before" }} <a class="underline text-primary-400 decoration-neutral-500 hover:no-underline hover:!bg-primary-500 dark:hover:!bg-primary-700 hover:!text-neutral-100" target=_blank href="{{ i18n "newsletter.last_word_link_href" }}">{{ i18n "newsletter.last_word_link_text" }}</a> {{ i18n "newsletter.last_word_after" }}
-      <a href="{{ i18n "rss_link" }}" class="pb-1 text-primary-400 underline hover:!text-neutral-100 hover:!bg-primary-500 dark:hover:!bg-primary-700">{{ partial "icon.html" "rss"}}</a>
-    </p>
   </form>
 </div>

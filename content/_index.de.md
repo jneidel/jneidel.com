@@ -40,3 +40,5 @@ dieser Website benutze.
 {{<hovericon "/rss/">}}
     {{<icon "rss">}}
 {{</hovericon>}}
+
+{{<newsletter-signup>}}
