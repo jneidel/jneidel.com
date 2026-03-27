@@ -36,7 +36,8 @@ There is a [main feed](/rss.xml), which includes all the main categories.
 ## Tags
 
 You can also subscribe to specific tags.
-E.g. any new post tagged "Emacs" will show up in [/tags/emacs/rss.xml](/tags/emacs/rss.xml).
+See the [overview of all tags](tags).
+Just append `/rss.xml` and you get it's Feed, e.g.: `https://jneidel.com/tags/emacs/rss.xml`
 
-Relevant tags:
+Recommended tags:
 - [Emacs](/tags/emacs/rss.xml)

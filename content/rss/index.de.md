@@ -14,34 +14,31 @@ nonOrgSource: true
 Werde über neue Artikel benachrichtigt.
 {{</lead>}}
 
-{{<alert "book">}}
-TL;DR: Du willst wahrscheinlich den [Newsletter](/de/newsletter/rss.xml)- oder
-[Haupt](/de/rss.xml)-Feed.
-{{</alert>}}
+Der Newsletter ist der beste Weg:
+{{<newsletter-signup>}}
 
-## Option 1: Newsletter
+Alternativ gibt es mit RSS Feeds einen einfacher Weg um über konfigurierbar über neue Artikel benachrichtigt zu werden.
+Für die meisten ist der [Haupt-Feed](/rss.xml) die richtige Wahl.
 
-Ich habe einen [wöchentlichen Newsletter](newsletter).
-Hier ist der dazugehörige [RSS Feed](/de/newsletter/rss.xml).
+## Haupt-Feed
 
-## Option 2: Haupt-Feed
-
-Es gibt einen [Haupt](/de/rss.xml)-Feed, der alle primären Kategorien
+Es gibt einen [Haupt-Feed](/rss.xml), der alle primären Kategorien
 enthält (siehe List im nächsten Abschnitt.)
 
-## Option 3: Individuelle Kategorien
+## Individuelle Kategorien
 
-Du kannst auch individuell eine Auswahl an Kategorien zusammenstellen die
-dich interessieren.
+Du kannst dir auch aus den Kategorien die rauspicken an denen du Interesse hast.
 
-**Primäre Kategorien:**
+- [{{<i18n "category.essay_name">}}](/essay/rss.xml) - {{<i18n "category.essay_description">}}
+- [{{<i18n "category.guide_name">}}](/guide/rss.xml) - {{<i18n "category.guide_description">}}
+- [{{<i18n "category.review_name">}}](/review/rss.xml) - {{<i18n "category.review_description">}}
+- [{{<i18n "category.project_name">}}](/project/rss.xml) - {{<i18n "category.project_description">}}
+- [{{<i18n "category.misc_name">}}](/misc/rss.xml) - {{<i18n "category.misc_description">}}
 
-- [{{<i18n "category.essay_name">}}](/de/essay/rss.xml) - {{<i18n "category.essay_description">}}
-- [{{<i18n "category.guide_name">}}](/de/guide/rss.xml) - {{<i18n "category.guide_description">}}
-- [{{<i18n "category.review_name">}}](/de/review/rss.xml) - {{<i18n "category.review_description">}}
-- [{{<i18n "category.project_name">}}](/de/project/rss.xml) - {{<i18n "category.project_description">}}
-- [{{<i18n "category.misc_name">}}](/de/misc/rss.xml) - {{<i18n "category.misc_description">}}
+## Tags
 
-**Nicht Teil des Haupt-Feeds:**
-- [{{<i18n "category.newsletter_name">}}](/de/newsletter/rss.xml) - {{<i18n "category.newsletter_description">}}
-- Nur in Englisch verfügbar: [{{<i18n "category.dev_name">}}](/dev/rss.xml) - {{<i18n "category.dev_description">}} 
+Du kannst auch bestimmte Tags abonnieren.
+Siehe die [komplette Übersicht an Tags](tags).
+Dann einfach `/rss.xml` anhängen und du hast den Feed, beispielsweise: `https://jneidel.de/tags/ai/rss.xml`
+
+Empfohlene Tags:
