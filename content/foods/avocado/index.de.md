@@ -8,13 +8,10 @@ thumbnail: "pile*"
 thumbnailAlt: "Haufen von Avocados"
 ---
 
-- Kombinationsgruppe 5: Fett
-- Saison in Spanien: November-April, bzw. Oktober-Mai[^mai]
-[^mai]: [Saison Oktober-Mai Quelle](https://www.youtube.com/watch?v=UvUq4UzOL6k&t=829s)
+- Kombinationsgruppe 5: [Fett](/tags/fett)
+- {{<in-season "es" "oct" "may">}}
 
 {{<figure src="./pile-of-avocados.de.jpg" class="w-9/12" alt="Haufen von Avocados" caption="Avocados werde ich einfach nicht überdrüssig.">}}
-
-{{<in-season "es" "oct" "may">}}
 
 ## Preise
 
