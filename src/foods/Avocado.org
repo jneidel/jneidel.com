@@ -1,0 +1,181 @@
+:PROPERTIES:
+:ID: db8798ac-c510-4084-9fd6-dc51b6a81f2c
+:END:
+#+title: Avocado
+#+date: 2025-01-26
+#+hugo_bundle: avocado
+#+export_file_name: index.de.md
+#+hugo_custom_front_matter: :excludeRss true
+#+hugo_custom_front_matter: :thumbnail "pile*"
+#+hugo_custom_front_matter: :thumbnailAlt "Ein Berg von Avocados"
+#+hugo_custom_front_matter: :summary "Alles zur Avocado in der Rohkost Ernährung."
+#+description: 
+#+hugo_tags: fett
+
+- Persea americana
+- Kombinationsgruppe: [[/tags/fett][Fett]]
+- @@hugo:{{<in-season "es" "oct" "may">}}@@
+
+#+caption: Avocados werde ich einfach nicht überdrüssig.
+#+attr_html: :class md:w-9/12 :alt Berg von Avocados
+[[file:pile-of-avocados.de.jpg]]
+
+** Sorten und Preise
+*** Hass
+Wird wegen ihrer harte Schale vom Einzelhandel bevorzugt.
+Sehr fettreich.
+
+- 8.80€/kg bei [CrowdFarming](https://www.crowdfarming.com/de/suchergebnisse?q=avocados) @@html:{{<food/kb>}} {{<food/bio>}} {{<food/eu>}}@@
+- ?€/kg aus der [[/review/crowdfarming][gemischen CrowdFarming Obstkiste]] @@html:{{<food/kb>}} {{<food/bio>}} {{<food/eu>}} (Ausfallrate 0%) <!--0/8-->@@
+- 9.50€/kg bei [[https://fruchtbote.com/shop/avocado-hass/][FruchtBote]] @@hugo:{{<food/kb>}} {{<food/bio>}} {{<food/eu>}}@@
+
+
+Preise Stand 2025:
+- 0.65-1.49€/Stück bei Aldi @@hugo:{{<food/kv>}}@@ (mittel)
+- 2-4€/kg Netz bei Edeka @@hugo:{{<food/kv>}}@@ (klein, hohe Ausfallrate)
+- 0.99-1.39€/Stück bei Edeka @@hugo:{{<food/kv>}}@@ (mittel)
+- 1.49-1.99€/Stück bei Netto ohne Hund @@hugo:{{<food/kv>}}@@ (mittel bis groß)
+- 1.69€+/Stück beim Bioladen @@hugo:{{<food/bio>}}@@ (mittel)
+
+*** Fuerte
+Weiche essbare Schale.
+
+- 8.50-8.90€/kg bei [Fruchtbote](https://fruchtbote.com/shop/avocado-fuerte/)
+  @@html:{{<food/kb>}} {{<food/bio>}} {{<food/eu>}} (mittel, Ausfallrate 0%)
+  <!-- 0/10 -->@@
+
+
+**** Cocktail
+Schmale dünne Variante ohne Stein.
+Lecker, hatte aber eine vergleichsweise hohe Ausfallrate.
+
+- 8.90€/kg bei [Fruchtbote](https://fruchtbote.com/shop/avocado-fuerte-cocktail/) @@html:{{<food/kb>}} {{<food/bio>}} {{<food/eu>}}@@
+
+*** Bacon
+Weiche essbare Schale.
+Schmeckt süßlich.
+
+- 8.90€/kg bei [Fruchtbote](https://fruchtbote.com/shop/avocado-bacon/) @@html:{{<food/kb>}} {{<food/bio>}} {{<food/eu>}} (mittel, Ausfallrate 7%) <!-- 1/15 -->@@
+
+*** Weitere Sorten
+- Ettinger: 8.90€/kg bei [Fruchtbote](https://fruchtbote.com/shop/avocado-ettinger/) @@html:{{<food/kb>}} {{<food/bio>}} {{<food/eu>}}@@
+- Pinkerton: 8.90€/kg bei [Fruchtbote](https://fruchtbote.com/shop/avocado-pinkerton/) @@html:{{<food/kb>}} {{<food/bio>}} {{<food/eu>}}@@
+- Catalina: 8.90€/kg bei [Fruchtbote](https://fruchtbote.com/shop/avocado-catalina/)
+  @@html:{{<food/kb>}} {{<food/bio>}} {{<food/eu>}}@@ (sehr groß)
+- Californiano: 8.90€/kg bei [Fruchtbote](https://fruchtbote.com/shop/avocado-californiano/) @@html:{{<food/kb>}} {{<food/bio>}} {{<food/eu>}}@@
+- Zutano: 8.90€/kg bei [Fruchtbote](https://fruchtbote.com/shop/avocado-zutano/) @@html:{{<food/kb>}} {{<food/bio>}} {{<food/eu>}} (groß, Ausfallrate 0%) <!-- 0/3 -->@@
+- Reed: 8.90€/kg bei [Fruchtbote](https://fruchtbote.com/shop/avocado-reed/) @@html:{{<food/kb>}} {{<food/bio>}} {{<food/eu>}}@@
+- Wild: 8.90€/kg bei [Fruchtbote](https://fruchtbote.com/shop/avocado-wild/) @@html:{{<food/kb>}} {{<food/bio>}} {{<food/eu>}} (Ausfallrate 100%) <!-- 5/5 -->@@
+
+*** Einzelhandel vs. Fruchtbote
+Im Einzelhandel werden Avocados einzeln verkauft, nicht über Kilopreise.
+Das erschwert den Vergleich und verschleiert schlechte Preise.
+Basierend auf der Fruchtgröße kann man den Stückpreis in einen Kilopreis
+umrechnen.
+Bei einem Stückpreis von 1.49€ kommt etwa ein Kilopreis von 7.40-8.90€ bei
+mittlerer Größe zustande.
+Die qualitativ viel besseren Avocados von [Fruchtbote](https://fruchtbote.com/produkt-kategorie/avocados/) kosten ähnlich viel.
+Deswegen kaufe ich konventionelle Avocados im Einzelhandel nur wenn diese
+stark reduziert sind (2-4€/kg) oder ich gerade keine auf Lager habe.
+
+Früchte pro Kilo nach Größe:
+- klein: 6-8 Früchte pro Kilo
+- mittel: 5-6 Früchte pro Kilo
+- groß: 3-4 Früchte pro Kilo
+- sehr groß: 2 Früchte pro Kilo
+
+
+Avocados aus dem Einzelhandel haben meiner Erfahrung nach auch eine viel
+höhrere Ausfallrate als die von Fruchtbote.
+
+*** Ausfallrate
+/Verderblichkeitsstatistik/
+
+Die Avocados müssen zuhause nachreifen.
+Sollten sie von einem schlechten Baum kommen können sie während der Reifephase
+(teilweise) schlecht werden.
+Die Ausfallrate misst wie viele der gekauften Avocados schlecht werden.
+Die Ausfallrate muss auf den Kilopreis aufgeschlagen werden um den echten Preis
+zu erhalten, da schlechte Früchte nicht oder nur teilweise essbar sind.
+
+Manche Anbieter sind anfälliger als andere, haben also eine höhere
+(schlechtere) Ausfallrate.
+Bei Fruchtbote und Crowdfarming habe ich generell die besten Ausfallraten.
+
+** Kauf im Einzelhandel
+Wenn ich Avocados im Einzelhandel Avocados aussuche verwende ich diese
+Kriterien:[^quelle]
+[^quelle]: Quelle: Meine Frau kommt aus Südamerika :)
+
+- Stielansatz steckt in der Frucht
+- Stielansatz zeigt keine Anzeichen von Schimmel.
+- Frucht ist noch fest (und grün)
+
+Avocados fangen erst an zu reifen wenn sie vom Baum abgeschnitten werden.
+Wir wollen sie also fest (unreif und unverletzlich) kaufen und zuhause
+reifen lassen.
+
+Ohne den Stielansatz reift (und schimmelt) der obere Teil schneller als der
+untere Teil der Frucht, weil er mehr Sauerstoff ausgesetzt ist.
+Das führt zu einem ungleichmäßigem Reifefortschritt, was bedeutet, dass die
+Frucht oben schlecht wird oder unten hart bleibt.
+
+Für Fortgeschrittene:
+- Das der Stielansatz in der Frucht steckt ist optional, wenn alle Früchte der
+  Charge keinen Schimmel haben.
+- Es können auch weichere Früchte erworben werden, wenn diese keine Druckstellen
+  aufweisen und insgesamt nicht zu weich (matschig) sind.
+- Pilzbefall lässt sich von außen an runden hellbraunen Flecken erkennen:
+  #+begin_export hugo
+  {{<center>}}
+  #+end_export
+  #+caption: Pilzbefall an der Schale
+  #+attr_html: :class md:w-9/12 :alt Avocado mit Pilzbefall
+  [[file:fungi-0.de.jpg]]
+
+  #+caption: Pilzbefall an der Schale
+  #+attr_html: :class md:w-9/12 :alt Avocado mit Pilzbefall
+  [[file:fungi-2.de.jpg]]
+
+  #+caption: Pilzbefall von innen
+  #+attr_html: :class md:w-9/12 :alt Avocado mit Pilzbefall von innen
+  [[file:fungi-1.de.jpg]]
+
+  #+caption: Pilzbefall von innen
+  #+attr_html: :class md:w-9/12 :alt Avocado mit Pilzbefall von innen
+  [[file:fungi-3.de.jpg]]
+  #+begin_export hugo
+  {{</center>}}
+  #+end_export
+  Die vom Pilz befallene Stelle lässt sich leicht herauslösen wie auch auf den
+  Bilder zu sehen ist.
+  Der Rest der Avocado ist problemlos verzehrbar.
+
+** Wann ist eine Avocado reif?
+Meine Avocados die zuhause reifen überprüfe ich jeden Tag auf ihre
+Festigkeit.
+Wenn die Frucht ganz wenig nachgibt, dann ist sie reif.
+Nicht doll quetschen, leicht erfühlen.
+Am besten geht das am oberen Teil der Frucht, weil mir dort der Stein kein
+falsches Gefühl von Härte gibt.
+
+Wenn die Frucht eine matschige Konsistenz hat, ist sie überreif geworden
+oder verschimmelt.
+
+Um eine Frucht schneller reifen zu lassen kann diese in Papier eingewickelt
+an einen dunklen, warmen Ort gelegt werden.
+
+** Schale mitessen
+Solange die Frucht eine weiche Schale hat kann man sie mitessen.
+Sie ist leicht bitter.
+Je nach Bedarf esse ich ca. 10-40% der Schale mit.
+
+** Referenzen
+- [How does an Avocado grow?](https://www.youtube.com/watch?v=whNYlkV-TMU)@@hugo:{{<en>}}@@
+- [Wann ist eine Avocado wirklich richtig reif?](https://www.alternativ-gesund-leben.de/wann-ist-eine-avocado-wirklich-richtig-reif-und-kann-man-auch-unreife-oder-ueberreife-fruechte-essen/)
+- [Superfood oder Klimakiller? Welche Avocados sind besonders nachhaltig?](https://www.youtube.com/watch?v=UvUq4UzOL6k): Wasserverbrauch, CO² Bilanz und warum europäische Avocados zu bevorzugen sind
+- [Avocado-Plantagen boomen in Portugal - und verwüsten das Ackerland](https://www.youtube.com/watch?v=kZAclQPLOtk): Mehr zum Wasserverbrauch
+- Saison in Spanien: [Quelle für
+  Oktober-Mai](https://www.youtube.com/watch?v=UvUq4UzOL6k&t=829s),
+  Die [Crowdfarming Obstkiste](review/crowdfarming) enthält Avocados ab Nov, ab
+  Okt sind sie bei Fruchtbote gelistet
