@@ -25,6 +25,7 @@
 Wird wegen ihrer harte Schale vom Einzelhandel bevorzugt.
 Sehr fettreich.
 
+- 0.85-1.15€ pro Stück bei Lidl @@hugo:{{<food/kv>}}@@
 - 8.80€/kg bei [CrowdFarming](https://www.crowdfarming.com/de/suchergebnisse?q=avocados) @@html:{{<food/kb>}} {{<food/bio>}} {{<food/eu>}}@@
 - ?€/kg aus der [[/review/crowdfarming][gemischen CrowdFarming Obstkiste]] @@html:{{<food/kb>}} {{<food/bio>}} {{<food/eu>}} (Ausfallrate 0%) <!--0/8-->@@
 - 9.50€/kg bei [[https://fruchtbote.com/shop/avocado-hass/][FruchtBote]] @@hugo:{{<food/kb>}} {{<food/bio>}} {{<food/eu>}}@@
