@@ -18,7 +18,7 @@ Tune in again next week:wink:
 ## Commitments
 
 My ongoing commitments are:
-- [Eat raw](/de/project/rohkost){{<de>}} at least until Mar01
+- [Eat raw](https://jneidel.de/project/rohkost){{<de>}} at least until Mar01
 - To [become profitable at trading](project/day-trading) (will pick this topic up next week)
 - No media challenge until Jan10
 - Publishing this newsletter every Sunday (7x streak:sunglasses:)
@@ -34,14 +34,14 @@ months, probably more.
 
 - Start eating raw<br>
   Which I did.
-  See the [article](/de/project/rohkost){{<de>}} about the challenge and my motivations for doing this in the first place.
+  See the [article](https://jneidel.de/project/rohkost){{<de>}} about the challenge and my motivations for doing this in the first place.
 - Research what makes raw work<br>
   I answered some fundamental open questions I had about how this is
   supposed to work.
   There are still a lot of details open, but I will figure those out with
   time and practice.
 - Compile own raw foods wiki with everything I know<br>
-  I already started with this over at [/foods](/de/foods/){{<de>}} and will
+  I already started with this over at [/foods](https://jneidel.de/foods/){{<de>}} and will
   expand continuously. I need this for myself and I might as well make it
   public.
 
@@ -76,8 +76,8 @@ I want the easy reward and become unwilling to do the hard work.
 
 ## New articles
 
-- Project definition: [Eating raw experiment](/de/project/rohkost){{<de>}}
-- My [definition of what eating raw means](/de/misc/rohkost-definition/){{<de>}} and why it makes sense to me
+- Project definition: [Eating raw experiment](https://jneidel.de/project/rohkost){{<de>}}
+- My [definition of what eating raw means](https://jneidel.de/misc/rohkost-definition/){{<de>}} and why it makes sense to me
 - Wrote a rundown of implementing a [technical documentation framework](dev/technical-documentation) at my job
 
 All the best,<br>

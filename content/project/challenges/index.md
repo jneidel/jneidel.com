@@ -4,7 +4,7 @@ description: "A list of challenges I have done and will do in the future. The mo
 summary: "Overview of challenges I have done and will be doing."
 tags:
     - challenge
-project-status: ongoing
+project-status: aborted
 date: 2024-05-12
 thumbnailAlt: "Two people in the gym challenging themselves"
 showDate: false
@@ -59,7 +59,7 @@ later/tomorrow unfinished, so that you don't let it go and are drawn to it
 later.
 - [x] Week 28: Watch for signs of VAKOG. What are the conversation partners
 preferred communication channels? Listen for signals. Preparation for an
-upcoming [NLP seminar](/de/review/nlp23){{<de>}}.
+upcoming [NLP seminar](https://jneidel.de/review/nlp23){{<de>}}.
 - [x] Week 29: Dedicate some more attention to applying the Hemingway trick. See: [outcome](newsletter/1#last-challenge)
 - [x] Week 30: Learn and apply the Milton model to my self-talk.
 On the weekend make an effort to remember peoples names at the NLP seminar I'm attending. See: [definition](newsletter/1#next-challenge) & [outcome](newsletter/2#review-of-last-challenge)

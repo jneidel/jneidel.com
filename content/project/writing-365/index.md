@@ -78,12 +78,12 @@ This is the log, of what I wrote each day.
 1. Wrote this article.
 24. Finished writing [Eat the frog](essay/eat-that-frog), edit and translate it.
 Started writing The Inner Game review.
-25. Continued writing and editing [The Inner Game review](/de/review/the-inner-game/)<sup>:de:</sup>.
+25. Continued writing and editing [The Inner Game review](https://jneidel.de/review/the-inner-game/)<sup>:de:</sup>.
 26. Started writing on a post about vulnerability.
 27. Wrote first version of the [Neurostreams quick reference guide](misc/neurostreams-quick-reference).
 28. Wrote & published the [coupons](essay/coupons) essay in German.
 29. Put finishing touches on [coupons](essay/coupons). Started on Neurostreams review.
-30. Wrote & published [Minimeal review](/de/review/sun-minimeal/)<sup>:de:</sup>. Updates to [Selling SOIL](/de/misc/soil-verkaufen/)<sup>:de:</sup>.
+30. Wrote & published [Minimeal review](https://jneidel.de/review/sun-minimeal/)<sup>:de:</sup>. Updates to [Selling SOIL](https://jneidel.de/misc/soil-verkaufen/)<sup>:de:</sup>.
 31. Started on [Jim Rohn review](review/jim-rohn).
 1. Finished the [Jim Rohn](review/jim-rohn) person review.
 2. Continued writing the [Neurostreams review](review/neurostreams).
@@ -107,8 +107,8 @@ Started writing The Inner Game review.
 19. Write first draft of [No interrupting](essay/no-interrupting).
 20. Finish editing the second half of the [Neurostreams review](review/neurostreams).
 21. Final edits and publishing of [Neurostreams review](review/neurostreams).
-22. Write first draft of [donating blood review](/de/review/blutspende/)<sup>:de:</sup>.
-23. Finish [donating blood analysis](/de/review/blutspende/)<sup>:de:</sup>. Write offer technical evaluation. Translate first half of [Neurostreams review](review/neurostreams).
+22. Write first draft of [donating blood review](https://jneidel.de/review/blutspende/)<sup>:de:</sup>.
+23. Finish [donating blood analysis](https://jneidel.de/review/blutspende/)<sup>:de:</sup>. Write offer technical evaluation. Translate first half of [Neurostreams review](review/neurostreams).
 24. Translate the second half of [Neurostreams review](review/neurostreams).
 25. Small addition to [no interrupting](essay/no-interrupting).
 26. Start project article about entrepreneurship.
@@ -140,7 +140,7 @@ Started writing The Inner Game review.
 17. Structure and start writing on GbR project.
 18. Continue on GbR project.
 19. Write a little on GbR project.
-20. Continue on GbR project. Write [FYRST review](/de/review/fyrst/)<sup>:de:</sup>.
+20. Continue on GbR project. Write [FYRST review](https://jneidel.de/review/fyrst/)<sup>:de:</sup>.
 21. Describe learnings of this challenge. Write the [1. Newsletter](newsletter/1).
 22. Continue a little on GbR project.
 22. Continue write the GbR project.
@@ -217,7 +217,7 @@ get my one paragraph in, as I did yesterday, but it was and would be sub par.
 28. Finish [stock market strategy]<sup>:de:</sup>.
 29. Update Minimeal and John Rohn review. Publish [newsletter #6].
 30. :slightly_frowning_face:
-1. Update [challenges](project/challenges). Update [NLP23 Review](/de/review/nlp23){{<de>}}.
+1. Update [challenges](project/challenges). Update [NLP23 Review](https://jneidel.de/review/nlp23){{<de>}}.
 2. :slightly_frowning_face:
 3. Finish [What is NLP](misc/what-is-nlp)?
 4. Work on GbR project.
@@ -384,4 +384,4 @@ Future writing for this website:
 [newsletter #10]: newsletter/10
 [newsletter #11]: newsletter/11
 [newsletter #12]: newsletter/12
-[stock market strategy]: /de/project/börsenstrategie/
+[stock market strategy]: https://jneidel.de/project/börsenstrategie/

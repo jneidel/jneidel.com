@@ -62,7 +62,7 @@ stateDiagram-v2
 
 ### Between phone and computer
 
-I'm using [Syncthing-Fork](https://f-droid.org/en/packages/com.github.catfriend1.syncthingandroid/) on my phone.
+I'm using [Syncthing-Fork](https://f-droid.org/packages/com.github.catfriend1.syncthingfork/) on my phone.
 The dynamic is much the same:
 
 {{<mermaid>}}

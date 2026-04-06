@@ -55,7 +55,7 @@ purposefully designed practice.
 ## Commitments
 
 My ongoing commitments are:
-- [Eat raw](/de/project/rohkost){{<de>}} at least until Mar01
+- [Eat raw](https://jneidel.de/project/rohkost){{<de>}} at least until Mar01
 - [Read one book at a time](newsletter/18#next-one) until Mar19
 - To [become profitable at trading](project/day-trading)
 - Publishing this newsletter every Sunday (11x streak:sunglasses:)
@@ -95,7 +95,7 @@ Which means I read less, but I also distract myself less.
 
 ## New articles
 
-- [Everything I know about avocados](/de/foods/avocado/){{<de>}}: prices, picking them out at the store and when to eat them
+- [Everything I know about avocados](https://jneidel.de/foods/avocado/){{<de>}}: prices, picking them out at the store and when to eat them
 
 All the best,<br>
 Jonathan

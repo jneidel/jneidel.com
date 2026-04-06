@@ -41,12 +41,12 @@ personal one: 'I will be crushed by the responsibilities that comes with
 wealth.'
 
 I found many ways to deal with limiting beliefs, but searching for a more
-effective one I found [NLP](misc/what-is-nlp) and did my [practitioner](/de/review/nlp23){{<de>}}.
+effective one I found [NLP](misc/what-is-nlp) and did my [practitioner](https://jneidel.de/review/nlp23){{<de>}}.
 
 After I overcoming these hurdles, I did make some progress towards stock
 market gains.
 I started to really engage with a local group of investors and nailed down
-[what I am looking for](/de/project/börsenstrategie){{<de>}}.
+[what I am looking for](https://jneidel.de/project/börsenstrategie){{<de>}}.
 
 I incorporated my entrepreneurial activities into a company to get used to
 having my own business and to play around with tax optimizations.

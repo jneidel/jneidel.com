@@ -48,7 +48,7 @@ A great success indeed:slightly_smiling_face:
 ## Commitments
 
 My ongoing commitments are:
-- [Eat raw](/de/project/rohkost){{<de>}} at least until Mar01
+- [Eat raw](https://jneidel.de/project/rohkost){{<de>}} at least until Mar01
 - To [become profitable at trading](project/day-trading)
 - Publishing this newsletter every Sunday (8x streak:sunglasses:)
 
@@ -76,7 +76,7 @@ would help to improve my state and presence level.
 
 ## New articles
 
-- Updated my [raw definition](/de/misc/rohkost-definition/){{<de>}}, though it's still not complete:smiling_face_with_tear:
+- Updated my [raw definition](https://jneidel.de/misc/rohkost-definition/){{<de>}}, though it's still not complete:smiling_face_with_tear:
 
 All the best,<br>
 Jonathan

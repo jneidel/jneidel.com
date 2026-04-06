@@ -58,7 +58,7 @@ your brain, as measured by the outcomes one would like to achieve.
 
 ## My teachers
 
-These are some quote from my [Practitioner](/de/review/nlp23){{<de>}}.
+These are some quote from my [Practitioner](https://jneidel.de/review/nlp23){{<de>}}.
 Their definitions focus on the freedoms that NLP gives you, when you apply
 it to your life.
 

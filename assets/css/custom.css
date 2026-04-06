@@ -11,7 +11,7 @@ header #basic-menu li {
     button:last-child {
         margin-right: -20px;
     }
-    a[href="/rss/"], a[href="/de/rss/"] {
+    a[href="/rss/"] {
         margin-right: -23px;
         svg {
             margin-bottom: -3px;

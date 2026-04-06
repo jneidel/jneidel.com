@@ -60,7 +60,7 @@ effects.
 
 I picked the goals that are the most important or were on my mind.
 From day to day I switched most of them up.
-The [stock market strategy](/de/project/börsenstrategie){{<de>}} came up every day though.
+The [stock market strategy](https://jneidel.de/project/börsenstrategie){{<de>}} came up every day though.
 
 As far as tips go, I can say that I often used the grammatical sense that
 conveys future achievement.

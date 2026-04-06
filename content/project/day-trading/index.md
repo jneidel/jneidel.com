@@ -5,7 +5,7 @@ summary: "My journey to profitable trading."
 tags:
 - trading
 - "Stock market"
-project-status: ongoing
+project-status: aborted
 date: 2024-12-08
 thumbnailAlt: "Man sitting in front of multiple monitors with charts on them."
 writingTime: 152
@@ -42,7 +42,7 @@ Case closed.
 
 I still wanted trade with my money for some above average returns, but on a
 small time budget.
-That story is detailed [here](/de/project/börsenstrategie/){{<de>}}.
+That story is detailed [here](https://jneidel.de/project/börsenstrategie/){{<de>}}.
 As part of that I came across <cite>[Best Loser Wins](https://amzn.to/41c9VsE)</cite>[^best-loser].
 This quote caught my attention while reading:
 

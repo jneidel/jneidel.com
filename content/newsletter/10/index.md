@@ -36,7 +36,7 @@ priority.
 
 Last week, I started what I call a **focus challenge**, to address point
 number two.
-My subject in focus is developing a [stock market strategy](/de/project/börsenstrategie/){{<de>}}.
+My subject in focus is developing a [stock market strategy](https://jneidel.de/project/börsenstrategie/){{<de>}}.
 This was my _declared priority_ before, I just didn't work on it.
 
 <details>

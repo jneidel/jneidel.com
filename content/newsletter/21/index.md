@@ -46,7 +46,7 @@ I did not feel awkward or questioned myself through-out or afterwards.
 ## Commitments
 
 My ongoing commitments are:
-- [Eat raw](/de/project/rohkost){{<de>}} until Mar01
+- [Eat raw](https://jneidel.de/project/rohkost){{<de>}} until Mar01
 - [Read one book at a time](newsletter/18#next-one) until Mar19
 - Publishing this newsletter every Sunday (12x streak:sunglasses:)
 

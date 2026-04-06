@@ -49,7 +49,7 @@ clock fails to adequately adjust.
 ## Commitments
 
 My ongoing commitments are:
-- [Eat raw](/de/project/rohkost){{<de>}} at least until Mar01
+- [Eat raw](https://jneidel.de/project/rohkost){{<de>}} at least until Mar01
 - To [become profitable at trading](project/day-trading)
 - [Read one book at a time](newsletter/18#next-one) until Mar19
 - Publishing this newsletter every Sunday (10x streak:sunglasses:)

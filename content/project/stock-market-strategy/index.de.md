@@ -156,7 +156,7 @@ schon im Echtgeld.
 Ich habe für mich gemerkt das ich gern >100% im Jahr machen würde und auch
 bereit bin dafür signifikant mehr Zeit im laufenden Geschäft aufzubringen.
 Das bringt andere Strategien und Herausforderungen mit sich und ist sein
-[eigenes Projekt](/project/day-trading).
+[eigenes Projekt](https://jneidel.com/project/day-trading).
 
 Mein Trading Journal habe ich in Emacs aufgesetzt. Guide folgt dazu.
 

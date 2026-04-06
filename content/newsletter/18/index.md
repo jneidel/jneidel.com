@@ -22,7 +22,7 @@ I had no desire for it.
 
 My ongoing commitments are:
 - To [become profitable at trading](project/day-trading)
-- [Eat raw](/de/project/rohkost){{<de>}}, at least until Mar01
+- [Eat raw](https://jneidel.de/project/rohkost){{<de>}}, at least until Mar01
 - Publishing this newsletter every Sunday (9x streak:sunglasses:)
 - Read one book at a time, until Mar19 (see next challenge below)
 
@@ -143,8 +143,8 @@ finish/abandon it within that break.
 
 ## New articles
 
-- I finished my [project to create/validate a reliable stock market strategy](/de/project/börsenstrategie/){{<de>}} and added a conclusion and reflections
-- Description of a simple indicator I programmed for determining the market condition: [SPX Ampel](/de/misc/spx-ampel/){{<de>}}
+- I finished my [project to create/validate a reliable stock market strategy](https://jneidel.de/project/börsenstrategie/){{<de>}} and added a conclusion and reflections
+- Description of a simple indicator I programmed for determining the market condition: [SPX Ampel](https://jneidel.de/misc/spx-ampel/){{<de>}}
 
 All the best,<br>
 Jonathan

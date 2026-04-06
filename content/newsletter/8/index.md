@@ -148,7 +148,7 @@ It came at a good time too.
 
 ## New articles
 
-- I [digitized my papers](/de/project/papierkram-digitalisieren/){{<de>}} and a project report on it.
+- I [digitized my papers](https://jneidel.de/project/papierkram-digitalisieren/){{<de>}} and a project report on it.
 
 Cheers,<br>
 Jonathan

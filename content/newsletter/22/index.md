@@ -35,7 +35,7 @@ concentration.
 ## Commitments
 
 My ongoing commitments are:
-- [Eat raw](/de/project/rohkost){{<de>}} until Mar01
+- [Eat raw](https://jneidel.de/project/rohkost){{<de>}} until Mar01
 - [Read one book at a time](newsletter/18#next-one) until Mar19
 - Publishing this newsletter every Sunday (13x streak:sunglasses:)
 
@@ -158,7 +158,7 @@ reset?)
 ## New articles
 
 Some updates here and there.
-Behind the scenes stuff and research for [/foods](/de/foods) :slightly_smiling_face:
+Behind the scenes stuff and research for [/foods](https://jneidel.de/foods) :slightly_smiling_face:
 
 All the best,<br>
 Jonathan

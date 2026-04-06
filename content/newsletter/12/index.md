@@ -58,7 +58,7 @@ familiar with the strategy I'm using.
   <small>See day trading.</small><br>
   I have adjusted my behavior to be more present while staring at the chart
 and to not be greedy about unrealized profits.
-- **trade** [**options strategy**](/de/project/börsenstrategie/){{<de>}}<br>
+- **trade** [**options strategy**](https://jneidel.de/project/börsenstrategie/){{<de>}}<br>
   I got a good hit rate on paper[^hr]. Seems promising so far.
 - **improve trading journal**<br>
   Added the capacity to [accumulate important metrics in one place](https://github.com/jneidel/dotfiles/commit/f04d7e8eaec7491c1083500d173dc547adbb79af)  (hit rate, P/L both global and by trade type) and more.
