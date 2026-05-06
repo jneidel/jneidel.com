@@ -220,6 +220,7 @@ html.dark #content summary:after {
 
 html.dark .toc a:hover {
     color: rgb(var(--color-neutral-100));
+    background-color: rgb(var(--color-primary-900));
 }
 
 #content details[open] summary:after {
