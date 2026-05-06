@@ -140,8 +140,14 @@
   {{/* hreflang: declare translations */}}
   {{- if .IsTranslated -}}
     <link rel="alternate" hreflang="{{ .Lang }}" href="{{ .Permalink }}" />
+    {{- if .Language.IsDefault -}}
+      <link rel="alternate" hreflang="x-default" href="{{ .Permalink }}" />
+    {{- end -}}
     {{- range .Translations -}}
       <link rel="alternate" hreflang="{{ .Lang }}" href="{{ .Permalink }}" />
+      {{- if .Language.IsDefault -}}
+        <link rel="alternate" hreflang="x-default" href="{{ .Permalink }}" />
+      {{- end -}}
     {{- end -}}
   {{- end -}}
 
