@@ -218,6 +218,10 @@ html.dark #content summary:after {
     background-color: rgb(var(--color-primary-400));
 }
 
+html.dark .toc a {
+    text-decoration-color: rgb(var(--color-primary-300));
+}
+
 html.dark .toc a:hover {
     color: rgb(var(--color-neutral-100));
 }
