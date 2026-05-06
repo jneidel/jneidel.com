@@ -222,6 +222,15 @@ html.dark .toc a:hover {
     color: rgb(var(--color-neutral-100));
 }
 
+/* Language menu: brighten the active-language checkmark in dark mode.
+   Upstream uses primary-400 (#FF5959) on top of primary-900 (#900C0C),
+   contrast ratio ~3.04 — readable but the icon visually fades into the
+   red row. primary-50 (#FFF0F0) on the same row is ~8.5, which mirrors
+   the light-mode treatment (primary-600 on primary-100, ~7.4). */
+html.dark .lang-menu-check {
+    color: rgb(var(--color-primary-50));
+}
+
 #content details[open] summary:after {
     transform: translateY(-50%) rotate(180deg);
 }
