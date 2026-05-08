@@ -103,9 +103,15 @@ keycode 87  = Hyper_R
 add    mod2 = Hyper_R
 ```
 
-Now run `xmodmap ~/.Xmodmap`
+Now run `xmodmap ~/.Xmodmap`.
 
-You can now test that your newly-added hyper key works in Emacs:
+Verify that it worked by checking what X11 reports as your modifiers with `xmodmap -pm`.
+The output should include this:
+```txt
+mod2        Hyper_R (0x86)
+```
+
+Test that the hyper key works in Emacs by assigning some function:
 ```elisp
 (use-package consult
   :ensure t
