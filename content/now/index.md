@@ -80,9 +80,6 @@ Tiago recommends verbs that imply completion like "finalize", "green-light", "la
 "taxes YEAR" is another example, where I prefer the simple statement over a "do taxes YEAR".
 </details>
 
-
-Ich hatte eine etwas andere [Variante](https://github.com/jneidel/jneidel.com/blob/5db16d4161e32176181e30ec111c6407c5374a14/content/now/index.md) ausprobiert.
-Letztendlich bin
 <br>
 <details>
 <summary>Why did you choose this way of doing your now page?</summary>

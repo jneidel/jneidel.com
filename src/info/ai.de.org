@@ -24,11 +24,9 @@ Text werden niemals vollständig oder teilweise durch eine KI verfasst werden.
 | Editieren (des geschriebenen) | Nein                                           |              |
 | Ideengebung von Artikeln      | Nein                                           |              |
 | Übersetzungen                 | Nein                                           |              |
-| Titelbilder                   | Von der KI generiert, durch mich editiert      | ChatGPT      |
+| Titelbilder                   | Ggf. von der KI generiert, durch mich editiert | ?            |
 | Bilder im Artikel             | Nein                                           |              |
 | Programmierung                | Entworfen von und verfeinert mit einem Agenten | OpenAI Codex |
-
-Ich habe [[https://github.com/jneidel/jneidel.com/commit/cacbb20cee94018bfe4975a0effb165edba51dd1][ein Experiment vor]] mit dem Agenten Fehler beim Editieren zu finden.
 
 ** 2024 to 2025
 | Bereich                       | LLM Nutzung                               | Modelle            |
@@ -47,3 +45,7 @@ waren minimal.
 
 ** 2017 to 2024
 Keine KI Nutzung 🙂
+
+** Referenzen
+- [[https://www.bydamo.la/p/ai-manifesto][AI manifesto]]
+- [[https://notbyai.fyi/][Not By AI badges]]
