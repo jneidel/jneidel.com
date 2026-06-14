@@ -79,6 +79,14 @@ Even with a 100% fruit diet one easily hits the minimums from above.
 Balance that with the other categories and you achieve 10% daily protein without
 thinking about it.
 
+** Protein quality
+The animal vs plants as a protein source argument is usually based on the flawed
+DIAAS score and ignores the negative secondary effects that come along with
+eating animal protein.
+Absorption concerns become irrelevant if you consider how actually people
+combine their food.
+See: [[https://www.youtube.com/watch?v=cWdWC0RdFmg][Protein is Not Protein?]]
+
 ** Conclusions
 My personal conclusion is that I don't need to worry about protein.
 Especially if I eat instinctively: I will seek out legumes, greens and more when
@@ -187,6 +195,20 @@ Nichts chronisch, alles gelegentlich.[fn:g1]
 See [[file:Wenig Protein im System = längeres Leben.pdf][excerpt]] for the argument: little protein im the system meant that the system
 run longevity and anti-stress programs more often, which extends your lifespan.
 
+#+begin_quote
+Circulating [[https://nutritionfacts.org/video/life-extension-with-FGF21/][FGF21]] [a longevity hormone] levels are also increased dramatically
+when you eat a lower protein diet. Over 150% increase within four weeks. And
+when I say protein restriction, it can just be restricting protein intake, down
+from the typical excess that most Americans get, down to the recommended amount.
+The recommended daily allowance of protein for most men is 56 grams of protein a
+day [0.80g/kg body weight]
+[..]
+some proteins [Methionine] may be more important to restrict than others. The
+highest methionine levels are in meat. Legumes [..] have about three times less
+methionine than meat.[fn:fgf21]
+#+end_quote
+
+[fn:fgf21]: [[https://nutritionfacts.org/video/how-to-boost-FGF21-with-diet-for-longevity/][How to Boost FGF21 with Diet for Longevity]]
 [fn:g1]: Gesundheit optimieren - Leistungsfähigkeit steigern p71
 [fn:g2]: Gesundheit optimieren - Leistungsfähigkeit steigern p70
 

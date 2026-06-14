@@ -85,8 +85,16 @@ sicher zu stellen.
 Wenn man naturbelassenes, unjodiertes Salz verwendet kann man seinen Bedarf
 an Jod mit Algen oder Seefisch stillen.
 
+## Menge
+
+Hinzugefügtes Salz ist zu minimieren.
+Salz ist bereits natürlicherweise in unverarbeiteten Lebensmitteln enthalten.
+Den Großteil des Salzes beziehen die meisten Menschen aus verarbeiteten Lebensmitteln.
+
 ## Referenzen
 
 - [Salz in der Rohkost-Ernährung](https://www.rohkostwiki.de/wiki/Salz_in_der_Rohkost-Ern%C3%A4hrung)
 - [Health Benefits of Sea Salt](https://www.davidwolfe.com/health-benefits-sea-salt/)
 - [David Wolfe discusses the importance of salt](https://www.youtube.com/watch?v=3XJCnanT4ac)
+- [Salt: How Bad is it Really? - YouTube](https://www.youtube.com/watch?v=wirPLVoXtkQ)
+- [NutritionFacts.org on salt](https://nutritionfacts.org/?s=salt)
